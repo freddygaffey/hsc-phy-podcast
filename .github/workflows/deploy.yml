@@ -1,0 +1,54 @@
+name: Deploy to Cloudflare Pages
+
+# Auto-deploy phy.pebnum.com on every push to main.
+#
+# IMPORTANT — audio & the manifest:
+#   Episode audio (*.m4a) lives in Cloudflare R2, NOT in git, so this CI build
+#   cannot probe audio durations or rebuild the manifest. It deploys the
+#   *committed* manifest.json as-is. After you render and upload new audio
+#   (./generate_all_voices.sh then ./tools/upload-audio.sh), regenerate and
+#   commit the manifest so this deploy ships the right audio URLs:
+#       AUDIO_BASE_URL=https://audio.phy.pebnum.com python3 tools/generate_manifest.py
+#       git add manifest.json content && git commit && git push
+#
+# One-time setup: add a repository secret CLOUDFLARE_API_TOKEN
+#   (Cloudflare dashboard → My Profile → API Tokens → Create Token →
+#    "Cloudflare Pages — Edit" permission). See DEPLOY.md.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble static bundle (app shell + text + committed manifest; no audio)
+        run: |
+          set -euo pipefail
+          test -f manifest.json || { echo "manifest.json missing"; exit 1; }
+          rm -rf dist && mkdir -p dist
+          cp index.html app.js style.css service-worker.js app.webmanifest manifest.json dist/
+          rsync -a --prune-empty-dirs \
+            --include='*/' \
+            --include='script.md' \
+            --include='supplementary.md' \
+            --include='quiz.json' \
+            --exclude='*' \
+            content/ dist/content/
+          # Safety net: no audio should ever reach the Pages bundle.
+          if find dist -name '*.m4a' -o -name '*.wav' | grep -q .; then
+            echo "ERROR: audio files found in dist — aborting (audio belongs in R2)." >&2
+            exit 1
+          fi
+          echo "dist: $(find dist -type f | wc -l | tr -d ' ') files"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ac128818b294f0f51e44cb7082804bca
+          command: pages deploy dist --project-name hsc-phy-podcast --branch main --commit-dirty=true

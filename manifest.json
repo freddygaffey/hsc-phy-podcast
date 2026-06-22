@@ -1,3 +1,182 @@
 {
-  "modules": []
+  "modules": [
+    {
+      "id": "CASE-0",
+      "prefix": "CASE",
+      "moduleNum": 0,
+      "episodes": [
+        {
+          "id": "case_cavendish_weighing_the_earth",
+          "title": "Cavendish Weighing The Earth",
+          "unit": null,
+          "scriptPath": "content/case_cavendish_weighing_the_earth/script.md",
+          "supplementaryPath": "content/case_cavendish_weighing_the_earth/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_cecilia_payne_gaposchkin",
+          "title": "Cecilia Payne Gaposchkin",
+          "unit": null,
+          "scriptPath": "content/case_cecilia_payne_gaposchkin/script.md",
+          "supplementaryPath": "content/case_cecilia_payne_gaposchkin/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_chadwick_discovery_of_neutron",
+          "title": "Chadwick Discovery Of Neutron",
+          "unit": null,
+          "scriptPath": "content/case_chadwick_discovery_of_neutron/script.md",
+          "supplementaryPath": "content/case_chadwick_discovery_of_neutron/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_chernobyl_physics_of_meltdown",
+          "title": "Chernobyl Physics Of Meltdown",
+          "unit": null,
+          "scriptPath": "content/case_chernobyl_physics_of_meltdown/script.md",
+          "supplementaryPath": "content/case_chernobyl_physics_of_meltdown/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_electron_diffraction",
+          "title": "Electron Diffraction",
+          "unit": null,
+          "scriptPath": "content/case_electron_diffraction/script.md",
+          "supplementaryPath": "content/case_electron_diffraction/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_hertz_verifies_maxwell",
+          "title": "Hertz Verifies Maxwell",
+          "unit": null,
+          "scriptPath": "content/case_hertz_verifies_maxwell/script.md",
+          "supplementaryPath": "content/case_hertz_verifies_maxwell/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_jj_thomson_cathode_rays",
+          "title": "Jj Thomson Cathode Rays",
+          "unit": null,
+          "scriptPath": "content/case_jj_thomson_cathode_rays/script.md",
+          "supplementaryPath": "content/case_jj_thomson_cathode_rays/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_ligo_gravitational_waves",
+          "title": "LIGO Gravitational Waves",
+          "unit": null,
+          "scriptPath": "content/case_ligo_gravitational_waves/script.md",
+          "supplementaryPath": "content/case_ligo_gravitational_waves/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_leo_and_geostationary_satellites",
+          "title": "Leo And Geostationary Satellites",
+          "unit": null,
+          "scriptPath": "content/case_leo_and_geostationary_satellites/script.md",
+          "supplementaryPath": "content/case_leo_and_geostationary_satellites/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_michelson_morley_experiment",
+          "title": "Michelson Morley Experiment",
+          "unit": null,
+          "scriptPath": "content/case_michelson_morley_experiment/script.md",
+          "supplementaryPath": "content/case_michelson_morley_experiment/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_millikan_oil_drop",
+          "title": "Millikan Oil Drop",
+          "unit": null,
+          "scriptPath": "content/case_millikan_oil_drop/script.md",
+          "supplementaryPath": "content/case_millikan_oil_drop/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_muon_lifetime_time_dilation",
+          "title": "Muon Lifetime Time Dilation",
+          "unit": null,
+          "scriptPath": "content/case_muon_lifetime_time_dilation/script.md",
+          "supplementaryPath": "content/case_muon_lifetime_time_dilation/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_nuclear_fission_manhattan_project",
+          "title": "Nuclear Fission Manhattan Project",
+          "unit": null,
+          "scriptPath": "content/case_nuclear_fission_manhattan_project/script.md",
+          "supplementaryPath": "content/case_nuclear_fission_manhattan_project/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_particle_accelerators_quarks",
+          "title": "Particle Accelerators Quarks",
+          "unit": null,
+          "scriptPath": "content/case_particle_accelerators_quarks/script.md",
+          "supplementaryPath": "content/case_particle_accelerators_quarks/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_pet_scans_antimatter",
+          "title": "Pet Scans Antimatter",
+          "unit": null,
+          "scriptPath": "content/case_pet_scans_antimatter/script.md",
+          "supplementaryPath": "content/case_pet_scans_antimatter/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_photoelectric_effect",
+          "title": "Photoelectric Effect",
+          "unit": null,
+          "scriptPath": "content/case_photoelectric_effect/script.md",
+          "supplementaryPath": "content/case_photoelectric_effect/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_rutherfords_gold_foil_experiment",
+          "title": "Rutherfords Gold Foil Experiment",
+          "unit": null,
+          "scriptPath": "content/case_rutherfords_gold_foil_experiment/script.md",
+          "supplementaryPath": "content/case_rutherfords_gold_foil_experiment/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_stellar_nucleosynthesis",
+          "title": "Stellar Nucleosynthesis",
+          "unit": null,
+          "scriptPath": "content/case_stellar_nucleosynthesis/script.md",
+          "supplementaryPath": "content/case_stellar_nucleosynthesis/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "case_supernovae_heavy_elements",
+          "title": "Supernovae Heavy Elements",
+          "unit": null,
+          "scriptPath": "content/case_supernovae_heavy_elements/script.md",
+          "supplementaryPath": "content/case_supernovae_heavy_elements/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    }
+  ]
 }

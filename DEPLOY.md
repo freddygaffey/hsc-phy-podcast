@@ -190,6 +190,33 @@ The app polls `manifest.json`, so once redeployed the new episodes appear automa
 
 ---
 
+## 7. Continuous deployment (GitHub Actions)
+
+`.github/workflows/deploy.yml` auto-deploys to Pages on every push to `main`
+(project `hsc-phy-podcast`). It ships the app shell, per-episode text, and the
+**committed `manifest.json`** — it does **not** rebuild the manifest, because the
+audio (`*.m4a`) lives in R2, not git, so CI can't probe durations.
+
+**One-time setup:** add a repository secret so the Action can deploy:
+1. Cloudflare dashboard → **My Profile → API Tokens → Create Token** → use the
+   **"Cloudflare Pages — Edit"** template (scoped to this account). Copy the token.
+2. GitHub → repo **Settings → Secrets and variables → Actions → New repository secret**
+   → name `CLOUDFLARE_API_TOKEN`, value = the token.
+
+**Day-to-day:** after rendering + uploading new audio, regenerate and commit the
+manifest so the deploy points at the right audio, then push:
+```bash
+./generate_all_voices.sh                                        # render audio
+./tools/upload-audio.sh                                         # push .m4a to R2
+AUDIO_BASE_URL=https://audio.phy.pebnum.com python3 tools/generate_manifest.py
+git add manifest.json content && git commit -m "Add/update episodes" && git push
+```
+The push triggers the Action, which redeploys `phy.pebnum.com` automatically.
+
+> Audio upload stays a local step (`upload-audio.sh`) — CI never touches R2.
+
+---
+
 ## Notes & gotchas
 
 - **Free tier is plenty.** Pages: unlimited requests & bandwidth, up to 20,000 files and
