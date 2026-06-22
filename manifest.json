@@ -292,7 +292,38 @@
           "scriptPath": "content/case_ligo_gravitational_waves/script.md",
           "supplementaryPath": "content/case_ligo_gravitational_waves/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/af_heart.m4a",
+              "duration": 2024.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/am_onyx.m4a",
+              "duration": 1770.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/am_santa.m4a",
+              "duration": 1934.1
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/bf_isabella.m4a",
+              "duration": 1938.1
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/bm_daniel.m4a",
+              "duration": 1734.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/bm_george.m4a",
+              "duration": 2051.8
+            }
+          ]
         },
         {
           "id": "case_leo_and_geostationary_satellites",
@@ -301,7 +332,38 @@
           "scriptPath": "content/case_leo_and_geostationary_satellites/script.md",
           "supplementaryPath": "content/case_leo_and_geostationary_satellites/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/af_heart.m4a",
+              "duration": 2042.0
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/am_onyx.m4a",
+              "duration": 1794.0
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/am_santa.m4a",
+              "duration": 1960.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/bf_isabella.m4a",
+              "duration": 1955.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/bm_daniel.m4a",
+              "duration": 1759.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/bm_george.m4a",
+              "duration": 2082.4
+            }
+          ]
         },
         {
           "id": "case_michelson_morley_experiment",
@@ -310,7 +372,38 @@
           "scriptPath": "content/case_michelson_morley_experiment/script.md",
           "supplementaryPath": "content/case_michelson_morley_experiment/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/af_heart.m4a",
+              "duration": 1879.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/am_onyx.m4a",
+              "duration": 1633.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/am_santa.m4a",
+              "duration": 1786.5
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/bf_isabella.m4a",
+              "duration": 1788.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/bm_daniel.m4a",
+              "duration": 1602.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/bm_george.m4a",
+              "duration": 1893.0
+            }
+          ]
         },
         {
           "id": "case_millikan_oil_drop",
@@ -319,7 +412,38 @@
           "scriptPath": "content/case_millikan_oil_drop/script.md",
           "supplementaryPath": "content/case_millikan_oil_drop/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/af_heart.m4a",
+              "duration": 2297.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/am_onyx.m4a",
+              "duration": 2025.7
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/am_santa.m4a",
+              "duration": 2206.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/bf_isabella.m4a",
+              "duration": 2193.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/bm_daniel.m4a",
+              "duration": 1978.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/bm_george.m4a",
+              "duration": 2326.5
+            }
+          ]
         },
         {
           "id": "case_muon_lifetime_time_dilation",
@@ -328,7 +452,18 @@
           "scriptPath": "content/case_muon_lifetime_time_dilation/script.md",
           "supplementaryPath": "content/case_muon_lifetime_time_dilation/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/af_heart.m4a",
+              "duration": 1845.3
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/am_onyx.m4a",
+              "duration": 1621.5
+            }
+          ]
         },
         {
           "id": "case_nuclear_fission_manhattan_project",

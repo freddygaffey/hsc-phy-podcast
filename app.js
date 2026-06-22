@@ -488,6 +488,9 @@
     });
   }
 
+  // --- Subject config (per-repo; restore these when mirroring to another subject) ---
+  const REPO_URL = "https://github.com/freddygaffey/hsc-phy-podcast";
+
   // --- Stats ---
   const GROUP_NAMES = {
     M1: "Kinematics",
@@ -1330,6 +1333,10 @@
 
   window.addEventListener("hashchange", handleRoute);
   btnBack.addEventListener("click", navigateToLibrary);
+
+  // --- Footer repo link (per-subject) ---
+  const repoLink = document.getElementById("repo-link");
+  if (repoLink) repoLink.href = REPO_URL;
 
   // --- Offline state ---
   const offlineBanner = document.getElementById("offline-banner");
