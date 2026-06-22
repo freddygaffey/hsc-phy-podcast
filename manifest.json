@@ -182,6 +182,26 @@
               "name": "am_onyx",
               "file": "https://audio.phy.pebnum.com/case_electron_diffraction/am_onyx.m4a",
               "duration": 1854.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/am_santa.m4a",
+              "duration": 2019.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/bf_isabella.m4a",
+              "duration": 2007.1
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/bm_daniel.m4a",
+              "duration": 1811.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/bm_george.m4a",
+              "duration": 2140.2
             }
           ]
         },
@@ -742,7 +762,7 @@
           "title": "Module Review From The Universe To The Atom",
           "unit": 99,
           "scriptPath": "content/M8-99-Module-Review-From-The-Universe-To-The-Atom/script.md",
-          "supplementaryPath": null,
+          "supplementaryPath": "content/M8-99-Module-Review-From-The-Universe-To-The-Atom/supplementary.md",
           "quizPath": null,
           "voices": []
         }
