@@ -1099,7 +1099,38 @@
           "scriptPath": "content/M6-09-Magnetic-Flux/script.md",
           "supplementaryPath": "content/M6-09-Magnetic-Flux/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/af_heart.m4a",
+              "duration": 2318.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/am_onyx.m4a",
+              "duration": 2043.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/am_santa.m4a",
+              "duration": 2227.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/bf_isabella.m4a",
+              "duration": 2240.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/bm_daniel.m4a",
+              "duration": 2011.8
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/bm_george.m4a",
+              "duration": 2375.0
+            }
+          ]
         },
         {
           "id": "M6-10-Faradays-Law",
@@ -1108,7 +1139,38 @@
           "scriptPath": "content/M6-10-Faradays-Law/script.md",
           "supplementaryPath": "content/M6-10-Faradays-Law/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/af_heart.m4a",
+              "duration": 2071.3
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/am_onyx.m4a",
+              "duration": 1818.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/am_santa.m4a",
+              "duration": 1984.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/bf_isabella.m4a",
+              "duration": 1995.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/bm_daniel.m4a",
+              "duration": 1778.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/bm_george.m4a",
+              "duration": 2108.8
+            }
+          ]
         },
         {
           "id": "M6-11-Lenzs-Law",
@@ -1117,7 +1179,13 @@
           "scriptPath": "content/M6-11-Lenzs-Law/script.md",
           "supplementaryPath": "content/M6-11-Lenzs-Law/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/af_heart.m4a",
+              "duration": 1998.2
+            }
+          ]
         },
         {
           "id": "M6-12-Eddy-Currents",
