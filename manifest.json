@@ -107,6 +107,21 @@
               "name": "am_santa",
               "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/am_santa.m4a",
               "duration": 1464.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/bf_isabella.m4a",
+              "duration": 1459.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/bm_daniel.m4a",
+              "duration": 1309.0
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/bm_george.m4a",
+              "duration": 1545.7
             }
           ]
         },
@@ -508,6 +523,15 @@
           "unit": 12,
           "scriptPath": "content/M7-12-Photoelectric-Effect-Part-2/script.md",
           "supplementaryPath": "content/M7-12-Photoelectric-Effect-Part-2/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-13-Frames-Of-Reference-And-Einstein-Postulates",
+          "title": "Frames Of Reference And Einstein Postulates",
+          "unit": 13,
+          "scriptPath": "content/M7-13-Frames-Of-Reference-And-Einstein-Postulates/script.md",
+          "supplementaryPath": "content/M7-13-Frames-Of-Reference-And-Einstein-Postulates/supplementary.md",
           "quizPath": null,
           "voices": []
         },
