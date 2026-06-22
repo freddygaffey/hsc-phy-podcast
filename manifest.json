@@ -979,7 +979,38 @@
           "scriptPath": "content/M6-06-Torque-On-A-Current-Loop/script.md",
           "supplementaryPath": "content/M6-06-Torque-On-A-Current-Loop/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/af_heart.m4a",
+              "duration": 2034.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/am_onyx.m4a",
+              "duration": 1783.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/am_santa.m4a",
+              "duration": 1946.5
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/bf_isabella.m4a",
+              "duration": 1944.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/bm_daniel.m4a",
+              "duration": 1745.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/bm_george.m4a",
+              "duration": 2069.9
+            }
+          ]
         },
         {
           "id": "M6-07-The-DC-Motor-And-Commutator",
@@ -988,7 +1019,13 @@
           "scriptPath": "content/M6-07-The-DC-Motor-And-Commutator/script.md",
           "supplementaryPath": "content/M6-07-The-DC-Motor-And-Commutator/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/bm_daniel.m4a",
+              "duration": 1800.3
+            }
+          ]
         },
         {
           "id": "M6-08-Back-EMF",
