@@ -1,0 +1,374 @@
+{
+  "summary": "Deep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+  "agentCount": 110,
+  "logs": [
+    "Q: BEST LOCAL / OPEN-SOURCE TEXT-TO-SPEECH (TTS) MODELS TO REPLACE OR AUGMENT KOKOR…",
+    "Decomposed into 6 angles: broad/primary — model landscape & naturalness vs Kokoro, academic/benchmark — MOS, license, model size, alignment/timing — timestamps & forced aligners, practitioner/implementation — Apple Silicon local inference, specialized — high-speed intelligibility & robotic formant track, voice control — cloning, prosody, multi-speaker",
+    "academic/benchmark — MOS, license, model size: 6 results",
+    "voice control — cloning, prosody, multi-speaker: 6 results",
+    "broad/primary — model landscape & naturalness vs Kokoro: 6 results",
+    "broad/primary — model landscape & naturalness vs Kokoro: 3 novel (3 filtered)",
+    "specialized — high-speed intelligibility & robotic formant track: 6 results",
+    "specialized — high-speed intelligibility & robotic formant track: 4 novel (2 filtered)",
+    "alignment/timing — timestamps & forced aligners: 6 results",
+    "alignment/timing — timestamps & forced aligners: 5 novel (1 filtered)",
+    "practitioner/implementation — Apple Silicon local inference: 6 results",
+    "practitioner/implementation — Apple Silicon local inference: 3 novel (3 filtered)",
+    "Fetched 27 sources → 133 claims → verifying top 25",
+    "\"TTS Arena aggregates the blind preference votes in…\": 3-0 ✓",
+    "\"TTS Arena ranks text-to-speech models via blind pa…\": 3-0 ✓",
+    "\"Montreal Forced Aligner (MFA), a GMM-HMM/Kaldi-bas…\": 3-0 ✓",
+    "\"On TIMIT word-level alignment at a 50ms tolerance,…\": 3-0 ✓",
+    "\"ctc-forced-aligner performs text-to-audio forced a…\": 3-0 ✓",
+    "\"mlx-audio is an MIT-licensed library that runs mul…\": 3-0 ✓",
+    "\"Phone-level (phoneme) alignment is only directly a…\": 1-2 ✗",
+    "\"mlx-audio supports Kokoro natively with 54 voice p…\": 3-0 ✓",
+    "\"mlx-audio includes forced-alignment/timestamp capa…\": 3-0 ✓",
+    "\"Mach1 nonuniform time-scale modification keeps spe…\": 3-0 ✓",
+    "\"At identical overall compression rates, listener c…\": 3-0 ✓",
+    "\"Between 2.5x and 4.2x real time, nonuniform (Mach1…\": 3-0 ✓",
+    "\"The DECtalk source code carries a proprietary, res…\": 3-0 ✓",
+    "\"DECtalk is available as a modern, locally-buildabl…\": 3-0 ✓",
+    "\"eSpeak NG is a formant-synthesis speech engine who…\": 3-0 ✓",
+    "\"eSpeak NG can convert text into phoneme codes and …\": 2-1 ✓",
+    "\"Chatterbox is released under the MIT License, perm…\": 3-0 ✓",
+    "\"Chatterbox does not output word- or phoneme-level …\": 3-0 ✓",
+    "\"Chatterbox supports Apple Silicon (MPS) and CPU in…\": 2-1 ✓",
+    "\"XTTS-v2 performs voice cloning from just a 6-secon…\": 3-0 ✓",
+    "\"XTTS-v2 supports 17 languages including American a…\": 0-3 ✗",
+    "\"XTTS-v2 is released under the Coqui Public Model L…\": 3-0 ✓",
+    "\"Zonos-v0.1 is released under the Apache-2.0 licens…\": 3-0 ✓",
+    "\"Zonos claims expressiveness and quality on par wit…\": 3-0 ✓",
+    "\"Zonos supports zero-shot voice cloning from a shor…\": 3-0 ✓",
+    "Verify done: 25 claims → 23 confirmed, 2 killed"
+  ],
+  "result": {
+    "question": "BEST LOCAL / OPEN-SOURCE TEXT-TO-SPEECH (TTS) MODELS TO REPLACE OR AUGMENT KOKORO for an English educational-podcast pipeline, as of 2026. Baseline to beat: Kokoro-82M (hexgrad/Kokoro-82M), currently run locally on Apple Silicon (CPU + MPS), producing 24kHz audio, multiple voices (af_heart/am_onyx/bf_isabella/bm_george etc.), American + British English, two-voice format (narrator + question voice). Evaluate candidates across these angles: (1) QUALITY/NATURALNESS — which open/local TTS models beat Kokoro on naturalness and intelligibility for English (candidates to assess: XTTS-v2/Coqui, Piper, StyleTTS2, F5-TTS, Fish-Speech/OpenAudio, Parler-TTS, MeloTTS, Orpheus-TTS, Chatterbox, Kitten-TTS, Zonos, and any newer 2025-2026 open models) — report MOS/quality benchmarks, license (commercial/redistribution OK?), and model size. (2) WORD/PHONEME-LEVEL TIMING & ALIGNMENT — which models natively output word/phoneme timestamps (durations), and what forced-alignment tools (Montreal Forced Aligner, WhisperX, aeneas, ctc-forced-aligner) best produce a text↔audio timing map from existing audio — this enables content-aware speed compression, script-highlighting, and a true text-to-audio map. (3) HIGH-SPEED COMPREHENSIBILITY — which model's output stays most intelligible under aggressive time-compression / at high playback speed (crisp consonants, clean formant transitions); also the best FORMANT/robotic option (eSpeak-NG, RHVoice, DECtalk-like) for an extreme 16x 'ultra' track. (4) MULTI-VOICE & VOICE CONTROL — voice variety, voice cloning, prosody/rate control, and ease of adding new voices for a narrator+question two-speaker format. (5) LOCAL-INFERENCE PRACTICALITY on Apple Silicon and CPU — real-time factor / batch render speed, RAM/VRAM needs, MPS/CoreML/ONNX support, latency, and integration effort to swap into a Python pipeline that today calls Kokoro. For EACH recommended model give: quality vs Kokoro, license, local-inference feasibility on a Mac, whether it emits alignment, and a clear verdict on whether it's worth switching to (or adding alongside Kokoro). Prefer authoritative/benchmark sources and recent (2025-2026) comparisons; flag where claims are vendor marketing vs independent evaluation.",
+    "summary": "For an English educational-podcast pipeline currently on Kokoro-82M, the verified evidence does NOT identify a slam-dunk open/local model that beats Kokoro on independently-measured naturalness — the strongest quality claims for candidates (Zonos, XTTS-v2, Chatterbox) are either vendor self-description or feature-existence facts, and the right way to rank naturalness is blind pairwise human preference (TTS Arena's Elo-style leaderboard) rather than MOS or WER, which are noted as unreliable/small-scale. The most defensible upgrades are operational rather than model swaps: re-host Kokoro itself on Apple's MLX via the MIT-licensed mlx-audio (54 voice presets, native Apple Silicon optimization), and add a separate forced-alignment stage to get the word/phoneme timing map Kokoro and Chatterbox do not natively emit. For alignment, the peer-reviewed benchmark evidence favors Montreal Forced Aligner (MFA) over WhisperX and MMS for English word-level accuracy (89.4% vs 82.4% vs 75.7% at 50ms on TIMIT), while ctc-forced-aligner and mlx-audio's Qwen3-ForcedAligner/Parakeet offer convenient JSON/word-timestamp outputs on a Mac. For the high-speed/ultra track, foundational psychoacoustics (Mach1) shows nonuniform time-compression stays comprehensible to ~2.5-4.2x real time and beats linear compression by ~5-31 points, and eSpeak NG / DECtalk provide the crisp formant \"robotic\" option — though DECtalk's proprietary FONIX license is a redistribution red flag whereas eSpeak NG is safe. On licensing, Chatterbox (MIT) and Zonos-v0.1 (Apache-2.0) are redistribution-friendly, while XTTS-v2's CPML terms are unstated on the model card and must be checked separately (Coqui is defunct, adding risk).",
+    "findings": [
+      {
+        "claim": "Naturalness should be ranked by blind pairwise human preference (TTS Arena), not MOS/WER; TTS Arena uses an Elo-style leaderboard with model identities hidden until after voting.",
+        "confidence": "high",
+        "vote": "3-0 (merged from two unanimous claims)",
+        "sources": [
+          "https://huggingface.co/blog/arena-tts"
+        ],
+        "evidence": "HF blog states users 'vote on which model sounds more natural' with names 'revealed only after a vote is submitted,' ranked by 'an algorithm similar to the Elo rating system, commonly used in chess.' The blog explicitly motivates this by noting objective WER is 'unreliable' and MOS studies are 'typically small-scale.' This is the authoritative methodology for comparing candidate TTS naturalness; note that none of the verified claims supply an actual head-to-head Arena ranking of Kokoro vs candidates, so concrete naturalness-vs-Kokoro deltas remain unestablished in this evidence set."
+      },
+      {
+        "claim": "No verified candidate is shown by an independent benchmark to beat Kokoro on naturalness; the strongest quality claims (Zonos 'on par with or surpassing top providers') are explicit vendor self-description, not independent evaluation.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://github.com/Zyphra/Zonos"
+        ],
+        "evidence": "The Zonos README claims 'expressiveness and quality on par with—or even surpassing—top TTS providers,' and the verified claim itself flags this as vendor marketing, with Zyphra conceding the assessment is 'qualitative/subjective.' Other candidate claims (XTTS-v2, Chatterbox) are feature-existence facts (cloning duration, license, device support), not naturalness comparisons. Verdict: quality-vs-Kokoro is not independently established in this evidence set — switching on quality grounds alone is not yet justified."
+      },
+      {
+        "claim": "Kokoro can be re-hosted on Apple Silicon via the MIT-licensed mlx-audio (Apple MLX framework), which natively supports Kokoro with 54 voice presets including the pipeline's existing voices.",
+        "confidence": "high",
+        "vote": "3-0 (merged from three unanimous claims)",
+        "sources": [
+          "https://github.com/Blaizzy/mlx-audio"
+        ],
+        "evidence": "mlx-audio (MIT, Prince Canuma/Blaizzy) is 'built on Apple's MLX framework' with 'Fast inference optimized for Apple Silicon (M series chips)' and loads Kokoro via mlx-community quantizations (Kokoro-82M-bf16/8bit/4bit) with 54 voice presets including af_heart, bm_george etc. This is the lowest-effort, lowest-risk upgrade: keep Kokoro's voices and two-voice format, gain M-series acceleration over CPU/MPS, MIT license is redistribution-safe. Verdict: worth adopting as a drop-in re-host."
+      },
+      {
+        "claim": "Kokoro (and Chatterbox) do not natively emit word/phoneme timestamps; a forced-alignment stage is required to build a text-to-audio timing map for speed-compression, highlighting, and script mapping.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://github.com/resemble-ai/chatterbox",
+          "https://huggingface.co/ResembleAI/chatterbox"
+        ],
+        "evidence": "Chatterbox's generate() returns only a wav with 'no timestamps, durations, or alignment'; the verified claim notes getting timing requires running WhisperX or MFA on the output. Kokoro likewise has no native alignment in this evidence set. Implication: alignment must be added as a separate stage regardless of which synthesizer is chosen."
+      },
+      {
+        "claim": "For English word-level forced alignment, Montreal Forced Aligner (MFA, GMM-HMM/Kaldi) outperforms modern ASR-based aligners WhisperX and MMS — 89.4% vs 82.4% vs 75.7% accuracy at 50ms tolerance on TIMIT.",
+        "confidence": "high",
+        "vote": "3-0 (merged from two unanimous claims)",
+        "sources": [
+          "https://arxiv.org/html/2406.19363v1"
+        ],
+        "evidence": "Peer-reviewed Interspeech 2024 paper (Rousso et al.) reports MFA outperforming WhisperX and MMS at ALL tolerance thresholds; at 50ms on TIMIT, MFA 89.4% / WhisperX 82.4% / MMS 75.7%, and at 10ms 41.6% / 22.4% / 18.6%. Independent practitioner corroboration (WhisperX issue #1247) confirms WhisperX timestamps drift vs MFA. Caveat: the comparison only scores words the ASR systems correctly recognized, on English read/conversational speech, using ASR not purpose-built for FA. Verdict: MFA is the accuracy-best aligner for the timing map; WhisperX/MMS are convenient but less precise."
+      },
+      {
+        "claim": "ctc-forced-aligner produces a text-to-audio timing map as JSON (start/end/text) from existing audio using HuggingFace CTC models (Wav2Vec2/HuBERT/MMS), with configurable word/char/sentence granularity and SRT/WebVTT export.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://github.com/MahmoudAshraf97/ctc-forced-aligner",
+          "https://pypi.org/project/ctc-forced-aligner"
+        ],
+        "evidence": "README documents forced alignment 'between text and audio' via Wav2Vec2/HuBERT/MMS, default model mms-300m-1130-forced-aligner, JSON output with start/end/text per segment, plus generate_srt()/generate_webvtt() and split_size granularity control. Verdict: a practical, easy-to-integrate aligner; trades MFA's accuracy edge for simpler Python integration."
+      },
+      {
+        "claim": "On a Mac, mlx-audio provides native alignment/timestamps via Qwen3-ForcedAligner (word/char-level start/end times) and Parakeet (sentence/word-level timestamps), enabling an end-to-end Apple Silicon timing-map workflow.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://github.com/Blaizzy/mlx-audio",
+          "https://huggingface.co/Qwen/Qwen3-ForcedAligner-0.6B"
+        ],
+        "evidence": "mlx-audio loads Qwen3-ForcedAligner-0.6B emitting per-item start_time/end_time/text; the official Qwen card confirms 'word or character level timestamps' for 'arbitrary units within up to 5 minutes of speech in 11 languages' (reports cite ~6ms MAE). Parakeet docs show 'Sentence and Word Timestamps' (AlignedSentence/AlignedToken). Verdict: lets both synthesis (Kokoro) and alignment run on MLX/Apple Silicon in one stack, though MFA still wins on raw accuracy."
+      },
+      {
+        "claim": "Nonuniform (Mach1) time-scale modification keeps speech comprehensible up to ~2.5-4.2x real time (390-673 wpm) and beats linear compression by ~5-31 percentage points (about 17 pp average in that range), with ~15% faster response times and no significant comprehension loss as rate increases across that range.",
+        "confidence": "high",
+        "vote": "3-0 (merged from three unanimous claims)",
+        "sources": [
+          "https://www.mangolassi.org/covell/1997-061/index.html",
+          "https://engineering.purdue.edu/~malcolm/interval/1997-061/writeup.html",
+          "https://www.ee.columbia.edu/~dpwe/papers/CovWS98-mach1.pdf"
+        ],
+        "evidence": "Peer-reviewed Covell/Withgott/Slaney Mach1 paper (IEEE ICASSP 1998): comprehensible to 2.56-4.15x real time; nonuniform beats linear by 5-31 pp (content-dependent, ~17 pp average), response times -15%, no significant loss across 2.5-4.2x. Caveats: single n=14 inventor-run study; later work attributes some benefit to silence/pause removal and finds linear can win for speech-in-noise/word-intelligibility — but those are out-of-scope of the comprehension-at-2.5-4.2x finding. Verdict: supports a content-aware (nonuniform) speed-compression track over naive linear speedup; a forced-alignment timing map is what enables content-aware compression."
+      },
+      {
+        "claim": "For an extreme high-speed/'ultra' robotic track, eSpeak NG is the safe formant choice — clear and usable at high speeds (less natural than neural), redistribution-friendly, and doubles as a phonemizer/G2P front end (as used by Kokoro/StyleTTS2).",
+        "confidence": "high",
+        "vote": "3-0 / 2-1 (phonemizer link 2-1, with minor qualification)",
+        "sources": [
+          "https://github.com/espeak-ng/espeak-ng",
+          "https://github.com/hexgrad/kokoro"
+        ],
+        "evidence": "espeak-ng README: formant synthesis, 'clear, and can be used at high speeds, but is not as natural...than larger synthesizers based on human speech recordings,' and 'can translate text into phoneme codes...adapted as a front end for another speech synthesis engine.' Used in NVDA/screen readers (a high-WPM use case). Qualification: in Kokoro, misaki is the primary G2P and espeak-ng is the OOD/non-English fallback, so calling it THE backbone slightly overstates its role. Verdict: ideal crisp formant option for the 16x ultra track; license is permissive (safe to redistribute)."
+      },
+      {
+        "claim": "DECtalk is a locally-buildable formant (Klatt-based) synthesizer for the robotic/ultra track on macOS (Apple Silicon + Intel), but its proprietary FONIX license makes it a redistribution red flag.",
+        "confidence": "high",
+        "vote": "3-0 (merged from two unanimous claims)",
+        "sources": [
+          "https://github.com/dectalk/dectalk",
+          "https://ports.macports.org/port/dectalk",
+          "https://raw.githubusercontent.com/dectalk/dectalk/develop/LICENCE"
+        ],
+        "evidence": "github.com/dectalk/dectalk builds for 'MacOS/iOS (Apple Silicon and Intel)' plus Linux/Windows/WebAssembly (MacPorts port confirms macOS packaging independently). However the LICENCE is proprietary FONIX: 'use, or copying...authorized only pursuant to a valid written license from FONIX,' and IP owners are defunct. Verdict: technically feasible and distinctive 'voice of Stephen Hawking' formant sound, but do NOT use in a redistributed pipeline without authorization — prefer eSpeak NG for the robotic track if redistribution matters."
+      },
+      {
+        "claim": "Chatterbox (Resemble AI) is MIT-licensed (commercial use/redistribution OK) and runs locally on a Mac via device='mps' (and CPU), but emits no alignment and embeds a non-restrictive PerTh watermark.",
+        "confidence": "high",
+        "vote": "3-0 license / 2-1 MPS / 3-0 no-alignment",
+        "sources": [
+          "https://github.com/resemble-ai/chatterbox",
+          "https://huggingface.co/ResembleAI/chatterbox"
+        ],
+        "evidence": "LICENSE is unmodified MIT (Copyright 2025 Resemble AI); Resemble confirms commercial/closed-source use OK. README lists device='mps' (Apple Silicon) and ships example_for_mac.py. Caveats: known Apple Silicon memory leak (issue #218) and some CUDA-saved checkpoints need map_location workarounds (PR #407); all output carries a PerTh watermark (attribution, not a usage restriction); no native timestamps. Verdict: license-clean, Mac-runnable candidate worth A/B-testing alongside Kokoro on naturalness, but practicality friction (memory leak) and no alignment mean it does not displace the MLX+aligner approach by itself."
+      },
+      {
+        "claim": "XTTS-v2 (Coqui) offers fast 6-second voice cloning (good for rapidly adding narrator+question voices), but its Coqui Public Model License (CPML) terms are not on the model card and must be checked separately — and Coqui is defunct, leaving commercial terms ambiguous.",
+        "confidence": "high",
+        "vote": "3-0 (merged from two unanimous claims)",
+        "sources": [
+          "https://huggingface.co/coqui/XTTS-v2"
+        ],
+        "evidence": "Model card: 'Voice cloning with just a 6-second audio clip' (docs even cite 3s; 15-30s clean audio yields better match). License is 'coqui-public-model-license' with NO commercial/redistribution terms stated inline — they live at coqui.ai/cpml. Independent sources disagree on whether CPML permits commercial output use, and Coqui Inc shut down Jan 2024 with no one to sell a commercial license. Note a refuted sub-claim: XTTS-v2's specific '17 languages / multi-speaker interpolation' assertion was voted down (0-3), so do not rely on that. Verdict: strong cloning ergonomics but a licensing risk for a redistributed pipeline — proceed only after resolving CPML."
+      },
+      {
+        "claim": "Zonos-v0.1 is Apache-2.0 (commercial/redistribution OK) and supports zero-shot cloning from a 10-30s sample plus fine-grained prosody/emotion control (rate, pitch, max frequency, audio quality; happiness/anger/sadness/fear), useful for a multi-voice narrator+question format.",
+        "confidence": "high",
+        "vote": "3-0 (merged from three unanimous claims)",
+        "sources": [
+          "https://github.com/Zyphra/Zonos",
+          "https://huggingface.co/Zyphra/Zonos-v0.1-hybrid",
+          "https://www.zyphra.com/our-work/beta-release-of-zonos-v0-1"
+        ],
+        "evidence": "Zyphra releases the 1.6B transformer and hybrid under Apache-2.0 (permits commercial use/redistribution). README documents zero-shot cloning from a 10-30s sample and fine-grained control of speaking rate, pitch, max frequency, audio quality, and emotions. Caveats: README itself notes audio artifacts/alignment issues; quality-vs-Kokoro is vendor self-described, not benchmarked; issue #45 raises training-data provenance concerns (does not affect the Apache-2.0 license itself). Verdict: the most license-friendly higher-control candidate to A/B-test for distinct expressive narrator/question voices, but validate quality and artifact behavior on your own content before switching."
+      }
+    ],
+    "caveats": "1) No verified claim provides an independent, head-to-head naturalness/MOS or TTS-Arena ranking of Kokoro versus the candidate models. Quality-superiority statements for Zonos (and implicitly XTTS-v2/Chatterbox) are vendor self-description or feature facts — the actual 'beats Kokoro on naturalness' question is UNRESOLVED in this evidence set and would need fresh blind A/B testing on your own scripts. 2) Several practicality numbers (RTF/batch-render speed, RAM/VRAM, latency) requested in the question are not covered by any verified claim; only directional facts (mlx-audio is Apple-Silicon-optimized; Chatterbox has an MPS memory leak) survived. 3) The MFA>WhisperX>MMS alignment result is scoped to English read/conversational corpora (TIMIT/Buckeye) and only scores correctly-recognized words; it may not transfer identically to synthesized podcast audio. 4) Mach1 comprehension figures are foundational (1998), from a single n=14 inventor-run study, and the broader 'nonuniform always wins' narrative is contested for speech-in-noise and word-intelligibility — they hold specifically for comprehension at 2.5-4.2x. 5) Licensing is time-sensitive and provider-dependent: DECtalk (proprietary FONIX) and XTTS-v2 (CPML, Coqui defunct) are redistribution red flags; Chatterbox (MIT), Zonos-v0.1 (Apache-2.0), mlx-audio (MIT), and eSpeak NG are the redistribution-safe options. 6) One sub-claim about XTTS-v2 languages/multi-speaker interpolation and one about MFA-only phone-level alignment were REFUTED — do not rely on them. 7) Kokoro's own native-alignment status is inferred (no positive claim that it lacks alignment was independently verified the way Chatterbox's was), though the practical conclusion — add a separate aligner — is robust either way.",
+    "openQuestions": [
+      "What does a blind A/B / TTS-Arena-style test on your own educational-podcast scripts actually show for naturalness and high-speed intelligibility of Kokoro vs Zonos-v0.1, Chatterbox, XTTS-v2, and StyleTTS2/F5-TTS/Fish-Speech (the latter three were named in the question but produced no surviving verified claims)?",
+      "What are the concrete local-inference numbers on Apple Silicon (real-time factor, batch render time, RAM, MPS/CoreML/ONNX support, latency) for each candidate versus Kokoro-on-MLX — none were captured in the verified evidence?",
+      "Does MFA's accuracy advantage over WhisperX/ctc-forced-aligner hold on synthesized (TTS-generated) podcast audio specifically, and which aligner gives the best precision-vs-integration-effort tradeoff for content-aware speed compression?",
+      "What are the exact CPML terms for XTTS-v2 commercial/redistribution use now that Coqui is defunct, and is there any pathway to a redistribution-safe license — i.e., can XTTS-v2 be used at all in a published pipeline?"
+    ],
+    "refuted": [
+      {
+        "claim": "Phone-level (phoneme) alignment is only directly available from MFA; end-to-end ASR aligners like MMS and WhisperX do not natively provide phone-level representations.",
+        "vote": "1-2",
+        "source": "https://arxiv.org/html/2406.19363v1"
+      },
+      {
+        "claim": "XTTS-v2 supports 17 languages including American and British English, and allows multiple speaker references and interpolation between speakers (multi-speaker support).",
+        "vote": "0-3",
+        "source": "https://huggingface.co/coqui/XTTS-v2"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.codesota.com/text-to-speech",
+        "quality": "secondary",
+        "angle": "broad/primary — model landscape & naturalness vs Kokoro",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.offlinetts.com/blog/tts-arena-leaderboard-2026/",
+        "quality": "secondary",
+        "angle": "broad/primary — model landscape & naturalness vs Kokoro",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.murmurtts.com/blog/best-local-tts-models-2026",
+        "quality": "blog",
+        "angle": "broad/primary — model landscape & naturalness vs Kokoro",
+        "claimCount": 5
+      },
+      {
+        "url": "https://huggingface.co/blog/arena-tts",
+        "quality": "primary",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/",
+        "quality": "secondary",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.promptquorum.com/power-local-llm/local-tts-voice-cloning-piper-coqui-xtts",
+        "quality": "secondary",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://findskill.ai/blog/best-open-source-tts-2026/",
+        "quality": "blog",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.inferless.com/learn/comparing-different-text-to-speech---tts--models-part-2",
+        "quality": "blog",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/selected-voice",
+        "quality": "secondary",
+        "angle": "academic/benchmark — MOS, license, model size",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/MahmoudAshraf97/ctc-forced-aligner",
+        "quality": "primary",
+        "angle": "alignment/timing — timestamps & forced aligners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://arxiv.org/html/2406.19363v1",
+        "quality": "primary",
+        "angle": "alignment/timing — timestamps & forced aligners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/m-bain/whisperX/issues/1247",
+        "quality": "forum",
+        "angle": "alignment/timing — timestamps & forced aligners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX-timestamped/discussions/2",
+        "quality": "forum",
+        "angle": "alignment/timing — timestamps & forced aligners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://ryanwelch.co.uk/blog/kokoro-word-timestamps/",
+        "quality": "blog",
+        "angle": "alignment/timing — timestamps & forced aligners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://soniqo.audio/benchmarks",
+        "quality": "blog",
+        "angle": "practitioner/implementation — Apple Silicon local inference",
+        "claimCount": 5
+      },
+      {
+        "url": "https://dev.to/xadenai/building-a-local-voice-ai-stack-whisper-ollama-kokoro-tts-on-apple-silicon-eo0",
+        "quality": "blog",
+        "angle": "practitioner/implementation — Apple Silicon local inference",
+        "claimCount": 4
+      },
+      {
+        "url": "https://github.com/Blaizzy/mlx-audio",
+        "quality": "primary",
+        "angle": "practitioner/implementation — Apple Silicon local inference",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.mangolassi.org/covell/1997-061/index.html",
+        "quality": "primary",
+        "angle": "specialized — high-speed intelligibility & robotic formant track",
+        "claimCount": 4
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=40233104",
+        "quality": "forum",
+        "angle": "specialized — high-speed intelligibility & robotic formant track",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/dectalk/dectalk",
+        "quality": "primary",
+        "angle": "specialized — high-speed intelligibility & robotic formant track",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/espeak-ng/espeak-ng",
+        "quality": "primary",
+        "angle": "specialized — high-speed intelligibility & robotic formant track",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/resemble-ai/chatterbox",
+        "quality": "primary",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      },
+      {
+        "url": "https://huggingface.co/coqui/XTTS-v2",
+        "quality": "primary",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/Zyphra/Zonos",
+        "quality": "primary",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/microsoft/VibeVoice",
+        "quality": "primary",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.tryspeakeasy.io/blog/open-source-text-to-speech-2026",
+        "quality": "blog",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.testingcatalog.com/zyphra-debuts-zonos-an-open-source-tts-suite-with-expressive-voice-cloning/",
+        "quality": "secondary",
+        "angle": "voice control — cloning, prosody, multi-speaker",
+        "claimCount": 5
+      }
+    ],
+    "stats": {
+      "angles": 6,
+      "sourcesFetched": 27,
+      "claimsExtracted": 133,
+      "claimsVerified": 25,
+      "confirmed": 23,
+      "killed": 2,
+      "afterSynthesis": 13,
+      "urlDupes": 2,
+      "budgetDropped": 7,
+      "agentCalls": 110
+    }
+  }
+}

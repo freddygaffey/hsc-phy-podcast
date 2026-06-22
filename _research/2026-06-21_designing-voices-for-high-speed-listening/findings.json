@@ -1,0 +1,334 @@
+{
+  "summary": "Deep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+  "agentCount": 107,
+  "logs": [
+    "Q: DESIGNING AND TRAINING A VOICE / TTS MODEL TO BE MORE COMPREHENSIBLE AT HIGH-SPE…",
+    "Decomposed into 5 angles: acoustic-science/clear-speech, formant-synth-vs-neural/blind-power-users, rate-aware-TTS/fine-tune-vs-timestretch, DSP-intelligibility-enhancement, engines-config + measurement",
+    "acoustic-science/clear-speech: 6 results",
+    "formant-synth-vs-neural/blind-power-users: 6 results",
+    "rate-aware-TTS/fine-tune-vs-timestretch: 6 results",
+    "DSP-intelligibility-enhancement: 6 results",
+    "engines-config + measurement: 6 results",
+    "rate-aware-TTS/fine-tune-vs-timestretch: 5 novel (1 filtered)",
+    "DSP-intelligibility-enhancement: 4 novel (2 filtered)",
+    "engines-config + measurement: 4 novel (2 filtered)",
+    "Fetched 25 sources → 119 claims → verifying top 25",
+    "\"When time-compressed to the same fast rate, normal…\": 3-0 ✓",
+    "\"Natively-recorded fast speech is LESS intelligible…\": 3-0 ✓",
+    "\"Greater dynamic formant movement (linear movement …\": 3-0 ✓",
+    "\"Longer vowel duration improves intelligibility for…\": 3-0 ✓",
+    "\"Clear speech expands the vowel space: front-vowel …\": 3-0 ✓",
+    "\"Clear speech (deliberate hyperarticulation) produc…\": 3-0 ✓",
+    "\"For normal-hearing listeners, the dominant acousti…\": 3-0 ✓",
+    "\"The temporal modulations most important for speech…\": 3-0 ✓",
+    "\"There exists a core spectro-temporal modulation re…\": 3-0 ✓",
+    "\"Speech intelligibility depends on whether the inpu…\": 1-2 ✗",
+    "\"Inserting silent gaps ('repackaging') into time-co…\": 3-0 ✓",
+    "[stall] agent \"v1:Hyperarticulated (clear) speech was rate\" stalled (no progress) after 241s — retrying (1/5)",
+    "[stall] agent \"v2:Blind people who train in ultra-fast spe\" stalled (no progress) after 241s — retrying (1/5)",
+    "[v1:The hyperarticulation benefit to compreh] failed: API Error: Stream idle timeout - partial response received",
+    "\"The hyperarticulation benefit to comprehension per…\": 2-0 (1 abstain) ✓",
+    "\"Trained blind (vision-impaired) listeners can lear…\": 3-0 ✓",
+    "[v2:Blind people who train in ultra-fast spe] failed: API Error: Connection closed mid-response. The response above may be incomplete.",
+    "\"Blind people who train in ultra-fast speech compre…\": 2-0 (1 abstain) ✓",
+    "\"Hyperarticulated (clear) speech was rated easier t…\": 1-2 ✗",
+    "\"The ultra-fast speech-listening experiments with b…\": 3-0 ✓",
+    "\"There is a divide between novice and expert screen…\": 3-0 ✓",
+    "\"Expert users routinely speed up TTS output, which …\": 3-0 ✓",
+    "\"Recognition scores for time-compressed (TC) speech…\": 3-0 ✓",
+    "\"The intelligibility ranking from best to worst is …\": 3-0 ✓",
+    "\"Natural fast speech degrades intelligibility becau…\": 3-0 ✓",
+    "\"Linearly time-compressed normal-rate speech is pro…\": 2-1 ✓",
+    "\"The processing advantage of linear time-compressio…\": 3-0 ✓",
+    "\"Making artificially time-compressed speech imitate…\": 1-2 ✗",
+    "\"Combining Lombard speaking-style conversion with S…\": 3-0 ✓",
+    "Verify done: 25 claims → 22 confirmed, 3 killed"
+  ],
+  "result": {
+    "question": "DESIGNING AND TRAINING A VOICE / TTS MODEL TO BE MORE COMPREHENSIBLE AT HIGH-SPEED LISTENING. Deliver BOTH the underlying science AND concrete recommendations for a local open-source TTS podcast pipeline (currently uses Kokoro TTS). Cover these 6 angles: (1) ACOUSTIC/PROSODIC PROPERTIES that survive time-compression / make a voice intelligible when sped up — \"clear speech\"/hyperarticulation, vowel-space expansion, consonant emphasis/sharper consonant-vowel transitions, modulation-spectrum shape, F0/pitch characteristics, and pause/rhythm structure. (2) FORMANT SYNTHESIS vs NEURAL TTS at extreme speed — why blind screen-reader power users overwhelmingly prefer old formant synthesizers (Eloquence, DECtalk, eSpeak-NG) over natural neural voices at 18-22 syllables/second; consistency, crispness, latency, predictability; quantify the naturalness-vs-intelligibility trade-off. (3) RATE-AWARE / CONTROLLABLE TTS GENERATION — conditioning or fine-tuning a neural TTS to NATIVELY generate fast-but-clear speech (speaking-rate control, prosody control, training on clear-speech/Lombard-speech corpora) vs. post-hoc time-scale modification; CRITICAL: how much MEASURABLE comprehensibility gain does native fast generation or fine-tuning actually buy over simply time-compressing a normal voice? (the user will only invest in fine-tuning/training if the gain is significant). (4) DSP ENHANCEMENT for intelligibility at speed — formant/clarity enhancement, spectral shaping + dynamic-range compression, consonant boosting, content-aware PER-PHONEME variable-rate compression (compress steady-state vowels more, preserve consonant transitions), and modulation-envelope enhancement; these apply to ANY engine's output. (5) CONCRETE ENGINES/VOICES & CONFIG KNOBS — head-to-head comparison of which TTS engines/voices are most intelligible at high speed (Kokoro, Piper, eSpeak-NG/Eloquence, RHVoice, Azure/Google neural, ElevenLabs) and the tunable settings (speaking rate, pitch, pause length) that improve speed-comprehensibility. (6) HOW TO MEASURE \"comprehensibility at speed\" — objective intelligibility metrics (STOI, STMI/spectro-temporal modulation index, modulation-spectrum analysis) and practical subjective A/B / MUSHRA listening-test protocols, so one can decide whether a fine-tune cleared a \"significant gain\" bar before committing. CONSTRAINTS/CONTEXT: pipeline runs LOCALLY/on-device (open-source Kokoro), so favor approaches compatible with local inference. Output should serve TWO use cases: a normal natural-sounding default voice for general students, AND an optional aggressively speed-optimized track for trained power listeners (robotic is acceptable for that track if measurably clearer). For EACH effort tier (pick/configure a voice < DSP post-processing < fine-tune an open model < train from scratch), state the expected comprehensibility gain, the cost/effort, and whether it is worth it. Prefer peer-reviewed and authoritative sources; include practitioner/community knowledge from the blind/screen-reader speed-listening community where relevant.",
+    "summary": "For a high-speed TTS podcast pipeline, the strongest evidence-backed conclusion is counterintuitive: simply time-compressing a normal-rate voice beats trying to make a voice \"natively\" fast or even hyperarticulated/clear. Across multiple peer-reviewed studies, linear time-compression of normal speech is consistently MORE intelligible than (a) naturally-produced fast speech at the same rate and (b) time-compressed CLEAR/hyperarticulated speech at aggressive rates — meaning expensive fine-tuning on clear-speech or fast-speech corpora is unlikely to clear a \"significant gain\" bar for the speed track, while the safe, cheap win is generating at normal rate then applying high-quality linear time-scale modification. The science explains why: intelligibility rides on a low-frequency spectro-temporal modulation \"core\" (~1-8 Hz temporal, <4 cycles/kHz spectral) and on dynamic formant movement plus high-frequency consonant/fricative energy; uniform time-compression preserves spectral fine structure and formant transitions, whereas human fast speech destroys them via deletion/lenition/target-undershoot. The blind/screen-reader power-listener community's strong preference for old formant synthesizers (Eloquence/DECtalk via JAWS) at 18-22 syl/s reflects that at extreme speed naturalness is irrelevant and is actively sacrificed; experts prioritize crispness, predictability, and reliability over voice quality, which validates shipping an optional robotic-but-clearer speed track distinct from the natural default. The highest-leverage interventions are therefore: (1) keep the natural Kokoro voice for general students; (2) for the speed track, generate at normal rate and apply linear/PSOLA time-compression plus DSP intelligibility enhancement (Lombard/SSDRC-style spectral shaping and dynamic-range compression, which gave 110-130% objective SIIB gains in noise) and/or rhythmic \"repackaging\" (inserting silent gaps at ~4-5 packets/s near the theta range); and (3) measure any candidate against a baseline using objective modulation/intelligibility metrics plus a subjective A/B before committing to a fine-tune.",
+    "findings": [
+      {
+        "claim": "Linear time-compression of a NORMAL-rate voice is the most intelligible way to get fast speech — it beats both naturally-produced fast speech and time-compressed clear/hyperarticulated speech at matched rates. This is the central decision-driver: cheap post-hoc time-compression is hard to beat, so native-fast or clear-speech fine-tuning is unlikely to deliver a significant comprehensibility gain for the speed track.",
+        "confidence": "high",
+        "vote": "unanimous (multiple 3-0 claims merged)",
+        "evidence": "Five converging peer-reviewed/primary findings. (a) arXiv:1901.07239 (Edinburgh CSTR): 'compressed normal speech is more intelligible than compressed clear speech even when overall duration is kept the same' AND 'unprocessed fast speech was less intelligible than linearly compressed normal speech' — the clear-speech advantage inverts at aggressive rates. (b) PMC6377055 (Gordon-Salant et al., JASA): intelligibility ranking best-to-worst is normal-rate > 40% time-compressed > natural fast speech (pairwise significant, p<=0.006); 'recognition of time-compressed sentences over-estimated recognition of natural fast sentences,' so a TC voice does NOT behave like genuine fast speech. (c) Janse 2004 (Speech Communication, Max Planck; S0167639303001092): linear TC is processed faster and preferred over natural fast speech even when both are perfectly intelligible — quantified phoneme-detection 572 ms (linear TC) vs 624 ms (natural fast), a significant 52 ms advantage. (d) Synthetic-TTS extension (S0167639315000977): 'generating speech at a normal speaking rate and then applying linear compression resulted in the most intelligible speech at all tested rates.' Mechanism (PMC6377055): natural fast speech introduces deletions/distortions of stops and affricates via co-articulation and lenition/target-undershoot that uniform TC does not, because TC 'preserve[s] the temporal fine structure and spectral information in a reduced time scale.'",
+        "sources": [
+          "https://arxiv.org/abs/1901.07239",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377055/",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0167639303001092",
+          "https://www.sciencedirect.com/science/article/abs/pii/S0167639315000977"
+        ]
+      },
+      {
+        "claim": "The acoustic-prosodic properties that carry intelligibility and survive time-compression are dynamic formant movement (transitions), high-frequency consonant/fricative energy, and an expanded vowel space — these are preserved by linear TC but destroyed by human fast speech. This tells you WHAT to protect in DSP and why static-target 'clear speech' is not the right lever.",
+        "confidence": "high",
+        "vote": "unanimous (3-0 each)",
+        "evidence": "PMC4048446 (Ferguson & Quene / Neel et al., JASA 2014): greater LINEAR formant movement between vowel-nucleus endpoints (VL, beta=0.576, p<0.0001) predicts higher vowel intelligibility, while non-linear within-nucleus movement (TLadj) does not — formant TRANSITIONS carry vowel identity, not static targets (corroborated by Vowel Inherent Spectral Change literature). Same study: clear speech expands the vowel space (F2 range +14%/0.38 Bark, F1 range +9%/0.23 Bark; front-vowel F2 up, back-vowel F2 down) and lengthens vowels ~1.5x (290 vs 204 ms), giving more processing time especially for hearing-impaired listeners. Maniwa/Jongman/Wade 2007 Interspeech + 2008 JASA: clear-speech fricative/consonant intelligibility gains run 7-38 percentage points; for normal-hearing listeners the dominant driver is a shift of spectral energy to HIGHER frequencies (positive correlation with DFT/LPC peak location and spectral moment M1). Clear-speech/hyperarticulation benefit persists across +8 to +16 dB SNR noise (Kangatharan et al., Psychological Research 2022, PMC9177484) — though measured as subjective ease-of-understanding, not objective accuracy.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4048446/",
+          "https://www.isca-archive.org/interspeech_2007/maniwa07_interspeech.pdf",
+          "https://link.springer.com/article/10.1007/s00426-021-01595-2"
+        ]
+      },
+      {
+        "claim": "Speech intelligibility is dominated by a low-frequency spectro-temporal modulation 'core' — temporal modulations ~1-7 Hz (essential band up to ~8 Hz) and spectral modulations <~1-4 cycles/kHz — bandpass in time, low-pass in frequency. This defines the objective targets for any clarity-enhancement DSP and the metrics (modulation-spectrum / STMI) for measuring comprehensibility at speed.",
+        "confidence": "high",
+        "vote": "unanimous (3-0)",
+        "evidence": "Elliott & Theunissen 2009, PLoS Computational Biology (PMC2639724): 'the MTF was bandpass in temporal modulations and low-pass in spectral modulations: temporal modulations from 1 to 7 Hz and spectral modulations <1 cycles/kHz were the most important'; there exists 'a region, or core, of modulations below ~4 cycles/kHz and ~8 Hz that are essential for comprehension,' and comprehension is significantly impaired when temporal modulations <12 Hz or spectral modulations <4 cycles/kHz are removed. Consistent with the broader STI/MTF tradition (syllabic rate ~4-7 Hz). Practical implication: preserve/enhance these modulation bands; use modulation-spectrum analysis, STOI/STMI as objective intelligibility metrics.",
+        "sources": [
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000302"
+        ]
+      },
+      {
+        "claim": "Rhythmic restructuring ('repackaging' — inserting silent gaps to deliver speech in packets at theta-compatible rates of ~4-5 packets/second) restores intelligibility of time-compressed speech. Rhythm, not raw rate, governs comprehensibility at speed, giving a concrete cheap DSP lever for the speed track.",
+        "confidence": "high",
+        "vote": "unanimous (3-0)",
+        "evidence": "PMC6181647 (JASA 2018): repackaging time-compressed speech with inserted silent gaps restores digit-recognition; the 'rescue point' is 5 packets/s for young adults (center of the 3-8 Hz theta range) and 4 packets/s for older adults. This is the Ghitza/Greenberg line of work where repackaged speech at the same information rate is markedly more intelligible than continuously compressed speech. (Note: the strict 'theta ceiling that TC cannot overcome' framing was REFUTED 1-2 — theta causation is hypothesis-level/correlational, and a 2023 Sci Reports paper attributes part of the benefit to temporal-fine-structure processing — so treat repackaging as an empirically validated technique, not proof of a hard neural ceiling.)",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6181647/"
+        ]
+      },
+      {
+        "claim": "Blind/screen-reader power listeners comprehend ultra-fast speech (up to ~22 syllables/second, ~2.5-3x the ~8 syl/s sighted maximum) and overwhelmingly favor old formant synthesizers (Eloquence, DECtalk, eSpeak-NG class) for it. This validates shipping a separate, optionally robotic, speed-optimized track and points to a formant-synth engine for the extreme track.",
+        "confidence": "high",
+        "vote": "unanimous (3-0)",
+        "evidence": "Dietrich/Hertrich/Ackermann 2013 (Frontiers Hum Neurosci PMC3805979; BMC Neuroscience PMC3847124): vision-impaired listeners learn to understand accelerated speech 'up to about 22 syllables per second... exceeding by far the capacities of normal sighted listeners whose upper limit is at ca. 8 syl/s' (22/8 = 2.75x). At 16 syl/s blind subjects averaged 59.7% comprehension vs 9.0% for sighted controls. Critically, these experiments used 'the screen-reader JAWS (male voice, synthesizer Eloquence)' — a formant synthesizer — the same class power users favor (described in community/authoritative sources as 'responsive, predictable... well suited for use by the blind'). Caveat: some time-compression literature puts sighted breakdown nearer 11-16 syl/s, which would shrink the multiplier toward ~1.5x; the 22 syl/s figure is the cited canonical value.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+          "https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-14-74",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3955012"
+        ]
+      },
+      {
+        "claim": "Naturalness and intelligibility diverge as speed increases: at high speed naturalness is actively sacrificed and ceases to matter to trained listeners. Novices prioritize voice naturalness; expert screen-reader users care little about TTS quality and prioritize reliability, responsiveness, and predictability. This justifies a TWO-track design (natural default for students; crisp/robotic speed track for power listeners) rather than one voice trying to serve both.",
+        "confidence": "high",
+        "vote": "unanimous (3-0)",
+        "evidence": "PMC3955012 (Sorscher et al., 'The voice has it', peer-reviewed mixed-methods, n=146 survey + 20 interviews): 'Advanced users of screen readers cited little interest in TTS quality and instead voiced much more concern about TTS reliability and application support, as opposed to novice users who almost unanimously cited voice as the factor of preference' (application-support difference Chi-square=23.77, p<.001). Documented mechanism: 'expert users typically speed up the audio output which causes the output to sound more artificial, precisely the quality that novice users tended to dislike about eSpeak' — so at high speed naturalness is the casualty, and 'voice quality may take a backseat to the desire or need for speed.' Caveat: ~2014 India context, predates modern neural TTS, but the directional preference is independently confirmed by current accessibility-community practice.",
+        "sources": [
+          "https://ncbi.nlm.nih.gov/pmc/articles/PMC3955012"
+        ]
+      },
+      {
+        "claim": "DSP intelligibility enhancement that applies to ANY engine's output (Lombard speaking-style conversion + SSDRC spectral shaping / dynamic-range compression) yields large objective intelligibility gains. This is the highest-ROI tier above voice selection and below fine-tuning, and it works on Kokoro/Piper output locally.",
+        "confidence": "high",
+        "vote": "unanimous (3-0)",
+        "evidence": "arXiv:2008.05809 (Paul et al., Interspeech 2020): Lombard-SSDRC TTS gives 110-130% relative SIIB-Gauss improvement in speech-shaped noise and 47-140% in competing-speaker noise vs a normal baseline TTS; subjective keyword-correct gains of +455% (SSN) and +104% (CSN). Raw table reproduces ranges (e.g., 42.43->88.35, +108%). IMPORTANT SCOPE CAVEAT: these are intelligibility-IN-NOISE gains, NOT directly comprehensibility-at-high-speed; the baseline was a weak unenhanced voice. Generalizes as evidence that spectral shaping + dynamic-range compression + consonant/high-frequency boosting (the documented clear-speech mechanisms) materially improve intelligibility and are engine-agnostic, but the magnitude at high listening SPEED specifically is not directly measured by this study.",
+        "sources": [
+          "https://arxiv.org/pdf/2008.05809"
+        ]
+      },
+      {
+        "claim": "Effort-tier recommendation derived from the evidence: (Tier 1, cheap) pick/configure voice + linear time-compression; (Tier 2, moderate) engine-agnostic DSP enhancement + repackaging; (Tier 3, expensive) fine-tune an open model for native fast speech — likely NOT worth it; (Tier 4) train from scratch — not justified.",
+        "confidence": "medium",
+        "vote": "derived synthesis of unanimous claims (no single source rates tiers)",
+        "evidence": "Synthesis: Tier 1 (configure Kokoro/Piper for natural default; generate at normal rate then linear/PSOLA time-compress for speed track; tune pause length and use eSpeak-NG/Eloquence-class formant synth for the extreme >18 syl/s track) — large, well-evidenced gain at near-zero cost (claims 0,1,16,17,19,20, plus the screen-reader preference for formant synths). Tier 2 (apply SSDRC/Lombard-style spectral shaping + dynamic-range compression + consonant/HF boost + theta-rate repackaging) — moderate effort, large objective gains in noise (claim 21) and rhythmic restoration (claim 9); engine-agnostic and local-inference compatible. Tier 3 (fine-tune Kokoro on clear-speech or fast-speech corpora) — evidence predicts LOW/negative marginal gain over Tier 1: compressed normal beats compressed clear at aggressive rates (claim 0) and natural-fast generation under-performs time-compression (claims 1,16,17,19); a prosody-mimicking 'copy human fast timing' approach was specifically refuted as wasted/harmful (refuted claim, 1-2). The one hedge: clear-speech has rate-INDEPENDENT gains (Krause & Braida) untested under aggressive compression, so a clear-speech fine-tune is the only fine-tune with any theoretical upside — but unproven. Tier 4 (train from scratch) is unjustified given Tier 1-2 capture the available gains.",
+        "sources": [
+          "https://arxiv.org/abs/1901.07239",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377055/",
+          "https://arxiv.org/pdf/2008.05809",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6181647/"
+        ]
+      },
+      {
+        "claim": "To decide whether any candidate (a fine-tune, a DSP chain, a different engine) cleared a 'significant gain' bar, measure with objective modulation/intelligibility metrics AND a subjective listening test against the time-compressed-normal baseline before committing.",
+        "confidence": "medium",
+        "vote": "synthesis of unanimous metric-related claims",
+        "evidence": "Objective side: the intelligibility 'core' is low-frequency spectro-temporal modulation (~1-8 Hz temporal, <4 cycles/kHz spectral; Elliott & Theunissen, claims 7-8), so modulation-spectrum analysis, STOI, and STMI/spectro-temporal-modulation-index are the right objective proxies; SIIB-Gauss was used successfully to quantify enhancement gains (claim 21). Subjective side: word/keyword-recognition accuracy and forced-choice A/B (or MUSHRA-style) tests at matched high rates are the gold standard, since objective metrics validated in noise do not perfectly transfer to high-SPEED comprehensibility. Key methodological warning from the evidence: recognition of time-compressed speech OVER-estimates natural-fast recognition (claim 16), so always test at the actual target rate with the actual target listener population (general students vs trained power listeners differ ~2.5-3x in capacity, claims 11-12).",
+        "sources": [
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000302",
+          "https://arxiv.org/pdf/2008.05809",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377055/"
+        ]
+      }
+    ],
+    "caveats": "SCOPE MISMATCH (most important): Much of the strongest intelligibility evidence (Maniwa/Jongman/Wade, Ferguson/Quene, the SSDRC/Lombard study) measures intelligibility IN NOISE, not intelligibility at HIGH LISTENING SPEED in quiet. These are correlated but not identical dimensions; the noise findings are used here as mechanism evidence (what acoustic properties carry intelligibility) rather than direct proof of speed gains. The directly speed-relevant studies (arXiv 1901.07239, PMC6377055, Janse 2004, the time-compressed-synthesis study) are the load-bearing ones for the time-compression conclusion. POPULATION: Most studies used normal-hearing or hearing-impaired sighted adults repeating sentences/words, NOT trained blind power-listeners at 18-22 syl/s; generalization of the time-compression ranking to those extreme rates is an extrapolation (the screen-reader-community claims partially bridge this but are weaker/community-sourced). EXPERT-PREFERENCE SOURCE: The novice-vs-expert preference study (PMC3955012) is ~2014, India-context, and predates modern neural TTS — its directional finding is robust but the specific engines are dated. CLEAR-SPEECH HEDGE: The refutation of clear-speech value applies to AGGRESSIVE signal-domain time-compression of pre-recorded clear speech; Krause & Braida show NATURALLY-produced clear speech retains rate-independent gains, and no study tested clear-speech-then-aggressively-compressed against the right baseline — so a clear-speech fine-tune is the single fine-tuning option with unrefuted theoretical upside, but it is unproven. THETA/REPACKAGING: The neural-ceiling/theta-causation framing was explicitly refuted (correlational, contested mechanism); only the behavioral repackaging benefit and rescue-point rates are solid. ENGINE HEAD-TO-HEAD GAP: No primary source in the confirmed set directly benchmarks Kokoro vs Piper vs RHVoice vs Azure/ElevenLabs at high speed with matched metrics — the engine recommendations are inferred from the formant-synth-preference and time-compression findings, not from a controlled head-to-head. The ~8 syl/s sighted maximum is a conservative figure; other literature (11-16 syl/s) would reduce the blind-vs-sighted multiplier toward ~1.5x.",
+    "openQuestions": [
+      "Does generating speech with a TTS fine-tuned on CLEAR/hyperarticulated speech and THEN applying aggressive linear time-compression beat compressing a normal voice, at high rates? Krause & Braida's rate-independent clear-speech gains were never tested under aggressive compression against the correct baseline — this is the one fine-tuning bet with unrefuted theoretical upside and the key unanswered question for whether Tier 3 is ever worth it.",
+      "Which specific local open-source engine/voice (Kokoro vs Piper vs RHVoice vs eSpeak-NG/Eloquence) is most intelligible at 14-22 syl/s in a controlled, matched-rate, matched-metric head-to-head? No confirmed source provides this direct benchmark — it must be measured locally with STOI/STMI + an A/B test.",
+      "How much additional comprehensibility does content-aware PER-PHONEME variable-rate compression (compress steady-state vowels more, preserve consonant transitions and stop/affricate cues) add over uniform linear time-compression? The mechanism evidence (formant transitions and HF consonant energy carry identity) predicts a gain, but no confirmed source quantifies phoneme-aware vs uniform TC at speed.",
+      "What are the optimal repackaging parameters (gap duration, packet rate of ~4-5/s) when combined with DSP clarity enhancement on a real podcast at the target rate, and do gap insertions interact negatively with high-rate listening for the general-student (untrained) population versus trained power listeners?"
+    ],
+    "refuted": [
+      {
+        "claim": "Speech intelligibility depends on whether the input rhythm stays within the brain's theta-band frequency range (3-8 Hz); when input rate exceeds theta, intelligibility sharply decreases. This sets a neural ceiling on raw fast-speech comprehension that time-compression alone cannot overcome.",
+        "vote": "1-2",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6181647/"
+      },
+      {
+        "claim": "Hyperarticulated (clear) speech was rated easier to understand than non-hyperarticulated speech across all listeners and all listening conditions (quiet through +8 dB SNR noise), with a very large effect (F(1,45)=205.002, p<0.05, partial eta-squared=0.820).",
+        "vote": "1-2",
+        "source": "https://link.springer.com/article/10.1007/s00426-021-01595-2"
+      },
+      {
+        "claim": "Making artificially time-compressed speech imitate the non-linear timing pattern of natural fast speech (compressing unstressed syllables more than stressed ones — e.g. stressed to 65%, unstressed to 45%) SLOWS word processing rather than improving it; prior work found it actually hurt intelligibility relative to plain linear compression. So investing in prosody-mimicking 'rate-aware' generation that copies human fast-speech timing is likely wasted effort.",
+        "vote": "1-2",
+        "source": "https://www.sciencedirect.com/science/article/abs/pii/S0167639303001092"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1901.07239",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 4
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4048446/",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.isca-archive.org/interspeech_2007/maniwa07_interspeech.pdf",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1000302",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6181647/",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s00426-021-01595-2",
+        "quality": "primary",
+        "angle": "acoustic-science/clear-speech",
+        "claimCount": 4
+      },
+      {
+        "url": "https://github.com/orgs/espeak-ng/discussions/2338",
+        "quality": "blog",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 4
+      },
+      {
+        "url": "https://stuff.interfree.ca/2026/01/05/ai-tts-for-screenreaders.html",
+        "quality": "blog",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://bmcneurosci.biomedcentral.com/articles/10.1186/1471-2202-14-74",
+        "quality": "primary",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+        "quality": "primary",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC3955012",
+        "quality": "primary",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://rdouglasfields.com/2010/12/14/extraordinary-ability-of-blind-people-to-hear-ultrafast-speech/",
+        "quality": "blog",
+        "angle": "formant-synth-vs-neural/blind-power-users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6377055/",
+        "quality": "primary",
+        "angle": "rate-aware-TTS/fine-tune-vs-timestretch",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167639303001092",
+        "quality": "primary",
+        "angle": "rate-aware-TTS/fine-tune-vs-timestretch",
+        "claimCount": 5
+      },
+      {
+        "url": "https://arxiv.org/pdf/2008.05809",
+        "quality": "primary",
+        "angle": "rate-aware-TTS/fine-tune-vs-timestretch",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/research/blog/fastspeech-new-text-to-speech-model-improves-on-speed-accuracy-and-controllability/",
+        "quality": "primary",
+        "angle": "rate-aware-TTS/fine-tune-vs-timestretch",
+        "claimCount": 5
+      },
+      {
+        "url": "https://arxiv.org/html/2601.12966",
+        "quality": "primary",
+        "angle": "rate-aware-TTS/fine-tune-vs-timestretch",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pubs.aip.org/asa/jasa/article-abstract/135/3/1541/693975/Intelligibility-of-time-compressed-speech-The",
+        "quality": "primary",
+        "angle": "DSP-intelligibility-enhancement",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.0913625107",
+        "quality": "primary",
+        "angle": "DSP-intelligibility-enhancement",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.isca-archive.org/interspeech_2012/zorila12_interspeech.html",
+        "quality": "primary",
+        "angle": "DSP-intelligibility-enhancement",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.researchgate.net/publication/319185535_Real-Time_Modulation_Enhancement_of_Temporal_Envelopes_for_Increasing_Speech_Intelligibility",
+        "quality": "primary",
+        "angle": "DSP-intelligibility-enhancement",
+        "claimCount": 5
+      },
+      {
+        "url": "https://engineering.jhu.edu/lcap/data/uploads/pdfs/speechcomm2003_ehilali.pdf",
+        "quality": "primary",
+        "angle": "engines-config + measurement",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167639315000977",
+        "quality": "primary",
+        "angle": "engines-config + measurement",
+        "claimCount": 5
+      },
+      {
+        "url": "https://vuink.com/post/fghss-d-dvagreserr-d-dpn/2026/01/05/ai-tts-for-screenreaders-d-dhtml",
+        "quality": "blog",
+        "angle": "engines-config + measurement",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.isca-archive.org/interspeech_2025/lechler25_interspeech.pdf",
+        "quality": "primary",
+        "angle": "engines-config + measurement",
+        "claimCount": 5
+      }
+    ],
+    "stats": {
+      "angles": 5,
+      "sourcesFetched": 25,
+      "claimsExtracted": 119,
+      "claimsVerified": 25,
+      "confirmed": 22,
+      "killed": 3,
+      "afterSynthesis": 9,
+      "urlDupes": 0,
+      "budgetDropped": 5,
+      "agentCalls": 107
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "summary": "Deep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+  "agentCount": 104,
+  "logs": [
+    "Q: Best algorithms/techniques to make audio the most comprehensible (e.g. time-scal…",
+    "Decomposed into 5 angles: time-scale modification algorithms, perceptual limits of accelerated speech, training and adaptation in blind listeners, intelligibility enhancement and silence compression, implementation libraries and tools",
+    "perceptual limits of accelerated speech: 6 results",
+    "intelligibility enhancement and silence compression: 6 results",
+    "training and adaptation in blind listeners: 6 results",
+    "training and adaptation in blind listeners: 4 novel (2 filtered)",
+    "time-scale modification algorithms: 6 results",
+    "time-scale modification algorithms: 3 novel (3 filtered)",
+    "implementation libraries and tools: 6 results",
+    "implementation libraries and tools: 3 novel (3 filtered)",
+    "Fetched 22 sources → 98 claims → verifying top 25",
+    "\"Time-scale modification (TSM) is the task of chang…\": 3-0 ✓",
+    "\"Classical TSM methods WSOLA and the phase vocoder …\": 3-0 ✓",
+    "\"WSOLA improves comprehensibility over plain OLA by…\": 3-0 ✓",
+    "\"Trained blind/vision-impaired individuals can lear…\": 2-1 ✓",
+    "\"Months of daily training (via a text-to-speech scr…\": 3-0 ✓",
+    "\"The upper comprehension limit for normal sighted l…\": 1-2 ✗",
+    "\"Time-compressed speech (compressed by the sampling…\": 3-0 ✓",
+    "\"The intelligibility threshold for time-compressed …\": 1-2 ✗",
+    "\"Reduced comprehension of time-compressed speech is…\": 0-3 ✗",
+    "\"Listeners can identify accelerated speech with nea…\": 0-3 ✗",
+    "\"Words that are individually intelligible become le…\": 3-0 ✓",
+    "\"The study time-compressed speech using the Pitch S…\": 3-0 ✓",
+    "\"Normal-hearing listeners can perceive time-compres…\": 3-0 ✓",
+    "\"Special populations can perceive speech at rates u…\": 3-0 ✓",
+    "\"Time compression of speech in this study was perfo…\": 3-0 ✓",
+    "\"Comprehension of time-compressed speech improves r…\": 3-0 ✓",
+    "\"Extended multiday training produces substantially …\": 3-0 ✓",
+    "\"The review establishes that comprehension of accel…\": 3-0 ✓",
+    "\"Trained late-blind individuals can comprehend ultr…\": 3-0 ✓",
+    "\"The paper reviews methods for generating time-comp…\": 3-0 ✓",
+    "\"The maximum comprehension rate for normal/untraine…\": 1-2 ✗",
+    "\"Some blind individuals can comprehend accelerated …\": 3-0 ✓",
+    "\"On ultra-fast speech at 16 syllables/second, sight…\": 3-0 ✓",
+    "\"Blind subjects can learn to comprehend accelerated…\": 3-0 ✓",
+    "\"The bottleneck for understanding time-compressed s…\": 3-0 ✓",
+    "Verify done: 25 claims → 20 confirmed, 5 killed",
+    "[stall] agent \"synthesize\" stalled (no progress) after 340s — retrying (1/5)"
+  ],
+  "result": {
+    "question": "Best algorithms/techniques to make audio the most comprehensible (e.g. time-scale modification like WSOLA/PSOLA, intelligibility enhancement, silence/pause compression, spectral and prosody processing), AND how \"speed listening\" works at playback speeds greater than 16x — the perceptual limits of accelerated speech comprehension, training/adaptation effects, and the signal-processing methods that make extreme speed-ups intelligible.",
+    "summary": "The foundational operation behind speed-listening is time-scale modification (TSM): changing playback speed without altering pitch. The two classical pitch-preserving algorithms are WSOLA (Waveform Similarity Overlap-Add) and the phase vocoder (PV-TSM); WSOLA improves comprehensibility over plain overlap-add by shifting analysis frames (up to plus or minus delta_max samples) to maximize cross-correlation and align periodic structures, while PSOLA (Pitch Synchronous Overlap-Add) is preferred when one wants to push the speech modulation spectrum to higher modulation frequencies while preserving spectral features. Sampling/TSM-based compression preserves intelligibility at substantially faster rates than naive (pitch-shifting) speed-up, but comprehension still degrades because individually-intelligible words become less intelligible inside the limited time constraints of a compressed message, and because a temporary phonological-storage buffer (not a hard acoustic speed wall) saturates. Regarding extreme speed-listening: the research question's premise of \"16x playback\" is not what the literature actually measures — researchers measure speech RATE in syllables/second, not playback multiplier. Normal-hearing/sighted listeners hit a perceptual ceiling around 11-16 syllables/second (comprehension begins declining near ~275 words/minute), whereas trained late-blind individuals can reach up to ~22 syllables/second (roughly 3x the ~8 syl/s sighted ceiling), an adaptation acquired through months of daily exposure that produces both a rapid initial phase and a slower, deeper, training-dependent phase of perceptual learning.",
+    "findings": [
+      {
+        "claim": "Speed-listening rests on time-scale modification (TSM): speeding up (or slowing down) audio playback WITHOUT changing pitch. This is the foundational, pitch-preserving operation that distinguishes intelligible speed-up from naive resampling (which raises pitch).",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://www.audiolabs-erlangen.de/content/05_fau/professor/00_mueller/06_projects/90_siamus/2016_DriedgerMueller_TSMOverview_AppliedSciences_ePrint.pdf"
+        ],
+        "evidence": "Driedger & Muller (peer-reviewed review, Applied Sciences 2016, Int. Audio Laboratories Erlangen): 'Time-scale modification (TSM) is the task of speeding up or slowing down an audio signal's playback speed without changing its pitch.' Corroborated by Stanford CCRMA (J.O. Smith). Multiple sources confirm podcast/audiobook 1.5x-2x speed-up IS TSM, implemented via WSOLA/PSOLA. [merged from claim 0]"
+      },
+      {
+        "claim": "WSOLA and the phase vocoder (PV-TSM) preserve perceptual quality of harmonic signals well but introduce audible artifacts on percussive/transient material; no single TSM method handles all signal types, so combining approaches (e.g. harmonic-percussive separation) reduces artifacts. For speech (predominantly harmonic), WSOLA gives very high-quality results.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://www.audiolabs-erlangen.de/content/05_fau/professor/00_mueller/06_projects/90_siamus/2016_DriedgerMueller_TSMOverview_AppliedSciences_ePrint.pdf",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467231/"
+        ],
+        "evidence": "Driedger & Muller (Appl. Sci. 2016) verbatim: WSOLA/PV-TSM 'preserv[e] the perceptual quality of harmonic signals to a high degree, but introduce noticeable artifacts when modifying percussive signals... it is possible to substantially reduce artifacts by combining different TSM approaches'; abstract: 'there is no single TSM method that can cope with all kinds of audio signals equally well.' Banai & Lavner (PMC3467231) independently used WSOLA because it 'achieve[s] very high quality time-scale modification of speech signals' and 'maintains acoustic properties like pitch and timbre unchanged.' [merged from claims 1, 10]"
+      },
+      {
+        "claim": "WSOLA's comprehensibility advantage over plain OLA comes from allowing small shifts (up to plus/minus delta_max samples) of analysis-frame positions, choosing the shift that maximizes cross-correlation so periodic (harmonic) structures align across overlapping regions, reducing phase-jump artifacts.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://www.audiolabs-erlangen.de/content/05_fau/professor/00_mueller/06_projects/90_siamus/2016_DriedgerMueller_TSMOverview_AppliedSciences_ePrint.pdf"
+        ],
+        "evidence": "Driedger & Muller Section 4 (verbatim): 'This method's core idea is to allow for slight shifts (of up to +/-delta_max in Z samples) of the analysis frames' positions... compute the optimal shift index that maximizes the cross-correlation... such that periodic structures... are optimally aligned... in the overlapping region.' Original WSOLA paper (Verhelst & Roelands, IEEE 1993) corroborates the waveform-similarity / cross-correlation mechanism. [merged from claim 2]"
+      },
+      {
+        "claim": "PSOLA (Pitch Synchronous Overlap-Add) is the alternative TSM choice for uniform time-compression because, as the compression ratio increases, it shifts the speech modulation spectrum toward higher modulation frequencies while preserving the modulation-spectrum shape and spectral features (pitch contour).",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085996/"
+        ],
+        "evidence": "Gransier, van Wieringen & Wouters (J. Assoc. Res. Otolaryngol. 2022, PMC9085996): sentences 'uniformly time-compressed... with the Pitch Synchronous Overlap and Add algorithm (PSOLA)' chosen because it 'shifts the modulation spectrum with increasing compression ratio to higher modulation frequencies... but at the same time preserves the shape of modulation spectrum and the spectral features.' [from claim 8]"
+      },
+      {
+        "claim": "Sampling/TSM-based time-compression preserves intelligibility at significantly faster rates than naive speeded (pitch-raising) speed-up: pitch-preserving compression yields a higher speech-rate intelligibility threshold. This is the core empirical justification for using TSM rather than plain fast playback.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://link.springer.com/article/10.3758/bf03199702"
+        ],
+        "evidence": "de Haan (1977), Perception & Psychophysics 22:366-372: 'Thresholds for compressed speech were significantly higher than those for speeded speech, an indication that the threshold at the very least reflects intelligibility.' A higher threshold = intelligible at faster rate. Sampling method (periodic segment removal, pitch-preserving) outperforms simple speeded (pitch-raising) playback. Foundational (1977) but consistent with current TSM-over-resampling consensus. [from claim 5]"
+      },
+      {
+        "claim": "Comprehension degrades under compression in part because words that are individually intelligible become LESS intelligible when packed inside the limited time constraints of a fast message — a processing-time bottleneck. The literature distinguishes word INTELLIGIBILITY from discourse COMPREHENSION, which compression affects differently.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://link.springer.com/article/10.3758/BF03208200",
+          "https://www.academia.edu/115224083/Review_of_research_on_the_intelligibility_and_comprehension_of_accelerated_speech"
+        ],
+        "evidence": "Heiman et al. (1986), Perception & Psychophysics 40(6):407-411: 'individually compressed words are less intelligible when presented within the limited time constraints of a compressed message.' Foulke & Sticht (1969 review, Psychol. Bull. 72:50-62) established the intelligibility-vs-comprehension distinction, reviewing methods to generate time-compressed speech and assess effects on word intelligibility vs connected-discourse comprehension. [merged from claims 6, 14]"
+      },
+      {
+        "claim": "The bottleneck for time-compressed speech in normal/sighted listeners is limited temporary phonological storage capacity (buffer saturation), NOT a hard acoustic speed constraint, and is linked to left frontal structures (inferior frontal gyrus, anterior insula, precentral cortex, SMA/pre-SMA). Inserting silent intervals to let the buffer drain restores intelligibility.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3745084/"
+        ],
+        "evidence": "Hertrich, Dietrich & Ackermann (Frontiers in Psychology 2013, PMC3745084): the 'bottleneck in sighted subjects... arises from limited temporary storage capacities for phonological materials rather than speed constraints,' attributed to left IFG, anterior insula, precentral cortex, SMA/pre-SMA. Underlying primary source Vagharchakian et al. (2012, J. Neurosci. 32:9089) shows a time-invariant left language network and that intelligibility vanishes when buffer storage/retrieval saturates; silent gaps restore it. Caveat: Vagharchakian frames it as a dual mechanism (fixed internal processing speed forces buffering; buffer capacity determines failure). [from claim 19]"
+      },
+      {
+        "claim": "There is a perceptual ceiling for accelerated-speech comprehension in normal-hearing/sighted (untrained) listeners at roughly 11-16 syllables/second; relatedly, comprehension of accelerated speech begins to decline more steeply around ~275 words/minute, a threshold tied (by modern theory) to phonological-loop processing capacity.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085996/",
+          "https://www.nature.com/articles/s41598-023-29755-x",
+          "https://www.academia.edu/115224083/Review_of_research_on_the_intelligibility_and_comprehension_of_accelerated_speech"
+        ],
+        "evidence": "Gransier et al. 2022 (PMC9085996): 'The ability to perceive time-compressed speech in normal-hearing listeners has been reported to be approximately 11 to 16 syllables per second.' Nature Sci. Reports (s41598-023-29755-x): upper limit '11 to 16 syllables per second.' Foulke & Sticht (1969) via 2024 Educ. Psychol. Rev. review: comprehension declines at ~275 wpm, 'speeds that surpass what the phonological loop... can handle.' Caveat: phonological-loop framing is a modern (post-1974 Baddeley) overlay on the 1969 finding. [merged from claims 7, 13]"
+      },
+      {
+        "claim": "Trained late-blind/vision-impaired individuals can comprehend ultra-fast (TTS/screen-reader and time-compressed) speech at rates up to ~22 syllables/second — roughly 3x the ~8 syl/s ceiling of sighted listeners and far above the ~4-8 (often cited ~6) syl/s normal speaking rate. This demonstrates the perceptual limit is plastic, not fixed, and shifts with exposure/training.",
+        "confidence": "high",
+        "vote": "3-0 (one constituent claim 3-3-... was 2-1)",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+          "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3847124/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3745084/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085996/"
+        ],
+        "evidence": "Multiple peer-reviewed neuroscience papers from the Dietrich/Hertrich/Ackermann group converge: blind people 'understand spoken language at speaking rates of up to 22 syllables per second' vs untrained ~8 syl/s (PMC3847124, PMC3805979, Frontiers 2013). Original empirical figure: Moos & Trouvain (2007). At 16 syl/s, sighted accuracy 'consistently fell below 16%' (mean 9.0%) while blind averaged 59.7% (range 0-93%) (PMC3847124). Gransier 2022 notes 'special populations perceive speech at rates up to 22 syllables per second... neural processing... can be altered by exposure and training.' 22/8 = ~2.75x ('roughly 3x'). Caveat: 22 syl/s is the trained upper bound; most experiments tested at 16 syl/s. NOTE: the research question's '16x playback' is a category error — literature measures syllables/second, not playback multiplier. [merged from claims 3, 9, 15, 16, 17, 18]"
+      },
+      {
+        "claim": "Adaptation to accelerated speech is real and trainable, with a two-phase structure: a rapid initial adaptation (10-20 sentences improves identification but leaves performance well below ceiling, ~40-85% correct) followed by a slower, deeper, training-dependent phase. Months of daily exposure (e.g. via a TTS screen reader) produce large, lasting gains — four of six trained blind participants reached ~70% word comprehension at 18 syl/s.",
+        "confidence": "high",
+        "vote": "3-0",
+        "sources": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467231/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/"
+        ],
+        "evidence": "Banai & Lavner (2012, PLoS ONE, PMC3467231, 'Perceptual Learning of Time-Compressed Speech: More than Rapid Adaptation'): 'Brief adaptation (10-20 sentences) significantly improved identification, but left performance well below perfect (40-85% correct)'; 'Multiday training... results in significantly more perceptual learning than brief adaptation,' progressing from a rapid phase to a 'prolonged and more stimulus specific phase' (trained d=1.37 vs control d=0.56). Dietrich et al. (2013, Frontiers Hum. Neurosci., PMC3805979): ~6 months >=1hr/day JAWS+Eloquence TTS training; 'Four of six participants showed... considerable enhancement of ultra-fast speech perception (about 70% points correctly repeated words)' at 18 syl/s (from <14% pre-training). [merged from claims 4, 11, 12]"
+      }
+    ],
+    "caveats": "PREMISE MISMATCH (most important): The research question asks about playback speeds 'greater than 16x' and 'extreme speed-ups.' The peer-reviewed literature does NOT operate in playback-multiplier units — it measures speech RATE in syllables/second (or words/minute). 16 syllables/second is roughly 2-3x a normal speaking rate (~6-8 syl/s), NOT 16x. There is no credible scientific evidence for intelligible speech comprehension at anything like 16x normal playback; the documented human ceiling is ~22 syl/s (about 3x normal) and only for highly trained blind listeners. Claims of '16x speed listening' in the consumer/forum sphere conflate playback multiplier with rate and were not substantiated by any verified primary source. TIME-SENSITIVITY: TSM signal-processing fundamentals (WSOLA 1993, PSOLA, phase vocoder) and the human-perception/psychophysics findings (1969-2022) are in mature, stable fields; the 1969/1977/1986 foundational papers remain uncontested, so age is not disqualifying. Modern neural/DSP work (2012-2023) updates but does not overturn them. SOURCE STRENGTH: All findings rest on peer-reviewed primary sources (MDPI Applied Sciences review, Springer Perception & Psychophysics, Frontiers, BMC/J. Neurosci., PLoS ONE, J. Assoc. Res. Otolaryngol., Nature Sci. Reports); no marketing/forum/blog sources were used in confirmed claims. POPULATION SCOPE: The most extreme rates (~22 syl/s) are specific to trained late-blind individuals and recruit visual cortex/fusiform/pulvinar via cross-modal plasticity — they do not generalize to the sighted general population. Five claims were refuted in adversarial review (mostly over-precise restatements of the 8 syl/s 'ceiling' and threshold figures), so single-figure 'ceilings' should be read as approximate ranges, not hard constants.",
+    "openQuestions": [
+      "What modern intelligibility-enhancement and prosody/spectral-processing techniques (beyond classical WSOLA/PSOLA TSM) — e.g. dynamic silence/pause compression, adaptive per-phoneme compression, formant/clarity enhancement, or neural-network-based TSM — most improve comprehension at high speed-up factors? The verified corpus covered TSM algorithms and human perceptual limits but did not surface evidence on these specific enhancement methods named in the question.",
+      "Does inserting periodic silent gaps to let the phonological buffer drain (shown to restore intelligibility for sighted listeners at high compression) translate into a deployable consumer 'speed-listening' technique, and what gap timing/ratio is optimal?",
+      "Can the months-long training-driven adaptation observed in blind listeners be replicated in sighted users with deliberate practice, and how far above the ~11-16 syl/s sighted ceiling can a motivated trained sighted listener realistically reach?",
+      "How do non-uniform (content-aware / variable-rate) compression algorithms compare to uniform PSOLA/WSOLA for comprehension at extreme rates, given PSOLA was specifically chosen in one study for its UNIFORM modulation-spectrum behavior?"
+    ],
+    "refuted": [
+      {
+        "claim": "The upper comprehension limit for normal sighted listeners is about 8 syllables per second, far below the ~22 syl/s achieved by trained blind listeners, establishing a perceptual ceiling for untrained accelerated-speech comprehension.",
+        "vote": "1-2",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/"
+      },
+      {
+        "claim": "The intelligibility threshold for time-compressed speech in normal-hearing listeners is approximately 11 to 16 syllables per second, setting a perceptual upper bound for accelerated speech comprehension.",
+        "vote": "1-2",
+        "source": "https://link.springer.com/article/10.3758/bf03199702"
+      },
+      {
+        "claim": "Listeners can identify accelerated speech with near 100% accuracy when it is time-compressed from a normal rate of about 3-4 syllables per second up to roughly 8 syllables per second.",
+        "vote": "0-3",
+        "source": "https://link.springer.com/article/10.3758/bf03199702"
+      },
+      {
+        "claim": "Reduced comprehension of time-compressed speech is primarily caused by decreased intelligibility of individual words, not just by the faster delivery rate per se.",
+        "vote": "0-3",
+        "source": "https://link.springer.com/article/10.3758/BF03208200"
+      },
+      {
+        "claim": "The maximum comprehension rate for normal/untrained sighted listeners is around 8 syllables per second, establishing the perceptual ceiling for non-experts.",
+        "vote": "1-2",
+        "source": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.audiolabs-erlangen.de/content/05_fau/professor/00_mueller/06_projects/90_siamus/2016_DriedgerMueller_TSMOverview_AppliedSciences_ePrint.pdf",
+        "quality": "primary",
+        "angle": "time-scale modification algorithms",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.researchgate.net/publication/3320737_Time-Scale_Modification_of_Speech_Signals",
+        "quality": "unreliable",
+        "angle": "time-scale modification algorithms",
+        "claimCount": 0
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+        "quality": "primary",
+        "angle": "time-scale modification algorithms",
+        "claimCount": 5
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Time_compressed_speech",
+        "quality": "secondary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://link.springer.com/article/10.3758/bf03199702",
+        "quality": "primary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://link.springer.com/article/10.3758/BF03208200",
+        "quality": "primary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 4
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9085996/",
+        "quality": "primary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3467231/",
+        "quality": "primary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.academia.edu/115224083/Review_of_research_on_the_intelligibility_and_comprehension_of_accelerated_speech",
+        "quality": "primary",
+        "angle": "perceptual limits of accelerated speech",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full",
+        "quality": "primary",
+        "angle": "training and adaptation in blind listeners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3847124/",
+        "quality": "primary",
+        "angle": "training and adaptation in blind listeners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3745084/",
+        "quality": "primary",
+        "angle": "training and adaptation in blind listeners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://neurrone.com/posts/software-development-at-800-wpm/",
+        "quality": "blog",
+        "angle": "training and adaptation in blind listeners",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0885230818300676",
+        "quality": "primary",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.researchgate.net/publication/288412949_Speech-in-noise_intelligibility_improvement_based_on_spectral_shaping_and_dynamic_range_compression",
+        "quality": "primary",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 4
+      },
+      {
+        "url": "https://about.radiopublic.com/2019/03/11/introducing-trim-silence-save-seconds-by-intelligently-removing-pauses/",
+        "quality": "blog",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 3
+      },
+      {
+        "url": "https://support.pocketcasts.com/knowledge-base/playback-effects/",
+        "quality": "primary",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0885230818300378",
+        "quality": "primary",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.researchgate.net/publication/319185535_Real-Time_Modulation_Enhancement_of_Temporal_Envelopes_for_Increasing_Speech_Intelligibility",
+        "quality": "primary",
+        "angle": "intelligibility enhancement and silence compression",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/KAIST-MACLab/PyTSMod",
+        "quality": "primary",
+        "angle": "implementation libraries and tools",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/breakfastquay/rubberband",
+        "quality": "primary",
+        "angle": "implementation libraries and tools",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.surina.net/soundtouch/",
+        "quality": "primary",
+        "angle": "implementation libraries and tools",
+        "claimCount": 5
+      }
+    ],
+    "stats": {
+      "angles": 5,
+      "sourcesFetched": 22,
+      "claimsExtracted": 98,
+      "claimsVerified": 25,
+      "confirmed": 20,
+      "killed": 5,
+      "afterSynthesis": 10,
+      "urlDupes": 1,
+      "budgetDropped": 7,
+      "agentCalls": 104
+    }
+  }
+}

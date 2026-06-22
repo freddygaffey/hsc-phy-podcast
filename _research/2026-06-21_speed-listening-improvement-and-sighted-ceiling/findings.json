@@ -1,0 +1,331 @@
+{
+  "summary": "Deep research harness — fan-out web searches, fetch sources, adversarially verify claims, synthesize a cited report.",
+  "agentCount": 105,
+  "logs": [
+    "Q: General research on SPEED LISTENING for a SIGHTED person, focused on IMPROVEMENT…",
+    "Decomposed into 5 angles: academic — comprehension ceiling & sighted vs blind limits, training — protocols and adaptation gains, throughput tricks — pause trimming, variable-rate, buffer drain, tools — players beyond 3.5x and re-encoding, practitioner — speed-listening enthusiasts & screen-reader power users",
+    "throughput tricks — pause trimming, variable-rate, buffer drain: 6 results",
+    "practitioner — speed-listening enthusiasts & screen-reader power users: 6 results",
+    "training — protocols and adaptation gains: 6 results",
+    "training — protocols and adaptation gains: 4 novel (2 filtered)",
+    "academic — comprehension ceiling & sighted vs blind limits: 6 results",
+    "academic — comprehension ceiling & sighted vs blind limits: 3 novel (3 filtered)",
+    "tools — players beyond 3.5x and re-encoding: 6 results",
+    "tools — players beyond 3.5x and re-encoding: 4 novel (2 filtered)",
+    "Fetched 23 sources → 99 claims → verifying top 25",
+    "\"Trained late-blind listeners can comprehend accele…\": 3-0 ✓",
+    "\"The single normal-sighted control subject in the s…\": 0-3 ✗",
+    "\"Sighted listeners without synthesis training compr…\": 1-2 ✗",
+    "\"Trained late-blind/daily-synthesis-user listeners …\": 3-0 ✓",
+    "\"Speech time-compressed by 3x (syllable rhythm 3x f…\": 3-0 ✓",
+    "\"The blind listeners' extreme advantage existed onl…\": 2-1 ✓",
+    "\"Inserting silence into 3x-compressed speech yields…\": 3-0 ✓",
+    "\"Periodic (regularly-timed) insertion of silent gap…\": 3-0 ✓",
+    "\"Measurable perceptual-learning gains for time-comp…\": 3-0 ✓",
+    "\"Perceptual learning of time-compressed speech prog…\": 3-0 ✓",
+    "\"Training on time-compressed speech that begins wit…\": 3-0 ✓",
+    "\"A structured training protocol of 5 sessions over …\": 2-1 ✓",
+    "\"Brief exposure to time-compressed speech (just 20 …\": 2-1 ✓",
+    "\"Generalization of speed-listening skill to NEW, un…\": 1-2 ✗",
+    "\"Trained late-blind individuals can comprehend acce…\": 3-0 ✓",
+    "\"The documented upper limit of comprehension for no…\": 0-3 ✗",
+    "\"After approximately 6 months of training, four of …\": 2-1 ✓",
+    "\"The optimal gap-insertion scheme placed silence on…\": 2-1 ✓",
+    "\"Inserting silent pauses at clause and sentence bou…\": 3-0 ✓",
+    "\"The deficit from fast speech is attributed to loss…\": 3-0 ✓",
+    "\"Normal-hearing young adults' intelligibility colla…\": 3-0 ✓",
+    "\"Inserting 100ms silences between syllables of time…\": 1-2 ✗",
+    "\"The extension's default maximum playback ceiling i…\": 3-0 ✓",
+    "\"The speech-speed Chrome extension implements conte…\": 3-0 ✓",
+    "\"Increased cortical tracking from inserted pauses d…\": 3-0 ✓",
+    "Verify done: 25 claims → 20 confirmed, 5 killed"
+  ],
+  "result": {
+    "question": "General research on SPEED LISTENING for a SIGHTED person, focused on IMPROVEMENT methods and realistic limits. Address all five: (1) Best evidence-based TRAINING methods/protocols for a sighted person to increase speed-listening comprehension — progressive ramp/overload schedules, daily practice duration, adaptation techniques, plateau-breaking, and how long measurable gains take. (2) How fast can a SIGHTED (non-blind) person realistically get with dedicated training — is there ANY documented evidence of sighted listeners reaching the 16-22 syllables/second range that trained late-blind listeners achieve, and what is the practical sighted ceiling in syllables/second AND words/minute? (3) Techniques to increase information THROUGHPUT WITHOUT raising syllable rate — silence/pause trimming, content-aware/variable-rate compression, optimal chunking, and inserting silent gaps to drain the phonological-storage buffer (and optimal gap timing/ratio). (4) Tools/apps/players that exceed Audible's 3.5x cap (e.g. custom players, Rubber Band/SoundTouch re-encoding, screen-reader TTS) and support these techniques. (5) Practical community/practitioner knowledge from speed-listening enthusiasts and blind/screen-reader power users. CONTEXT: the user comprehends Audible at 3.5x sustained over 4 months (Audible '1x' is slow narration ~150 wpm, so 3.5x ≈ ~13 syllables/second). They want the equivalent of '10x' ideally, '7x' acceptable. IMPORTANT: translate these 'x' multipliers into syllables/second and words/minute against BOTH the slow-narration baseline AND a normal conversational baseline, and assess honestly whether 7x and 10x are physically achievable given documented human comprehension ceilings (~22 syll/sec trained blind, ~11-16 syll/sec untrained sighted). Avoid re-deriving basic TSM/WSOLA/PSOLA algorithm internals (already covered in prior research) — focus on training, the sighted ceiling, throughput tricks, tools, and practitioner methods.",
+    "summary": "No — 7x and especially 10x are not physically achievable as raw syllable-rate increases for any human, sighted or blind. The user's current 3.5x of slow Audible narration (~150 wpm) is already ~13 syllables/second, sitting at the very top of the documented untrained-sighted comprehension band (~9-16 syll/sec, with intelligibility collapsing from ~100% at 6.6 sps to ~42% at 15.6 sps). The documented human ceiling is ~22 syll/sec, achieved ONLY by trained late-blind listeners using hyper-articulated formant-synthesized TTS (not compressed natural audiobook narration), and even that took ~6 months of daily training plus visual-cortex plasticity — and this advantage largely vanishes for natural compressed speech. A literal \"7x\" of the slow baseline would be ~26 syll/sec and \"10x\" ~37 syll/sec, both far beyond any documented human comprehension. The realistic path to higher effective throughput is NOT a higher multiplier but (a) sustained multi-session perceptual-learning training with a progressive easy-to-hard ramp to push from ~13 toward the ~15-18 syll/sec edge, and (b) throughput tricks that raise information density without raising syllable rate — chiefly trimming silence and inserting strategic silent gaps at clause/sentence boundaries (\"time-restoration\"), which restored normal-hearing recall to ~95% of normal-rate baseline even while words stayed time-compressed.",
+    "findings": [
+      {
+        "claim": "7x and 10x are NOT physically achievable as raw syllable-rate multipliers. The user's 3.5x (~13 syll/sec) already sits at the top of the untrained-sighted band; the absolute human ceiling (~22 syll/sec, trained blind) corresponds to only ~6x of the slow Audible baseline and is unattainable by sighted listeners with compressed natural speech.",
+        "confidence": "high",
+        "vote": "merged 3 unanimous claims (0,1,16) + supporting refutations",
+        "evidence": "Trained late-blind listeners reach up to ~22 syll/sec vs a normal sighted upper limit of ~8 syll/sec (Dietrich/Hertrich/Ackermann 2013, citing Moos & Trouvain 2007). Untrained normal-hearing adults' intelligibility collapses from 99.8% at 6.6 sps to 41.9% at 15.6 sps (PMC9938863, 2023). Translating the user's multipliers against the slow ~150 wpm / ~3.7 syll-sec-equivalent baseline: 3.5x ~= 13 syll/sec (already top of the 9-16 untrained band); 7x ~= ~26 syll/sec; 10x ~= ~37 syll/sec. Even the absolute documented ceiling of 22 syll/sec is only ~6x of the slow baseline, so 7x exceeds ALL documented human comprehension and 10x is far beyond it. The 22 syll/sec feat is also blind+synthetic-TTS-specific, not available for compressed audiobook narration. NOTE: two claims that pushed the strongest 'physically impossible' framing were split-voted (1-2) on technicalities of derivation, but the unanimous claims independently establish the same ceiling.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+          "https://www.semanticscholar.org/paper/COMPREHENSION-OF-ULTRA-FAST-SPEECH-BLIND-VS.-Moos-Trouvain/d403dd5301eaff3c66d6ed3f015de47aee66e02f",
+          "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9938863/"
+        ]
+      },
+      {
+        "claim": "The documented ~16-22 syll/sec ceiling is achieved ONLY by trained late-blind listeners using hyper-articulated formant-synthesized TTS, NOT compressed natural audiobook narration; the blind advantage largely collapses for natural compressed speech, where sighted listeners perform comparably or even better. This directly bears on tool choice: screen-reader/formant TTS, not re-encoded Audible audio, is the medium where the highest rates are even theoretically reachable.",
+        "confidence": "high",
+        "vote": "merged claims 1,2,11 (2 unanimous + 1 split 2-1)",
+        "evidence": "Moos & Trouvain (2007): 'the extra-ordinary listening skills found for formant synthetic speech is not found for natural speech in very fast modes.' The 2013 Frontiers training study used exclusively formant-synthesized JAWS 'Eloquence' TTS and reached only ~70% comprehension at 18 syll/sec. A 2018 Journal of Speech Sciences study on time-compressed NATURAL utterances (9-19 syll/sec) found sighted subjects scored BETTER on intelligibility and blind only slightly better on acceptability. One exceptional blind individual understood ultra-fast natural speech at 16 syll/sec, so transfer is not strictly zero for elite individuals, but the rule holds. Practical implication: the user's re-encoded Audible audio is natural speech, the medium where the blind/sighted gap nearly vanishes and the absolute ceiling is lower than the synthetic-TTS 22 syll/sec figure.",
+        "sources": [
+          "https://www.semanticscholar.org/paper/COMPREHENSION-OF-ULTRA-FAST-SPEECH-BLIND-VS.-Moos-Trouvain/d403dd5301eaff3c66d6ed3f015de47aee66e02f",
+          "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full"
+        ]
+      },
+      {
+        "claim": "Best evidence-based training method: use a PROGRESSIVE easy-to-hard ramp (adaptive-incremental staircase), never severe compression from the start. A progressive ramp reached 91% word accuracy at 30% compression where a constant-high group reached only 76%; the constant-high (start-hard) group performed worst of all trained groups.",
+        "confidence": "high",
+        "vote": "claim 6, unanimous 3-0",
+        "evidence": "Gabay/Karni/Banai (PLoS One 2017, PMC5436740), 65 normal-hearing sighted adults: 'Training procedures that started off with relatively little signal distortion were advantageous compared to severe distortions presented from the very beginning'; adaptive-incremental M=.91 vs constant-high M=.76 at the matched 30%-compression block. This is a concrete overload-scheduling recommendation directly relevant to a sighted listener: ramp difficulty gradually rather than jumping to maximum speed.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5436740/"
+        ]
+      },
+      {
+        "claim": "Concrete evidence-based training schedule and timeline: measurable gains appear within a single ~1-hour session (5 blocks of 60 trials = 300 items), but durable, transferable improvement requires multiple sessions. Learning proceeds in two phases — a rapid initial/general phase then a prolonged stimulus-specific phase — with most gain between sessions 1 and 2 and group-level asymptote after ~2 sessions. A documented protocol of 5 sessions over 10 days (300 sentences/session, two-down one-up adaptive staircase) produced a large effect (Cohen's d=1.37).",
+        "confidence": "high",
+        "vote": "merged claims 7,8,9 (2 unanimous + 1 split 2-1)",
+        "evidence": "PMC5436740: '~one hour... 5 blocks of 60 trials,' trained > minimally-exposed controls. PMC3467231 (Banai & Lavner 2012): two-phase learning, 'thresholds improved significantly between the first two training sessions... learning asymptotes after two training sessions,' 5 sessions/10 days/300 sentences, two-down one-up staircase from 65% compression, d=1.37 for trained pre/post. Caveat: d=1.37 is the pre/post trained-condition difference (within-training first-vs-last was d=0.56), and the measure was sentence-verification threshold, not wpm/recall. Practical ramp: short daily adaptive-staircase sessions, expect a fast initial bump then slower grind, plan for multiple sessions to consolidate.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5436740/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3467231/"
+        ]
+      },
+      {
+        "claim": "Rapid gains from brief practice are stimulus-specific and do NOT generalize; only sustained multi-session training transfers to new, untrained material. This explains why genuine speed-listening improvement is a months-long arc rather than an instant skill, and matches the user's reported 4-month adaptation.",
+        "confidence": "high",
+        "vote": "claim 10 (2-1) + claim 8 (3-0); merged",
+        "evidence": "Banai & Lavner (JASA 2014, PMID 25324090): brief exposure (20 sentences) and single-session groups improved on TRAINED material, but 'only the group that was trained for three sessions outperformed the other groups when tested with untrained tokens.' Replicated by PMC3467231: 'Learning from brief exposure was specific and did not generalize.' Note: a standalone claim that '3 sessions are strictly required for any transfer' was REFUTED (1-2) as over-precise, but the directional finding (transfer needs sustained multi-session training) is well-supported.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/25324090/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3467231/"
+        ]
+      },
+      {
+        "claim": "Documented training outcome / realistic gain magnitude: after ~6 months of daily training, four of six participants improved from <14% to ~70% comprehension at 18 syll/sec. Critically, one of the four improvers was the study's NORMAL-SIGHTED control subject (reaching ~67% at 18 syll/sec), providing the single documented data point of a sighted listener trained toward the ultra-fast range.",
+        "confidence": "high",
+        "vote": "claim 12, split 2-1 (numbers verified; participant label corrected)",
+        "evidence": "Dietrich/Hertrich/Ackermann (Front. Hum. Neurosci. 2013, PMC3805979): ~6 months, baseline <14%, 'four subjects showed an improved behavioral performance of up to ca. 70% points' at 18 syll/sec. IMPORTANT CORRECTION from verification: the study had five blind subjects + one sighted control (six total); subject 142 among the four improvers was the SIGHTED control (~67% at 18 syll/sec). So a sighted person reaching ~18 syll/sec with synthetic TTS is documented once — but it required ~6 months of intensive daily training and used formant-synthesized speech, not natural narration. The earlier-circulated claim that this sighted subject hit a hard ceiling and could not improve further was REFUTED (0-3).",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/"
+        ]
+      },
+      {
+        "claim": "Highest-leverage throughput trick that raises information without raising syllable rate: insert strategic silent pauses at clause and sentence boundaries ('time-restoration'). This restored normal-hearing young adults' recall to ~95% of normal-rate baseline (statistically indistinguishable, p=.874) even though words stayed at the fast compressed syllable rate, and reduced measured listening effort (pupil dilation).",
+        "confidence": "high",
+        "vote": "merged claims 13,14,15 (all 3-0)",
+        "evidence": "O'Leary et al., Trends in Hearing 2023 (DOI 10.1177/23312165231203514, PMC10637151): time-restoration 'raised recall accuracy... 95% of the way back to baseline... did not differ significantly (p=.874).' Mechanism is cognitive (resource-limited), not perceptual: fast speech 'deprive[s] the listener of ordinarily available processing time'; pupillometry showed reduced effort with restoration. Optimal scheme: silence ONLY at linguistic boundaries (not uniform), sentence-boundary pauses = 2x clause-boundary pauses, total added silence calibrated so the restored passage matches the original uncompressed duration. Caveat: the ~95%/p=.874 figure is the clear-speech condition; benefit weakened under degraded (vocoded) audio. This is the single most actionable lever for the user: keep syllable rate high but reinsert boundary pauses to let comprehension 'catch up.'",
+        "sources": [
+          "https://journals.sagepub.com/doi/10.1177/23312165231203514"
+        ]
+      },
+      {
+        "claim": "Second throughput mechanism (theta-band 'repackaging'): heavily time-compressed speech (3x) drops below 50% words-correct, but inserting periodic ~80 ms silent gaps restores intelligibility, following a U-shaped error curve. Periodic insertion beats aperiodic; the optimum re-establishes a ~9 Hz (high-theta) syllabic packaging rate that drains/re-syncs the perceptual buffer.",
+        "confidence": "high",
+        "vote": "merged claims 3,4,5 (all 3-0)",
+        "evidence": "Ghitza & Greenberg (Phonetica 2009, PMID 19390234): 3x compression <50% words correct; 'lowest word error rate occurred when the silence was 80 ms long and inserted periodically'; U-shaped curve, intelligibility restored for gaps 20-120 ms; aperiodic insertion raised error. Caveat: the exact 80 ms optimum is specific to the TTS + 40-ms-fragment paradigm (Ghitza 2014 got 96% at 3x with natural syllabic segmentation), so it is not a universal 'insert 80 ms anywhere' recipe — but the gap-insertion/repackaging mechanism (restore a ~theta-band packaging rate) is robust. A specific claim about 100 ms inter-syllable gaps helping across all spectral conditions was REFUTED (1-2).",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/19390234/"
+        ]
+      },
+      {
+        "claim": "Caution on the buffer-drain/pause mechanism: increased neural (cortical envelope) tracking from inserted pauses does NOT by itself prove improved comprehension, and aggressive pause insertion can REDUCE intelligibility. The behavioral benefit (the time-restoration recall result above) is the reliable evidence, not neural-tracking metrics.",
+        "confidence": "high",
+        "vote": "claim 19, unanimous 3-0",
+        "evidence": "Deoisres et al. (PLOS ONE 2023, DOI 10.1371/journal.pone.0289288): 'Whether the increased cortical response... reflect improved intelligibility requires further investigation'; aggressive insertion (166 ms every 333 ms) reduced intelligibility. Implication: pause-insertion helps via giving cognitive catch-up time at the RIGHT (boundary) locations and durations, but over-fragmenting hurts — tune conservatively.",
+        "sources": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289288"
+        ]
+      },
+      {
+        "claim": "Content-aware variable-rate playback (normalizing all speech to a constant target syllable rate) is a real, deployed technique but is NOT a high-multiplier solution. The 'speech-speed' Chrome extension speeds slow speakers more and fast speakers less to hit a default 9 syll/sec target, yet caps at 3.5x default / 5x max — below the user's 7x-10x goals and only modestly above Audible's 3.5x.",
+        "confidence": "high",
+        "vote": "merged claims 17,18 (both 3-0)",
+        "evidence": "github.com/ywong137/speech-speed README: estimates speaker syllable rate via 2-10 Hz envelope modulation and normalizes to 'default 9 syl/s. Slow speakers get sped up more; fast speakers get sped up less'; 'Max speed (1.5-5x, default 3.5).' Confirms the right strategy (target a constant comfortable syllable rate rather than a blind multiplier — fast narrators don't need 3.5x, slow ones can take more) but also confirms no off-the-shelf consumer tool delivers 7x-10x because such rates exceed human comprehension regardless of player capability.",
+        "sources": [
+          "https://github.com/ywong137/speech-speed"
+        ]
+      }
+    ],
+    "caveats": "TOOLS COVERAGE IS THIN: the verified claim set robustly covers the science (sighted ceiling, training protocols, gap/pause throughput tricks) but the only concrete tool documented is the speech-speed Chrome extension (caps at 5x). The research did NOT surface verified evidence on custom players that exceed Audible's 3.5x via Rubber Band/SoundTouch re-encoding, on screen-reader TTS rates achievable in practice, or on community/practitioner (blind power-user, r/speedlistening) knowledge — claims 4 and 5 of the original brief are under-evidenced here and should be treated as open. BASELINE ARITHMETIC: 'x' translations depend on the assumed baseline. Audible '1x' ~150 wpm slow narration ~= ~3.5-3.9 syll/sec (English averages ~1.4 syll/word); normal conversation is ~4-6 syll/sec / ~180-220 wpm. So the user's 3.5x ~= ~13 syll/sec ~= ~525 wpm against the slow baseline but only ~2.5-3x of conversational rate — the '3.5x' headline overstates how far above normal human speech the user actually is. SYNTHETIC vs NATURAL: the headline 22 syll/sec ceiling is a formant-TTS, trained-blind result and does not transfer to compressed natural audiobooks; the realistic natural-speech sighted target is roughly 15-18 syll/sec at degraded comprehension. FIGURE VARIANCE: popular press (Scientific American) cites 25 vs 10 syll/sec; academic literature uses 22 vs 8 — same order of magnitude. EFFECT-SIZE FRAMING: the d=1.37 figure is a pre/post threshold difference, not a wpm or recall gain, and several training studies measured thresholds/verification rather than naturalistic comprehension. TIME-SENSITIVITY: the psychoacoustics is stable (2007-2023, replicated); the tool landscape is fast-moving (the extension is dated 2026) and should be re-checked.",
+    "openQuestions": [
+      "What custom players or re-encoding pipelines (Rubber Band, SoundTouch, ffmpeg atempo + silence-trimming, or screen-reader TTS like NVDA/JAWS/VoiceOver) actually let a sighted user combine >3.5x rate with automatic silence-trimming and boundary-pause re-insertion in one workflow? This was not verified.",
+      "Does the time-restoration / boundary-pause benefit (validated for one-shot narrative recall in normal-hearing adults) hold up over sustained multi-hour audiobook listening, and does it net positive on total throughput once the re-inserted silence is counted (it lengthens playback time even as it raises comprehension per word)?",
+      "Is there documented evidence of any SIGHTED listener exceeding ~18 syll/sec with NATURAL compressed speech (not synthetic TTS), and what comprehension level is sustainable there versus the ~70% the trained sighted control reached with synthetic TTS at 18 syll/sec?",
+      "What do experienced blind screen-reader power users and speed-listening enthusiasts report as practical sustainable rates and training tricks (e.g., switching to formant TTS, voice selection, gradual rate ramping in a screen reader) — the practitioner/community evidence layer was not captured in the verified claims?"
+    ],
+    "refuted": [
+      {
+        "claim": "The single normal-sighted control subject in the study reached a personal ceiling and reported that further training would not improve her ultra-fast speech perception, indicating a hard sighted limit well below the trained-blind range.",
+        "vote": "0-3",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/"
+      },
+      {
+        "claim": "Sighted listeners without synthesis training comprehended compressed speech only up to the 9-14 syllables/second range, with comprehension declining continuously across that range; this is the practical sighted ceiling and corresponds to the most extreme rates of human speech production. This maps directly to the user's question: 3.5x of ~150 wpm slow narration is ~13 syll/sec, sitting at the very top of the documented untrained-sighted band, so the requested '7x' (~26 syll/sec) and '10x' (~37 syll/sec) lie far beyond any documented human comprehension and are not physically achievable.",
+        "vote": "1-2",
+        "source": "https://www.semanticscholar.org/paper/COMPREHENSION-OF-ULTRA-FAST-SPEECH-BLIND-VS.-Moos-Trouvain/d403dd5301eaff3c66d6ed3f015de47aee66e02f"
+      },
+      {
+        "claim": "Generalization of speed-listening skill to NEW, untrained material requires multi-session (three sessions) training; a single session is insufficient to produce transferable gains, indicating a progressive/longer training protocol is needed for real-world improvement.",
+        "vote": "1-2",
+        "source": "https://pubmed.ncbi.nlm.nih.gov/25324090/"
+      },
+      {
+        "claim": "The documented upper limit of comprehension for normal-sighted listeners is approximately 8 syllables per second, far below blind listeners' ceiling.",
+        "vote": "0-3",
+        "source": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full"
+      },
+      {
+        "claim": "Inserting 100ms silences between syllables of time-compressed speech (repackaging) to restore the syllabic rate to ~6.1 sps significantly improves intelligibility across all spectral conditions tested — a throughput technique that raises comprehension without lowering the underlying syllable production rate.",
+        "vote": "1-2",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9938863/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3805979/",
+        "quality": "primary",
+        "angle": "academic — comprehension ceiling & sighted vs blind limits",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.semanticscholar.org/paper/COMPREHENSION-OF-ULTRA-FAST-SPEECH-BLIND-VS.-Moos-Trouvain/d403dd5301eaff3c66d6ed3f015de47aee66e02f",
+        "quality": "primary",
+        "angle": "academic — comprehension ceiling & sighted vs blind limits",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19390234/",
+        "quality": "primary",
+        "angle": "academic — comprehension ceiling & sighted vs blind limits",
+        "claimCount": 4
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5436740/",
+        "quality": "primary",
+        "angle": "training — protocols and adaptation gains",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3467231/",
+        "quality": "primary",
+        "angle": "training — protocols and adaptation gains",
+        "claimCount": 5
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25324090/",
+        "quality": "primary",
+        "angle": "training — protocols and adaptation gains",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2013.00701/full",
+        "quality": "primary",
+        "angle": "training — protocols and adaptation gains",
+        "claimCount": 5
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/10.1177/23312165231203514",
+        "quality": "primary",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9938863/",
+        "quality": "primary",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 4
+      },
+      {
+        "url": "https://marco.org/2014/07/16/overcast",
+        "quality": "blog",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 4
+      },
+      {
+        "url": "https://github.com/ywong137/speech-speed",
+        "quality": "primary",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 5
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Silence_compression",
+        "quality": "secondary",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 5
+      },
+      {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0289288",
+        "quality": "primary",
+        "angle": "throughput tricks — pause trimming, variable-rate, buffer drain",
+        "claimCount": 4
+      },
+      {
+        "url": "https://sourceforge.net/p/espeak/discussion/538922/thread/5209c95d/",
+        "quality": "forum",
+        "angle": "tools — players beyond 3.5x and re-encoding",
+        "claimCount": 5
+      },
+      {
+        "url": "https://github.com/waywardgeek/sonic",
+        "quality": "primary",
+        "angle": "tools — players beyond 3.5x and re-encoding",
+        "claimCount": 5
+      },
+      {
+        "url": "https://ffmpeg-cookbook.com/en/articles/change-video-speed/",
+        "quality": "blog",
+        "angle": "tools — players beyond 3.5x and re-encoding",
+        "claimCount": 4
+      },
+      {
+        "url": "https://superpowered.com/free-open-source-time-stretching-pitch-shifting",
+        "quality": "blog",
+        "angle": "tools — players beyond 3.5x and re-encoding",
+        "claimCount": 4
+      },
+      {
+        "url": "https://news.ycombinator.com/item?id=22923104",
+        "quality": "forum",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.scientificamerican.com/article/why-can-some-blind-people-process/",
+        "quality": "secondary",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://nvda.groups.io/g/nvda/topic/tips_for_speed_reading/23475120",
+        "quality": "unreliable",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 0
+      },
+      {
+        "url": "https://support.pocketcasts.com/knowledge-base/playback-effects/",
+        "quality": "primary",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 4
+      },
+      {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0028393218300897",
+        "quality": "primary",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 5
+      },
+      {
+        "url": "https://www.viwizard.com/audiobook-tips/change-playback-speed-of-audible-audiobooks.html",
+        "quality": "blog",
+        "angle": "practitioner — speed-listening enthusiasts & screen-reader power users",
+        "claimCount": 3
+      }
+    ],
+    "stats": {
+      "angles": 5,
+      "sourcesFetched": 23,
+      "claimsExtracted": 99,
+      "claimsVerified": 25,
+      "confirmed": 20,
+      "killed": 5,
+      "afterSynthesis": 10,
+      "urlDupes": 2,
+      "budgetDropped": 5,
+      "agentCalls": 105
+    }
+  }
+}
