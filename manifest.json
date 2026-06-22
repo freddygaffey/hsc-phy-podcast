@@ -62,6 +62,26 @@
               "name": "am_onyx",
               "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/am_onyx.m4a",
               "duration": 1583.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/am_santa.m4a",
+              "duration": 1727.2
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/bf_isabella.m4a",
+              "duration": 1719.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/bm_daniel.m4a",
+              "duration": 1551.3
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/bm_george.m4a",
+              "duration": 1825.7
             }
           ]
         },
@@ -72,7 +92,23 @@
           "scriptPath": "content/case_chadwick_discovery_of_neutron/script.md",
           "supplementaryPath": "content/case_chadwick_discovery_of_neutron/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/af_heart.m4a",
+              "duration": 1530.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/am_onyx.m4a",
+              "duration": 1339.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/am_santa.m4a",
+              "duration": 1464.6
+            }
+          ]
         },
         {
           "id": "case_chernobyl_physics_of_meltdown",
@@ -454,6 +490,15 @@
           "unit": 10,
           "scriptPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/script.md",
           "supplementaryPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-11-Photoelectric-Effect-Part-1",
+          "title": "Photoelectric Effect Part 1",
+          "unit": 11,
+          "scriptPath": "content/M7-11-Photoelectric-Effect-Part-1/script.md",
+          "supplementaryPath": "content/M7-11-Photoelectric-Effect-Part-1/supplementary.md",
           "quizPath": null,
           "voices": []
         },
