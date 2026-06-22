@@ -462,6 +462,26 @@
               "name": "am_onyx",
               "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/am_onyx.m4a",
               "duration": 1621.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/am_santa.m4a",
+              "duration": 1767.5
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/bf_isabella.m4a",
+              "duration": 1761.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/bm_daniel.m4a",
+              "duration": 1581.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/bm_george.m4a",
+              "duration": 1871.0
             }
           ]
         },
@@ -472,7 +492,38 @@
           "scriptPath": "content/case_nuclear_fission_manhattan_project/script.md",
           "supplementaryPath": "content/case_nuclear_fission_manhattan_project/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/af_heart.m4a",
+              "duration": 2105.4
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/am_onyx.m4a",
+              "duration": 1843.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/am_santa.m4a",
+              "duration": 2018.7
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/bf_isabella.m4a",
+              "duration": 2002.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/bm_daniel.m4a",
+              "duration": 1799.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/bm_george.m4a",
+              "duration": 2132.0
+            }
+          ]
         },
         {
           "id": "case_particle_accelerators_quarks",
@@ -481,7 +532,18 @@
           "scriptPath": "content/case_particle_accelerators_quarks/script.md",
           "supplementaryPath": "content/case_particle_accelerators_quarks/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/af_heart.m4a",
+              "duration": 2393.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/am_onyx.m4a",
+              "duration": 2105.9
+            }
+          ]
         },
         {
           "id": "case_pet_scans_antimatter",

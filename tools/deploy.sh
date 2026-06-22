@@ -8,7 +8,7 @@
 #
 # Usage:
 #   AUDIO_BASE_URL=https://audio.example.com ./tools/deploy.sh
-#   AUDIO_BASE_URL=https://audio.example.com PAGES_PROJECT=hsc-phy-podcast ./tools/deploy.sh
+#   AUDIO_BASE_URL=https://audio.example.com PAGES_PROJECT=hsc-podcast ./tools/deploy.sh
 #
 # Prereqs: wrangler (npm i -g wrangler && wrangler login), ffprobe (brew install ffmpeg),
 #          python3, rsync. The machine must have the local .m4a files (manifest build
@@ -18,7 +18,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-PAGES_PROJECT="${PAGES_PROJECT:-hsc-phy-podcast}"
+PAGES_PROJECT="${PAGES_PROJECT:-hsc-podcast}"
 DIST="${DIST:-dist}"
 
 if [[ -z "${AUDIO_BASE_URL:-}" ]]; then
@@ -32,7 +32,7 @@ rm -rf "$DIST"
 mkdir -p "$DIST"
 
 # App shell — the only root files the running app needs.
-cp index.html app.js style.css service-worker.js app.webmanifest "$DIST/"
+cp index.html app.js auth.js style.css service-worker.js app.webmanifest "$DIST/"
 
 # Vendored libraries (marked + highlight.js + themes) the app loads locally so
 # markdown/code rendering works offline. Must ship or the app 404s on them.
