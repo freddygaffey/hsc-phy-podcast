@@ -464,9 +464,14 @@
 
   // --- Stats ---
   const GROUP_NAMES = {
-    // HSC Physics is case-studies-only for now. Teaching modules (M1–M8) can be
-    // added here if the manifest grouping is extended to per-module prefixes;
-    // unknown prefixes fall back to the raw prefix below.
+    M1: "Kinematics",
+    M2: "Dynamics",
+    M3: "Waves and Thermodynamics",
+    M4: "Electricity and Magnetism",
+    M5: "Advanced Mechanics",
+    M6: "Electromagnetism",
+    M7: "The Nature of Light",
+    M8: "From the Universe to the Atom",
     CASE: "Case Studies",
   };
 

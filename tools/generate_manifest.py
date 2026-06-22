@@ -14,7 +14,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = ROOT / "content"
 OUTPUT = ROOT / "manifest.json"
 
-FOLDER_RE = re.compile(r"^([A-Z]+)-(\d+)(?:-(\d+))?-(.+)$")
+# Episode folders are MODULE-LL-Title, where MODULE is a physics module code like
+# "M6" (letters + optional digits) and LL is the lesson number — e.g.
+# M6-08-Back-EMF, M7-05-The-Photoelectric-Effect. The \d* lets the code carry its
+# own number ("M6"); the first number after it is the lesson.
+FOLDER_RE = re.compile(r"^([A-Z]+\d*)-(\d+)(?:-(\d+))?-(.+)$")
 
 # Case-study folders (content/case_<slug>/) don't follow the module-numbered naming
 # scheme, so they're collected under one synthetic "Case Studies" module (prefix CASE).
@@ -104,15 +108,18 @@ def build_manifest(cache: DurationCache | None = None) -> dict:
         match = FOLDER_RE.match(folder.name)
         case = CASE_RE.match(folder.name)
         if match:
-            prefix, module_num, unit_num, title_slug = match.groups()
-            module_id = f"{prefix}-{module_num}"
+            # The whole module code (e.g. "M6") is the grouping key; the first
+            # number is the lesson, which orders episodes within the module.
+            prefix, lesson_num, _sub, title_slug = match.groups()
+            module_id = prefix
+            digits = re.search(r"\d+", prefix)
+            module_num = int(digits.group()) if digits else 0
             module = modules.setdefault(
                 module_id,
-                {"id": module_id, "prefix": prefix, "moduleNum": int(module_num), "episodes": []},
+                {"id": module_id, "prefix": prefix, "moduleNum": module_num, "episodes": []},
             )
             module["episodes"].append(
-                build_episode(folder, title_slug.replace("-", " "),
-                              int(unit_num) if unit_num else None, cache))
+                build_episode(folder, title_slug.replace("-", " "), int(lesson_num), cache))
         elif case:
             module = modules.setdefault(
                 "CASE-0",
@@ -124,7 +131,7 @@ def build_manifest(cache: DurationCache | None = None) -> dict:
             continue
 
     module_list = []
-    for module in sorted(modules.values(), key=lambda m: (m["prefix"], m["moduleNum"])):
+    for module in sorted(modules.values(), key=lambda m: (m["moduleNum"], m["prefix"])):
         module["episodes"].sort(key=lambda e: (e["unit"] or 0, e["title"]))
         module_list.append(module)
 

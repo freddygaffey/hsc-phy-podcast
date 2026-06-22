@@ -177,6 +177,130 @@
           "voices": []
         }
       ]
+    },
+    {
+      "id": "M6",
+      "prefix": "M6",
+      "moduleNum": 6,
+      "episodes": [
+        {
+          "id": "M6-01-Charged-Particles-In-Electric-Fields",
+          "title": "Charged Particles In Electric Fields",
+          "unit": 1,
+          "scriptPath": "content/M6-01-Charged-Particles-In-Electric-Fields/script.md",
+          "supplementaryPath": "content/M6-01-Charged-Particles-In-Electric-Fields/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-02-Charged-Particles-In-Magnetic-Fields",
+          "title": "Charged Particles In Magnetic Fields",
+          "unit": 2,
+          "scriptPath": "content/M6-02-Charged-Particles-In-Magnetic-Fields/script.md",
+          "supplementaryPath": "content/M6-02-Charged-Particles-In-Magnetic-Fields/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-03-Comparing-Fields-Forces-And-Paths",
+          "title": "Comparing Fields Forces And Paths",
+          "unit": 3,
+          "scriptPath": "content/M6-03-Comparing-Fields-Forces-And-Paths/script.md",
+          "supplementaryPath": "content/M6-03-Comparing-Fields-Forces-And-Paths/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-04-Mass-Spectrometers-And-Electron-Guns",
+          "title": "Mass Spectrometers And Electron Guns",
+          "unit": 4,
+          "scriptPath": "content/M6-04-Mass-Spectrometers-And-Electron-Guns/script.md",
+          "supplementaryPath": "content/M6-04-Mass-Spectrometers-And-Electron-Guns/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-05-The-Motor-Effect",
+          "title": "The Motor Effect",
+          "unit": 5,
+          "scriptPath": "content/M6-05-The-Motor-Effect/script.md",
+          "supplementaryPath": "content/M6-05-The-Motor-Effect/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-06-Torque-On-A-Current-Loop",
+          "title": "Torque On A Current Loop",
+          "unit": 6,
+          "scriptPath": "content/M6-06-Torque-On-A-Current-Loop/script.md",
+          "supplementaryPath": "content/M6-06-Torque-On-A-Current-Loop/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-07-The-DC-Motor-And-Commutator",
+          "title": "The DC Motor And Commutator",
+          "unit": 7,
+          "scriptPath": "content/M6-07-The-DC-Motor-And-Commutator/script.md",
+          "supplementaryPath": "content/M6-07-The-DC-Motor-And-Commutator/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-08-Back-EMF",
+          "title": "Back EMF",
+          "unit": 8,
+          "scriptPath": "content/M6-08-Back-EMF/script.md",
+          "supplementaryPath": "content/M6-08-Back-EMF/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-09-Magnetic-Flux",
+          "title": "Magnetic Flux",
+          "unit": 9,
+          "scriptPath": "content/M6-09-Magnetic-Flux/script.md",
+          "supplementaryPath": "content/M6-09-Magnetic-Flux/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-10-Faradays-Law",
+          "title": "Faradays Law",
+          "unit": 10,
+          "scriptPath": "content/M6-10-Faradays-Law/script.md",
+          "supplementaryPath": null,
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-11-Lenzs-Law",
+          "title": "Lenzs Law",
+          "unit": 11,
+          "scriptPath": "content/M6-11-Lenzs-Law/script.md",
+          "supplementaryPath": null,
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-12-Eddy-Currents",
+          "title": "Eddy Currents",
+          "unit": 12,
+          "scriptPath": "content/M6-12-Eddy-Currents/script.md",
+          "supplementaryPath": null,
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-14-Transformers",
+          "title": "Transformers",
+          "unit": 14,
+          "scriptPath": "content/M6-14-Transformers/script.md",
+          "supplementaryPath": null,
+          "quizPath": null,
+          "voices": []
+        }
+      ]
     }
   ]
 }
