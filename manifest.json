@@ -142,6 +142,16 @@
               "name": "am_onyx",
               "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/am_onyx.m4a",
               "duration": 2230.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/am_santa.m4a",
+              "duration": 2442.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/bf_isabella.m4a",
+              "duration": 2417.8
             }
           ]
         },
@@ -657,7 +667,7 @@
           "title": "Mass Defect Binding Energy And E Equals Mc Squared",
           "unit": 9,
           "scriptPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/script.md",
-          "supplementaryPath": null,
+          "supplementaryPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/supplementary.md",
           "quizPath": null,
           "voices": []
         },
