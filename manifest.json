@@ -12,7 +12,38 @@
           "scriptPath": "content/case_cavendish_weighing_the_earth/script.md",
           "supplementaryPath": "content/case_cavendish_weighing_the_earth/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/af_heart.m4a",
+              "duration": 1869.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/am_onyx.m4a",
+              "duration": 1632.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/am_santa.m4a",
+              "duration": 1788.7
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/bf_isabella.m4a",
+              "duration": 1778.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/bm_daniel.m4a",
+              "duration": 1592.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/bm_george.m4a",
+              "duration": 1891.8
+            }
+          ]
         },
         {
           "id": "case_cecilia_payne_gaposchkin",
@@ -21,7 +52,18 @@
           "scriptPath": "content/case_cecilia_payne_gaposchkin/script.md",
           "supplementaryPath": "content/case_cecilia_payne_gaposchkin/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/af_heart.m4a",
+              "duration": 1804.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/am_onyx.m4a",
+              "duration": 1583.4
+            }
+          ]
         },
         {
           "id": "case_chadwick_discovery_of_neutron",
@@ -403,6 +445,15 @@
           "unit": 9,
           "scriptPath": "content/M7-09-Photons-And-Quantised-Energy/script.md",
           "supplementaryPath": "content/M7-09-Photons-And-Quantised-Energy/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-10-Black-Body-Radiation-And-Wien-Law",
+          "title": "Black Body Radiation And Wien Law",
+          "unit": 10,
+          "scriptPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/script.md",
+          "supplementaryPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/supplementary.md",
           "quizPath": null,
           "voices": []
         },
