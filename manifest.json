@@ -542,6 +542,26 @@
               "name": "am_onyx",
               "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/am_onyx.m4a",
               "duration": 2105.9
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/am_santa.m4a",
+              "duration": 2294.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/bf_isabella.m4a",
+              "duration": 2284.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/bm_daniel.m4a",
+              "duration": 2057.1
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/bm_george.m4a",
+              "duration": 2427.1
             }
           ]
         },
@@ -552,7 +572,33 @@
           "scriptPath": "content/case_pet_scans_antimatter/script.md",
           "supplementaryPath": "content/case_pet_scans_antimatter/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/af_heart.m4a",
+              "duration": 2015.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/am_onyx.m4a",
+              "duration": 1753.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/am_santa.m4a",
+              "duration": 1923.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/bf_isabella.m4a",
+              "duration": 1909.9
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/bm_daniel.m4a",
+              "duration": 1718.0
+            }
+          ]
         },
         {
           "id": "case_photoelectric_effect",
