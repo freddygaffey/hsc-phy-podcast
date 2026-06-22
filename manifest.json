@@ -1184,6 +1184,31 @@
               "name": "af_heart",
               "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/af_heart.m4a",
               "duration": 1998.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/am_onyx.m4a",
+              "duration": 1756.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/am_santa.m4a",
+              "duration": 1915.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/bf_isabella.m4a",
+              "duration": 1905.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/bm_daniel.m4a",
+              "duration": 1713.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/bm_george.m4a",
+              "duration": 2018.7
             }
           ]
         },
@@ -1194,7 +1219,33 @@
           "scriptPath": "content/M6-12-Eddy-Currents/script.md",
           "supplementaryPath": "content/M6-12-Eddy-Currents/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/af_heart.m4a",
+              "duration": 2382.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/am_onyx.m4a",
+              "duration": 2084.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/am_santa.m4a",
+              "duration": 2281.4
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/bm_daniel.m4a",
+              "duration": 2037.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/bm_george.m4a",
+              "duration": 2416.7
+            }
+          ]
         },
         {
           "id": "M6-13-AC-And-DC-Generators",
