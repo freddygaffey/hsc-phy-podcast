@@ -132,7 +132,18 @@
           "scriptPath": "content/case_chernobyl_physics_of_meltdown/script.md",
           "supplementaryPath": "content/case_chernobyl_physics_of_meltdown/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/af_heart.m4a",
+              "duration": 2551.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/am_onyx.m4a",
+              "duration": 2230.3
+            }
+          ]
         },
         {
           "id": "case_electron_diffraction",
@@ -541,6 +552,15 @@
           "unit": 14,
           "scriptPath": "content/M7-14-Time-Dilation-And-Length-Contraction/script.md",
           "supplementaryPath": "content/M7-14-Time-Dilation-And-Length-Contraction/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-15-Relativistic-Momentum-And-Mass-Energy",
+          "title": "Relativistic Momentum And Mass Energy",
+          "unit": 15,
+          "scriptPath": "content/M7-15-Relativistic-Momentum-And-Mass-Energy/script.md",
+          "supplementaryPath": "content/M7-15-Relativistic-Momentum-And-Mass-Energy/supplementary.md",
           "quizPath": null,
           "voices": []
         },
