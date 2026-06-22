@@ -269,7 +269,7 @@
           "title": "Faradays Law",
           "unit": 10,
           "scriptPath": "content/M6-10-Faradays-Law/script.md",
-          "supplementaryPath": null,
+          "supplementaryPath": "content/M6-10-Faradays-Law/supplementary.md",
           "quizPath": null,
           "voices": []
         },
@@ -278,7 +278,7 @@
           "title": "Lenzs Law",
           "unit": 11,
           "scriptPath": "content/M6-11-Lenzs-Law/script.md",
-          "supplementaryPath": null,
+          "supplementaryPath": "content/M6-11-Lenzs-Law/supplementary.md",
           "quizPath": null,
           "voices": []
         },
@@ -287,7 +287,16 @@
           "title": "Eddy Currents",
           "unit": 12,
           "scriptPath": "content/M6-12-Eddy-Currents/script.md",
-          "supplementaryPath": null,
+          "supplementaryPath": "content/M6-12-Eddy-Currents/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-13-AC-And-DC-Generators",
+          "title": "AC And DC Generators",
+          "unit": 13,
+          "scriptPath": "content/M6-13-AC-And-DC-Generators/script.md",
+          "supplementaryPath": "content/M6-13-AC-And-DC-Generators/supplementary.md",
           "quizPath": null,
           "voices": []
         },
@@ -296,6 +305,263 @@
           "title": "Transformers",
           "unit": 14,
           "scriptPath": "content/M6-14-Transformers/script.md",
+          "supplementaryPath": "content/M6-14-Transformers/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M6-15-AC-Induction-Motors-And-Electromagnetic-Braking",
+          "title": "AC Induction Motors And Electromagnetic Braking",
+          "unit": 15,
+          "scriptPath": "content/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/script.md",
+          "supplementaryPath": "content/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    },
+    {
+      "id": "M7",
+      "prefix": "M7",
+      "moduleNum": 7,
+      "episodes": [
+        {
+          "id": "M7-01-Electromagnetic-Waves",
+          "title": "Electromagnetic Waves",
+          "unit": 1,
+          "scriptPath": "content/M7-01-Electromagnetic-Waves/script.md",
+          "supplementaryPath": "content/M7-01-Electromagnetic-Waves/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-02-Maxwell-Prediction-And-Hertz-Proof",
+          "title": "Maxwell Prediction And Hertz Proof",
+          "unit": 2,
+          "scriptPath": "content/M7-02-Maxwell-Prediction-And-Hertz-Proof/script.md",
+          "supplementaryPath": "content/M7-02-Maxwell-Prediction-And-Hertz-Proof/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-03-The-EM-Spectrum-And-Spectroscopy",
+          "title": "The EM Spectrum And Spectroscopy",
+          "unit": 3,
+          "scriptPath": "content/M7-03-The-EM-Spectrum-And-Spectroscopy/script.md",
+          "supplementaryPath": "content/M7-03-The-EM-Spectrum-And-Spectroscopy/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-04-Stellar-Spectra",
+          "title": "Stellar Spectra",
+          "unit": 4,
+          "scriptPath": "content/M7-04-Stellar-Spectra/script.md",
+          "supplementaryPath": "content/M7-04-Stellar-Spectra/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-05-Diffraction-And-Interference",
+          "title": "Diffraction And Interference",
+          "unit": 5,
+          "scriptPath": "content/M7-05-Diffraction-And-Interference/script.md",
+          "supplementaryPath": "content/M7-05-Diffraction-And-Interference/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-06-Diffraction-Gratings-And-d-Sin-Theta",
+          "title": "Diffraction Gratings And d Sin Theta",
+          "unit": 6,
+          "scriptPath": "content/M7-06-Diffraction-Gratings-And-d-Sin-Theta/script.md",
+          "supplementaryPath": "content/M7-06-Diffraction-Gratings-And-d-Sin-Theta/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-07-Polarisation-And-Malus-Law",
+          "title": "Polarisation And Malus Law",
+          "unit": 7,
+          "scriptPath": "content/M7-07-Polarisation-And-Malus-Law/script.md",
+          "supplementaryPath": "content/M7-07-Polarisation-And-Malus-Law/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-08-Evaluating-The-Wave-Model",
+          "title": "Evaluating The Wave Model",
+          "unit": 8,
+          "scriptPath": "content/M7-08-Evaluating-The-Wave-Model/script.md",
+          "supplementaryPath": "content/M7-08-Evaluating-The-Wave-Model/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-09-Photons-And-Quantised-Energy",
+          "title": "Photons And Quantised Energy",
+          "unit": 9,
+          "scriptPath": "content/M7-09-Photons-And-Quantised-Energy/script.md",
+          "supplementaryPath": "content/M7-09-Photons-And-Quantised-Energy/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-12-Photoelectric-Effect-Part-2",
+          "title": "Photoelectric Effect Part 2",
+          "unit": 12,
+          "scriptPath": "content/M7-12-Photoelectric-Effect-Part-2/script.md",
+          "supplementaryPath": "content/M7-12-Photoelectric-Effect-Part-2/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-14-Time-Dilation-And-Length-Contraction",
+          "title": "Time Dilation And Length Contraction",
+          "unit": 14,
+          "scriptPath": "content/M7-14-Time-Dilation-And-Length-Contraction/script.md",
+          "supplementaryPath": "content/M7-14-Time-Dilation-And-Length-Contraction/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M7-99-Module-Review-The-Nature-Of-Light",
+          "title": "Module Review The Nature Of Light",
+          "unit": 99,
+          "scriptPath": "content/M7-99-Module-Review-The-Nature-Of-Light/script.md",
+          "supplementaryPath": "content/M7-99-Module-Review-The-Nature-Of-Light/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    },
+    {
+      "id": "M8",
+      "prefix": "M8",
+      "moduleNum": 8,
+      "episodes": [
+        {
+          "id": "M8-01-Cathode-Rays-Birth-Of-The-Electron",
+          "title": "Cathode Rays Birth Of The Electron",
+          "unit": 1,
+          "scriptPath": "content/M8-01-Cathode-Rays-Birth-Of-The-Electron/script.md",
+          "supplementaryPath": "content/M8-01-Cathode-Rays-Birth-Of-The-Electron/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model",
+          "title": "Charge To Mass And The Plum Pudding Model",
+          "unit": 2,
+          "scriptPath": "content/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/script.md",
+          "supplementaryPath": "content/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom",
+          "title": "The Gold Foil Experiment And The Nuclear Atom",
+          "unit": 3,
+          "scriptPath": "content/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/script.md",
+          "supplementaryPath": "content/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-04-The-Bohr-Model-Energy-Levels-And-Spectra",
+          "title": "The Bohr Model Energy Levels And Spectra",
+          "unit": 4,
+          "scriptPath": "content/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/script.md",
+          "supplementaryPath": "content/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-05-Matter-Waves-De-Broglie-And-Standing-Waves",
+          "title": "Matter Waves De Broglie And Standing Waves",
+          "unit": 5,
+          "scriptPath": "content/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/script.md",
+          "supplementaryPath": "content/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-06-The-Standard-Model-Quarks-Leptons-And-Forces",
+          "title": "The Standard Model Quarks Leptons And Forces",
+          "unit": 6,
+          "scriptPath": "content/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/script.md",
+          "supplementaryPath": "content/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-07-Radioactivity-Strong-Force-Stability-And-Decays",
+          "title": "Radioactivity Strong Force Stability And Decays",
+          "unit": 7,
+          "scriptPath": "content/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/script.md",
+          "supplementaryPath": "content/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-08-Half-Life-And-The-Mathematics-Of-Decay",
+          "title": "Half Life And The Mathematics Of Decay",
+          "unit": 8,
+          "scriptPath": "content/M8-08-Half-Life-And-The-Mathematics-Of-Decay/script.md",
+          "supplementaryPath": "content/M8-08-Half-Life-And-The-Mathematics-Of-Decay/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared",
+          "title": "Mass Defect Binding Energy And E Equals Mc Squared",
+          "unit": 9,
+          "scriptPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/script.md",
+          "supplementaryPath": null,
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-11-Nuclear-Fusion-Powering-The-Stars",
+          "title": "Nuclear Fusion Powering The Stars",
+          "unit": 11,
+          "scriptPath": "content/M8-11-Nuclear-Fusion-Powering-The-Stars/script.md",
+          "supplementaryPath": "content/M8-11-Nuclear-Fusion-Powering-The-Stars/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-12-Antimatter-Annihilation-And-The-PET-Scan",
+          "title": "Antimatter Annihilation And The PET Scan",
+          "unit": 12,
+          "scriptPath": "content/M8-12-Antimatter-Annihilation-And-The-PET-Scan/script.md",
+          "supplementaryPath": "content/M8-12-Antimatter-Annihilation-And-The-PET-Scan/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-13-Reading-The-Stars-Spectra-And-Redshift",
+          "title": "Reading The Stars Spectra And Redshift",
+          "unit": 13,
+          "scriptPath": "content/M8-13-Reading-The-Stars-Spectra-And-Redshift/script.md",
+          "supplementaryPath": "content/M8-13-Reading-The-Stars-Spectra-And-Redshift/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements",
+          "title": "HR Diagrams Stellar Lives And The Elements",
+          "unit": 14,
+          "scriptPath": "content/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/script.md",
+          "supplementaryPath": "content/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-99-Module-Review-From-The-Universe-To-The-Atom",
+          "title": "Module Review From The Universe To The Atom",
+          "unit": 99,
+          "scriptPath": "content/M8-99-Module-Review-From-The-Universe-To-The-Atom/script.md",
           "supplementaryPath": null,
           "quizPath": null,
           "voices": []

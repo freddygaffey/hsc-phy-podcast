@@ -203,17 +203,31 @@ audio (`*.m4a`) lives in R2, not git, so CI can't probe durations.
 2. GitHub → repo **Settings → Secrets and variables → Actions → New repository secret**
    → name `CLOUDFLARE_API_TOKEN`, value = the token.
 
-**Day-to-day:** after rendering + uploading new audio, regenerate and commit the
-manifest so the deploy points at the right audio, then push:
+**Auto-update — the manifest takes care of itself.** A pre-commit hook
+(`.githooks/pre-commit`) regenerates `manifest.json` on every commit, so new or
+changed episodes are always included — you never run the generator by hand.
+Enable it once per clone:
 ```bash
-./generate_all_voices.sh                                        # render audio
-./tools/upload-audio.sh                                         # push .m4a to R2
-AUDIO_BASE_URL=https://audio.phy.pebnum.com python3 tools/generate_manifest.py
-git add manifest.json content && git commit -m "Add/update episodes" && git push
+git config core.hooksPath .githooks      # already set on this machine
 ```
-The push triggers the Action, which redeploys `phy.pebnum.com` automatically.
 
-> Audio upload stays a local step (`upload-audio.sh`) — CI never touches R2.
+**Add episodes (text):** just write the folders and commit — they go live on push.
+```bash
+# create content/<EPISODE-KEY>/{script.md,supplementary.md}, then:
+git add content && git commit -m "Add episodes" && git push   # hook refreshes manifest; Action deploys
+```
+
+**Add audio:** render + upload, then publish (the manifest picks up voices/durations):
+```bash
+./generate_all_voices.sh        # render audio (local)
+./tools/upload-audio.sh         # push .m4a to R2 (audio is gitignored — CI never touches R2)
+./tools/publish.sh "Render audio"   # refresh manifest + commit + push + deploy
+```
+
+**`./tools/publish.sh "msg"`** is the one-command shortcut for any change: it
+refreshes the manifest, commits, pushes, and deploys via your local `wrangler
+login` — so it works **even before the `CLOUDFLARE_API_TOKEN` secret is set**.
+Once that secret exists, a plain `git push` auto-deploys on its own.
 
 ---
 

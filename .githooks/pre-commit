@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# Auto-regenerate manifest.json so new or changed episodes are always included in
+# every commit — no need to remember to run the generator by hand.
+#
+# Enabled via: git config core.hooksPath .githooks   (run once per clone)
+#
+# It probes any locally-present *.m4a for voices/durations, so committing after a
+# render picks up the audio automatically. With no audio, it just lists episodes.
+set -uo pipefail
+
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+cd "$ROOT" || exit 0
+
+command -v python3 >/dev/null 2>&1 || exit 0
+
+if AUDIO_BASE_URL="${AUDIO_BASE_URL:-https://audio.phy.pebnum.com}" \
+     python3 tools/generate_manifest.py >/dev/null 2>&1; then
+  git add manifest.json
+else
+  echo "pre-commit: manifest regeneration failed — committing manifest as-is" >&2
+fi
+
+exit 0
