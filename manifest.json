@@ -859,7 +859,38 @@
           "scriptPath": "content/M6-03-Comparing-Fields-Forces-And-Paths/script.md",
           "supplementaryPath": "content/M6-03-Comparing-Fields-Forces-And-Paths/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/af_heart.m4a",
+              "duration": 2066.6
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/am_onyx.m4a",
+              "duration": 1812.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/am_santa.m4a",
+              "duration": 1979.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/bf_isabella.m4a",
+              "duration": 1969.4
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/bm_daniel.m4a",
+              "duration": 1773.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/bm_george.m4a",
+              "duration": 2100.2
+            }
+          ]
         },
         {
           "id": "M6-04-Mass-Spectrometers-And-Electron-Guns",
@@ -868,7 +899,28 @@
           "scriptPath": "content/M6-04-Mass-Spectrometers-And-Electron-Guns/script.md",
           "supplementaryPath": "content/M6-04-Mass-Spectrometers-And-Electron-Guns/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/af_heart.m4a",
+              "duration": 2154.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/am_onyx.m4a",
+              "duration": 1893.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/am_santa.m4a",
+              "duration": 2075.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/bm_daniel.m4a",
+              "duration": 1858.2
+            }
+          ]
         },
         {
           "id": "M6-05-The-Motor-Effect",
