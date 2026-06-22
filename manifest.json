@@ -212,7 +212,38 @@
           "scriptPath": "content/case_hertz_verifies_maxwell/script.md",
           "supplementaryPath": "content/case_hertz_verifies_maxwell/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/af_heart.m4a",
+              "duration": 1878.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/am_onyx.m4a",
+              "duration": 1640.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/am_santa.m4a",
+              "duration": 1789.5
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/bf_isabella.m4a",
+              "duration": 1790.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/bm_daniel.m4a",
+              "duration": 1599.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/bm_george.m4a",
+              "duration": 1902.0
+            }
+          ]
         },
         {
           "id": "case_jj_thomson_cathode_rays",
@@ -221,7 +252,38 @@
           "scriptPath": "content/case_jj_thomson_cathode_rays/script.md",
           "supplementaryPath": "content/case_jj_thomson_cathode_rays/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/af_heart.m4a",
+              "duration": 2156.4
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/am_onyx.m4a",
+              "duration": 1895.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/am_santa.m4a",
+              "duration": 2060.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/bf_isabella.m4a",
+              "duration": 2061.4
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/bm_daniel.m4a",
+              "duration": 1852.3
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/bm_george.m4a",
+              "duration": 2181.8
+            }
+          ]
         },
         {
           "id": "case_ligo_gravitational_waves",
