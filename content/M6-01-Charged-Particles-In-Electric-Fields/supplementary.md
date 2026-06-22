@@ -38,7 +38,7 @@ Direction:   field points from the + plate to the − plate
 | Proton charge | +1.60 × 10^-19 C |
 | Electron mass | 9.1 × 10^-31 kg |
 | Proton mass | 1.67 × 10^-27 kg |
-| Proton / electron mass ratio | ≈ 1837 (electron's acceleration ~1837× larger, opposite sign) |
+| Proton / electron mass ratio | ≈ 1836 (electron's acceleration ~1836× larger, opposite sign) |
 | Units of E | N C^-1 = V m^-1 (identical) |
 | Unit of V | volt = J C^-1 |
 | Units of W, K | joule (J) |
