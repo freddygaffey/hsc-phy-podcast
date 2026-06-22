@@ -1021,9 +1021,34 @@
           "quizPath": null,
           "voices": [
             {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/af_heart.m4a",
+              "duration": 2090.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/am_onyx.m4a",
+              "duration": 1830.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/am_santa.m4a",
+              "duration": 1999.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/bf_isabella.m4a",
+              "duration": 1999.1
+            },
+            {
               "name": "bm_daniel",
               "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/bm_daniel.m4a",
               "duration": 1800.3
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/bm_george.m4a",
+              "duration": 2130.6
             }
           ]
         },
