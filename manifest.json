@@ -916,9 +916,19 @@
               "duration": 2075.7
             },
             {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/bf_isabella.m4a",
+              "duration": 2054.3
+            },
+            {
               "name": "bm_daniel",
               "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/bm_daniel.m4a",
               "duration": 1858.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/bm_george.m4a",
+              "duration": 2195.2
             }
           ]
         },
@@ -929,7 +939,13 @@
           "scriptPath": "content/M6-05-The-Motor-Effect/script.md",
           "supplementaryPath": "content/M6-05-The-Motor-Effect/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-05-The-Motor-Effect/bf_isabella.m4a",
+              "duration": 2051.4
+            }
+          ]
         },
         {
           "id": "M6-06-Torque-On-A-Current-Loop",
