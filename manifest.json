@@ -152,6 +152,16 @@
               "name": "bf_isabella",
               "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/bf_isabella.m4a",
               "duration": 2417.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/bm_daniel.m4a",
+              "duration": 2173.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/bm_george.m4a",
+              "duration": 2560.3
             }
           ]
         },
@@ -162,7 +172,18 @@
           "scriptPath": "content/case_electron_diffraction/script.md",
           "supplementaryPath": "content/case_electron_diffraction/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/af_heart.m4a",
+              "duration": 2111.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/am_onyx.m4a",
+              "duration": 1854.5
+            }
+          ]
         },
         {
           "id": "case_hertz_verifies_maxwell",
@@ -668,6 +689,15 @@
           "unit": 9,
           "scriptPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/script.md",
           "supplementaryPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        },
+        {
+          "id": "M8-10-Nuclear-Fission-And-The-Reactor",
+          "title": "Nuclear Fission And The Reactor",
+          "unit": 10,
+          "scriptPath": "content/M8-10-Nuclear-Fission-And-The-Reactor/script.md",
+          "supplementaryPath": "content/M8-10-Nuclear-Fission-And-The-Reactor/supplementary.md",
           "quizPath": null,
           "voices": []
         },
