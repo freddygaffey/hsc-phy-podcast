@@ -10,9 +10,11 @@ Working root: `/Users/fred/hsc-phy-podcast`. See `YEAR11_BUILD_PLAN.md` for the 
 - Source = `facts/extracted/textbook_jacaranda_physics11.txt` (Jacaranda Physics 11, already extracted).
   **Never open `text book.pdf`** (36 MB — slow/expensive). Find a topic with `grep -n "^TOPIC n "`.
 - Do **NOT** generate `.m4a` audio (separate `generate_all_voices.sh` pipeline).
-- **1 AM STOP:** the Bash `date` is ~8 h behind real time — ignore it. Real local time is shown in the
-  `ScheduleWakeup` tool result. When that result shows **≥ 01:00** (and < ~12:00), do NOT reschedule;
-  print `YEAR 11 RUN PAUSED — 1 AM (usage rollover)` and stop. Otherwise keep looping.
+- **1 AM STOP (reliable):** the Bash `date` is offset from real local time by a CONSTANT amount
+  (deliberate screen-time offset), so relative time is correct. The real 1 AM deadline is stored as a
+  sandbox epoch in `.year11_deadline_epoch`. At the START of each iteration run
+  `[ "$(date +%s)" -ge "$(cat .year11_deadline_epoch)" ] && echo PAST_1AM`. If PAST_1AM, do NOT do work
+  or reschedule — print `YEAR 11 RUN PAUSED — 1 AM (usage rollover)` and end the loop. Otherwise proceed.
 
 ## Step 0 — Read the rules ONCE (skip if already in context)
 - `STYLE.md` (binding; §9 the gate, §5 the teaching shape), `SUPPLEMENTARY.md` (the `### Listing N —`
