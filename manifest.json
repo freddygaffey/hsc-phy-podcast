@@ -42,6 +42,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/bm_george.m4a",
               "duration": 1891.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_cavendish_weighing_the_earth/zz_eloquence.m4a",
+              "duration": 1755.9
             }
           ]
         },
@@ -82,6 +87,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/bm_george.m4a",
               "duration": 1825.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_cecilia_payne_gaposchkin/zz_eloquence.m4a",
+              "duration": 1679.0
             }
           ]
         },
@@ -122,6 +132,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/bm_george.m4a",
               "duration": 1545.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_chadwick_discovery_of_neutron/zz_eloquence.m4a",
+              "duration": 1415.4
             }
           ]
         },
@@ -162,6 +177,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/bm_george.m4a",
               "duration": 2560.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_chernobyl_physics_of_meltdown/zz_eloquence.m4a",
+              "duration": 2367.9
             }
           ]
         },
@@ -202,6 +222,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_electron_diffraction/bm_george.m4a",
               "duration": 2140.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_electron_diffraction/zz_eloquence.m4a",
+              "duration": 1951.1
             }
           ]
         },
@@ -242,6 +267,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/bm_george.m4a",
               "duration": 1902.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_hertz_verifies_maxwell/zz_eloquence.m4a",
+              "duration": 1764.6
             }
           ]
         },
@@ -282,6 +312,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/bm_george.m4a",
               "duration": 2181.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_jj_thomson_cathode_rays/zz_eloquence.m4a",
+              "duration": 2032.7
             }
           ]
         },
@@ -322,6 +357,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/bm_george.m4a",
               "duration": 2051.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_ligo_gravitational_waves/zz_eloquence.m4a",
+              "duration": 1884.8
             }
           ]
         },
@@ -362,6 +402,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/bm_george.m4a",
               "duration": 2082.4
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_leo_and_geostationary_satellites/zz_eloquence.m4a",
+              "duration": 1882.7
             }
           ]
         },
@@ -402,6 +447,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/bm_george.m4a",
               "duration": 1893.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_michelson_morley_experiment/zz_eloquence.m4a",
+              "duration": 1744.4
             }
           ]
         },
@@ -442,6 +492,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/bm_george.m4a",
               "duration": 2326.5
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_millikan_oil_drop/zz_eloquence.m4a",
+              "duration": 2134.7
             }
           ]
         },
@@ -482,6 +537,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/bm_george.m4a",
               "duration": 1871.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_muon_lifetime_time_dilation/zz_eloquence.m4a",
+              "duration": 1748.4
             }
           ]
         },
@@ -522,6 +582,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/bm_george.m4a",
               "duration": 2132.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_nuclear_fission_manhattan_project/zz_eloquence.m4a",
+              "duration": 1941.2
             }
           ]
         },
@@ -562,6 +627,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/bm_george.m4a",
               "duration": 2427.1
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_particle_accelerators_quarks/zz_eloquence.m4a",
+              "duration": 2252.1
             }
           ]
         },
@@ -602,6 +672,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/bm_george.m4a",
               "duration": 2036.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_pet_scans_antimatter/zz_eloquence.m4a",
+              "duration": 1873.7
             }
           ]
         },
@@ -642,6 +717,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_photoelectric_effect/bm_george.m4a",
               "duration": 2249.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_photoelectric_effect/zz_eloquence.m4a",
+              "duration": 2047.5
             }
           ]
         },
@@ -682,6 +762,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_rutherfords_gold_foil_experiment/bm_george.m4a",
               "duration": 1676.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_rutherfords_gold_foil_experiment/zz_eloquence.m4a",
+              "duration": 1517.9
             }
           ]
         },
@@ -722,6 +807,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_stellar_nucleosynthesis/bm_george.m4a",
               "duration": 2082.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_stellar_nucleosynthesis/zz_eloquence.m4a",
+              "duration": 1913.2
             }
           ]
         },
@@ -762,6 +852,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/case_supernovae_heavy_elements/bm_george.m4a",
               "duration": 2055.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/case_supernovae_heavy_elements/zz_eloquence.m4a",
+              "duration": 1881.4
             }
           ]
         }
@@ -809,6 +904,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-01-Charged-Particles-In-Electric-Fields/bm_george.m4a",
               "duration": 2206.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-01-Charged-Particles-In-Electric-Fields/zz_eloquence.m4a",
+              "duration": 2048.2
             }
           ]
         },
@@ -849,6 +949,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-02-Charged-Particles-In-Magnetic-Fields/bm_george.m4a",
               "duration": 1983.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-02-Charged-Particles-In-Magnetic-Fields/zz_eloquence.m4a",
+              "duration": 1830.8
             }
           ]
         },
@@ -889,6 +994,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/bm_george.m4a",
               "duration": 2100.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-03-Comparing-Fields-Forces-And-Paths/zz_eloquence.m4a",
+              "duration": 1927.1
             }
           ]
         },
@@ -929,6 +1039,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/bm_george.m4a",
               "duration": 2195.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-04-Mass-Spectrometers-And-Electron-Guns/zz_eloquence.m4a",
+              "duration": 2018.2
             }
           ]
         },
@@ -969,6 +1084,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-05-The-Motor-Effect/bm_george.m4a",
               "duration": 2189.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-05-The-Motor-Effect/zz_eloquence.m4a",
+              "duration": 2032.4
             }
           ]
         },
@@ -1009,6 +1129,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/bm_george.m4a",
               "duration": 2069.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-06-Torque-On-A-Current-Loop/zz_eloquence.m4a",
+              "duration": 1926.3
             }
           ]
         },
@@ -1049,6 +1174,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/bm_george.m4a",
               "duration": 2130.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-07-The-DC-Motor-And-Commutator/zz_eloquence.m4a",
+              "duration": 1975.7
             }
           ]
         },
@@ -1089,6 +1219,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-08-Back-EMF/bm_george.m4a",
               "duration": 2004.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-08-Back-EMF/zz_eloquence.m4a",
+              "duration": 1892.3
             }
           ]
         },
@@ -1129,6 +1264,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/bm_george.m4a",
               "duration": 2375.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-09-Magnetic-Flux/zz_eloquence.m4a",
+              "duration": 2220.7
             }
           ]
         },
@@ -1169,6 +1309,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/bm_george.m4a",
               "duration": 2108.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-10-Faradays-Law/zz_eloquence.m4a",
+              "duration": 1999.0
             }
           ]
         },
@@ -1209,6 +1354,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/bm_george.m4a",
               "duration": 2018.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-11-Lenzs-Law/zz_eloquence.m4a",
+              "duration": 1898.3
             }
           ]
         },
@@ -1236,6 +1386,11 @@
               "duration": 2281.4
             },
             {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/bf_isabella.m4a",
+              "duration": 2284.9
+            },
+            {
               "name": "bm_daniel",
               "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/bm_daniel.m4a",
               "duration": 2037.2
@@ -1244,6 +1399,11 @@
               "name": "bm_george",
               "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/bm_george.m4a",
               "duration": 2416.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-12-Eddy-Currents/zz_eloquence.m4a",
+              "duration": 2246.1
             }
           ]
         },
@@ -1254,7 +1414,43 @@
           "scriptPath": "content/M6-13-AC-And-DC-Generators/script.md",
           "supplementaryPath": "content/M6-13-AC-And-DC-Generators/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/af_heart.m4a",
+              "duration": 2286.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/am_onyx.m4a",
+              "duration": 2005.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/am_santa.m4a",
+              "duration": 2188.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/bf_isabella.m4a",
+              "duration": 2189.1
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/bm_daniel.m4a",
+              "duration": 1964.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/bm_george.m4a",
+              "duration": 2321.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-13-AC-And-DC-Generators/zz_eloquence.m4a",
+              "duration": 2131.9
+            }
+          ]
         },
         {
           "id": "M6-14-Transformers",
@@ -1263,7 +1459,43 @@
           "scriptPath": "content/M6-14-Transformers/script.md",
           "supplementaryPath": "content/M6-14-Transformers/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/af_heart.m4a",
+              "duration": 2197.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/am_onyx.m4a",
+              "duration": 1925.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/am_santa.m4a",
+              "duration": 2102.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/bf_isabella.m4a",
+              "duration": 2095.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/bm_daniel.m4a",
+              "duration": 1876.0
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/bm_george.m4a",
+              "duration": 2220.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-14-Transformers/zz_eloquence.m4a",
+              "duration": 2073.4
+            }
+          ]
         },
         {
           "id": "M6-15-AC-Induction-Motors-And-Electromagnetic-Braking",
@@ -1272,7 +1504,43 @@
           "scriptPath": "content/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/script.md",
           "supplementaryPath": "content/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/af_heart.m4a",
+              "duration": 2421.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/am_onyx.m4a",
+              "duration": 2128.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/am_santa.m4a",
+              "duration": 2318.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/bf_isabella.m4a",
+              "duration": 2320.4
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/bm_daniel.m4a",
+              "duration": 2087.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/bm_george.m4a",
+              "duration": 2461.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M6-15-AC-Induction-Motors-And-Electromagnetic-Braking/zz_eloquence.m4a",
+              "duration": 2270.3
+            }
+          ]
         }
       ]
     },
@@ -1288,7 +1556,43 @@
           "scriptPath": "content/M7-01-Electromagnetic-Waves/script.md",
           "supplementaryPath": "content/M7-01-Electromagnetic-Waves/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/af_heart.m4a",
+              "duration": 2209.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/am_onyx.m4a",
+              "duration": 1940.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/am_santa.m4a",
+              "duration": 2108.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/bf_isabella.m4a",
+              "duration": 2120.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/bm_daniel.m4a",
+              "duration": 1890.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/bm_george.m4a",
+              "duration": 2234.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-01-Electromagnetic-Waves/zz_eloquence.m4a",
+              "duration": 2075.4
+            }
+          ]
         },
         {
           "id": "M7-02-Maxwell-Prediction-And-Hertz-Proof",
@@ -1297,7 +1601,43 @@
           "scriptPath": "content/M7-02-Maxwell-Prediction-And-Hertz-Proof/script.md",
           "supplementaryPath": "content/M7-02-Maxwell-Prediction-And-Hertz-Proof/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/af_heart.m4a",
+              "duration": 2366.3
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/am_onyx.m4a",
+              "duration": 2077.1
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/am_santa.m4a",
+              "duration": 2265.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/bf_isabella.m4a",
+              "duration": 2262.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/bm_daniel.m4a",
+              "duration": 2037.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/bm_george.m4a",
+              "duration": 2418.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-02-Maxwell-Prediction-And-Hertz-Proof/zz_eloquence.m4a",
+              "duration": 2208.4
+            }
+          ]
         },
         {
           "id": "M7-03-The-EM-Spectrum-And-Spectroscopy",
@@ -1306,7 +1646,43 @@
           "scriptPath": "content/M7-03-The-EM-Spectrum-And-Spectroscopy/script.md",
           "supplementaryPath": "content/M7-03-The-EM-Spectrum-And-Spectroscopy/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/af_heart.m4a",
+              "duration": 2279.0
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/am_onyx.m4a",
+              "duration": 2000.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/am_santa.m4a",
+              "duration": 2182.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/bf_isabella.m4a",
+              "duration": 2170.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/bm_daniel.m4a",
+              "duration": 1950.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/bm_george.m4a",
+              "duration": 2310.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-03-The-EM-Spectrum-And-Spectroscopy/zz_eloquence.m4a",
+              "duration": 2127.5
+            }
+          ]
         },
         {
           "id": "M7-04-Stellar-Spectra",
@@ -1315,7 +1691,43 @@
           "scriptPath": "content/M7-04-Stellar-Spectra/script.md",
           "supplementaryPath": "content/M7-04-Stellar-Spectra/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/af_heart.m4a",
+              "duration": 2149.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/am_onyx.m4a",
+              "duration": 1888.0
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/am_santa.m4a",
+              "duration": 2057.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/bf_isabella.m4a",
+              "duration": 2040.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/bm_daniel.m4a",
+              "duration": 1837.0
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/bm_george.m4a",
+              "duration": 2180.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-04-Stellar-Spectra/zz_eloquence.m4a",
+              "duration": 2013.7
+            }
+          ]
         },
         {
           "id": "M7-05-Diffraction-And-Interference",
@@ -1324,7 +1736,43 @@
           "scriptPath": "content/M7-05-Diffraction-And-Interference/script.md",
           "supplementaryPath": "content/M7-05-Diffraction-And-Interference/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/af_heart.m4a",
+              "duration": 2134.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/am_onyx.m4a",
+              "duration": 1879.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/am_santa.m4a",
+              "duration": 2048.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/bf_isabella.m4a",
+              "duration": 2050.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/bm_daniel.m4a",
+              "duration": 1835.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/bm_george.m4a",
+              "duration": 2172.5
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-05-Diffraction-And-Interference/zz_eloquence.m4a",
+              "duration": 2020.2
+            }
+          ]
         },
         {
           "id": "M7-06-Diffraction-Gratings-And-d-Sin-Theta",
@@ -1333,7 +1781,43 @@
           "scriptPath": "content/M7-06-Diffraction-Gratings-And-d-Sin-Theta/script.md",
           "supplementaryPath": "content/M7-06-Diffraction-Gratings-And-d-Sin-Theta/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/af_heart.m4a",
+              "duration": 2295.4
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/am_onyx.m4a",
+              "duration": 2016.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/am_santa.m4a",
+              "duration": 2205.1
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/bf_isabella.m4a",
+              "duration": 2199.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/bm_daniel.m4a",
+              "duration": 1979.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/bm_george.m4a",
+              "duration": 2341.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-06-Diffraction-Gratings-And-d-Sin-Theta/zz_eloquence.m4a",
+              "duration": 2136.1
+            }
+          ]
         },
         {
           "id": "M7-07-Polarisation-And-Malus-Law",
@@ -1342,7 +1826,43 @@
           "scriptPath": "content/M7-07-Polarisation-And-Malus-Law/script.md",
           "supplementaryPath": "content/M7-07-Polarisation-And-Malus-Law/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/af_heart.m4a",
+              "duration": 2212.0
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/am_onyx.m4a",
+              "duration": 1938.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/am_santa.m4a",
+              "duration": 2119.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/bf_isabella.m4a",
+              "duration": 2121.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/bm_daniel.m4a",
+              "duration": 1906.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/bm_george.m4a",
+              "duration": 2251.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-07-Polarisation-And-Malus-Law/zz_eloquence.m4a",
+              "duration": 2073.5
+            }
+          ]
         },
         {
           "id": "M7-08-Evaluating-The-Wave-Model",
@@ -1351,7 +1871,43 @@
           "scriptPath": "content/M7-08-Evaluating-The-Wave-Model/script.md",
           "supplementaryPath": "content/M7-08-Evaluating-The-Wave-Model/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/af_heart.m4a",
+              "duration": 2343.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/am_onyx.m4a",
+              "duration": 2052.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/am_santa.m4a",
+              "duration": 2240.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/bf_isabella.m4a",
+              "duration": 2250.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/bm_daniel.m4a",
+              "duration": 2010.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/bm_george.m4a",
+              "duration": 2373.5
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-08-Evaluating-The-Wave-Model/zz_eloquence.m4a",
+              "duration": 2210.6
+            }
+          ]
         },
         {
           "id": "M7-09-Photons-And-Quantised-Energy",
@@ -1360,7 +1916,43 @@
           "scriptPath": "content/M7-09-Photons-And-Quantised-Energy/script.md",
           "supplementaryPath": "content/M7-09-Photons-And-Quantised-Energy/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/af_heart.m4a",
+              "duration": 1877.6
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/am_onyx.m4a",
+              "duration": 1649.5
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/am_santa.m4a",
+              "duration": 1799.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/bf_isabella.m4a",
+              "duration": 1796.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/bm_daniel.m4a",
+              "duration": 1610.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/bm_george.m4a",
+              "duration": 1899.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-09-Photons-And-Quantised-Energy/zz_eloquence.m4a",
+              "duration": 1763.2
+            }
+          ]
         },
         {
           "id": "M7-10-Black-Body-Radiation-And-Wien-Law",
@@ -1369,7 +1961,43 @@
           "scriptPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/script.md",
           "supplementaryPath": "content/M7-10-Black-Body-Radiation-And-Wien-Law/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/af_heart.m4a",
+              "duration": 2030.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/am_onyx.m4a",
+              "duration": 1781.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/am_santa.m4a",
+              "duration": 1940.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/bf_isabella.m4a",
+              "duration": 1934.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/bm_daniel.m4a",
+              "duration": 1735.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/bm_george.m4a",
+              "duration": 2047.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-10-Black-Body-Radiation-And-Wien-Law/zz_eloquence.m4a",
+              "duration": 1913.8
+            }
+          ]
         },
         {
           "id": "M7-11-Photoelectric-Effect-Part-1",
@@ -1378,7 +2006,43 @@
           "scriptPath": "content/M7-11-Photoelectric-Effect-Part-1/script.md",
           "supplementaryPath": "content/M7-11-Photoelectric-Effect-Part-1/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/af_heart.m4a",
+              "duration": 1874.0
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/am_onyx.m4a",
+              "duration": 1643.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/am_santa.m4a",
+              "duration": 1794.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/bf_isabella.m4a",
+              "duration": 1782.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/bm_daniel.m4a",
+              "duration": 1602.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/bm_george.m4a",
+              "duration": 1888.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-11-Photoelectric-Effect-Part-1/zz_eloquence.m4a",
+              "duration": 1762.0
+            }
+          ]
         },
         {
           "id": "M7-12-Photoelectric-Effect-Part-2",
@@ -1387,7 +2051,43 @@
           "scriptPath": "content/M7-12-Photoelectric-Effect-Part-2/script.md",
           "supplementaryPath": "content/M7-12-Photoelectric-Effect-Part-2/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/af_heart.m4a",
+              "duration": 2537.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/am_onyx.m4a",
+              "duration": 2232.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/am_santa.m4a",
+              "duration": 2427.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/bf_isabella.m4a",
+              "duration": 2433.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/bm_daniel.m4a",
+              "duration": 2174.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/bm_george.m4a",
+              "duration": 2558.1
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-12-Photoelectric-Effect-Part-2/zz_eloquence.m4a",
+              "duration": 2400.0
+            }
+          ]
         },
         {
           "id": "M7-13-Frames-Of-Reference-And-Einstein-Postulates",
@@ -1396,7 +2096,43 @@
           "scriptPath": "content/M7-13-Frames-Of-Reference-And-Einstein-Postulates/script.md",
           "supplementaryPath": "content/M7-13-Frames-Of-Reference-And-Einstein-Postulates/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/af_heart.m4a",
+              "duration": 1653.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/am_onyx.m4a",
+              "duration": 1451.0
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/am_santa.m4a",
+              "duration": 1579.7
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/bf_isabella.m4a",
+              "duration": 1579.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/bm_daniel.m4a",
+              "duration": 1415.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/bm_george.m4a",
+              "duration": 1678.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-13-Frames-Of-Reference-And-Einstein-Postulates/zz_eloquence.m4a",
+              "duration": 1551.7
+            }
+          ]
         },
         {
           "id": "M7-14-Time-Dilation-And-Length-Contraction",
@@ -1405,7 +2141,43 @@
           "scriptPath": "content/M7-14-Time-Dilation-And-Length-Contraction/script.md",
           "supplementaryPath": "content/M7-14-Time-Dilation-And-Length-Contraction/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/af_heart.m4a",
+              "duration": 2040.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/am_onyx.m4a",
+              "duration": 1791.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/am_santa.m4a",
+              "duration": 1950.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/bf_isabella.m4a",
+              "duration": 1954.8
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/bm_daniel.m4a",
+              "duration": 1740.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/bm_george.m4a",
+              "duration": 2059.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-14-Time-Dilation-And-Length-Contraction/zz_eloquence.m4a",
+              "duration": 1966.6
+            }
+          ]
         },
         {
           "id": "M7-15-Relativistic-Momentum-And-Mass-Energy",
@@ -1414,7 +2186,43 @@
           "scriptPath": "content/M7-15-Relativistic-Momentum-And-Mass-Energy/script.md",
           "supplementaryPath": "content/M7-15-Relativistic-Momentum-And-Mass-Energy/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/af_heart.m4a",
+              "duration": 1684.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/am_onyx.m4a",
+              "duration": 1484.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/am_santa.m4a",
+              "duration": 1612.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/bf_isabella.m4a",
+              "duration": 1613.9
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/bm_daniel.m4a",
+              "duration": 1454.0
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/bm_george.m4a",
+              "duration": 1715.4
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-15-Relativistic-Momentum-And-Mass-Energy/zz_eloquence.m4a",
+              "duration": 1550.5
+            }
+          ]
         },
         {
           "id": "M7-99-Module-Review-The-Nature-Of-Light",
@@ -1423,7 +2231,43 @@
           "scriptPath": "content/M7-99-Module-Review-The-Nature-Of-Light/script.md",
           "supplementaryPath": "content/M7-99-Module-Review-The-Nature-Of-Light/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/af_heart.m4a",
+              "duration": 2508.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/am_onyx.m4a",
+              "duration": 2204.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/am_santa.m4a",
+              "duration": 2395.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/bf_isabella.m4a",
+              "duration": 2400.1
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/bm_daniel.m4a",
+              "duration": 2155.6
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/bm_george.m4a",
+              "duration": 2542.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M7-99-Module-Review-The-Nature-Of-Light/zz_eloquence.m4a",
+              "duration": 2358.9
+            }
+          ]
         }
       ]
     },
@@ -1439,7 +2283,43 @@
           "scriptPath": "content/M8-01-Cathode-Rays-Birth-Of-The-Electron/script.md",
           "supplementaryPath": "content/M8-01-Cathode-Rays-Birth-Of-The-Electron/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/af_heart.m4a",
+              "duration": 1946.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/am_onyx.m4a",
+              "duration": 1707.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/am_santa.m4a",
+              "duration": 1865.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/bf_isabella.m4a",
+              "duration": 1848.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/bm_daniel.m4a",
+              "duration": 1666.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/bm_george.m4a",
+              "duration": 1968.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-01-Cathode-Rays-Birth-Of-The-Electron/zz_eloquence.m4a",
+              "duration": 1837.5
+            }
+          ]
         },
         {
           "id": "M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model",
@@ -1448,7 +2328,43 @@
           "scriptPath": "content/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/script.md",
           "supplementaryPath": "content/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/af_heart.m4a",
+              "duration": 2176.6
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/am_onyx.m4a",
+              "duration": 1917.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/am_santa.m4a",
+              "duration": 2091.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/bf_isabella.m4a",
+              "duration": 2088.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/bm_daniel.m4a",
+              "duration": 1884.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/bm_george.m4a",
+              "duration": 2215.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-02-Charge-To-Mass-And-The-Plum-Pudding-Model/zz_eloquence.m4a",
+              "duration": 2055.2
+            }
+          ]
         },
         {
           "id": "M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom",
@@ -1457,7 +2373,43 @@
           "scriptPath": "content/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/script.md",
           "supplementaryPath": "content/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/af_heart.m4a",
+              "duration": 2164.3
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/am_onyx.m4a",
+              "duration": 1900.9
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/am_santa.m4a",
+              "duration": 2069.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/bf_isabella.m4a",
+              "duration": 2069.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/bm_daniel.m4a",
+              "duration": 1859.4
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/bm_george.m4a",
+              "duration": 2189.5
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-03-The-Gold-Foil-Experiment-And-The-Nuclear-Atom/zz_eloquence.m4a",
+              "duration": 2037.7
+            }
+          ]
         },
         {
           "id": "M8-04-The-Bohr-Model-Energy-Levels-And-Spectra",
@@ -1466,7 +2418,43 @@
           "scriptPath": "content/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/script.md",
           "supplementaryPath": "content/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/af_heart.m4a",
+              "duration": 2195.2
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/am_onyx.m4a",
+              "duration": 1923.1
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/am_santa.m4a",
+              "duration": 2089.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/bf_isabella.m4a",
+              "duration": 2087.4
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/bm_daniel.m4a",
+              "duration": 1874.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/bm_george.m4a",
+              "duration": 2210.1
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-04-The-Bohr-Model-Energy-Levels-And-Spectra/zz_eloquence.m4a",
+              "duration": 2060.5
+            }
+          ]
         },
         {
           "id": "M8-05-Matter-Waves-De-Broglie-And-Standing-Waves",
@@ -1475,7 +2463,43 @@
           "scriptPath": "content/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/script.md",
           "supplementaryPath": "content/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/af_heart.m4a",
+              "duration": 2545.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/am_onyx.m4a",
+              "duration": 2233.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/am_santa.m4a",
+              "duration": 2435.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/bf_isabella.m4a",
+              "duration": 2417.9
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/bm_daniel.m4a",
+              "duration": 2179.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/bm_george.m4a",
+              "duration": 2573.3
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-05-Matter-Waves-De-Broglie-And-Standing-Waves/zz_eloquence.m4a",
+              "duration": 2368.7
+            }
+          ]
         },
         {
           "id": "M8-06-The-Standard-Model-Quarks-Leptons-And-Forces",
@@ -1484,7 +2508,43 @@
           "scriptPath": "content/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/script.md",
           "supplementaryPath": "content/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/af_heart.m4a",
+              "duration": 2091.5
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/am_onyx.m4a",
+              "duration": 1832.1
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/am_santa.m4a",
+              "duration": 1997.2
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/bf_isabella.m4a",
+              "duration": 1990.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/bm_daniel.m4a",
+              "duration": 1792.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/bm_george.m4a",
+              "duration": 2124.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-06-The-Standard-Model-Quarks-Leptons-And-Forces/zz_eloquence.m4a",
+              "duration": 1992.1
+            }
+          ]
         },
         {
           "id": "M8-07-Radioactivity-Strong-Force-Stability-And-Decays",
@@ -1493,7 +2553,43 @@
           "scriptPath": "content/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/script.md",
           "supplementaryPath": "content/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/af_heart.m4a",
+              "duration": 2139.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/am_onyx.m4a",
+              "duration": 1873.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/am_santa.m4a",
+              "duration": 2037.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/bf_isabella.m4a",
+              "duration": 2035.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/bm_daniel.m4a",
+              "duration": 1829.3
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/bm_george.m4a",
+              "duration": 2160.1
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-07-Radioactivity-Strong-Force-Stability-And-Decays/zz_eloquence.m4a",
+              "duration": 2002.7
+            }
+          ]
         },
         {
           "id": "M8-08-Half-Life-And-The-Mathematics-Of-Decay",
@@ -1502,7 +2598,43 @@
           "scriptPath": "content/M8-08-Half-Life-And-The-Mathematics-Of-Decay/script.md",
           "supplementaryPath": "content/M8-08-Half-Life-And-The-Mathematics-Of-Decay/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/af_heart.m4a",
+              "duration": 2003.4
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/am_onyx.m4a",
+              "duration": 1767.7
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/am_santa.m4a",
+              "duration": 1918.2
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/bf_isabella.m4a",
+              "duration": 1931.6
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/bm_daniel.m4a",
+              "duration": 1736.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/bm_george.m4a",
+              "duration": 2040.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-08-Half-Life-And-The-Mathematics-Of-Decay/zz_eloquence.m4a",
+              "duration": 1912.2
+            }
+          ]
         },
         {
           "id": "M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared",
@@ -1511,7 +2643,43 @@
           "scriptPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/script.md",
           "supplementaryPath": "content/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/af_heart.m4a",
+              "duration": 2100.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/am_onyx.m4a",
+              "duration": 1843.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/am_santa.m4a",
+              "duration": 2001.8
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/bf_isabella.m4a",
+              "duration": 1994.1
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/bm_daniel.m4a",
+              "duration": 1787.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/bm_george.m4a",
+              "duration": 2106.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-09-Mass-Defect-Binding-Energy-And-E-Equals-Mc-Squared/zz_eloquence.m4a",
+              "duration": 1944.0
+            }
+          ]
         },
         {
           "id": "M8-10-Nuclear-Fission-And-The-Reactor",
@@ -1520,7 +2688,43 @@
           "scriptPath": "content/M8-10-Nuclear-Fission-And-The-Reactor/script.md",
           "supplementaryPath": "content/M8-10-Nuclear-Fission-And-The-Reactor/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/af_heart.m4a",
+              "duration": 1754.6
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/am_onyx.m4a",
+              "duration": 1541.2
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/am_santa.m4a",
+              "duration": 1684.5
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/bf_isabella.m4a",
+              "duration": 1664.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/bm_daniel.m4a",
+              "duration": 1501.2
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/bm_george.m4a",
+              "duration": 1771.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-10-Nuclear-Fission-And-The-Reactor/zz_eloquence.m4a",
+              "duration": 1649.3
+            }
+          ]
         },
         {
           "id": "M8-11-Nuclear-Fusion-Powering-The-Stars",
@@ -1529,7 +2733,43 @@
           "scriptPath": "content/M8-11-Nuclear-Fusion-Powering-The-Stars/script.md",
           "supplementaryPath": "content/M8-11-Nuclear-Fusion-Powering-The-Stars/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/af_heart.m4a",
+              "duration": 2093.6
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/am_onyx.m4a",
+              "duration": 1829.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/am_santa.m4a",
+              "duration": 1995.7
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/bf_isabella.m4a",
+              "duration": 1983.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/bm_daniel.m4a",
+              "duration": 1780.8
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/bm_george.m4a",
+              "duration": 2107.9
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-11-Nuclear-Fusion-Powering-The-Stars/zz_eloquence.m4a",
+              "duration": 1934.7
+            }
+          ]
         },
         {
           "id": "M8-12-Antimatter-Annihilation-And-The-PET-Scan",
@@ -1538,7 +2778,43 @@
           "scriptPath": "content/M8-12-Antimatter-Annihilation-And-The-PET-Scan/script.md",
           "supplementaryPath": "content/M8-12-Antimatter-Annihilation-And-The-PET-Scan/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/af_heart.m4a",
+              "duration": 2337.1
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/am_onyx.m4a",
+              "duration": 2050.6
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/am_santa.m4a",
+              "duration": 2236.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/bf_isabella.m4a",
+              "duration": 2227.0
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/bm_daniel.m4a",
+              "duration": 2001.3
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/bm_george.m4a",
+              "duration": 2365.6
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-12-Antimatter-Annihilation-And-The-PET-Scan/zz_eloquence.m4a",
+              "duration": 2170.4
+            }
+          ]
         },
         {
           "id": "M8-13-Reading-The-Stars-Spectra-And-Redshift",
@@ -1547,7 +2823,43 @@
           "scriptPath": "content/M8-13-Reading-The-Stars-Spectra-And-Redshift/script.md",
           "supplementaryPath": "content/M8-13-Reading-The-Stars-Spectra-And-Redshift/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/af_heart.m4a",
+              "duration": 2488.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/am_onyx.m4a",
+              "duration": 2183.7
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/am_santa.m4a",
+              "duration": 2377.6
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/bf_isabella.m4a",
+              "duration": 2366.9
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/bm_daniel.m4a",
+              "duration": 2133.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/bm_george.m4a",
+              "duration": 2515.8
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-13-Reading-The-Stars-Spectra-And-Redshift/zz_eloquence.m4a",
+              "duration": 2335.5
+            }
+          ]
         },
         {
           "id": "M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements",
@@ -1556,7 +2868,43 @@
           "scriptPath": "content/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/script.md",
           "supplementaryPath": "content/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/af_heart.m4a",
+              "duration": 2401.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/am_onyx.m4a",
+              "duration": 2107.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/am_santa.m4a",
+              "duration": 2294.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/bf_isabella.m4a",
+              "duration": 2298.9
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/bm_daniel.m4a",
+              "duration": 2056.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/bm_george.m4a",
+              "duration": 2436.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-14-HR-Diagrams-Stellar-Lives-And-The-Elements/zz_eloquence.m4a",
+              "duration": 2269.6
+            }
+          ]
         },
         {
           "id": "M8-99-Module-Review-From-The-Universe-To-The-Atom",
@@ -1565,7 +2913,43 @@
           "scriptPath": "content/M8-99-Module-Review-From-The-Universe-To-The-Atom/script.md",
           "supplementaryPath": "content/M8-99-Module-Review-From-The-Universe-To-The-Atom/supplementary.md",
           "quizPath": null,
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/af_heart.m4a",
+              "duration": 2793.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/am_onyx.m4a",
+              "duration": 2447.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/am_santa.m4a",
+              "duration": 2669.9
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/bf_isabella.m4a",
+              "duration": 2644.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/bm_daniel.m4a",
+              "duration": 2383.9
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/bm_george.m4a",
+              "duration": 2817.4
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M8-99-Module-Review-From-The-Universe-To-The-Atom/zz_eloquence.m4a",
+              "duration": 2584.4
+            }
+          ]
         }
       ]
     }
