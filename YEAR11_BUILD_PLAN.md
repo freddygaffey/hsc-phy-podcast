@@ -43,7 +43,7 @@ M2: M2-01 Forces and Newton's Laws · M2-02 Friction, Inclined Planes and Net Fo
 M3: M3-01 Wave Properties and the Wave Equation · M3-02 Wave Behaviour (Reflection, Refraction,
     Diffraction, Superposition) · M3-03 Sound Waves, Resonance and Standing Waves ·
     M3-04 Ray Model of Light · M3-05 Thermodynamics: Temperature and Heat ·
-    M3-06 Heat Transfer and the First Law · M3-99 Review
+    M3-06 Heat Transfer and Latent Heat · M3-99 Review
 M4: M4-01 Electrostatics: Charge and Fields · M4-02 Electric Circuits: Ohm's Law and Power ·
     M4-03 Series and Parallel Circuits · M4-04 Magnetism and Magnetic Fields · M4-99 Review
 ```
