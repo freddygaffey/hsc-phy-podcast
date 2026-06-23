@@ -915,6 +915,22 @@
       ]
     },
     {
+      "id": "M2",
+      "prefix": "M2",
+      "moduleNum": 2,
+      "episodes": [
+        {
+          "id": "M2-01-Forces-And-Newtons-Laws",
+          "title": "Forces And Newtons Laws",
+          "unit": 1,
+          "scriptPath": "content/M2-01-Forces-And-Newtons-Laws/script.md",
+          "supplementaryPath": "content/M2-01-Forces-And-Newtons-Laws/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    },
+    {
       "id": "M6",
       "prefix": "M6",
       "moduleNum": 6,
