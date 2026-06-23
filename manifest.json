@@ -884,6 +884,15 @@
           "supplementaryPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M1-03-Equations-Of-Uniformly-Accelerated-Motion",
+          "title": "Equations Of Uniformly Accelerated Motion",
+          "unit": 3,
+          "scriptPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/script.md",
+          "supplementaryPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
