@@ -10,133 +10,129 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference.
 
 ### Listing 1 — Stage 1: the velocity selector (find the speed)
-```text
-Both E and B fields ON, forces opposed; beam adjusted until UNDEFLECTED.
 
-Undeflected  ⇒  net force = 0  ⇒  electric force = magnetic force
+Both \(E\) and \(B\) fields ON, forces opposed; beam adjusted until UNDEFLECTED. Undeflected \(\Rightarrow\) net force \(= 0\) \(\Rightarrow\) electric force \(=\) magnetic force:
 
-    F_E = F_B
-    qE  = qvB
+$$
+F_E = F_B
+$$
 
-q cancels (appears on both sides):
+$$
+qE = qvB
+$$
 
-    E = vB
-    v = E / B
+\(q\) cancels (appears on both sides):
 
-Key point: q cancels, so the selected speed v is INDEPENDENT of the
-charge AND the mass of the particle. (q cancels ≠ q is zero.)
+$$
+E = vB \qquad \Rightarrow \qquad v = \frac{E}{B}
+$$
+
+Key point: \(q\) cancels, so the selected speed \(v\) is INDEPENDENT of the charge AND the mass of the particle. (\(q\) cancels \(\ne\) \(q\) is zero.)
 
 Symbols/units:
-    F_E, F_B = force (N)
-    q = charge (C)
-    E = electric field strength (N C⁻¹ = V m⁻¹)
-    v = speed (m s⁻¹)
-    B = magnetic flux density (T, tesla)
-```
+
+- \(F_E,\ F_B\) = force (\(\mathrm{N}\))
+- \(q\) = charge (\(\mathrm{C}\))
+- \(E\) = electric field strength (\(\mathrm{N\,C^{-1}} = \mathrm{V\,m^{-1}}\))
+- \(v\) = speed (\(\mathrm{m\,s^{-1}}\))
+- \(B\) = magnetic flux density (\(\mathrm{T}\), tesla)
 
 ### Listing 2 — Stage 2: magnetic-only circular motion (find q/m)
-```text
-Electric field switched OFF; only B acts.
-Magnetic force is ALWAYS perpendicular to v ⇒ does no work ⇒
-acts as the centripetal force ⇒ beam follows a circular arc.
 
-    magnetic force = centripetal force
-    qvB = m v² / r
+Electric field switched OFF; only \(B\) acts. Magnetic force is ALWAYS perpendicular to \(v\) \(\Rightarrow\) does no work \(\Rightarrow\) acts as the centripetal force \(\Rightarrow\) beam follows a circular arc. Setting magnetic force \(=\) centripetal force:
 
-Cancel one factor of v and rearrange for q/m:
+$$
+qvB = \frac{m v^{2}}{r}
+$$
 
-    qB = m v / r
-    q/m = v / (B r)
+Cancel one factor of \(v\) and rearrange for \(q/m\):
 
-Substitute v = E/B from Stage 1 to get the combined form:
+$$
+qB = \frac{m v}{r} \qquad \Rightarrow \qquad \frac{q}{m} = \frac{v}{B r}
+$$
 
-    q/m = (E/B) / (B r)
-    q/m = E / (B² r)
+Substitute \(v = E/B\) from Stage 1 to get the combined form:
+
+$$
+\frac{q}{m} = \frac{E/B}{B r} = \frac{E}{B^{2} r}
+$$
 
 Symbols/units:
-    m = mass (kg)
-    r = radius of circular path (m)
-    q/m = charge-to-mass ratio (C kg⁻¹)
-```
+
+- \(m\) = mass (\(\mathrm{kg}\))
+- \(r\) = radius of circular path (\(\mathrm{m}\))
+- \(q/m\) = charge-to-mass ratio (\(\mathrm{C\,kg^{-1}}\))
 
 ### Listing 3 — Worked example: Thomson's q/m for the electron
-```text
-GIVEN (crossed-fields CRT):
-    Undeflected with  E = 5.0 × 10³ N C⁻¹,  B = 2.0 × 10⁻² T
-    With E off, circular arc radius  r = 7.1 × 10⁻⁵ m
 
-STAGE 1 — speed:
-    v = E / B
-    v = (5.0 × 10³) / (2.0 × 10⁻²)
-    v = 2.5 × 10⁵ m s⁻¹
-    (charge cancelled — speed independent of q and m)
+GIVEN (crossed-fields CRT): undeflected with \(E = 5.0 \times 10^{3}\ \mathrm{N\,C^{-1}}\), \(B = 2.0 \times 10^{-2}\ \mathrm{T}\); with \(E\) off, circular arc radius \(r = 7.1 \times 10^{-5}\ \mathrm{m}\).
+
+STAGE 1 — speed (charge cancelled — speed independent of \(q\) and \(m\)):
+
+$$
+v = \frac{E}{B} = \frac{5.0 \times 10^{3}}{2.0 \times 10^{-2}} = 2.5 \times 10^{5}\ \mathrm{m\,s^{-1}}
+$$
 
 STAGE 2 — charge-to-mass ratio:
-    q/m = v / (B r)
-    q/m = (2.5 × 10⁵) / (2.0 × 10⁻² × 7.1 × 10⁻⁵)
-    q/m = (2.5 × 10⁵) / (1.42 × 10⁻⁶)
-    q/m ≈ 1.76 × 10¹¹ C kg⁻¹
 
-INTERPRETATION:
-    This is ~1800× the q/m of a hydrogen ion ⇒ electron mass ≈ 1/1800
-    that of hydrogen ⇒ first sub-atomic particle ⇒ atom is divisible.
-```
+$$
+\frac{q}{m} = \frac{v}{B r} = \frac{2.5 \times 10^{5}}{(2.0 \times 10^{-2})(7.1 \times 10^{-5})} = \frac{2.5 \times 10^{5}}{1.42 \times 10^{-6}} \approx 1.76 \times 10^{11}\ \mathrm{C\,kg^{-1}}
+$$
+
+INTERPRETATION: this is \(\sim 1800\times\) the \(q/m\) of a hydrogen ion \(\Rightarrow\) electron mass \(\approx 1/1800\) that of hydrogen \(\Rightarrow\) first sub-atomic particle \(\Rightarrow\) atom is divisible.
 
 ### Listing 4 — Magnetic force on an electron (supports Stage 2)
-```text
+
 GIVEN:
-    q = 1.6 × 10⁻¹⁹ C
-    v = 2.5 × 10⁴ m s⁻¹  (perpendicular to B, so sin θ = sin 90° = 1)
-    B = 2.0 × 10⁻² T
 
-    F = qvB sin θ
-    F = (1.6 × 10⁻¹⁹)(2.5 × 10⁴)(2.0 × 10⁻²)(1)
-    F = 8.0 × 10⁻¹⁷ N
+- \(q = 1.6 \times 10^{-19}\ \mathrm{C}\)
+- \(v = 2.5 \times 10^{4}\ \mathrm{m\,s^{-1}}\) (perpendicular to \(B\), so \(\sin\theta = \sin 90^\circ = 1\))
+- \(B = 2.0 \times 10^{-2}\ \mathrm{T}\)
 
-The force stays perpendicular to v ⇒ path is CIRCULAR, speed unchanged
-(magnetic force does no work; it changes direction, not speed).
-```
+$$
+F = qvB\sin\theta = (1.6 \times 10^{-19})(2.5 \times 10^{4})(2.0 \times 10^{-2})(1) = 8.0 \times 10^{-17}\ \mathrm{N}
+$$
+
+The force stays perpendicular to \(v\) \(\Rightarrow\) path is CIRCULAR, speed unchanged (magnetic force does no work; it changes direction, not speed).
 
 ### Listing 5 — Worked example: Millikan oil drop (charge + electron count)
-```text
+
 GIVEN:
-    drop mass  m = 6.8 × 10⁻⁶ g
-    plate separation  d = 3.5 mm = 3.5 × 10⁻³ m
-    plate voltage  V = 110 V
-    g = 9.8 m s⁻²,   e = 1.6 × 10⁻¹⁹ C
+
+- drop mass \(m = 6.8 \times 10^{-6}\ \mathrm{g}\)
+- plate separation \(d = 3.5\ \mathrm{mm} = 3.5 \times 10^{-3}\ \mathrm{m}\)
+- plate voltage \(V = 110\ \mathrm{V}\)
+- \(g = 9.8\ \mathrm{m\,s^{-2}}\), \(\ e = 1.6 \times 10^{-19}\ \mathrm{C}\)
 
 (a) FIELD STRENGTH:
-    E = V / d
-    E = 110 / (3.5 × 10⁻³)
-    E ≈ 3.1 × 10⁴ V m⁻¹   (3.143 × 10⁴)
 
-(b) CHARGE (suspended ⇒ qE = mg):
-    convert mass: 6.8 × 10⁻⁶ g = 6.8 × 10⁻⁹ kg   ← grams → kg!
-    q = mg / E
-    q = (6.8 × 10⁻⁹ × 9.8) / (3.143 × 10⁴)
-    q = (6.664 × 10⁻⁸) / (3.143 × 10⁴)
-    q ≈ 2.1 × 10⁻¹² C
+$$
+E = \frac{V}{d} = \frac{110}{3.5 \times 10^{-3}} \approx 3.1 \times 10^{4}\ \mathrm{V\,m^{-1}}\quad (3.143 \times 10^{4})
+$$
 
-(c) NUMBER OF EXCESS ELECTRONS (q = n e):
-    n = q / e
-    n = (2.1 × 10⁻¹²) / (1.6 × 10⁻¹⁹)
-    n ≈ 1.3 × 10⁷ electrons   (whole number ⇒ charge is quantised)
-```
+(b) CHARGE (suspended \(\Rightarrow qE = mg\)); convert mass: \(6.8 \times 10^{-6}\ \mathrm{g} = 6.8 \times 10^{-9}\ \mathrm{kg}\) (grams \(\to\) kg!):
+
+$$
+q = \frac{mg}{E} = \frac{(6.8 \times 10^{-9})(9.8)}{3.143 \times 10^{4}} = \frac{6.664 \times 10^{-8}}{3.143 \times 10^{4}} \approx 2.1 \times 10^{-12}\ \mathrm{C}
+$$
+
+(c) NUMBER OF EXCESS ELECTRONS (\(q = n e\)):
+
+$$
+n = \frac{q}{e} = \frac{2.1 \times 10^{-12}}{1.6 \times 10^{-19}} \approx 1.3 \times 10^{7}\ \text{electrons}
+$$
+
+(whole number \(\Rightarrow\) charge is quantised)
 
 ### Listing 6 — Combining Thomson and Millikan to get the electron mass
-```text
-Thomson gives the RATIO:   q/m = 1.76 × 10¹¹ C kg⁻¹
-Millikan gives the CHARGE:  e   = 1.6 × 10⁻¹⁹ C
 
-Electron mass = charge ÷ (charge-to-mass ratio):
+Thomson gives the RATIO: \(q/m = 1.76 \times 10^{11}\ \mathrm{C\,kg^{-1}}\). Millikan gives the CHARGE: \(e = 1.6 \times 10^{-19}\ \mathrm{C}\). Electron mass \(=\) charge \(\div\) (charge-to-mass ratio):
 
-    m = e ÷ (q/m)
-    m = (1.6 × 10⁻¹⁹) / (1.76 × 10¹¹)
-    m ≈ 9.1 × 10⁻³¹ kg
+$$
+m = \frac{e}{q/m} = \frac{1.6 \times 10^{-19}}{1.76 \times 10^{11}} \approx 9.1 \times 10^{-31}\ \mathrm{kg}
+$$
 
-Neither experiment alone gives the mass; together they do.
-Trap: Thomson = ratio only; Millikan = charge only.
-```
+Neither experiment alone gives the mass; together they do. Trap: Thomson = ratio only; Millikan = charge only.
 
 ### Listing 7 — Key values, constants and milestones
 | Quantity / item | Value / fact |
@@ -149,8 +145,8 @@ Trap: Thomson = ratio only; Millikan = charge only.
 | Gravitational acceleration (g) | 9.8 m s⁻² (Millikan equilibrium) |
 | J.J. Thomson | measured q/m in 1897; discovered the electron; plum pudding model ~1904 |
 | Robert A. Millikan | oil-drop experiment ~1909 (refined ~1913); Nobel Prize 1923 |
-| Velocity-selector condition | undeflected ⇒ qE = qvB ⇒ v = E/B (charge cancels) |
-| Centripetal condition | qvB = mv²/r ⇒ q/m = v/(Br) ⇒ q/m = E/(B²r) |
+| Velocity-selector condition | undeflected \(\Rightarrow qE = qvB \Rightarrow v = E/B\) (charge cancels) |
+| Centripetal condition | \(qvB = mv^{2}/r \Rightarrow q/m = v/(Br) \Rightarrow q/m = E/(B^{2}r)\) |
 
 ### Listing 8 — Memory hooks
 ```text

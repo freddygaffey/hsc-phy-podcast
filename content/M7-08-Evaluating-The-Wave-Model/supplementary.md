@@ -59,53 +59,77 @@ WHY IT SCORES: (1) states a verdict; (2) each pillar = observation + why particl
 ```
 
 ### Listing 2 — Worked numerical: the three-polariser puzzle
-```text
-Setup: unpolarised light I₀ → polariser → analyser at 60° → second analyser 30° further
-       (= 90° to the first filter, so first and last are CROSSED).
 
-(a) After 1st filter (unpolarised → use the ½ rule, NOT Malus's Law):
-    I_a = ½ I₀                                  → I_a / I₀ = 0.50 = 50%
+Setup: unpolarised light \(I_{0}\) \(\to\) polariser \(\to\) analyser at \(60°\) \(\to\) second analyser \(30°\) further (\(= 90°\) to the first filter, so first and last are CROSSED).
 
-(b) After 60° analyser (now polarised → Malus's Law, I = I_a cos²θ):
-    I_b = I_a cos²(60°) = (0.5 I₀)(0.5)²
-        = 0.5 I₀ × 0.25 = 0.125 I₀             → I_b / I₀ = 12.5%
+**(a)** After 1st filter (unpolarised \(\to\) use the \(\tfrac{1}{2}\) rule, NOT Malus's Law):
 
-(c) After 2nd analyser, 30° further (Malus again):
-    I_c = I_b cos²(30°) = (0.125 I₀)(0.866)²
-        = 0.125 I₀ × 0.75 = 0.0938 I₀          → I_c / I₀ ≈ 9.4%
+$$
+I_a = \tfrac{1}{2} I_{0} \quad\to\quad \frac{I_a}{I_{0}} = 0.50 = 50\%
+$$
 
-(d) Remove the MIDDLE filter (polariser + final analyser, crossed at 90°):
-    I_d = I_a cos²(90°) = 0.5 I₀ × 0 = 0        → I_d / I₀ = 0%
+**(b)** After \(60°\) analyser (now polarised \(\to\) Malus's Law, \(I = I_a \cos^{2}\theta\)):
+
+$$
+I_b = I_a \cos^{2}(60°) = (0.5\,I_{0})(0.5)^{2} = 0.5\,I_{0} \times 0.25 = 0.125\,I_{0} \quad\to\quad \frac{I_b}{I_{0}} = 12.5\%
+$$
+
+**(c)** After 2nd analyser, \(30°\) further (Malus again):
+
+$$
+I_c = I_b \cos^{2}(30°) = (0.125\,I_{0})(0.866)^{2} = 0.125\,I_{0} \times 0.75 = 0.0938\,I_{0} \quad\to\quad \frac{I_c}{I_{0}} \approx 9.4\%
+$$
+
+**(d)** Remove the MIDDLE filter (polariser + final analyser, crossed at \(90°\)):
+
+$$
+I_d = I_a \cos^{2}(90°) = 0.5\,I_{0} \times 0 = 0 \quad\to\quad \frac{I_d}{I_{0}} = 0\%
+$$
 
 Punchline: with the middle filter IN, ~9.4% gets through; REMOVE it and 0% gets through.
 Resolution (classical): each filter re-projects the polarisation onto its own axis, so the
-light reaching the last filter is only 30° off (not 90°). Classical component projection
+light reaching the last filter is only \(30°\) off (not \(90°\)). Classical component projection
 reproduces these intensities exactly — but the behaviour is more naturally described by the
-quantum model (each photon transmitted/absorbed with probability cos²θ). A hint of the limit,
+quantum model (each photon transmitted/absorbed with probability \(\cos^{2}\theta\)). A hint of the limit,
 NOT a failure of the wave model.
 
-Key cosine-squared values: cos²30° = 0.75 ; cos²45° = 0.5 ; cos²60° = 0.25 ; cos²90° = 0.
-First filter on UNPOLARISED light → ½ (averaged mean of cos²θ); Malus's Law (cos²θ) applies
+Key cosine-squared values: \(\cos^{2}30° = 0.75\); \(\cos^{2}45° = 0.5\); \(\cos^{2}60° = 0.25\); \(\cos^{2}90° = 0\).
+First filter on UNPOLARISED light \(\to\) \(\tfrac{1}{2}\) (averaged mean of \(\cos^{2}\theta\)); Malus's Law (\(\cos^{2}\theta\)) applies
 only to already-POLARISED light hitting an analyser.
-```
 
 ### Listing 3 — Worked numerical: double-slit interference (the evidence is measurable)
-```text
-Given: d = 0.100 mm = 1.00 × 10⁻⁴ m ; L = 1.50 m ; λ = 589 nm = 589 × 10⁻⁹ m
 
-Maxima condition (constructive interference):  d sin θ = m λ
+Given: \(d = 0.100\ \mathrm{mm} = 1.00 \times 10^{-4}\ \mathrm{m}\); \(L = 1.50\ \mathrm{m}\); \(\lambda = 589\ \mathrm{nm} = 589 \times 10^{-9}\ \mathrm{m}\).
 
-(a) First-order maximum, m = 1:
-    sin θ = mλ / d = (1 × 589 × 10⁻⁹) / (1.00 × 10⁻⁴) = 5.89 × 10⁻³
-    θ = sin⁻¹(5.89 × 10⁻³) = 0.337°            (tiny angle → close slits, far screen)
+Maxima condition (constructive interference):
 
-    Position on screen:  x = L sin θ = 1.50 × sin(0.337°) ≈ 8.8 × 10⁻³ m = 8.8 mm
+$$
+d \sin\theta = m \lambda
+$$
 
-(b) Third-order maximum, m = 3 (fringes evenly spaced):
-    x₃ = 3 × 8.8 mm = 26.4 mm
+**(a)** First-order maximum, \(m = 1\):
 
-Small-angle relation (alternative): sin θ ≈ tan θ = x / L,  so  x = mλL / d.
-```
+$$
+\sin\theta = \frac{m\lambda}{d} = \frac{(1)(589 \times 10^{-9})}{1.00 \times 10^{-4}} = 5.89 \times 10^{-3}
+$$
+
+$$
+\theta = \sin^{-1}(5.89 \times 10^{-3}) = 0.337°
+$$
+
+(tiny angle \(\to\) close slits, far screen). Position on screen:
+
+$$
+x = L \sin\theta = 1.50 \times \sin(0.337°) \approx 8.8 \times 10^{-3}\ \mathrm{m} = 8.8\ \mathrm{mm}
+$$
+
+**(b)** Third-order maximum, \(m = 3\) (fringes evenly spaced):
+
+$$
+x_{3} = 3 \times 8.8\ \mathrm{mm} = 26.4\ \mathrm{mm}
+$$
+
+Small-angle relation (alternative): \(\sin\theta \approx \tan\theta = x / L\), so \(x = \dfrac{m\lambda L}{d}\).
 
 ### Listing 4 — Key facts: the Newton-vs-Huygens contest and the three pillars
 | Item | Detail (get this exact) |

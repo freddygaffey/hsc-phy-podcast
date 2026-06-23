@@ -10,83 +10,124 @@ script: script.md
 Key equations, decay equations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference. The narration refers to each listing by label only.
 
 ### Listing 1 — Energy of an annihilation photon (worked example)
-```text
+
 Find: energy of EACH gamma photon when an electron and positron annihilate at rest.
 
-Reaction:   e⁻ + e⁺ → γ + γ   (two photons, opposite directions, ≈180° apart)
+Reaction (two photons, opposite directions, \(\approx 180^{\circ}\) apart):
 
-Data:   m_e = 9.11 × 10⁻³¹ kg
-        c   = 3.0 × 10⁸ m s⁻¹
-        1 MeV = 1.602 × 10⁻¹³ J
+$$
+e^{-} + e^{+} \to \gamma + \gamma
+$$
 
-Step 1 — Total energy released = rest energy of BOTH particles:
-        E_total = 2 m_e c²
-        E_total = 2 × (9.11 × 10⁻³¹) × (3.0 × 10⁸)²
-        E_total = 2 × (9.11 × 10⁻³¹) × (9.0 × 10¹⁶)
-        E_total = 1.64 × 10⁻¹³ J
+Data:
 
-Step 2 — Two photons share it equally → each photon:
-        E_photon = ½ × (1.64 × 10⁻¹³)
-        E_photon = 8.2 × 10⁻¹⁴ J
+- \(m_e = 9.11 \times 10^{-31}\ \mathrm{kg}\)
+- \(c = 3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\)
+- \(1\ \mathrm{MeV} = 1.602 \times 10^{-13}\ \mathrm{J}\)
 
-Step 3 — Convert one photon to MeV:
-        E_photon = (8.2 × 10⁻¹⁴) ÷ (1.602 × 10⁻¹³)
-        E_photon = 0.511 MeV
+**Step 1 — Total energy released = rest energy of BOTH particles:**
 
-Answer:  each photon = 8.2 × 10⁻¹⁴ J = 0.511 MeV
-         total released = 1.64 × 10⁻¹³ J = 1.022 MeV = 2 m_e c²
-```
+$$
+E_{\text{total}} = 2 m_e c^{2}
+$$
+
+$$
+E_{\text{total}} = 2 \times (9.11 \times 10^{-31}) \times (3.0 \times 10^{8})^{2}
+$$
+
+$$
+E_{\text{total}} = 2 \times (9.11 \times 10^{-31}) \times (9.0 \times 10^{16}) = 1.64 \times 10^{-13}\ \mathrm{J}
+$$
+
+**Step 2 — Two photons share it equally → each photon:**
+
+$$
+E_{\text{photon}} = \tfrac{1}{2} \times (1.64 \times 10^{-13}) = 8.2 \times 10^{-14}\ \mathrm{J}
+$$
+
+**Step 3 — Convert one photon to MeV:**
+
+$$
+E_{\text{photon}} = (8.2 \times 10^{-14}) \div (1.602 \times 10^{-13}) = 0.511\ \mathrm{MeV}
+$$
+
+Answer: each photon \(= 8.2 \times 10^{-14}\ \mathrm{J} = 0.511\ \mathrm{MeV}\); total released \(= 1.64 \times 10^{-13}\ \mathrm{J} = 1.022\ \mathrm{MeV} = 2 m_e c^{2}\).
 
 ### Listing 2 — Energy released in C-11 beta-plus decay (worked example)
-```text
-Reaction:   ¹¹₆C → ¹¹₅B + ⁰₊₁e + ν    (positron + neutrino emitted)
 
-Atomic masses (u):   ¹¹₆C = 11.011 43
-                     ¹¹₅B = 11.009 31
-                     electron / positron = 0.000 55 each
-Conversion:          1 u ≡ 931.5 MeV/c²   (multiply by 931.5 and STOP)
+Reaction (positron + neutrino emitted):
 
-These are ATOMIC masses (include orbital electrons), so the electrons
-must be tracked explicitly. Neutrino mass is neglected.
+$$
+{}^{11}_{6}\mathrm{C} \to {}^{11}_{5}\mathrm{B} + {}^{0}_{+1}e + \nu
+$$
+
+Atomic masses (u):
+
+- \({}^{11}_{6}\mathrm{C} = 11.01143\)
+- \({}^{11}_{5}\mathrm{B} = 11.00931\)
+- electron / positron \(= 0.00055\) each
+
+Conversion: \(1\ \mathrm{u} \equiv 931.5\ \mathrm{MeV}/c^{2}\) (multiply by 931.5 and STOP).
+
+These are ATOMIC masses (include orbital electrons), so the electrons must be tracked explicitly. Neutrino mass is neglected.
 
 Mass before (C-11 nucleus) = atomic mass − 6 electrons:
-        = 11.011 43 − (6 × 0.000 55)
-        = 11.008 13 u
+
+$$
+= 11.01143 - (6 \times 0.00055) = 11.00813\ \mathrm{u}
+$$
 
 Mass after (B-11 nucleus + emitted positron), via electron bookkeeping:
-        = [11.009 31 − (4 × 0.000 55)]
-        = 11.007 11 u
 
-Mass lost (Δm):
-        Δm = 11.008 13 − 11.007 11
-        Δm = 0.001 02 u
+$$
+= [11.00931 - (4 \times 0.00055)] = 11.00711\ \mathrm{u}
+$$
 
-Energy released (multiply by 931.5; do NOT divide by c² as well):
-        E = 0.001 02 × 931.5
-        E ≈ 0.95 MeV
+Mass lost \((\Delta m)\):
 
-Answer:  ≈ 0.95 MeV, shared as kinetic energy of the positron and neutrino.
-         (The emitted positron then annihilates → two 0.511 MeV photons: Listing 1.)
-```
+$$
+\Delta m = 11.00813 - 11.00711 = 0.00102\ \mathrm{u}
+$$
+
+Energy released (multiply by 931.5; do NOT divide by \(c^{2}\) as well):
+
+$$
+E = 0.00102 \times 931.5 \approx 0.95\ \mathrm{MeV}
+$$
+
+Answer: \(\approx 0.95\ \mathrm{MeV}\), shared as kinetic energy of the positron and neutrino. (The emitted positron then annihilates \(\to\) two \(0.511\ \mathrm{MeV}\) photons: Listing 1.)
 
 ### Listing 3 — Key equations for this episode
-```text
-Beta-plus decay (general):   ¹₁p → ¹₀n + ⁰₊₁e + ν
-   • mass number A unchanged; atomic number Z falls by 1
 
-Pair production:             γ → e⁻ + e⁺
-   • energy → mass, near a nucleus
-   • two PARTICLES made to conserve CHARGE
-   • threshold E_γ ≥ 1.022 MeV = 2 m_e c²
+Beta-plus decay (general):
 
-Annihilation:                e⁻ + e⁺ → γ + γ
-   • mass → energy
-   • two PHOTONS made to conserve MOMENTUM (pair at rest, total p ≈ 0)
-   • E_total = 2 m_e c² = 1.022 MeV ; each photon = m_e c² = 0.511 MeV
+$$
+{}^{1}_{1}p \to {}^{1}_{0}n + {}^{0}_{+1}e + \nu
+$$
 
-Mass–energy equivalence:     E = mc²
-Mass→energy shortcut:        1 u ≡ 931.5 MeV/c²
-```
+- mass number \(A\) unchanged; atomic number \(Z\) falls by 1
+
+Pair production:
+
+$$
+\gamma \to e^{-} + e^{+}
+$$
+
+- energy → mass, near a nucleus
+- two PARTICLES made to conserve CHARGE
+- threshold \(E_{\gamma} \ge 1.022\ \mathrm{MeV} = 2 m_e c^{2}\)
+
+Annihilation:
+
+$$
+e^{-} + e^{+} \to \gamma + \gamma
+$$
+
+- mass → energy
+- two PHOTONS made to conserve MOMENTUM (pair at rest, total \(p \approx 0\))
+- \(E_{\text{total}} = 2 m_e c^{2} = 1.022\ \mathrm{MeV}\); each photon \(= m_e c^{2} = 0.511\ \mathrm{MeV}\)
+
+Mass–energy equivalence: \(E = mc^{2}\). Mass→energy shortcut: \(1\ \mathrm{u} \equiv 931.5\ \mathrm{MeV}/c^{2}\).
 
 ### Listing 4 — Particle properties and key constants
 | Quantity | Symbol | Value |

@@ -11,93 +11,93 @@ script: script.md
 The two perpendicular arms have slightly different round-trip times when the
 apparatus moves through a stationary aether at speed v.
 
-```text
 Parallel arm (along motion):
-  t_parallel = L/(c - v) + L/(c + v)
-  t_parallel = 2Lc / (c^2 - v^2)
-  t_parallel = (2L/c) / (1 - v^2/c^2)
+
+$$
+t_{\parallel} = \frac{L}{c - v} + \frac{L}{c + v} = \frac{2 L c}{c^{2} - v^{2}} = \frac{2L/c}{1 - v^{2}/c^{2}}
+$$
 
 Perpendicular arm (across motion):
-  t_perpendicular = 2L / sqrt(c^2 - v^2)
-  t_perpendicular = (2L/c) / sqrt(1 - v^2/c^2)
 
-Time difference (small v/c, binomial approximation):
-  delta_t = t_parallel - t_perpendicular ≈ (L/c)(v^2/c^2)
+$$
+t_{\perp} = \frac{2 L}{\sqrt{c^{2} - v^{2}}} = \frac{2L/c}{\sqrt{1 - v^{2}/c^{2}}}
+$$
+
+Time difference (small \(v/c\), binomial approximation):
+
+$$
+\Delta t = t_{\parallel} - t_{\perp} \approx \frac{L}{c}\,\frac{v^{2}}{c^{2}}
+$$
 
 Path difference:
-  c * delta_t ≈ L v^2 / c^2
 
-Rotating 90 degrees swaps the arms, doubling the effect.
-Expected fringe shift:
-  n = 2 L v^2 / (lambda * c^2)
-```
+$$
+c\,\Delta t \approx \frac{L v^{2}}{c^{2}}
+$$
+
+Rotating 90 degrees swaps the arms, doubling the effect. Expected fringe shift:
+
+$$
+n = \frac{2 L v^{2}}{\lambda c^{2}}
+$$
 
 ### Listing 2 — Plugging in the 1887 numbers
 
-```text
-L      = 11 m            (effective folded arm length)
-v      = 3.0 x 10^4 m/s  (Earth orbital speed, ~30 km/s)
-c      = 3.0 x 10^8 m/s  (speed of light)
-lambda = 5.0 x 10^-7 m   (~500 nm, yellow-green light)
+Values: \(L = 11\ \mathrm{m}\) (effective folded arm length), \(v = 3.0\times 10^{4}\ \mathrm{m/s}\) (Earth orbital speed, \({\sim}30\ \mathrm{km/s}\)), \(c = 3.0\times 10^{8}\ \mathrm{m/s}\) (speed of light), \(\lambda = 5.0\times 10^{-7}\ \mathrm{m}\) (\({\sim}500\ \mathrm{nm}\), yellow-green light).
 
-n = 2 L v^2 / (lambda c^2)
-n = (2)(11)(3.0 x 10^4)^2 / [(5.0 x 10^-7)(3.0 x 10^8)^2]
-n = (2)(11)(9.0 x 10^8)   / [(5.0 x 10^-7)(9.0 x 10^16)]
-n = (1.98 x 10^10)        / (4.5 x 10^10)
-n ≈ 0.44 fringes   (the ~0.4 fringe figure quoted in the paper)
-```
+$$
+\begin{aligned}
+n &= \frac{2 L v^{2}}{\lambda c^{2}} \\
+&= \frac{(2)(11)(3.0\times 10^{4})^{2}}{(5.0\times 10^{-7})(3.0\times 10^{8})^{2}} \\
+&= \frac{(2)(11)(9.0\times 10^{8})}{(5.0\times 10^{-7})(9.0\times 10^{16})} \\
+&= \frac{1.98\times 10^{10}}{4.5\times 10^{10}} \\
+&\approx 0.44\ \text{fringes}
+\end{aligned}
+$$
+
+(the \({\sim}0.4\) fringe figure quoted in the paper)
 
 ### Listing 3 — The Lorentz factor and contraction
 
 The FitzGerald-Lorentz contraction (1889 / 1892), later reinterpreted by
 Einstein (1905). The same gamma factor runs through all of special relativity.
 
-```text
 Lorentz factor:
-  gamma = 1 / sqrt(1 - v^2/c^2)
+
+$$
+\gamma = \frac{1}{\sqrt{1 - v^{2}/c^{2}}}
+$$
 
 Length contraction (HSC formula):
-  l = l0 * sqrt(1 - v^2/c^2) = l0 / gamma
+
+$$
+l = l_{0} \sqrt{1 - v^{2}/c^{2}} = \frac{l_{0}}{\gamma}
+$$
 
 Time dilation (HSC formula):
-  t = t0 / sqrt(1 - v^2/c^2) = t0 * gamma
 
-The contraction of the parallel arm by factor sqrt(1 - v^2/c^2)
-exactly cancels the expected time difference in Listing 1,
-producing a null fringe shift.
-```
+$$
+t = \frac{t_{0}}{\sqrt{1 - v^{2}/c^{2}}} = t_{0}\,\gamma
+$$
+
+The contraction of the parallel arm by factor \(\sqrt{1 - v^{2}/c^{2}}\) exactly cancels the expected time difference in Listing 1, producing a null fringe shift.
 
 ### Listing 4 — Einstein's two postulates (1905)
 
-```text
-Principle of relativity:
-  All inertial frames of reference are equivalent;
-  the laws of physics are identical in every inertial frame.
+**Principle of relativity:** All inertial frames of reference are equivalent; the laws of physics are identical in every inertial frame.
 
-Constancy of light speed:
-  The speed of light in a vacuum is the same for all observers,
-  independent of the motion of the source or the observer.
-  c = 299 792 458 m/s  (exact)
-    = 2.9979 x 10^8 m/s (value used in HSC calculations)
-    ≈ 3 x 10^8 m/s      (working approximation)
+**Constancy of light speed:** The speed of light in a vacuum is the same for all observers, independent of the motion of the source or the observer:
 
-NESA wording (Light and special relativity):
-  "Outline Einstein's first and second postulates of special
-  relativity." NESA does not fix which postulate is numbered first.
-  Jacaranda lists (1) constant speed of light, (2) equivalent
-  inertial frames; the teacher's slides reverse this order.
-  In the exam, state BOTH postulates precisely; the numbering does
-  not matter.
+$$
+c = 299\,792\,458\ \mathrm{m/s}\ (\text{exact}) = 2.9979\times 10^{8}\ \mathrm{m/s}\ (\text{HSC value}) \approx 3\times 10^{8}\ \mathrm{m/s}\ (\text{approximation})
+$$
 
-Consequence (the key exam point):
-  The null result of Michelson-Morley is not a puzzle to be
-  explained, but a direct prediction of the postulates.
-  - Constancy of c: light has the same speed in both arms, so no
-    time difference and no fringe shift.
-  - Equivalence of inertial frames: there is no aether rest frame,
-    so it cannot matter which way the apparatus points -> rotating
-    it produces no change in the interference pattern.
-```
+**NESA wording (Light and special relativity):** "Outline Einstein's first and second postulates of special relativity." NESA does not fix which postulate is numbered first. Jacaranda lists (1) constant speed of light, (2) equivalent inertial frames; the teacher's slides reverse this order. In the exam, state BOTH postulates precisely; the numbering does not matter.
+
+**Consequence (the key exam point).** The null result of Michelson-Morley is not a puzzle to be explained, but a direct prediction of the postulates.
+
+- Constancy of \(c\): light has the same speed in both arms, so no time difference and no fringe shift.
+- Equivalence of inertial frames: there is no aether rest frame, so it cannot matter which way the apparatus points \(\to\) rotating it produces no change in the interference pattern.
 
 ### Listing 5 — Expected vs observed: the key comparison
 
@@ -130,26 +130,41 @@ Consequence (the key exam point):
 The same Lorentz factor that "saves" the null result in Listing 3 runs
 through every quantitative formula NESA examines in this focus area.
 
-```text
 Lorentz factor:
-  gamma = 1 / sqrt(1 - v^2/c^2)
 
-Time dilation:        t  = t0 / sqrt(1 - v^2/c^2) = t0 * gamma
-  t0 = proper time (measured in the frame where the two events
-       occur at the same place)
+$$
+\gamma = \frac{1}{\sqrt{1 - v^{2}/c^{2}}}
+$$
 
-Length contraction:   l  = l0 * sqrt(1 - v^2/c^2) = l0 / gamma
-  l0 = proper length (measured in the object's own rest frame)
-  Contraction acts ONLY along the direction of motion.
+Time dilation:
+
+$$
+t = \frac{t_{0}}{\sqrt{1 - v^{2}/c^{2}}} = t_{0}\,\gamma
+$$
+
+where \(t_{0}\) = proper time (measured in the frame where the two events occur at the same place).
+
+Length contraction:
+
+$$
+l = l_{0} \sqrt{1 - v^{2}/c^{2}} = \frac{l_{0}}{\gamma}
+$$
+
+where \(l_{0}\) = proper length (measured in the object's own rest frame). Contraction acts ONLY along the direction of motion.
 
 Relativistic momentum:
-  pv = m0 * v / sqrt(1 - v^2/c^2) = gamma * m0 * v
-  As v -> c, gamma -> infinity, so p -> infinity: an object with
-  mass can never reach the speed of light.
+
+$$
+p_{v} = \frac{m_{0} v}{\sqrt{1 - v^{2}/c^{2}}} = \gamma\, m_{0} v
+$$
+
+As \(v \to c\), \(\gamma \to \infty\), so \(p \to \infty\): an object with mass can never reach the speed of light.
 
 Mass-energy equivalence (the famous consequence):
-  E = mc^2
-```
+
+$$
+E = m c^{2}
+$$
 
 ### Listing 8 — Evidence supporting special relativity (NESA dot point)
 

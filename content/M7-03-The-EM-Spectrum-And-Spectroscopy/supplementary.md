@@ -10,35 +10,38 @@ script: script.md
 Key equations, reference data, and worked solutions for this episode. These listings are the read-along reference; the audio is self-contained and never depends on them, though it speaks the key results in words.
 
 ### Listing 1 — Electron energy through an accelerating voltage (worked)
-```text
-RELATIONSHIP
-  E_k = qV
-    E_k = kinetic energy gained        (joule, J)
-    q   = charge                       (coulomb, C);  electron e = 1.6 × 10^-19 C
-    V   = accelerating voltage         (volt, V)
 
-PROBLEM
-  Calculate the energy of an electron accelerated through 100 kV
-  (the order of voltage used in an X-ray tube).
+**Relationship**
 
-STEP 1 — convert the voltage to base units
-  V = 100 kV = 100 × 10^3 V = 1.0 × 10^5 V
+$$
+E_k = qV
+$$
 
-STEP 2 — substitute
-  E_k = qV
-      = (1.6 × 10^-19 C)(1.0 × 10^5 V)
+- \(E_k\) = kinetic energy gained (joule, \(\mathrm{J}\))
+- \(q\) = charge (coulomb, \(\mathrm{C}\)); electron \(e = 1.6 \times 10^{-19}\ \mathrm{C}\)
+- \(V\) = accelerating voltage (volt, \(\mathrm{V}\))
 
-STEP 3 — evaluate
-  E_k = 1.6 × 10^-14 J        (= 100 keV)
+**Problem:** Calculate the energy of an electron accelerated through 100 kV (the order of voltage used in an X-ray tube).
 
-PHYSICS LINK (why this sits in the spectrum episode)
-  These high-energy electrons slam into a metal target and
-  decelerate sharply. An accelerating/decelerating charge
-  radiates EM waves; this violent deceleration emits at the
-  high-frequency, high-energy end of the spectrum → X-rays.
-  High V → high-energy electrons → high-frequency radiation.
-  (Same idea as Röntgen's discharge tube, 1895.)
-```
+**Step 1 — convert the voltage to base units**
+
+$$
+V = 100\ \mathrm{kV} = 100 \times 10^{3}\ \mathrm{V} = 1.0 \times 10^{5}\ \mathrm{V}
+$$
+
+**Step 2 — substitute**
+
+$$
+E_k = qV = (1.6 \times 10^{-19}\ \mathrm{C})(1.0 \times 10^{5}\ \mathrm{V})
+$$
+
+**Step 3 — evaluate**
+
+$$
+E_k = 1.6 \times 10^{-14}\ \mathrm{J} \quad (= 100\ \mathrm{keV})
+$$
+
+**Physics link** (why this sits in the spectrum episode): These high-energy electrons slam into a metal target and decelerate sharply. An accelerating/decelerating charge radiates EM waves; this violent deceleration emits at the high-frequency, high-energy end of the spectrum \(\to\) X-rays. High \(V \to\) high-energy electrons \(\to\) high-frequency radiation. (Same idea as Röntgen's discharge tube, 1895.)
 
 ### Listing 2 — The electromagnetic spectrum in order (low → high frequency)
 | Region | Wavelength (longest → shortest) | Frequency / photon energy | Ionising? | Typical source / use |
@@ -51,111 +54,76 @@ PHYSICS LINK (why this sits in the spectrum episode)
 | X-ray | ↓ | ↑ | **Yes** | medical imaging (Röntgen) |
 | Gamma | shortest | highest | **Yes** | nuclear processes |
 
-```text
-MNEMONIC (low → high frequency):
-  Radio Microwave Infrared Visible Ultraviolet X-ray Gamma
-  → "Raging Martians Invaded Venus Using X-ray Guns"
+**Mnemonic (low \(\to\) high frequency):** Radio Microwave Infrared Visible Ultraviolet X-ray Gamma \(\to\) "Raging Martians Invaded Venus Using X-ray Guns".
 
-ALONG THE SPECTRUM, radio → gamma:
-  frequency      ↑ increases
-  photon energy  ↑ increases   (E = hf, previewed; taught in M7-09)
-  ionising power ↑ increases
-  WAVELENGTH     ↓ decreases   (because c = fλ is fixed)
+**Along the spectrum, radio \(\to\) gamma:**
 
-TRAP: gamma has the SHORTEST wavelength, NOT the longest.
-IONISING = top three only: Ultraviolet, X-ray, Gamma ("U-X-G").
-"Non-ionising" ≠ "safe": high-intensity IR/microwave still burns.
-```
+- frequency \(\uparrow\) increases
+- photon energy \(\uparrow\) increases (\(E = hf\), previewed; taught in M7-09)
+- ionising power \(\uparrow\) increases
+- WAVELENGTH \(\downarrow\) decreases (because \(c = f\lambda\) is fixed)
+
+TRAP: gamma has the SHORTEST wavelength, NOT the longest. IONISING = top three only: Ultraviolet, X-ray, Gamma ("U-X-G"). "Non-ionising" \(\ne\) "safe": high-intensity IR/microwave still burns.
 
 ### Listing 3 — The visible spectrum and dispersing devices
-```text
-VISIBLE LIGHT (long λ → short λ):
-  Red Orange Yellow Green Blue Indigo Violet
-  → "ROY G BIV"   (Newton, Opticks, 1704)
-  Red   ≈ 700 nm  (longest λ, lowest energy)
-  Violet ≈ 400 nm (shortest λ, highest energy)
-  1 nm = 10^-9 m ;  1 Å = 10^-10 m
 
-WAVE EQUATION (links frequency and wavelength)
-  c = f λ
-    c = speed of light in vacuum = 3.0 × 10^8 m s^-1
-    f = frequency (Hz) ;  λ = wavelength (m)
-  Rearranged:  f = c / λ  → shorter λ means higher f means higher
-  photon energy.
+**Visible light** (long \(\lambda \to\) short \(\lambda\)): Red Orange Yellow Green Blue Indigo Violet \(\to\) "ROY G BIV" (Newton, *Opticks*, 1704).
 
-PHOTON ENERGY (previewed, not derived here — M7-09)
-  E = hf
-    h = Planck constant = 6.63 × 10^-34 J s
-  1 eV = 1.6 × 10^-19 J
+- Red \(\approx 700\ \mathrm{nm}\) (longest \(\lambda\), lowest energy)
+- Violet \(\approx 400\ \mathrm{nm}\) (shortest \(\lambda\), highest energy)
+- \(1\ \mathrm{nm} = 10^{-9}\ \mathrm{m}\); \(1\ \text{Å} = 10^{-10}\ \mathrm{m}\)
 
-DISPERSING DEVICES (both spread white light into a spectrum)
-  PRISM    — mechanism: REFRACTION. Different λ bend by different
-             amounts. VIOLET bends MOST, red least.
-  GRATING  — mechanism: DIFFRACTION (full geometry in M7-06).
-             RED diffracts MOST, violet least.
-  TRAP: the colour order REVERSES between prism and grating.
-```
+**Wave equation** (links frequency and wavelength)
+
+$$
+c = f \lambda
+$$
+
+- \(c\) = speed of light in vacuum \(= 3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\)
+- \(f\) = frequency (\(\mathrm{Hz}\)); \(\lambda\) = wavelength (\(\mathrm{m}\))
+
+Rearranged: \(f = c/\lambda\) \(\to\) shorter \(\lambda\) means higher \(f\) means higher photon energy.
+
+**Photon energy** (previewed, not derived here — M7-09)
+
+$$
+E = hf
+$$
+
+with \(h\) = Planck constant \(= 6.63 \times 10^{-34}\ \mathrm{J\,s}\); \(1\ \mathrm{eV} = 1.6 \times 10^{-19}\ \mathrm{J}\).
+
+**Dispersing devices** (both spread white light into a spectrum):
+
+- PRISM — mechanism: REFRACTION. Different \(\lambda\) bend by different amounts. VIOLET bends MOST, red least.
+- GRATING — mechanism: DIFFRACTION (full geometry in M7-06). RED diffracts MOST, violet least.
+- TRAP: the colour order REVERSES between prism and grating.
 
 ### Listing 4 — The three spectra: causes, appearance, and the comparison answer
-```text
-KIRCHHOFF & BUNSEN (1859) — the three types of spectrum
 
-1. CONTINUOUS SPECTRUM
-   SOURCE: hot, DENSE glowing solid / liquid / dense gas
-           (a black body, e.g. tungsten filament ~3000 K).
-   APPEARANCE: unbroken band — ALL wavelengths present.
-   CAUSE: electrons are not confined to discrete atomic levels;
-          they move relatively freely and emit a continuous
-          range of frequencies.
+**Kirchhoff & Bunsen (1859) — the three types of spectrum**
 
-2. EMISSION SPECTRUM
-   SOURCE: hot, LOW-DENSITY (rarefied) gas — a discharge tube.
-   APPEARANCE: BRIGHT coloured lines on a DARK background.
-   CAUSE: discharge excites electrons to higher levels; they
-          fall back (de-excite) and emit photons of specific
-          energies → specific wavelengths → bright lines.
+1. **Continuous spectrum** — SOURCE: hot, DENSE glowing solid / liquid / dense gas (a black body, e.g. tungsten filament \(\sim 3000\ \mathrm{K}\)). APPEARANCE: unbroken band — ALL wavelengths present. CAUSE: electrons are not confined to discrete atomic levels; they move relatively freely and emit a continuous range of frequencies.
 
-3. ABSORPTION SPECTRUM
-   SOURCE: continuous source seen THROUGH a COOLER gas in front.
-   APPEARANCE: DARK lines on a CONTINUOUS (rainbow) background.
-   CAUSE: cool gas absorbs photons at its characteristic
-          wavelengths (electrons jump up) and re-emits them in
-          ALL directions → those λ depleted along line of sight
-          → dark gaps. (Sun's = Fraunhofer lines.)
+2. **Emission spectrum** — SOURCE: hot, LOW-DENSITY (rarefied) gas — a discharge tube. APPEARANCE: BRIGHT coloured lines on a DARK background. CAUSE: discharge excites electrons to higher levels; they fall back (de-excite) and emit photons of specific energies \(\to\) specific wavelengths \(\to\) bright lines.
 
-SOURCE → SPECTRUM HOOK
-  dense + hot          = CONTINUOUS
-  thin + hot           = EMISSION
-  cool gas in front of
-  a continuous source  = ABSORPTION
+3. **Absorption spectrum** — SOURCE: continuous source seen THROUGH a COOLER gas in front. APPEARANCE: DARK lines on a CONTINUOUS (rainbow) background. CAUSE: cool gas absorbs photons at its characteristic wavelengths (electrons jump up) and re-emits them in ALL directions \(\to\) those \(\lambda\) depleted along line of sight \(\to\) dark gaps. (Sun's = Fraunhofer lines.)
 
-THE TOP-BAND LINK (write this for "compare" questions)
-  For ONE element, the DARK absorption lines fall at EXACTLY the
-  same wavelengths as the BRIGHT emission lines — because BOTH
-  arise from the SAME electron energy-level transitions in that
-  element's atoms. (Emission = electron falls; absorption =
-  electron rises; SAME energy gap → SAME λ.)
+**Source \(\to\) spectrum hook**
 
-MODEL EXTENDED RESPONSE (6–7 marks)
-  "Compare the emission and absorption spectra of a given element,
-   and explain how spectra are used to identify the elements
-   present in a gas."
+- dense + hot = CONTINUOUS
+- thin + hot = EMISSION
+- cool gas in front of a continuous source = ABSORPTION
 
-  • Emission: bright lines on dark; hot low-density gas; excited
-    electrons fall to lower levels emitting photons of specific λ.
-  • Absorption (in contrast): dark lines on a continuous
-    background; continuous source through a cooler gas; gas absorbs
-    at characteristic λ and re-emits in all directions, depleting
-    those λ.
-  • LINK: the dark absorption lines occur at exactly the same
-    wavelengths as the bright emission lines — same energy-level
-    transitions.
-  • IDENTIFY: every element has a UNIQUE set of lines, and every
-    atom of an element gives the SAME set; match observed lines to
-    known laboratory spectra → identifies the element — even in a
-    distant star (helium found in the Sun, 1868, before Earth,
-    1895).
-```
+**The top-band link** (write this for "compare" questions): For ONE element, the DARK absorption lines fall at EXACTLY the same wavelengths as the BRIGHT emission lines — because BOTH arise from the SAME electron energy-level transitions in that element's atoms. (Emission = electron falls; absorption = electron rises; SAME energy gap \(\to\) SAME \(\lambda\).)
+
+**Model extended response (6–7 marks)**
+
+"Compare the emission and absorption spectra of a given element, and explain how spectra are used to identify the elements present in a gas."
+
+- Emission: bright lines on dark; hot low-density gas; excited electrons fall to lower levels emitting photons of specific \(\lambda\).
+- Absorption (in contrast): dark lines on a continuous background; continuous source through a cooler gas; gas absorbs at characteristic \(\lambda\) and re-emits in all directions, depleting those \(\lambda\).
+- LINK: the dark absorption lines occur at exactly the same wavelengths as the bright emission lines — same energy-level transitions.
+- IDENTIFY: every element has a UNIQUE set of lines, and every atom of an element gives the SAME set; match observed lines to known laboratory spectra \(\to\) identifies the element — even in a distant star (helium found in the Sun, 1868, before Earth, 1895).
 
 ### Listing 5 — Spectroscopy timeline and key names
 | Year | Person | Contribution |
@@ -171,11 +139,11 @@ MODEL EXTENDED RESPONSE (6–7 marks)
 ### Listing 6 — Constants and reference values
 | Quantity | Symbol | Value |
 |---|---|---|
-| Speed of light (vacuum) | c | 3.0 × 10^8 m s^-1 (exactly 299 792 458 m s^-1) |
-| Planck constant | h | 6.63 × 10^-34 J s |
-| Electron charge | e | 1.6 × 10^-19 C |
-| Electron-volt | 1 eV | 1.6 × 10^-19 J |
-| Visible range | λ | ~400 nm (violet) to ~700 nm (red) |
-| Ångström | 1 Å | 10^-10 m |
+| Speed of light (vacuum) | \(c\) | \(3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\) (exactly \(299\,792\,458\ \mathrm{m\,s^{-1}}\)) |
+| Planck constant | \(h\) | \(6.63 \times 10^{-34}\ \mathrm{J\,s}\) |
+| Electron charge | \(e\) | \(1.6 \times 10^{-19}\ \mathrm{C}\) |
+| Electron-volt | \(1\ \mathrm{eV}\) | \(1.6 \times 10^{-19}\ \mathrm{J}\) |
+| Visible range | \(\lambda\) | ~400 nm (violet) to ~700 nm (red) |
+| Ångström | \(1\ \text{Å}\) | \(10^{-10}\ \mathrm{m}\) |
 | Incandescent tungsten filament | T | ~3000 K (high melting point) |
 | Absolute zero | 0 K | −273.15 °C (quote stellar temps in kelvin) |

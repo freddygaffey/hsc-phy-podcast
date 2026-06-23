@@ -8,65 +8,73 @@ script: script.md
 
 ### Listing 1 — The two governing equations of the balanced drop
 
-```text
-Stage 1 — Find the mass (field OFF, drop falls at terminal velocity v_g)
-At terminal velocity:  weight = drag (Stokes' law)
+**Stage 1 — Find the mass** (field OFF, drop falls at terminal velocity \(v_{g}\)). At terminal velocity, weight = drag (Stokes' law):
 
-(4/3) * pi * r^3 * (rho_oil - rho_air) * g  =  6 * pi * eta * r * v_g
+$$
+\tfrac{4}{3}\pi r^{3} (\rho_{\text{oil}} - \rho_{\text{air}})\, g = 6\pi \eta r v_{g}
+$$
 
-Solve for the drop radius r:
-r = sqrt( 9 * eta * v_g / ( 2 * g * (rho_oil - rho_air) ) )
+Solve for the drop radius \(r\):
+
+$$
+r = \sqrt{\frac{9 \eta v_{g}}{2 g (\rho_{\text{oil}} - \rho_{\text{air}})}}
+$$
 
 Then the mass:
-m = (4/3) * pi * r^3 * rho_oil
 
-Stage 2 — Find the charge (field ON, forces balanced)
-The drop is in equilibrium either held stationary OR moving at
-constant (uniform) velocity. Either way the net force is zero:
+$$
+m = \tfrac{4}{3}\pi r^{3} \rho_{\text{oil}}
+$$
 
-Weight force (down):    F_g = m * g
-Electric force (up):    F_E = E * q
-For equilibrium:        F_g = F_E   ->   m * g = E * q
+**Stage 2 — Find the charge** (field ON, forces balanced). The drop is in equilibrium either held stationary OR moving at constant (uniform) velocity. Either way the net force is zero. Weight force (down) is \(F_{g} = m g\); electric force (up) is \(F_{E} = E q\). For equilibrium:
+
+$$
+F_{g} = F_{E} \quad\Rightarrow\quad m g = E q
+$$
 
 Electric field from the plates:
-E = V / d
+
+$$
+E = \frac{V}{d}
+$$
 
 Therefore the charge on the drop:
-q = m * g / E = m * g * d / V
-```
+
+$$
+q = \frac{m g}{E} = \frac{m g d}{V}
+$$
 
 ### Listing 2 — Stokes' law small-drop correction (Millikan's refinement)
 
-```text
-For very small drops (radius near the mean free path of air ~70 nm),
-plain Stokes' law overestimates the drag. Millikan corrected it:
+For very small drops (radius near the mean free path of air \({\sim}70\ \mathrm{nm}\)), plain Stokes' law overestimates the drag. Millikan corrected it:
 
-F_drag_corrected = 6 * pi * eta * r * v * 1 / ( 1 + b / (p * r) )
+$$
+F_{\text{drag, corrected}} = 6\pi \eta r v \cdot \frac{1}{1 + \dfrac{b}{p r}}
+$$
 
-where
-b = empirical constant = 7.88 x 10^-3 Pa*m
-p = air pressure
-r = drop radius
+where:
 
-This correction was Millikan's key methodological contribution
-beyond the basic balanced-drop idea.
-```
+- \(b\) = empirical constant \(= 7.88\times 10^{-3}\ \mathrm{Pa\,m}\)
+- \(p\) = air pressure
+- \(r\) = drop radius
+
+This correction was Millikan's key methodological contribution beyond the basic balanced-drop idea.
 
 ### Listing 3 — Demonstrating quantisation of charge
 
-```text
-Measure the charge q on many different drops, and on single drops
-before and after ionising them with X-rays. Every value satisfies:
+Measure the charge \(q\) on many different drops, and on single drops before and after ionising them with X-rays. Every value satisfies:
 
-q = n * e        where n = 1, 2, 3, 4, ... (a whole number)
+$$
+q = n e \qquad \text{where } n = 1, 2, 3, 4, \ldots \text{ (a whole number)}
+$$
 
-e = the fundamental (elementary) charge = charge on one electron
+where \(e\) is the fundamental (elementary) charge = charge on one electron.
 
 Key evidence:
-- No drop ever carries a fractional multiple of e
-- X-rays change a single drop's charge by exactly +/- e, +/- 2e, ...
+
+- No drop ever carries a fractional multiple of \(e\)
+- X-rays change a single drop's charge by exactly \(\pm e, \pm 2e, \ldots\)
 - Conclusion: electric charge is QUANTISED
-```
 
 ### Listing 4 — Key values and constants
 
@@ -92,40 +100,48 @@ Key evidence:
 
 ### Listing 5 — Worked example: charge on a suspended drop
 
-```text
-A charged oil drop of mass 6.8 x 10^-15 kg is held stationary
-between two plates 16 mm apart with 5000 V across them.
+A charged oil drop of mass \(6.8\times 10^{-15}\ \mathrm{kg}\) is held stationary between two plates 16 mm apart with 5000 V across them.
 
-Step 1 — Electric field between the plates:
-E = V / d
-E = 5000 / 0.016
-E = 3.125 x 10^5 V/m
+**Step 1 — Electric field between the plates:**
 
-Step 2 — At balance, electric force = weight:
-q * E = m * g
-q = m * g / E
-q = (6.8 x 10^-15 * 9.8) / (3.125 x 10^5)
-q = (6.664 x 10^-14) / (3.125 x 10^5)
-q = 2.13 x 10^-19 C
+$$
+E = \frac{V}{d} = \frac{5000}{0.016} = 3.125\times 10^{5}\ \mathrm{V/m}
+$$
 
-Step 3 — Number of excess electrons:
-n = q / e = 2.13 x 10^-19 / 1.6 x 10^-19
-n ~ 1.3  ->  rounds to 1 excess electron (within experimental error)
+**Step 2 — At balance, electric force = weight:**
 
-Note: real drops typically carried 5–30 electrons; the charge always
-came out as a whole-number multiple n of e, never a fraction.
-```
+$$
+\begin{aligned}
+q E &= m g \\
+q &= \frac{m g}{E} = \frac{6.8\times 10^{-15} \times 9.8}{3.125\times 10^{5}} \\
+&= \frac{6.664\times 10^{-14}}{3.125\times 10^{5}} = 2.13\times 10^{-19}\ \mathrm{C}
+\end{aligned}
+$$
+
+**Step 3 — Number of excess electrons:**
+
+$$
+n = \frac{q}{e} = \frac{2.13\times 10^{-19}}{1.6\times 10^{-19}} \approx 1.3 \to \text{rounds to 1 excess electron (within experimental error)}
+$$
+
+Note: real drops typically carried 5–30 electrons; the charge always came out as a whole-number multiple \(n\) of \(e\), never a fraction.
 
 ### Listing 6 — Consequences unlocked by knowing e
 
-```text
-1. Mass of the electron (using Thomson's charge-to-mass ratio):
-   m_e = e / (e/m) = e / (1.759 x 10^11)
-   m_e ~ 9.109 x 10^-31 kg
+**1. Mass of the electron** (using Thomson's charge-to-mass ratio):
 
-2. Avogadro constant (from Faraday's constant F = N_A * e):
-   N_A = F / e   -> confirmed atomic theory, counts atoms per mole
+$$
+m_{e} = \frac{e}{e/m} = \frac{e}{1.759\times 10^{11}} \approx 9.109\times 10^{-31}\ \mathrm{kg}
+$$
 
-3. The electronvolt energy unit:
-   1 eV = 1.602 x 10^-19 J
-```
+**2. Avogadro constant** (from Faraday's constant \(F = N_{A} e\)):
+
+$$
+N_{A} = \frac{F}{e} \to \text{confirmed atomic theory, counts atoms per mole}
+$$
+
+**3. The electronvolt energy unit:**
+
+$$
+1\ \mathrm{eV} = 1.602\times 10^{-19}\ \mathrm{J}
+$$

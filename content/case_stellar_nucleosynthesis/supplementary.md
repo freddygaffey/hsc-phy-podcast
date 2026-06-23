@@ -7,103 +7,115 @@ script: script.md
 # Supplementary Materials
 
 ### Listing 1 — The proton-proton chain (pp-I branch)
-```text
-Step 1:  ¹H + ¹H  →  ²D + e⁺ + ν      (+0.42 MeV; with e⁺ annihilation = 1.442 MeV)
-Step 2:  ²D + ¹H  →  ³He + γ          (+5.493 MeV)
-Step 3:  ³He + ³He → ⁴He + ¹H + ¹H    (+12.86 MeV; completes the chain)
-         (Steps 1 and 2 each occur twice to build the two ³He needed for Step 3.)
 
-NET:     4 ¹H  →  ⁴He + 2e⁺ + 2ν + energy
-Total energy released per chain ≈ 26.73 MeV (26.732 MeV)
-(~2% of this is carried away invisibly by neutrinos in the pp-I branch)
+$$
+\begin{aligned}
+\text{Step 1:}\quad & {}^{1}\mathrm{H} + {}^{1}\mathrm{H} \to {}^{2}\mathrm{D} + e^{+} + \nu && (+0.42\ \mathrm{MeV};\ \text{with } e^{+}\ \text{annihilation} = 1.442\ \mathrm{MeV}) \\
+\text{Step 2:}\quad & {}^{2}\mathrm{D} + {}^{1}\mathrm{H} \to {}^{3}\mathrm{He} + \gamma && (+5.493\ \mathrm{MeV}) \\
+\text{Step 3:}\quad & {}^{3}\mathrm{He} + {}^{3}\mathrm{He} \to {}^{4}\mathrm{He} + {}^{1}\mathrm{H} + {}^{1}\mathrm{H} && (+12.86\ \mathrm{MeV};\ \text{completes the chain})
+\end{aligned}
+$$
 
-Rate-limiting step: Step 1 (requires quantum tunnelling AND a weak-force
-proton→neutron conversion). Average wait per proton ≈ 9 billion years.
-Temperature sensitivity: rate ∝ T⁴ (approximately)
-```
+(Steps 1 and 2 each occur twice to build the two \({}^{3}\mathrm{He}\) needed for Step 3.)
+
+Net reaction:
+
+$$
+4\,{}^{1}\mathrm{H} \to {}^{4}\mathrm{He} + 2e^{+} + 2\nu + \text{energy}
+$$
+
+Total energy released per chain \(\approx 26.73\ \mathrm{MeV}\) (\(26.732\ \mathrm{MeV}\)). About 2% of this is carried away invisibly by neutrinos in the pp-I branch.
+
+Rate-limiting step: Step 1 (requires quantum tunnelling AND a weak-force proton\(\to\)neutron conversion). Average wait per proton \(\approx 9\) billion years. Temperature sensitivity: rate \(\propto T^{4}\) (approximately).
 
 ### Listing 2 — The CNO cycle (CNO-I), carbon as catalyst
-```text
-Step 1:  ¹²C + ¹H  →  ¹³N + γ                 (+1.95 MeV)
-Step 2:  ¹³N       →  ¹³C + e⁺ + ν            (+1.20 MeV; t½ = 9.97 min)
-Step 3:  ¹³C + ¹H  →  ¹⁴N + γ                 (+7.54 MeV)
-Step 4:  ¹⁴N + ¹H  →  ¹⁵O + γ                 (+7.35 MeV)  ← rate-limiting step
-Step 5:  ¹⁵O       →  ¹⁵N + e⁺ + ν            (+1.73 MeV; t½ = 122 s)
-Step 6:  ¹⁵N + ¹H  →  ¹²C + ⁴He               (+4.96 MeV)  ← carbon regenerated
 
-NET:     4 ¹H  →  ⁴He + 2e⁺ + 2ν + 3γ + energy
-         Sum of the six step Q-values ≈ 24.7 MeV (the cycle equation value)
-         + ~2 MeV from the two e⁺ annihilating with electrons
-         = ≈ 26.73 MeV total (same overall yield as the pp-chain)
+$$
+\begin{aligned}
+\text{Step 1:}\quad & {}^{12}\mathrm{C} + {}^{1}\mathrm{H} \to {}^{13}\mathrm{N} + \gamma && (+1.95\ \mathrm{MeV}) \\
+\text{Step 2:}\quad & {}^{13}\mathrm{N} \to {}^{13}\mathrm{C} + e^{+} + \nu && (+1.20\ \mathrm{MeV};\ t_{1/2} = 9.97\ \mathrm{min}) \\
+\text{Step 3:}\quad & {}^{13}\mathrm{C} + {}^{1}\mathrm{H} \to {}^{14}\mathrm{N} + \gamma && (+7.54\ \mathrm{MeV}) \\
+\text{Step 4:}\quad & {}^{14}\mathrm{N} + {}^{1}\mathrm{H} \to {}^{15}\mathrm{O} + \gamma && (+7.35\ \mathrm{MeV})\ \leftarrow\ \text{rate-limiting step} \\
+\text{Step 5:}\quad & {}^{15}\mathrm{O} \to {}^{15}\mathrm{N} + e^{+} + \nu && (+1.73\ \mathrm{MeV};\ t_{1/2} = 122\ \mathrm{s}) \\
+\text{Step 6:}\quad & {}^{15}\mathrm{N} + {}^{1}\mathrm{H} \to {}^{12}\mathrm{C} + {}^{4}\mathrm{He} && (+4.96\ \mathrm{MeV})\ \leftarrow\ \text{carbon regenerated}
+\end{aligned}
+$$
 
-C, N, O are CATALYSTS — borrowed and returned, never consumed overall.
-Dominant in stars heavier than ~1.3 solar masses.
-Temperature sensitivity: rate ∝ T¹⁷ (approximately) — far steeper than pp-chain.
-Cannot occur in the very first (Population III) stars: no pre-existing carbon.
-```
+Net reaction:
+
+$$
+4\,{}^{1}\mathrm{H} \to {}^{4}\mathrm{He} + 2e^{+} + 2\nu + 3\gamma + \text{energy}
+$$
+
+The sum of the six step Q-values is \(\approx 24.7\ \mathrm{MeV}\) (the cycle equation value), plus \(\approx 2\ \mathrm{MeV}\) from the two \(e^{+}\) annihilating with electrons, giving \(\approx 26.73\ \mathrm{MeV}\) total (same overall yield as the pp-chain).
+
+C, N, O are CATALYSTS — borrowed and returned, never consumed overall. Dominant in stars heavier than \(\approx 1.3\) solar masses. Temperature sensitivity: rate \(\propto T^{17}\) (approximately) — far steeper than pp-chain. Cannot occur in the very first (Population III) stars: no pre-existing carbon.
 
 ### Listing 3 — The triple-alpha process and the Hoyle state
-```text
-Step 1:  ⁴He + ⁴He  ⇌  ⁸Be              (endothermic: −0.092 MeV)
-         ⁸Be is wildly unstable: t½ = 8.19 × 10⁻¹⁷ s
 
-Step 2:  ⁸Be + ⁴He  →  ¹²C* (Hoyle state) → ¹²C + 2γ   (net +7.275 MeV)
-         Hoyle state = excited resonance at 7.65 MeV above ¹²C ground state
-         (predicted by Hoyle 1953; measured value ≈ 7.6542 MeV)
+$$
+\text{Step 1:}\quad {}^{4}\mathrm{He} + {}^{4}\mathrm{He} \rightleftharpoons {}^{8}\mathrm{Be} \qquad (\text{endothermic: } -0.092\ \mathrm{MeV})
+$$
 
-Follow-on (makes oxygen):  ¹²C + ⁴He  →  ¹⁶O + γ        (+7.16 MeV)
+\({}^{8}\mathrm{Be}\) is wildly unstable: \(t_{1/2} = 8.19\times10^{-17}\ \mathrm{s}\).
 
-Required core temperature: ~10⁸ K (100 million K), ~6× the Sun's core.
-Temperature sensitivity: rate ∝ T⁴⁰ (approximately) — extraordinarily sensitive.
-Without the Hoyle resonance, this reaction would be ~10–100 million× rarer,
-and the universe would contain almost no carbon.
-```
+$$
+\text{Step 2:}\quad {}^{8}\mathrm{Be} + {}^{4}\mathrm{He} \to {}^{12}\mathrm{C}^{*}\ (\text{Hoyle state}) \to {}^{12}\mathrm{C} + 2\gamma \qquad (\text{net } +7.275\ \mathrm{MeV})
+$$
+
+Hoyle state = excited resonance at \(7.65\ \mathrm{MeV}\) above the \({}^{12}\mathrm{C}\) ground state (predicted by Hoyle 1953; measured value \(\approx 7.6542\ \mathrm{MeV}\)).
+
+Follow-on (makes oxygen):
+
+$$
+{}^{12}\mathrm{C} + {}^{4}\mathrm{He} \to {}^{16}\mathrm{O} + \gamma \qquad (+7.16\ \mathrm{MeV})
+$$
+
+Required core temperature: \(\sim 10^{8}\ \mathrm{K}\) (100 million K), \(\approx 6\times\) the Sun's core. Temperature sensitivity: rate \(\propto T^{40}\) (approximately) — extraordinarily sensitive. Without the Hoyle resonance, this reaction would be \(\approx 10\text{–}100\) million\(\times\) rarer, and the universe would contain almost no carbon.
 
 ### Listing 4 — Mass–energy and the binding-energy curve (the iron wall)
-```text
+
 Einstein mass–energy equivalence:
-  E = m c²
 
-Energy released in fusion comes from the mass defect Δm:
-  E = (Δm) c²
-  Δm = (mass of reactants) − (mass of products)
+$$
+E = m c^{2}
+$$
 
-Binding energy per nucleon RISES with fusion of light elements
-(energy released) and PEAKS at iron-56:
+Energy released in fusion comes from the mass defect \(\Delta m\):
 
-  ¹H    ≈ 0      MeV/nucleon
-  ⁴He   ≈ 7.07   MeV/nucleon
-  ¹²C   ≈ 7.68   MeV/nucleon
-  ¹⁶O   ≈ 7.98   MeV/nucleon
-  ⁵⁶Fe  ≈ 8.79   MeV/nucleon   ← PEAK (most stable)
+$$
+E = (\Delta m)\,c^{2}, \qquad \Delta m = (\text{mass of reactants}) - (\text{mass of products})
+$$
 
-Fusing anything BEYOND iron-56 ABSORBS energy instead of releasing it.
-→ A star cannot extract energy from iron → core collapses → supernova.
-(Technical note: ⁶²Ni has marginally higher binding energy/nucleon (8.7945 MeV),
- but stars produce far more ⁵⁶Fe; for HSC, iron-56 is the endpoint.)
+Binding energy per nucleon RISES with fusion of light elements (energy released) and PEAKS at iron-56:
 
-Chandrasekhar mass limit ≈ 1.4 solar masses:
-  iron core above this → electron degeneracy pressure fails → collapse.
-```
+- \({}^{1}\mathrm{H} \approx 0\ \mathrm{MeV/nucleon}\)
+- \({}^{4}\mathrm{He} \approx 7.07\ \mathrm{MeV/nucleon}\)
+- \({}^{12}\mathrm{C} \approx 7.68\ \mathrm{MeV/nucleon}\)
+- \({}^{16}\mathrm{O} \approx 7.98\ \mathrm{MeV/nucleon}\)
+- \({}^{56}\mathrm{Fe} \approx 8.79\ \mathrm{MeV/nucleon}\) \(\leftarrow\) PEAK (most stable)
+
+Fusing anything BEYOND iron-56 ABSORBS energy instead of releasing it. So a star cannot extract energy from iron \(\to\) core collapses \(\to\) supernova. (Technical note: \({}^{62}\mathrm{Ni}\) has marginally higher binding energy/nucleon (\(8.7945\ \mathrm{MeV}\)), but stars produce far more \({}^{56}\mathrm{Fe}\); for HSC, iron-56 is the endpoint.)
+
+Chandrasekhar mass limit \(\approx 1.4\) solar masses: an iron core above this \(\to\) electron degeneracy pressure fails \(\to\) collapse.
 
 ### Listing 5 — Star formation, the H–R diagram, and evolutionary paths
-```text
+
 STAR FORMATION (role of gravity + fusion):
-  1. A cold cloud of H + He collapses under its own GRAVITY.
-  2. Falling gas gains kinetic energy → core heats up.
-  3. Core reaches ~10⁷ K → hydrogen fusion ignites.
-  4. Outward FUSION PRESSURE halts collapse → hydrostatic equilibrium.
-  → A MAIN SEQUENCE star = a stable balance of gravity (in) vs fusion (out).
+
+1. A cold cloud of H + He collapses under its own GRAVITY.
+2. Falling gas gains kinetic energy \(\to\) core heats up.
+3. Core reaches \(\sim 10^{7}\ \mathrm{K}\) \(\to\) hydrogen fusion ignites.
+4. Outward FUSION PRESSURE halts collapse \(\to\) hydrostatic equilibrium.
+
+A MAIN SEQUENCE star = a stable balance of gravity (in) vs fusion (out).
 
 MASS DETERMINES EVERYTHING:
-  More mass → stronger gravity → hotter core → bluer, brighter, CNO-dominated,
-  AND a SHORTER life (massive stars "live fast, die young").
-  Less mass → cooler, redder, pp-chain-dominated, very long-lived.
-```
 
-The Hertzsprung–Russell (H–R) diagram plots luminosity vs surface temperature
-(temperature increases to the LEFT). A star's mass fixes its position on the
-main sequence and how long it stays there.
+- More mass \(\to\) stronger gravity \(\to\) hotter core \(\to\) bluer, brighter, CNO-dominated, AND a SHORTER life (massive stars "live fast, die young").
+- Less mass \(\to\) cooler, redder, pp-chain-dominated, very long-lived.
+
+The Hertzsprung–Russell (H–R) diagram plots luminosity vs surface temperature (temperature increases to the LEFT). A star's mass fixes its position on the main sequence and how long it stays there.
 
 | Spectral class | Surface temp (K) | Colour | Dominant fusion |
 |----------------|------------------|--------|-----------------|
@@ -112,10 +124,7 @@ main sequence and how long it stays there.
 | G (Sun) | 5 000 – 6 000 | Yellow | proton–proton chain |
 | K / M | 2 500 – 5 000 | Orange / red | proton–proton chain |
 
-Aboriginal Peoples' Knowledge: Aboriginal Australians observed and recorded
-star colours (e.g. red Betelgeuse vs blue-white Rigel in Orion) for tens of
-thousands of years. Star colour = surface temperature = a clue to the
-nucleosynthesis reaction in the core (red/cool = pp-chain; blue/hot = CNO).
+Aboriginal Peoples' Knowledge: Aboriginal Australians observed and recorded star colours (e.g. red Betelgeuse vs blue-white Rigel in Orion) for tens of thousands of years. Star colour = surface temperature = a clue to the nucleosynthesis reaction in the core (red/cool = pp-chain; blue/hot = CNO).
 
 Post-main-sequence evolutionary paths (once core hydrogen is exhausted):
 
@@ -125,24 +134,18 @@ Post-main-sequence evolutionary paths (once core hydrogen is exhausted):
 | > ~3 solar masses (core) / > ~8 M☉ star | Red supergiant → fuses up to iron-56 → core collapse → Type II supernova → neutron star (core < ~3 M☉) or black hole (core > ~3 M☉) |
 
 ### Listing 6 — Worked example: mass lost by the Sun each second
-```text
-GIVEN:
-  Solar luminosity  L = 3.828 × 10²⁶ W (joules per second)
-  Speed of light    c = 3.00 × 10⁸ m/s
+
+GIVEN: solar luminosity \(L = 3.828\times10^{26}\ \mathrm{W}\) (joules per second) and speed of light \(c = 3.00\times10^{8}\ \mathrm{m/s}\).
 
 FIND: mass converted to energy per second.
 
-Rearrange E = m c²  →  m = E / c²
+Rearrange \(E = m c^{2}\) to \(m = E/c^{2}\):
 
-  m = 3.828 × 10²⁶ / (3.00 × 10⁸)²
-    = 3.828 × 10²⁶ / 9.00 × 10¹⁶
-    = 4.25 × 10⁹ kg per second
+$$
+m = \frac{3.828\times10^{26}}{(3.00\times10^{8})^{2}} = \frac{3.828\times10^{26}}{9.00\times10^{16}} = 4.25\times10^{9}\ \mathrm{kg\ per\ second}
+$$
 
-INTERPRETATION:
-  The Sun converts ≈ 4 million tonnes of mass into pure energy every second.
-  It fuses ≈ 600 million tonnes of hydrogen per second to do this
-  (only the ~0.7% mass deficit becomes energy; the rest becomes helium).
-```
+INTERPRETATION: the Sun converts \(\approx 4\) million tonnes of mass into pure energy every second. It fuses \(\approx 600\) million tonnes of hydrogen per second to do this (only the \(\approx 0.7\%\) mass deficit becomes energy; the rest becomes helium).
 
 ### Listing 7 — Key numbers and timescales
 

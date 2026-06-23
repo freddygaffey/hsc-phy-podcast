@@ -7,24 +7,31 @@ script: script.md
 # Supplementary Materials
 
 ### Listing 1 — The de Broglie equation (the central relationship)
-```text
-lambda = h / p          (wavelength = Planck's constant / momentum)
 
-since   p = m * v        (momentum = mass * velocity)
+The de Broglie wavelength is Planck's constant divided by momentum:
 
-lambda = h / (m * v)
+$$
+\lambda = \frac{h}{p}
+$$
 
-where
-  lambda = de Broglie wavelength (m)
-  h      = Planck's constant = 6.626 x 10^-34 J s
-  p      = momentum (kg m/s)
-  m      = mass of the particle (kg)
-  v      = speed of the particle (m/s)
+Since \(p = m v\) (momentum = mass \(\times\) velocity):
+
+$$
+\lambda = \frac{h}{m v}
+$$
+
+where:
+
+- \(\lambda\) — de Broglie wavelength (m)
+- \(h\) — Planck's constant \(= 6.626\times 10^{-34}\ \mathrm{J\,s}\)
+- \(p\) — momentum (kg m/s)
+- \(m\) — mass of the particle (kg)
+- \(v\) — speed of the particle (m/s)
 
 Key idea: wavelength is INVERSELY proportional to momentum.
-  - light, slow objects  -> long wavelength -> wave effects observable
-  - heavy, fast objects  -> short wavelength -> wave effects undetectable
-```
+
+- light, slow objects \(\to\) long wavelength \(\to\) wave effects observable
+- heavy, fast objects \(\to\) short wavelength \(\to\) wave effects undetectable
 
 ### Listing 2 — Constants and key experimental values
 | Quantity | Symbol | Value |
@@ -51,95 +58,110 @@ electron wavelength falls in the same ~0.1 nm range, which is why the same cryst
 diffract electrons.
 
 ### Listing 3 — Worked example: de Broglie wavelength of a 54 V electron
-```text
-GOAL: find the wavelength predicted by theory for the Davisson-Germer electrons.
 
-Step 1 — energy gained from the accelerating voltage:
-  E_k = e * V
-      = (1.602 x 10^-19) * 54
-      = 8.65 x 10^-18 J
+**Goal:** find the wavelength predicted by theory for the Davisson-Germer electrons.
 
-Step 2 — relate kinetic energy to momentum (non-relativistic):
-  E_k = p^2 / (2 m_e)     =>     p = sqrt(2 * m_e * E_k)
+**Step 1 — energy gained from the accelerating voltage:**
 
-  p = sqrt( 2 * (9.109 x 10^-31) * (8.65 x 10^-18) )
-    = sqrt( 1.576 x 10^-47 )
-    = 3.97 x 10^-24 kg m/s
+$$
+E_{k} = e V = (1.602\times 10^{-19}) \cdot 54 = 8.65\times 10^{-18}\ \mathrm{J}
+$$
 
-  (equivalently:  p = sqrt(2 * m_e * e * V) )
+**Step 2 — relate kinetic energy to momentum (non-relativistic):**
 
-Step 3 — apply de Broglie:
-  lambda = h / p
-         = (6.626 x 10^-34) / (3.97 x 10^-24)
-         = 1.67 x 10^-10 m
-         = 0.167 nm
+$$
+E_{k} = \frac{p^{2}}{2 m_{e}} \quad\Rightarrow\quad p = \sqrt{2 m_{e} E_{k}}
+$$
 
-USEFUL SHORTCUT (combine steps 1-3 into one accelerating-voltage formula):
-  lambda = h / sqrt(2 * m_e * e * V)      (when accelerated through voltage V)
-  lambda = h / sqrt(2 * m_e * E_k)        (when kinetic energy E_k is known)
-  (derived from  E_k = e*V = p^2 / 2m_e , so  p = sqrt(2 * m_e * e * V) )
+$$
+p = \sqrt{2 \cdot (9.109\times 10^{-31}) \cdot (8.65\times 10^{-18})} = \sqrt{1.576\times 10^{-47}} = 3.97\times 10^{-24}\ \mathrm{kg\,m/s}
+$$
 
-RESULT: ~0.167 nm — comparable to the spacing of nickel atoms (~0.1-0.2 nm),
-which is exactly why the crystal can diffract the electrons.
-The diffraction GEOMETRY (angle 50 deg + known nickel spacing) independently
-yields ~0.165 nm. The two numbers agree to better than 1.2%.
+(equivalently: \(p = \sqrt{2 m_{e} e V}\))
 
-EXPERIMENTAL HALF (the second, independent road):
-  Surface-grating condition:  n * lambda = d * sin(theta)
-  n = 1,  d = 0.215 nm,  theta = 50 deg
-  lambda = (0.215 x 10^-9) * sin(50 deg)
-         = 1.65 x 10^-10 m
-         = 0.165 nm
-  This uses only the measured angle and the known nickel spacing (from X-ray
-  crystallography) — it knows NOTHING about de Broglie, yet lands on the same value.
-```
+**Step 3 — apply de Broglie:**
+
+$$
+\lambda = \frac{h}{p} = \frac{6.626\times 10^{-34}}{3.97\times 10^{-24}} = 1.67\times 10^{-10}\ \mathrm{m} = 0.167\ \mathrm{nm}
+$$
+
+**Useful shortcut** (combine steps 1–3 into one accelerating-voltage formula):
+
+$$
+\lambda = \frac{h}{\sqrt{2 m_{e} e V}} \quad \text{(when accelerated through voltage } V\text{)}
+$$
+
+$$
+\lambda = \frac{h}{\sqrt{2 m_{e} E_{k}}} \quad \text{(when kinetic energy } E_{k} \text{ is known)}
+$$
+
+(derived from \(E_{k} = e V = p^{2} / 2 m_{e}\), so \(p = \sqrt{2 m_{e} e V}\))
+
+**Result:** \({\sim}0.167\ \mathrm{nm}\) — comparable to the spacing of nickel atoms (\({\sim}0.1\text{–}0.2\ \mathrm{nm}\)), which is exactly why the crystal can diffract the electrons. The diffraction GEOMETRY (angle \(50^{\circ}\) + known nickel spacing) independently yields \({\sim}0.165\ \mathrm{nm}\). The two numbers agree to better than 1.2%.
+
+**Experimental half (the second, independent road).** Surface-grating condition:
+
+$$
+n \lambda = d \sin\theta
+$$
+
+With \(n = 1\), \(d = 0.215\ \mathrm{nm}\), \(\theta = 50^{\circ}\):
+
+$$
+\lambda = (0.215\times 10^{-9}) \cdot \sin(50^{\circ}) = 1.65\times 10^{-10}\ \mathrm{m} = 0.165\ \mathrm{nm}
+$$
+
+This uses only the measured angle and the known nickel spacing (from X-ray crystallography) — it knows NOTHING about de Broglie, yet lands on the same value.
 
 ### Listing 4 — Why Bohr's orbits are de Broglie standing waves
-```text
-Stable-orbit (standing-wave) condition:
-  the circumference must hold a whole number of de Broglie wavelengths
 
-  2 * pi * r = n * lambda           (n = 1, 2, 3, ...)
+**Stable-orbit (standing-wave) condition:** the circumference must hold a whole number of de Broglie wavelengths:
 
-Substitute the de Broglie wavelength  lambda = h / (m * v):
+$$
+2\pi r = n \lambda \qquad (n = 1, 2, 3, \ldots)
+$$
 
-  2 * pi * r = n * h / (m * v)
+Substitute the de Broglie wavelength \(\lambda = h / (m v)\):
+
+$$
+2\pi r = \frac{n h}{m v}
+$$
 
 Rearrange:
 
-  m * v * r = n * h / (2 * pi)
+$$
+m v r = \frac{n h}{2\pi}
+$$
 
-The left-hand side (m * v * r) is the electron's angular momentum, L.
-So:
+The left-hand side (\(m v r\)) is the electron's angular momentum, \(L\). So:
 
-  L = n * h / (2 * pi)
+$$
+L = \frac{n h}{2\pi}
+$$
 
-This is EXACTLY Bohr's quantisation postulate — but now DERIVED from a wave
-picture instead of simply assumed. Only orbits whose circumference fits a whole
-number of wavelengths form a stable standing wave; all others self-destruct by
-destructive interference. The quantised energy levels are the resonances of the
-confined electron-wave.
-```
+This is EXACTLY Bohr's quantisation postulate — but now DERIVED from a wave picture instead of simply assumed. Only orbits whose circumference fits a whole number of wavelengths form a stable standing wave; all others self-destruct by destructive interference. The quantised energy levels are the resonances of the confined electron-wave.
 
 ### Listing 5 — Why matter waves are invisible for everyday objects
-```text
+
 Compare the de Broglie wavelength of an electron with that of a person.
 
-Slow electron (accelerated through ~100 V), v approx 6.0 x 10^6 m/s:
-  lambda = h / (m_e * v)
-         = (6.626 x 10^-34) / ((9.109 x 10^-31) * (6.0 x 10^6))
-         approx 1.2 x 10^-10 m   (about one atomic spacing -> diffraction visible)
+Slow electron (accelerated through \({\sim}100\ \mathrm{V}\)), \(v \approx 6.0\times 10^{6}\ \mathrm{m/s}\):
+
+$$
+\lambda = \frac{h}{m_{e} v} = \frac{6.626\times 10^{-34}}{(9.109\times 10^{-31}) \cdot (6.0\times 10^{6})} \approx 1.2\times 10^{-10}\ \mathrm{m}
+$$
+
+(about one atomic spacing \(\to\) diffraction visible)
 
 A 70 kg person walking at 1 m/s:
-  lambda = h / (m * v)
-         = (6.626 x 10^-34) / (70 * 1)
-         approx 9.5 x 10^-36 m   (about 10^25 times smaller than an atom)
 
-CONCLUSION: diffraction is only observable when the wavelength is comparable to
-the size of the opening or atomic spacing (roughly lambda/width > 1/10). For
-macroscopic objects lambda is so absurdly small that no opening could ever reveal
-it — which is why we never see people diffract through doorways.
-```
+$$
+\lambda = \frac{h}{m v} = \frac{6.626\times 10^{-34}}{70 \cdot 1} \approx 9.5\times 10^{-36}\ \mathrm{m}
+$$
+
+(about \(10^{25}\) times smaller than an atom)
+
+**Conclusion:** diffraction is only observable when the wavelength is comparable to the size of the opening or atomic spacing (roughly \(\lambda/\text{width} > 1/10\)). For macroscopic objects \(\lambda\) is so absurdly small that no opening could ever reveal it — which is why we never see people diffract through doorways.
 
 ### Listing 6 — Comparison of the two confirming experiments
 | Feature | Davisson & Germer (1927) | G.P. Thomson & Reid (1927) |

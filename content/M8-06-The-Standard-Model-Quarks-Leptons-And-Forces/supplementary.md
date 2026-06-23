@@ -10,49 +10,60 @@ script: script.md
 Key compositions, worked charge calculations, reference tables, and the accelerator chain for this episode. Nothing here is spoken in the audio — it is the read-along reference.
 
 ### Listing 1 — Proton and neutron: quark composition and charge (worked example)
-```text
-Quark charges (in units of the elementary charge e):
-  up (u)   = +2/3
-  down (d) = −1/3
 
-PROTON = u u d  (two up, one down)
-  charge = (+2/3) + (+2/3) + (−1/3)
-         = (+2 + 2 − 1)/3
-         = +3/3
-         = +1        (i.e. +1.6 × 10^-19 C)
+Quark charges (in units of the elementary charge \(e\)):
 
-NEUTRON = u d d  (one up, two down)
-  charge = (+2/3) + (−1/3) + (−1/3)
-         = (+2 − 1 − 1)/3
-         = 0/3
-         = 0         (electrically neutral)
+- up (u) \(= +\tfrac{2}{3}\)
+- down (d) \(= -\tfrac{1}{3}\)
 
-Contrast pair: swap one u for one d → proton (+1) becomes neutron (0).
-This single quark-flavour swap is what the weak force drives in beta decay (M8-07).
+PROTON \(= uud\) (two up, one down):
 
-Memory hook: the Proton is more Positive → it has the extra +2/3 up quark.
-```
+$$
+\text{charge} = \left(+\tfrac{2}{3}\right) + \left(+\tfrac{2}{3}\right) + \left(-\tfrac{1}{3}\right) = \frac{+2 + 2 - 1}{3} = \frac{+3}{3} = +1 \quad (\text{i.e. } +1.6 \times 10^{-19}\ \mathrm{C})
+$$
+
+NEUTRON \(= udd\) (one up, two down):
+
+$$
+\text{charge} = \left(+\tfrac{2}{3}\right) + \left(-\tfrac{1}{3}\right) + \left(-\tfrac{1}{3}\right) = \frac{+2 - 1 - 1}{3} = \frac{0}{3} = 0 \quad (\text{electrically neutral})
+$$
+
+Contrast pair: swap one \(u\) for one \(d\) \(\to\) proton (\(+1\)) becomes neutron (\(0\)). This single quark-flavour swap is what the weak force drives in beta decay (M8-07).
+
+Memory hook: the Proton is more Positive \(\to\) it has the extra \(+\tfrac{2}{3}\) up quark.
 
 ### Listing 2 — Other hadrons: extra charge drills
-```text
-Antiquark charge = opposite sign of the quark.
-  anti-up (ū)   = −2/3
-  anti-down (d̄) = +1/3
 
-PION π⁺ = u d̄   (MESON: quark + antiquark, TWO quarks)
-  charge = (+2/3) + (+1/3) = +1
+Antiquark charge = opposite sign of the quark:
 
-PION π⁻ = ū d   (MESON)
-  charge = (−2/3) + (−1/3) = −1
+- anti-up (\(\bar{u}\)) \(= -\tfrac{2}{3}\)
+- anti-down (\(\bar{d}\)) \(= +\tfrac{1}{3}\)
 
-LAMBDA Λ = u d s  (BARYON: three quarks)
-  charge = (+2/3) + (−1/3) + (−1/3) = 0
+PION \(\pi^+ = u\bar{d}\) (MESON: quark + antiquark, TWO quarks):
 
-ANTIPROTON = ū ū d̄  (anti-baryon)
-  charge = (−2/3) + (−2/3) + (+1/3) = −1
+$$
+\text{charge} = \left(+\tfrac{2}{3}\right) + \left(+\tfrac{1}{3}\right) = +1
+$$
+
+PION \(\pi^- = \bar{u}d\) (MESON):
+
+$$
+\text{charge} = \left(-\tfrac{2}{3}\right) + \left(-\tfrac{1}{3}\right) = -1
+$$
+
+LAMBDA \(\Lambda = uds\) (BARYON: three quarks):
+
+$$
+\text{charge} = \left(+\tfrac{2}{3}\right) + \left(-\tfrac{1}{3}\right) + \left(-\tfrac{1}{3}\right) = 0
+$$
+
+ANTIPROTON \(= \bar{u}\bar{u}\bar{d}\) (anti-baryon):
+
+$$
+\text{charge} = \left(-\tfrac{2}{3}\right) + \left(-\tfrac{2}{3}\right) + \left(+\tfrac{1}{3}\right) = -1
+$$
 
 Trap check: a quark + antiquark pair is a MESON (2), never a baryon (3).
-```
 
 ### Listing 3 — The six leptons (fermions, no internal structure, found free)
 | Generation | Charged lepton | Charge | Neutrino | Charge |
@@ -106,31 +117,22 @@ and do NOT appear in everyday atoms — only in high-energy collisions / cosmic 
 ```
 
 ### Listing 8 — How particle accelerators discover particles (the 5-step chain)
-```text
+
 Hook: "A Smart Collision Creates Discoveries"
 
-1. ACCELERATE — electric fields give charged particles (p, e⁻, ions)
-                repeated energy kicks → very high kinetic energy.
-                (Electric fields ADD energy.)
+1. **ACCELERATE** — electric fields give charged particles (p, e⁻, ions) repeated energy kicks \(\to\) very high kinetic energy. (Electric fields ADD energy.)
+2. **STEER** — magnetic fields bend the particles into curved/circular paths and confine the beam. (Magnetic force \(\perp\) velocity \(\to\) no work \(\to\) changes direction only.)
+3. **COLLIDE** — high-energy particles hit a fixed target OR a head-on beam.
+4. **CONVERT** — collision kinetic energy \(\to\) mass of NEW particles, via
 
-2. STEER      — magnetic fields bend the particles into curved/circular
-                paths and confine the beam.
-                (Magnetic force ⟂ velocity → no work → changes direction only.)
+$$
+E = mc^{2}
+$$
 
-3. COLLIDE    — high-energy particles hit a fixed target OR a head-on beam.
+   (\(E\) = energy in J, \(m\) = mass in kg, \(c = 3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\)). More collision energy \(\to\) more massive particles can be created.
+5. **DETECT** — detectors record tracks, charges, momenta and energies of the debris \(\to\) particles are identified.
 
-4. CONVERT    — collision kinetic energy → mass of NEW particles, via
-                    E = mc²
-                (E = energy in J, m = mass in kg, c = 3.0 × 10^8 m s⁻¹)
-                More collision energy → more massive particles can be created.
-
-5. DETECT     — detectors record tracks, charges, momenta and energies of
-                the debris → particles are identified.
-
-TRAP: electric fields accelerate (add energy); magnetic fields only steer.
-Saying the magnetic field speeds particles up is wrong (same point as the
-M6 cyclotron / mass spectrometer).
-```
+TRAP: electric fields accelerate (add energy); magnetic fields only steer. Saying the magnetic field speeds particles up is wrong (same point as the M6 cyclotron / mass spectrometer).
 
 ### Listing 9 — Accelerator types and key discoveries
 | Type | Example | Energy / scale | Note |
@@ -150,21 +152,14 @@ Key validations: quark structure of the proton (deep inelastic scattering, SLAC 
 | Up/charm/top quark charge | — | +2/3 e |
 | Down/strange/bottom quark charge | — | −1/3 e |
 | Strong-force range | — | ≈ 10^-15 m (1 femtometre) |
-| Mass–energy link | — | E = mc² |
+| Mass–energy link | — | \(E = mc^{2}\) |
 
 ### Listing 11 — Distinguishing quarks from leptons (mark-earning structure)
-```text
+
 Both are fermions and both are fundamental (no internal structure), BUT:
 
-  1. Leptons exist freely (a lone electron is fine),
-     WHEREAS quarks are confined — never found in isolation, always
-     bound inside hadrons.
-
-  2. Leptons carry whole-number charge (e⁻ = −1, neutrinos = 0),
-     WHEREAS quarks carry fractional charge (+2/3 or −1/3).
-
-  3. Quarks feel the strong nuclear force and bind into hadrons,
-     WHEREAS leptons do not feel the strong force.
+1. Leptons exist freely (a lone electron is fine), WHEREAS quarks are confined — never found in isolation, always bound inside hadrons.
+2. Leptons carry whole-number charge (\(e^- = -1\), neutrinos \(= 0\)), WHEREAS quarks carry fractional charge (\(+\tfrac{2}{3}\) or \(-\tfrac{1}{3}\)).
+3. Quarks feel the strong nuclear force and bind into hadrons, WHEREAS leptons do not feel the strong force.
 
 Use "whereas" between each pair — explicit contrast earns the marks.
-```

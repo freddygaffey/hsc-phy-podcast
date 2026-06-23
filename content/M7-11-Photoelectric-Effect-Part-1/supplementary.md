@@ -10,25 +10,31 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference. Symbols: K_max = maximum kinetic energy of a photoelectron; V₀ = stopping voltage; e = electron charge; f = frequency; f₀ = threshold frequency. Note: this is Part 1 — the resolving equation K_max = hf − φ is developed in M7-12.
 
 ### Listing 1 — The photoelectric apparatus and the stopping voltage
-```text
-SETUP (evacuated glass tube):
-  • Cathode / emitter  — clean metal surface; light enters a window and strikes it
-  • Collector          — second electrode facing the emitter across the tube
-  • Ejected electrons (PHOTOELECTRONS) cross the gap → small PHOTOCURRENT (ammeter)
-  • Vacuum so electrons travel freely (no collisions with air)
 
-MEASURING ENERGY — the stopping voltage V₀:
-  • Apply a REVERSE (retarding) voltage: collector made negative to repel electrons
-  • Increase it until even the FASTEST electron is turned back → photocurrent = 0
-  • That voltage is the STOPPING VOLTAGE V₀
+SETUP (evacuated glass tube):
+
+- Cathode / emitter — clean metal surface; light enters a window and strikes it
+- Collector — second electrode facing the emitter across the tube
+- Ejected electrons (PHOTOELECTRONS) cross the gap \(\to\) small PHOTOCURRENT (ammeter)
+- Vacuum so electrons travel freely (no collisions with air)
+
+MEASURING ENERGY — the stopping voltage \(V_{0}\):
+
+- Apply a REVERSE (retarding) voltage: collector made negative to repel electrons
+- Increase it until even the FASTEST electron is turned back \(\to\) photocurrent \(= 0\)
+- That voltage is the STOPPING VOLTAGE \(V_{0}\)
 
 Energy bookkeeping (cash-in of M6-01, charged particle through a potential difference):
-  K_max = e V₀
-    K_max = maximum kinetic energy of the photoelectrons (J)
-    e     = electron charge = 1.6 × 10^-19 C
-    V₀    = stopping voltage (V)
-  → measure V₀, and you have measured K_max.
-```
+
+$$
+K_{\max} = e V_{0}
+$$
+
+- \(K_{\max}\) — maximum kinetic energy of the photoelectrons (J)
+- \(e\) — electron charge \(= 1.6 \times 10^{-19}\ \mathrm{C}\)
+- \(V_{0}\) — stopping voltage (V)
+
+\(\to\) measure \(V_{0}\), and you have measured \(K_{\max}\).
 
 ### Listing 2 — The four observations: DENF
 | Hook | Observation | What is seen |
@@ -38,10 +44,7 @@ Energy bookkeeping (cash-in of M6-01, charged particle through a potential diffe
 | **N** | **N**umber from intensity | Brighter light (same colour) → **more electrons per second** (bigger photocurrent), same energy each |
 | **F** | Threshold **F**requency f₀ | Below a metal-specific cut-off frequency, **no** electrons emitted — at any intensity, any duration |
 
-```text
-Mnemonic: DENF — no Delay, Energy from frequency, Number from intensity, threshold Frequency.
-Carry it into M7-12, the module review, and the exam.
-```
+Mnemonic: DENF — no Delay, Energy from frequency, Number from intensity, threshold Frequency. Carry it into M7-12, the module review, and the exam.
 
 ### Listing 3 — Why the wave model fails: prediction vs observation
 | Observation | Wave-model prediction | Actually observed | Verdict |
@@ -51,26 +54,27 @@ Carry it into M7-12, the module review, and the exam.
 | Energy from frequency (**E**) | Electron energy rises with **intensity** (amplitude); independent of frequency | Energy rises with **frequency**; independent of intensity (the exact reverse) | ✗ FAILS (backwards) |
 | Number from intensity (**N**) | Brighter → more energy → more electrons | Brighter → more electrons per second | ✓ correct (shaky reason) |
 
-```text
 SCOREBOARD: wave model gets 3 of 4 WRONG (D, F, E) and only N right.
 Exam technique: pair EACH observation with the wave prediction it contradicts —
-"the wave model predicts X, but we observe Y." Listing the observations alone ≈ half marks.
-```
+"the wave model predicts X, but we observe Y." Listing the observations alone \(\approx\) half marks.
 
 ### Listing 4 — Worked example: stopping voltage from maximum kinetic energy
-```text
-Relationship:  K_max = e V₀   ⇒   V₀ = K_max / e
-Data sheet:    e = 1.6 × 10^-19 C
 
-Example (Exam Q3):  K_max = 2.6 × 10^-19 J. Find V₀.
-  V₀ = K_max / e
-     = (2.6 × 10^-19) / (1.6 × 10^-19)
-     = 1.6 V   (2 sig figs)
-  Units check: joules / coulombs = volts ✓
+Relationship: \(K_{\max} = e V_{0} \Rightarrow V_{0} = K_{\max} / e\). Data sheet: \(e = 1.6 \times 10^{-19}\ \mathrm{C}\).
 
-Reverse example:  V₀ = 4.2 V. What energy electrons does it stop?
-  K_max = e V₀ = (1.6 × 10^-19)(4.2) = 6.7 × 10^-19 J
-```
+Example (Exam Q3): \(K_{\max} = 2.6 \times 10^{-19}\ \mathrm{J}\). Find \(V_{0}\).
+
+$$
+V_{0} = \frac{K_{\max}}{e} = \frac{2.6 \times 10^{-19}}{1.6 \times 10^{-19}} = 1.6\ \mathrm{V} \quad \text{(2 sig figs)}
+$$
+
+Units check: joules / coulombs = volts ✓
+
+Reverse example: \(V_{0} = 4.2\ \mathrm{V}\). What energy electrons does it stop?
+
+$$
+K_{\max} = e V_{0} = (1.6 \times 10^{-19})(4.2) = 6.7 \times 10^{-19}\ \mathrm{J}
+$$
 
 ### Listing 5 — The photocurrent-vs-voltage graph (and how it shifts)
 ```text

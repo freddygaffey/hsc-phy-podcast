@@ -18,6 +18,9 @@ content/**/*.m4a
 # Audio uploader cache (tracks what's already in R2)
 tools/.upload-state.json
 
+# Queued cross-project helper (session-local, not part of this repo)
+tools/_queued_se_publish.sh
+
 # Logs
 *.log
 run.log

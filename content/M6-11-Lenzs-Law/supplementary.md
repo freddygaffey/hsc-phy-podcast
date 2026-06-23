@@ -11,152 +11,107 @@ Key equations, derivations, and worked numerical solutions for this episode. Not
 
 ### Listing 1 — Worked example: induced EMF (Faraday) and direction (Lenz)
 
-```text
-GIVEN — flat circular coil in a uniform field
-  Number of turns      N  = 50
-  Radius               r  = 0.10 m
-  Plane ⟂ field        θ  = 0°   →  cos θ = 1   (field along the normal)
-  Field falls          B₁ = 0.40 T  →  B₂ = 0 T
-  Time interval        Δt = 0.20 s
+Given — flat circular coil in a uniform field: number of turns \(N = 50\), radius \(r = 0.10\ \mathrm{m}\), plane \(\perp\) field \(\theta = 0°\) \(\to\) \(\cos\theta = 1\) (field along the normal), field falls \(B_1 = 0.40\ \mathrm{T} \to B_2 = 0\ \mathrm{T}\), time interval \(\Delta t = 0.20\ \mathrm{s}\).
 
-STEP 1 — AREA OF THE COIL
-  A = π r² = π (0.10)² = π (0.01)
-  A = 3.14 × 10⁻² m²
+**Step 1 — area of the coil:**
 
-STEP 2 — FLUX PER TURN (Φ = B A cos θ, cos θ = 1)
-  Φ₁ = B₁ A = 0.40 × 3.14 × 10⁻² = 1.26 × 10⁻² Wb
-  Φ₂ = B₂ A = 0 × 3.14 × 10⁻²    = 0 Wb
-  ΔΦ = Φ₂ − Φ₁ = 0 − 1.26 × 10⁻² = −1.26 × 10⁻² Wb   (flux DECREASES)
+$$
+A = \pi r^{2} = \pi (0.10)^{2} = \pi (0.01) = 3.14 \times 10^{-2}\ \mathrm{m^{2}}
+$$
 
-STEP 3 — FARADAY'S LAW (magnitude — drop the minus sign)
-  |ε| = N |ΔΦ / Δt|
-  |ε| = 50 × (1.26 × 10⁻² / 0.20)
-  |ε| = 50 × (6.28 × 10⁻²)
-  |ε| = 3.14 V          ≈ 3.1 V
+**Step 2 — flux per turn** (\(\Phi = B A \cos\theta\), \(\cos\theta = 1\)):
 
-STEP 4 — LENZ'S LAW (direction, part b)
-  Flux is decreasing → induced current OPPOSES the decrease
-  → induced field points the SAME way as the original field
-  → current flows so as to reinforce the original field direction
-    (right-hand grip rule: thumb along original field, fingers = current)
+$$
+\begin{aligned}
+\Phi_1 &= B_1 A = 0.40 \times 3.14 \times 10^{-2} = 1.26 \times 10^{-2}\ \mathrm{Wb} \\
+\Phi_2 &= B_2 A = 0 \times 3.14 \times 10^{-2} = 0\ \mathrm{Wb} \\
+\Delta\Phi &= \Phi_2 - \Phi_1 = 0 - 1.26 \times 10^{-2} = -1.26 \times 10^{-2}\ \mathrm{Wb} \quad (\text{flux DECREASES})
+\end{aligned}
+$$
 
-ANSWER
-  (a) |ε| ≈ 3.1 V
-  (b) current reinforces the original field direction (opposing the decrease)
+**Step 3 — Faraday's law** (magnitude — drop the minus sign):
 
-NOTE — the minus sign in ε = −N(ΔΦ/Δt) carries DIRECTION only.
-Never substitute it into a magnitude calculation.
-```
+$$
+|\varepsilon| = N \left|\frac{\Delta\Phi}{\Delta t}\right| = 50 \times \frac{1.26 \times 10^{-2}}{0.20} = 50 \times (6.28 \times 10^{-2}) = 3.14\ \mathrm{V} \approx 3.1\ \mathrm{V}
+$$
+
+**Step 4 — Lenz's law (direction, part b).** Flux is decreasing \(\to\) induced current OPPOSES the decrease \(\to\) induced field points the SAME way as the original field \(\to\) current flows so as to reinforce the original field direction (right-hand grip rule: thumb along original field, fingers = current).
+
+ANSWER: (a) \(|\varepsilon| \approx 3.1\ \mathrm{V}\); (b) current reinforces the original field direction (opposing the decrease).
+
+NOTE — the minus sign in \(\varepsilon = -N(\Delta\Phi/\Delta t)\) carries DIRECTION only. Never substitute it into a magnitude calculation.
 
 ### Listing 2 — The conservation-of-energy argument (proof by contradiction)
 
-```text
-LENZ'S LAW (marker-preferred wording)
-  An induced current always flows in the direction that creates a
-  magnetic field OPPOSING THE CHANGE in flux that produced it.
-  (Opposes the CHANGE — not the flux, not the magnet.)
+**Lenz's law (marker-preferred wording):** An induced current always flows in the direction that creates a magnetic field OPPOSING THE CHANGE in flux that produced it. (Opposes the CHANGE — not the flux, not the magnet.)
 
-WHY IT MUST OPPOSE — assume the opposite, then watch energy break:
+**Why it must oppose — assume the opposite, then watch energy break:**
 
-  1. ASSUME the induced current REINFORCES the change.
-     (N-pole approaches coil → coil's near face becomes a S-pole
-      that ATTRACTS the magnet, instead of a N-pole that repels it.)
+1. ASSUME the induced current REINFORCES the change. (N-pole approaches coil \(\to\) coil's near face becomes a S-pole that ATTRACTS the magnet, instead of a N-pole that repels it.)
+2. Attractive force \(\to\) magnet ACCELERATES toward the coil.
+3. Faster magnet \(\to\) greater rate of change of flux (\(\Delta\Phi/\Delta t \uparrow\)).
+4. Faraday's law \(\to\) larger induced EMF and current.
+5. Larger current \(\to\) stronger coil field \(\to\) stronger attraction.
+6. Stronger force \(\to\) magnet accelerates MORE \(\to\) loop runs away.
+7. Both KE (magnet) and electrical energy (coil) grow with NO external energy input.
+8. = a PERPETUAL MOTION MACHINE \(\to\) violates conservation of energy \(\to\) IMPOSSIBLE.
+9. CONCLUSION: the induced current must OPPOSE the change. \(\to\) This is Lenz's law.
 
-  2. Attractive force  →  magnet ACCELERATES toward the coil.
+**Where the energy really comes from (the positive side).** Coil opposes the magnet's motion (repels on approach, attracts on withdrawal), so an external agent must do mechanical WORK to move it.
 
-  3. Faster magnet     →  greater rate of change of flux (ΔΦ/Δt ↑).
+$$
+\text{Work (mechanical)} \to \text{electrical energy (induced current)} \to \text{heat } (P = I^{2}R)
+$$
 
-  4. Faraday's law     →  larger induced EMF and current.
+"Work, Watts, Warmth." Every joule of induced electrical energy is paid for by mechanical work. Energy is conserved at every stage.
 
-  5. Larger current    →  stronger coil field → stronger attraction.
+**The three "same law" applications (preview):**
 
-  6. Stronger force    →  magnet accelerates MORE → loop runs away.
-
-  7. Both KE (magnet) and electrical energy (coil) grow with
-     NO external energy input.
-
-  8. = a PERPETUAL MOTION MACHINE → violates conservation of energy
-       → IMPOSSIBLE.
-
-  9. CONCLUSION: the induced current must OPPOSE the change.
-     → This is Lenz's law.
-
-WHERE THE ENERGY REALLY COMES FROM (the positive side)
-  Coil opposes the magnet's motion (repels on approach, attracts on
-  withdrawal), so an external agent must do mechanical WORK to move it.
-
-  Work (mechanical) → electrical energy (induced current) → heat (P = I²R)
-
-  "Work, Watts, Warmth." Every joule of induced electrical energy is
-  paid for by mechanical work. Energy is conserved at every stage.
-
-THE THREE "SAME LAW" APPLICATIONS (preview)
-  • Magnet falling through a tube/solenoid → opposing force, falls slowly  [M6-12]
-  • Conductor plate moving into a field → braking force (EM braking)        [M6-12, M6-15]
-  • Spinning motor rotor → back-EMF opposing the supply                     [M6-08]
-```
+- Magnet falling through a tube/solenoid \(\to\) opposing force, falls slowly [M6-12]
+- Conductor plate moving into a field \(\to\) braking force (EM braking) [M6-12, M6-15]
+- Spinning motor rotor \(\to\) back-EMF opposing the supply [M6-08]
 
 ### Listing 3 — Worked example: combined Faraday + Lenz (200-turn coil)
 
-```text
-GIVEN
-  Number of turns   N  = 200
-  Coil area         A  = 2 × 10⁻³ m²
-  Plane ⟂ field     θ  = 0°  →  cos θ = 1
-  Field falls       B₁ = 0.5 T  →  B₂ = 0.1 T
-  Time interval     Δt = 0.10 s
+Given: number of turns \(N = 200\), coil area \(A = 2 \times 10^{-3}\ \mathrm{m^{2}}\), plane \(\perp\) field \(\theta = 0°\) \(\to\) \(\cos\theta = 1\), field falls \(B_1 = 0.5\ \mathrm{T} \to B_2 = 0.1\ \mathrm{T}\), time interval \(\Delta t = 0.10\ \mathrm{s}\).
 
-FLUX PER TURN (Φ = B A cos θ)
-  Φ₁ = 0.5 × 2 × 10⁻³ = 1.0 × 10⁻³ Wb
-  Φ₂ = 0.1 × 2 × 10⁻³ = 0.2 × 10⁻³ Wb
-  |ΔΦ| = (1.0 − 0.2) × 10⁻³ = 0.8 × 10⁻³ Wb
+Flux per turn (\(\Phi = B A \cos\theta\)):
 
-FARADAY'S LAW (magnitude)
-  |ε| = N |ΔΦ / Δt|
-  |ε| = 200 × (0.8 × 10⁻³ / 0.10)
-  |ε| = 200 × (8 × 10⁻³)
-  |ε| = 1.6 V
+$$
+\begin{aligned}
+\Phi_1 &= 0.5 \times 2 \times 10^{-3} = 1.0 \times 10^{-3}\ \mathrm{Wb} \\
+\Phi_2 &= 0.1 \times 2 \times 10^{-3} = 0.2 \times 10^{-3}\ \mathrm{Wb} \\
+|\Delta\Phi| &= (1.0 - 0.2) \times 10^{-3} = 0.8 \times 10^{-3}\ \mathrm{Wb}
+\end{aligned}
+$$
 
-LENZ'S LAW (direction)
-  Flux is DECREASING → induced current opposes the decrease
-  → induced field points the SAME way as the original field
-    (it acts to maintain/replace the disappearing flux)
+Faraday's law (magnitude):
 
-ANSWER
-  |ε| = 1.6 V; current flows to reinforce the original field direction.
-```
+$$
+|\varepsilon| = N \left|\frac{\Delta\Phi}{\Delta t}\right| = 200 \times \frac{0.8 \times 10^{-3}}{0.10} = 200 \times (8 \times 10^{-3}) = 1.6\ \mathrm{V}
+$$
+
+Lenz's law (direction): flux is DECREASING \(\to\) induced current opposes the decrease \(\to\) induced field points the SAME way as the original field (it acts to maintain/replace the disappearing flux).
+
+ANSWER: \(|\varepsilon| = 1.6\ \mathrm{V}\); current flows to reinforce the original field direction.
 
 ### Listing 4 — Finding the induced-current direction (the 3-step procedure)
 
-```text
-"CHANGE, OPPOSE, GRIP"
+**"Change, Oppose, Grip"**
 
-STEP 1 — CHANGE: how is the flux through the loop changing?
-  Increasing or decreasing, and in which direction does it point?
+1. **Change:** how is the flux through the loop changing? Increasing or decreasing, and in which direction does it point?
+2. **Oppose:** which way must the INDUCED field point to oppose that change?
+   - Flux increasing \(\to\) induced field points OPPOSITE to the external field (fight the increase).
+   - Flux decreasing \(\to\) induced field points the SAME way as the original field (replace the lost flux).
+3. **Grip:** right-hand GRIP (curl) rule for a coil. Thumb \(\to\) direction of the required induced field inside the coil. Curled fingers \(\to\) direction of the induced (conventional) current.
 
-STEP 2 — OPPOSE: which way must the INDUCED field point to oppose
-         that change?
-  • Flux increasing → induced field points OPPOSITE to the external
-    field (fight the increase).
-  • Flux decreasing → induced field points the SAME way as the
-    original field (replace the lost flux).
+**Worked direction cases:**
 
-STEP 3 — GRIP: right-hand GRIP (curl) rule for a coil.
-  Thumb → direction of the required induced field inside the coil.
-  Curled fingers → direction of the induced (conventional) current.
+- N-pole APPROACHING coil: flux into coil increasing \(\to\) near face must be a N-pole to repel \(\to\) current ANTICLOCKWISE (viewed from magnet).
+- N-pole WITHDRAWING: flux decreasing \(\to\) near face becomes a S-pole to attract \(\to\) current reverses to CLOCKWISE.
+- Ring pulled OUT of into-page field: into-page flux decreasing \(\to\) induced current CLOCKWISE to maintain into-page flux; current STOPS once the ring fully exits the field.
 
-WORKED DIRECTION CASES
-  N-pole APPROACHING coil:  flux into coil increasing → near face must
-    be a N-pole to repel → current ANTICLOCKWISE (viewed from magnet).
-  N-pole WITHDRAWING:       flux decreasing → near face becomes a
-    S-pole to attract → current reverses to CLOCKWISE.
-  Ring pulled OUT of into-page field: into-page flux decreasing →
-    induced current CLOCKWISE to maintain into-page flux; current
-    STOPS once the ring fully exits the field.
-
-WARNING — use the right-hand GRIP rule (field→current for a coil),
-NOT the flat-hand/palm rule (force on a moving charge). Different rule.
-```
+WARNING — use the right-hand GRIP rule (field→current for a coil), NOT the flat-hand/palm rule (force on a moving charge). Different rule.
 
 ### Listing 5 — Key terms, symbols and units for this episode
 

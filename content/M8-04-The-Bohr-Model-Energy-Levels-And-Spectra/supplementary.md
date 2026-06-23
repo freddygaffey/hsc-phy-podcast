@@ -10,46 +10,70 @@ script: script.md
 Key equations, derivations, worked numerical solutions, and reference data for this episode. Nothing here is spoken in the audio — it is the read-along reference.
 
 ### Listing 1 — Worked Example A: the H-alpha (red Balmer) line, longest visible wavelength
-```text
-Rydberg equation:   1/λ = R_H (1/n_f² − 1/n_i²)
 
-R_H = 1.097 × 10^7 m^-1
+Rydberg equation, with \(R_H = 1.097 \times 10^{7}\ \mathrm{m^{-1}}\):
 
-Longest λ ⇒ smallest energy gap ⇒ smallest transition.
-Visible (Balmer) series lands on n_f = 2, so smallest gap is n_i = 3 → n_f = 2.
+$$
+\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^{2}} - \frac{1}{n_i^{2}} \right)
+$$
 
-1/λ = 1.097 × 10^7 × (1/2² − 1/3²)
-    = 1.097 × 10^7 × (1/4 − 1/9)
-    = 1.097 × 10^7 × (0.2500 − 0.1111)
-    = 1.097 × 10^7 × 0.1389
-    = 1.524 × 10^6 m^-1
+Longest \(\lambda\) \(\Rightarrow\) smallest energy gap \(\Rightarrow\) smallest transition. Visible (Balmer) series lands on \(n_f = 2\), so smallest gap is \(n_i = 3 \to n_f = 2\).
 
-λ = 1 / (1.524 × 10^6) = 6.56 × 10^-7 m = 656 nm   (red H-alpha line)
+$$
+\begin{aligned}
+\frac{1}{\lambda} &= 1.097 \times 10^{7} \times \left( \frac{1}{2^{2}} - \frac{1}{3^{2}} \right) \\
+&= 1.097 \times 10^{7} \times \left( \frac{1}{4} - \frac{1}{9} \right) \\
+&= 1.097 \times 10^{7} \times (0.2500 - 0.1111) \\
+&= 1.097 \times 10^{7} \times 0.1389 \\
+&= 1.524 \times 10^{6}\ \mathrm{m^{-1}}
+\end{aligned}
+$$
 
-Trap: R_H is in m^-1, so the equation returns 1/λ. Always take the reciprocal
-to get λ. An answer ~10^6 is 1/λ, NOT a wavelength.
-```
+$$
+\lambda = \frac{1}{1.524 \times 10^{6}} = 6.56 \times 10^{-7}\ \mathrm{m} = 656\ \mathrm{nm}\quad (\text{red H-alpha line})
+$$
+
+Trap: \(R_H\) is in \(\mathrm{m^{-1}}\), so the equation returns \(1/\lambda\). Always take the reciprocal to get \(\lambda\). An answer \(\sim 10^{6}\) is \(1/\lambda\), NOT a wavelength.
 
 ### Listing 2 — Worked Example B: the n = 4 → n = 1 photon (energy, frequency, wavelength)
-```text
-Level energies:   E_n = E_1 / n²     with E_1 = −13.6 eV
 
-(a) E_4 = −13.6 / 4² = −13.6 / 16 = −0.85 eV
+Level energies, with \(E_1 = -13.6\ \mathrm{eV}\):
 
-(b) Photon energy = |E_i − E_f| = |(−0.85) − (−13.6)| = 12.75 eV
-    (Take the MAGNITUDE — subtracting the wrong way gives a meaningless
-     negative frequency.)
+$$
+E_n = \frac{E_1}{n^{2}}
+$$
 
-    Convert to joules:  12.75 × 1.602 × 10^-19 = 2.04 × 10^-18 J
+(a)
 
-(c) Frequency, from E = hf:
-    f = E / h = (2.04 × 10^-18) / (6.63 × 10^-34) = 3.08 × 10^15 Hz
+$$
+E_4 = \frac{-13.6}{4^{2}} = \frac{-13.6}{16} = -0.85\ \mathrm{eV}
+$$
 
-(d) Wavelength, from c = fλ:
-    λ = c / f = (3.0 × 10^8) / (3.08 × 10^15) = 9.7 × 10^-8 m ≈ 97 nm
+(b) Photon energy (take the MAGNITUDE — subtracting the wrong way gives a meaningless negative frequency):
 
-    Lands on n = 1 ⇒ Lyman series ⇒ ultraviolet. Self-check agrees: 97 nm is UV.
-```
+$$
+|E_i - E_f| = |(-0.85) - (-13.6)| = 12.75\ \mathrm{eV}
+$$
+
+Convert to joules:
+
+$$
+12.75 \times 1.602 \times 10^{-19} = 2.04 \times 10^{-18}\ \mathrm{J}
+$$
+
+(c) Frequency, from \(E = hf\):
+
+$$
+f = \frac{E}{h} = \frac{2.04 \times 10^{-18}}{6.63 \times 10^{-34}} = 3.08 \times 10^{15}\ \mathrm{Hz}
+$$
+
+(d) Wavelength, from \(c = f\lambda\):
+
+$$
+\lambda = \frac{c}{f} = \frac{3.0 \times 10^{8}}{3.08 \times 10^{15}} = 9.7 \times 10^{-8}\ \mathrm{m} \approx 97\ \mathrm{nm}
+$$
+
+Lands on \(n = 1\) \(\Rightarrow\) Lyman series \(\Rightarrow\) ultraviolet. Self-check agrees: 97 nm is UV.
 
 ### Listing 3 — Hydrogen energy levels (electron volts)
 | Level n | Energy E_n (eV) | Notes                          |
@@ -63,55 +87,78 @@ Level energies:   E_n = E_1 / n²     with E_1 = −13.6 eV
 | ∞       | 0               | ionisation (electron free)     |
 
 ### Listing 4 — Exam Question 4 worked: n = 2 → n = 1 photon
-```text
-Given:  E_2 = −3.4 eV,  E_1 = −13.6 eV
 
-Photon energy = |E_i − E_f| = |(−3.4) − (−13.6)| = 10.2 eV
-Convert:  10.2 × 1.602 × 10^-19 = 1.63 × 10^-18 J
+Given: \(E_2 = -3.4\ \mathrm{eV}\), \(E_1 = -13.6\ \mathrm{eV}\).
 
-Use E = hc/λ  →  λ = hc / E
-λ = (6.63 × 10^-34 × 3.0 × 10^8) / (1.63 × 10^-18)
-  = (1.989 × 10^-25) / (1.63 × 10^-18)
-  = 1.22 × 10^-7 m  ≈ 122 nm
+$$
+\text{Photon energy} = |E_i - E_f| = |(-3.4) - (-13.6)| = 10.2\ \mathrm{eV}
+$$
 
-Lands on n = 1 ⇒ Lyman series ⇒ ultraviolet.
-```
+Convert:
+
+$$
+10.2 \times 1.602 \times 10^{-19} = 1.63 \times 10^{-18}\ \mathrm{J}
+$$
+
+Use \(E = hc/\lambda\) \(\to\) \(\lambda = hc/E\):
+
+$$
+\lambda = \frac{(6.63 \times 10^{-34})(3.0 \times 10^{8})}{1.63 \times 10^{-18}} = \frac{1.989 \times 10^{-25}}{1.63 \times 10^{-18}} = 1.22 \times 10^{-7}\ \mathrm{m} \approx 122\ \mathrm{nm}
+$$
+
+Lands on \(n = 1\) \(\Rightarrow\) Lyman series \(\Rightarrow\) ultraviolet.
 
 ### Listing 5 — Model extended-response answer (line emission spectrum of hydrogen)
-```text
-"In the Bohr model the electron in a hydrogen atom can occupy only certain
-discrete stationary states, each with a fixed, quantised energy. When the atom
-is excited, the electron is raised to a higher stationary state. It then
-transitions back to a lower state, and in doing so the atom emits a single
-photon. By the law of conservation of energy, the photon's energy is exactly
-equal to the difference in energy between the two states — Planck's constant
-times the photon's frequency equals the higher energy minus the lower energy.
-Because the energy levels are discrete and unique to hydrogen, only photons of
-specific frequencies, and therefore specific wavelengths, can be emitted. These
-appear as a discrete set of bright lines — a line emission spectrum — rather
-than a continuous spectrum."
 
-Weak (band-4) answer for contrast: "Electrons jump down and give off light."
-— states an observation with no mechanism, no quantisation, no conservation
-of energy: almost no marks.
-```
+"In the Bohr model the electron in a hydrogen atom can occupy only certain discrete stationary states, each with a fixed, quantised energy. When the atom is excited, the electron is raised to a higher stationary state. It then transitions back to a lower state, and in doing so the atom emits a single photon. By the law of conservation of energy, the photon's energy is exactly equal to the difference in energy between the two states — Planck's constant times the photon's frequency equals the higher energy minus the lower energy. Because the energy levels are discrete and unique to hydrogen, only photons of specific frequencies, and therefore specific wavelengths, can be emitted. These appear as a discrete set of bright lines — a line emission spectrum — rather than a continuous spectrum."
+
+Weak (band-4) answer for contrast: "Electrons jump down and give off light." — states an observation with no mechanism, no quantisation, no conservation of energy: almost no marks.
 
 ### Listing 6 — Key equations and constants for transitions
-```text
-E = hf                     photon energy = Planck's constant × frequency
-c = fλ                     wave speed = frequency × wavelength
-E = hc/λ                   photon energy = hc / wavelength
-hf = E_i − E_f             photon energy = magnitude of level difference
-1/λ = R_H(1/n_f² − 1/n_i²) Rydberg equation (emission: n_f < n_i)
-E_n = E_1/n²               hydrogen level energy, E_1 = −13.6 eV
+
+Photon energy \(=\) Planck's constant \(\times\) frequency:
+
+$$
+E = hf
+$$
+
+Wave speed \(=\) frequency \(\times\) wavelength:
+
+$$
+c = f\lambda
+$$
+
+Photon energy \(= hc/\) wavelength:
+
+$$
+E = \frac{hc}{\lambda}
+$$
+
+Photon energy \(=\) magnitude of level difference:
+
+$$
+hf = E_i - E_f
+$$
+
+Rydberg equation (emission: \(n_f < n_i\)):
+
+$$
+\frac{1}{\lambda} = R_H \left( \frac{1}{n_f^{2}} - \frac{1}{n_i^{2}} \right)
+$$
+
+Hydrogen level energy, \(E_1 = -13.6\ \mathrm{eV}\):
+
+$$
+E_n = \frac{E_1}{n^{2}}
+$$
 
 Constants (HSC data sheet):
-h   = 6.63 × 10^-34 J·s     Planck's constant
-c   = 3.0 × 10^8 m s^-1     speed of light
-e   = 1.602 × 10^-19 C      elementary charge ( = 1 eV in joules)
-1 eV = 1.602 × 10^-19 J     electron-volt to joule conversion
-R_H = 1.097 × 10^7 m^-1     Rydberg constant
-```
+
+- \(h = 6.63 \times 10^{-34}\ \mathrm{J\cdot s}\) — Planck's constant
+- \(c = 3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\) — speed of light
+- \(e = 1.602 \times 10^{-19}\ \mathrm{C}\) — elementary charge (\(= 1\ \mathrm{eV}\) in joules)
+- \(1\ \mathrm{eV} = 1.602 \times 10^{-19}\ \mathrm{J}\) — electron-volt to joule conversion
+- \(R_H = 1.097 \times 10^{7}\ \mathrm{m^{-1}}\) — Rydberg constant
 
 ### Listing 7 — Hydrogen spectral series ("Little Birds Pause")
 | Series  | Falls to level | Region        | Mnemonic letter |

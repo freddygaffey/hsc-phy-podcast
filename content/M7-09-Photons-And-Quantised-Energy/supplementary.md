@@ -10,122 +10,148 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference. Constants used throughout: Planck's constant h = 6.63 × 10^-34 J s, speed of light c = 3.0 × 10^8 m s^-1, and 1 eV = 1.6 × 10^-19 J (all on the HSC Physics Data Sheet / Formulae Sheet except the eV conversion).
 
 ### Listing 1 — Photon energy: the three forms (E = hf, c = fλ, E = hc/λ)
-```text
+
 Photon energy (Planck relation):
-    E = h f
-        E = energy of ONE photon  (J)
-        h = Planck's constant = 6.63 × 10^-34  (J s)
-        f = frequency  (Hz = s^-1)
+
+$$
+E = h f
+$$
+
+- \(E\) — energy of ONE photon (J)
+- \(h\) — Planck's constant \(= 6.63 \times 10^{-34}\ \mathrm{J\,s}\)
+- \(f\) — frequency (\(\mathrm{Hz} = \mathrm{s^{-1}}\))
 
 Wave relation (vacuum):
-    c = f λ      →      f = c / λ
-        c = 3.0 × 10^8 m s^-1
-        λ = wavelength  (m)
 
-Combined form (substitute f = c/λ into E = hf):
-    E = h c / λ
-        units:  (J s × m s^-1) / m  =  J  ✓
+$$
+c = f \lambda \qquad\to\qquad f = \frac{c}{\lambda}
+$$
+
+- \(c = 3.0 \times 10^{8}\ \mathrm{m\,s^{-1}}\)
+- \(\lambda\) — wavelength (m)
+
+Combined form (substitute \(f = c/\lambda\) into \(E = hf\)):
+
+$$
+E = \frac{h c}{\lambda}
+$$
+
+Units: \((\mathrm{J\,s} \times \mathrm{m\,s^{-1}}) / \mathrm{m} = \mathrm{J}\) ✓
 
 Proportionalities to memorise:
-    E ∝ f          (higher frequency → higher-energy photon)
-    E ∝ 1/λ        (shorter wavelength → higher-energy photon)
-    "short wave, big punch"
 
-Convert nm → m before substituting:  1 nm = 1 × 10^-9 m
-```
+$$
+E \propto f \qquad\text{(higher frequency} \to \text{higher-energy photon)}
+$$
+
+$$
+E \propto \frac{1}{\lambda} \qquad\text{(shorter wavelength} \to \text{higher-energy photon)}
+$$
+
+"short wave, big punch". Convert nm \(\to\) m before substituting: \(1\ \mathrm{nm} = 1 \times 10^{-9}\ \mathrm{m}\).
 
 ### Listing 2 — The electron-volt (energy unit at this scale)
-```text
-Definition:
-    1 eV = energy an electron gains across a potential difference of 1 V
-         = e × V = (1.6 × 10^-19 C)(1 V)
-    1 eV = 1.6 × 10^-19 J
+
+Definition — \(1\ \mathrm{eV}\) is the energy an electron gains across a potential difference of \(1\ \mathrm{V}\):
+
+$$
+1\ \mathrm{eV} = e \times V = (1.6 \times 10^{-19}\ \mathrm{C})(1\ \mathrm{V}) = 1.6 \times 10^{-19}\ \mathrm{J}
+$$
 
 Converting:
-    joules → eV :  divide by 1.6 × 10^-19
-    eV → joules :  multiply by 1.6 × 10^-19
 
-Why use it: photon energies are ~10^-19 J — awkward in joules,
+- joules \(\to\) eV: divide by \(1.6 \times 10^{-19}\)
+- eV \(\to\) joules: multiply by \(1.6 \times 10^{-19}\)
+
+Why use it: photon energies are \(\sim 10^{-19}\ \mathrm{J}\) — awkward in joules,
 tidy in eV. Work functions (later episodes) are also quoted in eV.
-```
 
 ### Listing 3 — Worked Example A: energy of a UV photon (λ = 3.00 × 10^-7 m)
-```text
-Want E, given λ  →  use  E = hc/λ
 
-E = (6.63 × 10^-34 × 3.0 × 10^8) / (3.00 × 10^-7)
+Want \(E\), given \(\lambda\) \(\to\) use \(E = hc/\lambda\):
 
-Numerator:  6.63 × 10^-34 × 3.0 × 10^8 = 1.989 × 10^-25
+$$
+E = \frac{(6.63 \times 10^{-34})(3.0 \times 10^{8})}{3.00 \times 10^{-7}}
+$$
 
-E = 1.989 × 10^-25 / 3.00 × 10^-7
-E = 6.63 × 10^-19 J
+Numerator: \(6.63 \times 10^{-34} \times 3.0 \times 10^{8} = 1.989 \times 10^{-25}\).
 
-In eV:  6.63 × 10^-19 / 1.6 × 10^-19 ≈ 4.1 eV
-
-Method (mark-earning structure):
-    1. write equation   2. substitute with units
-    3. evaluate         4. convert to eV
-```
-
-### Listing 4 — Worked Example B: λ = 425 nm → frequency and energy (J and eV)
-```text
-Convert wavelength:
-    425 nm = 4.25 × 10^-7 m
-
-Frequency:
-    f = c / λ = (3.0 × 10^8) / (4.25 × 10^-7)
-    f = 7.06 × 10^14 Hz   (≈ 7.1 × 10^14 Hz)
-
-Energy:
-    E = h f = (6.63 × 10^-34)(7.06 × 10^14)
-    E = 4.68 × 10^-19 J
+$$
+E = \frac{1.989 \times 10^{-25}}{3.00 \times 10^{-7}} = 6.63 \times 10^{-19}\ \mathrm{J}
+$$
 
 In eV:
-    E = 4.68 × 10^-19 / 1.6 × 10^-19
-    E = 2.92 eV   (≈ 2.9 eV, a blue-violet photon)
 
-Note: E = hf (via f) and E = hc/λ (direct) give the same answer.
-```
+$$
+\frac{6.63 \times 10^{-19}}{1.6 \times 10^{-19}} \approx 4.1\ \mathrm{eV}
+$$
+
+Method (mark-earning structure): (1) write equation; (2) substitute with units; (3) evaluate; (4) convert to eV.
+
+### Listing 4 — Worked Example B: λ = 425 nm → frequency and energy (J and eV)
+
+Convert wavelength: \(425\ \mathrm{nm} = 4.25 \times 10^{-7}\ \mathrm{m}\).
+
+Frequency:
+
+$$
+f = \frac{c}{\lambda} = \frac{3.0 \times 10^{8}}{4.25 \times 10^{-7}} = 7.06 \times 10^{14}\ \mathrm{Hz} \quad (\approx 7.1 \times 10^{14}\ \mathrm{Hz})
+$$
+
+Energy:
+
+$$
+E = h f = (6.63 \times 10^{-34})(7.06 \times 10^{14}) = 4.68 \times 10^{-19}\ \mathrm{J}
+$$
+
+In eV:
+
+$$
+E = \frac{4.68 \times 10^{-19}}{1.6 \times 10^{-19}} = 2.92\ \mathrm{eV} \quad (\approx 2.9\ \mathrm{eV},\ \text{a blue-violet photon})
+$$
+
+Note: \(E = hf\) (via \(f\)) and \(E = hc/\lambda\) (direct) give the same answer.
 
 ### Listing 5 — Worked Example C: how many photons? (eye detection)
-```text
-Q: eye detects E_total = 2.00 × 10^-17 J of light at λ = 5.50 × 10^-7 m.
-   How many photons is that?
+
+Q: eye detects \(E_{\text{total}} = 2.00 \times 10^{-17}\ \mathrm{J}\) of light at \(\lambda = 5.50 \times 10^{-7}\ \mathrm{m}\). How many photons is that?
 
 Step 1 — energy of ONE photon:
-    E_photon = hc/λ = (6.63 × 10^-34 × 3.0 × 10^8) / (5.50 × 10^-7)
-             = 1.989 × 10^-25 / 5.50 × 10^-7
-    E_photon = 3.62 × 10^-19 J
+
+$$
+E_{\text{photon}} = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^{8})}{5.50 \times 10^{-7}} = \frac{1.989 \times 10^{-25}}{5.50 \times 10^{-7}} = 3.62 \times 10^{-19}\ \mathrm{J}
+$$
 
 Step 2 — number of photons:
-    n = E_total / E_photon
-      = 2.00 × 10^-17 / 3.62 × 10^-19
-    n ≈ 55 photons
+
+$$
+n = \frac{E_{\text{total}}}{E_{\text{photon}}} = \frac{2.00 \times 10^{-17}}{3.62 \times 10^{-19}} \approx 55\ \text{photons}
+$$
 
 Keep distinct:
-    E_total (J)  ÷  E_photon (J)  →  n  (pure number)
-    P (W = J s^-1) ÷ E_photon (J) →  N  (photons per second)
-```
+
+- \(E_{\text{total}}\ (\mathrm{J}) \div E_{\text{photon}}\ (\mathrm{J}) \to n\) (pure number)
+- \(P\ (\mathrm{W} = \mathrm{J\,s^{-1}}) \div E_{\text{photon}}\ (\mathrm{J}) \to N\) (photons per second)
 
 ### Listing 6 — Worked Example D: equal-power lasers, different colour
-```text
-Q: red laser λ_red = 600 nm, blue laser λ_blue = 450 nm, SAME power P.
-   Compare their rate of emitting photons.
 
-Energy per photon ∝ 1/λ, so:
-    E_blue / E_red = λ_red / λ_blue = 600 / 450 = 4/3
-    (each blue photon carries 4/3 the energy of a red photon)
+Q: red laser \(\lambda_{\text{red}} = 600\ \mathrm{nm}\), blue laser \(\lambda_{\text{blue}} = 450\ \mathrm{nm}\), SAME power \(P\). Compare their rate of emitting photons.
 
-Photons per second at fixed power:
-    N = P / E_photon      →      N ∝ λ
-    N_red / N_blue = λ_red / λ_blue = 600 / 450 = 4/3 ≈ 1.33
+Energy per photon \(\propto 1/\lambda\), so:
 
-Conclusion:
-    The RED laser emits photons at the higher rate
-    (≈ 1.33× as many per second) because each red photon
-    carries less energy, so more are needed to deliver the same power.
-    Equal power → redder light → more photons per second.
-```
+$$
+\frac{E_{\text{blue}}}{E_{\text{red}}} = \frac{\lambda_{\text{red}}}{\lambda_{\text{blue}}} = \frac{600}{450} = \frac{4}{3}
+$$
+
+(each blue photon carries \(\tfrac{4}{3}\) the energy of a red photon).
+
+Photons per second at fixed power (\(N = P / E_{\text{photon}}\), so \(N \propto \lambda\)):
+
+$$
+\frac{N_{\text{red}}}{N_{\text{blue}}} = \frac{\lambda_{\text{red}}}{\lambda_{\text{blue}}} = \frac{600}{450} = \frac{4}{3} \approx 1.33
+$$
+
+Conclusion: the RED laser emits photons at the higher rate (\(\approx 1.33\times\) as many per second) because each red photon carries less energy, so more are needed to deliver the same power. Equal power \(\to\) redder light \(\to\) more photons per second.
 
 ### Listing 7 — Reference values and key terms
 | Quantity / item | Value / detail |

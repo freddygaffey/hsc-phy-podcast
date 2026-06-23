@@ -10,54 +10,74 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference. Symbols: λ_max = wavelength of peak intensity; T = absolute temperature (kelvin); b = Wien's displacement constant; h = Planck's constant; f = frequency; c = speed of light; E = energy of a quantum (photon).
 
 ### Listing 1 — Wien's displacement law (equation and definitions)
-```text
-Wien's displacement law:   λ_max × T = b   (a constant)
+
+Wien's displacement law (a constant):
+
+$$
+\lambda_{\max} \times T = b
+$$
 
 Rearranged for each unknown:
-    λ_max = b / T          (find the peak wavelength from temperature)
-    T     = b / λ_max      (find the temperature from the peak wavelength)
 
-    λ_max = wavelength of PEAK intensity   (metres)   — not the only wavelength emitted
-    T     = absolute temperature           (KELVIN — always; °C + 273 first)
-    b     = Wien's displacement constant = 2.9 × 10^-3 m·K   (data sheet)
+$$
+\lambda_{\max} = \frac{b}{T} \qquad\text{(find the peak wavelength from temperature)}
+$$
 
-Direction:  hotter T  →  shorter λ_max  →  bluer.   ("hot and blue, short and true")
-λ_max and T are INVERSELY proportional: double T ⇒ halve λ_max.
-```
+$$
+T = \frac{b}{\lambda_{\max}} \qquad\text{(find the temperature from the peak wavelength)}
+$$
+
+- \(\lambda_{\max}\) — wavelength of PEAK intensity (metres) — not the only wavelength emitted
+- \(T\) — absolute temperature (KELVIN — always; °C \(+\ 273\) first)
+- \(b\) — Wien's displacement constant \(= 2.9 \times 10^{-3}\ \mathrm{m \cdot K}\) (data sheet)
+
+Direction: hotter \(T\) \(\to\) shorter \(\lambda_{\max}\) \(\to\) bluer ("hot and blue, short and true").
+\(\lambda_{\max}\) and \(T\) are INVERSELY proportional: double \(T\) \(\Rightarrow\) halve \(\lambda_{\max}\).
 
 ### Listing 2 — Worked example: peak wavelength from temperature (the Sun, and a hot star)
-```text
-(a) The Sun's surface, T = 5800 K. Find the peak wavelength.
-    λ_max = b / T
-          = (2.9 × 10^-3) / (5800)
-          = 5.0 × 10^-7 m
-          = 500 nm        → green-yellow, mid-visible (eyes peak here)
 
-(b) Exam Q2: a star at T = 7250 K. Find the peak wavelength.
-    λ_max = b / T
-          = (2.9 × 10^-3) / (7250)
-          = 4.0 × 10^-7 m
-          = 400 nm        → blue-violet end of the visible spectrum (hot blue-white star)
+**(a)** The Sun's surface, \(T = 5800\ \mathrm{K}\). Find the peak wavelength.
 
-Method markers reward: write the equation → substitute with T in KELVIN
-→ answer in metres → convert to nm.
-```
+$$
+\lambda_{\max} = \frac{b}{T} = \frac{2.9 \times 10^{-3}}{5800} = 5.0 \times 10^{-7}\ \mathrm{m} = 500\ \mathrm{nm}
+$$
+
+\(\to\) green-yellow, mid-visible (eyes peak here).
+
+**(b)** Exam Q2: a star at \(T = 7250\ \mathrm{K}\). Find the peak wavelength.
+
+$$
+\lambda_{\max} = \frac{b}{T} = \frac{2.9 \times 10^{-3}}{7250} = 4.0 \times 10^{-7}\ \mathrm{m} = 400\ \mathrm{nm}
+$$
+
+\(\to\) blue-violet end of the visible spectrum (hot blue-white star).
+
+Method markers reward: write the equation \(\to\) substitute with \(T\) in KELVIN
+\(\to\) answer in metres \(\to\) convert to nm.
 
 ### Listing 3 — Worked example: temperature from peak wavelength (reading a star's colour)
-```text
-Rearrange Wien's law for temperature:  T = b / λ_max
 
-(a) Star peaks at λ_max = 480 nm = 4.8 × 10^-7 m:
-    T = (2.9 × 10^-3) / (4.8 × 10^-7) ≈ 6.0 × 10^3 K   (~6000 K, Sun-like)
+Rearrange Wien's law for temperature: \(T = b / \lambda_{\max}\).
 
-(b) Blue star peaks at λ_max = 290 nm = 2.9 × 10^-7 m:
-    T = (2.9 × 10^-3) / (2.9 × 10^-7) = 1.0 × 10^4 K    (~10 000 K, hot blue)
+**(a)** Star peaks at \(\lambda_{\max} = 480\ \mathrm{nm} = 4.8 \times 10^{-7}\ \mathrm{m}\):
 
-(c) Red giant (e.g. Betelgeuse) peaks at λ_max = 830 nm = 8.3 × 10^-7 m:
-    T = (2.9 × 10^-3) / (8.3 × 10^-7) ≈ 3.5 × 10^3 K    (~3500 K, cool red)
+$$
+T = \frac{2.9 \times 10^{-3}}{4.8 \times 10^{-7}} \approx 6.0 \times 10^{3}\ \mathrm{K} \quad (\sim 6000\ \mathrm{K},\ \text{Sun-like})
+$$
+
+**(b)** Blue star peaks at \(\lambda_{\max} = 290\ \mathrm{nm} = 2.9 \times 10^{-7}\ \mathrm{m}\):
+
+$$
+T = \frac{2.9 \times 10^{-3}}{2.9 \times 10^{-7}} = 1.0 \times 10^{4}\ \mathrm{K} \quad (\sim 10\,000\ \mathrm{K},\ \text{hot blue})
+$$
+
+**(c)** Red giant (e.g. Betelgeuse) peaks at \(\lambda_{\max} = 830\ \mathrm{nm} = 8.3 \times 10^{-7}\ \mathrm{m}\):
+
+$$
+T = \frac{2.9 \times 10^{-3}}{8.3 \times 10^{-7}} \approx 3.5 \times 10^{3}\ \mathrm{K} \quad (\sim 3500\ \mathrm{K},\ \text{cool red})
+$$
 
 This is the quantitative engine behind M7-04: blue stars hot, red stars cool.
-```
 
 ### Listing 4 — Black-body curves at different temperatures (peak shift)
 | Object | Temperature T (K) | Peak wavelength λ_max = b/T | Region / colour |
@@ -99,29 +119,24 @@ Classical curve → infinity  ⇒  impossible (violates conservation of energy)
 | Verdict | Fails — violates conservation of energy | Correct |
 
 ### Listing 6 — Planck's resolution (step-by-step logic)
-```text
-1. Classical assumption: oscillating charges in the walls emit/absorb energy
-   CONTINUOUSLY — any amount, however small.
-   ⇒ predicts intensity rising without limit at short λ (the catastrophe).
 
-2. Planck's hypothesis (1900): energy is exchanged only in DISCRETE QUANTA,
-   each of size
-        E = h f          (h = 6.63 × 10^-34 J s,   f = frequency)
-   Energy comes in whole packets of h f — nothing in between.
+1. Classical assumption: oscillating charges in the walls emit/absorb energy CONTINUOUSLY — any amount, however small. \(\Rightarrow\) predicts intensity rising without limit at short \(\lambda\) (the catastrophe).
 
-3. Short wavelength = HIGH frequency f  ⇒  LARGE quantum h f required.
+2. Planck's hypothesis (1900): energy is exchanged only in DISCRETE QUANTA, each of size
 
-4. At a given temperature the particles have a limited energy budget
-   (the distribution of kinetic energies). Large quanta are only RARELY
-   available ⇒ high-frequency (short-λ) emission is SUPPRESSED, not infinite.
+$$
+E = h f \qquad (h = 6.63 \times 10^{-34}\ \mathrm{J\,s},\ f = \text{frequency})
+$$
 
-5. Result: the predicted curve rises, PEAKS, and FALLS — matching experiment.
-   The ultraviolet catastrophe is removed.
+   Energy comes in whole packets of \(hf\) — nothing in between.
 
-6. Planck believed this was only a "mathematical trick." Einstein (1905) took
-   the quantum as a real, physical photon (next: photoelectric effect, M7-11/12).
-   The SAME constant h reappears as the gradient of the photoelectric graph.
-```
+3. Short wavelength = HIGH frequency \(f\) \(\Rightarrow\) LARGE quantum \(hf\) required.
+
+4. At a given temperature the particles have a limited energy budget (the distribution of kinetic energies). Large quanta are only RARELY available \(\Rightarrow\) high-frequency (short-\(\lambda\)) emission is SUPPRESSED, not infinite.
+
+5. Result: the predicted curve rises, PEAKS, and FALLS — matching experiment. The ultraviolet catastrophe is removed.
+
+6. Planck believed this was only a "mathematical trick." Einstein (1905) took the quantum as a real, physical photon (next: photoelectric effect, M7-11/12). The SAME constant \(h\) reappears as the gradient of the photoelectric graph.
 
 ### Listing 7 — Key constants and values (NSW HSC data sheet)
 | Quantity | Symbol | Value |

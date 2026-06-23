@@ -10,186 +10,179 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. These listings are the read-along reference; the audio is self-contained and never depends on them, though it speaks the key results in words.
 
 ### Listing 1 — Synchronous speed and slip (worked)
-```text
-THE ROTATING FIELD'S SPEED (synchronous speed)
-  Field rotates at the mains supply frequency.
-  Australia:  f = 50 Hz
-  Synchronous speed n_s = f = 50 rev s^-1
-  In rpm:  n_s = 50 × 60 = 3000 rpm   (single pole-pair)
-  (Use 50 Hz — that's Australia. 60 Hz is the US.)
 
-SLIP — worked example
-  Synchronous (field) speed   n_s     = 3000 rpm
-  Actual rotor speed (loaded) n_rotor = 2880 rpm
+**The rotating field's speed (synchronous speed)**
 
-  Slip speed = n_s − n_rotor = 3000 − 2880 = 120 rpm
-  Fractional slip = (n_s − n_rotor) / n_s
-                  = 120 / 3000
-                  = 0.04 = 4 %
+The field rotates at the mains supply frequency. Australia: \(f = 50\ \mathrm{Hz}\).
 
-WHY SLIP IS NECESSARY
-  At n_rotor = n_s exactly:
-    relative speed = 0
-      → ΔΦ/Δt = 0
-        → induced EMF = 0
-          → induced current = 0
-            → force = 0  → torque = 0
-  The non-zero 120 rpm of slip is precisely what keeps the flux
-  changing and the torque flowing. No slip → no torque.
+$$
+n_s = f = 50\ \mathrm{rev\,s^{-1}}
+$$
 
-SELF-REGULATION
-  More load → rotor slows → slip ↑ → ΔΦ/Δt ↑ → induced I ↑
-            → force F = BIL ↑ → torque ↑  (rises to meet the load)
-```
+In rpm:
+
+$$
+n_s = 50 \times 60 = 3000\ \mathrm{rpm} \quad \text{(single pole-pair)}
+$$
+
+(Use 50 Hz — that's Australia. 60 Hz is the US.)
+
+**Slip — worked example**
+
+- Synchronous (field) speed \(n_s = 3000\ \mathrm{rpm}\)
+- Actual rotor speed (loaded) \(n_{\text{rotor}} = 2880\ \mathrm{rpm}\)
+
+$$
+\text{slip speed} = n_s - n_{\text{rotor}} = 3000 - 2880 = 120\ \mathrm{rpm}
+$$
+
+$$
+\text{fractional slip} = \frac{n_s - n_{\text{rotor}}}{n_s} = \frac{120}{3000} = 0.04 = 4\%
+$$
+
+**Why slip is necessary**
+
+At \(n_{\text{rotor}} = n_s\) exactly: relative speed \(= 0 \to \Delta\Phi/\Delta t = 0 \to\) induced EMF \(= 0 \to\) induced current \(= 0 \to\) force \(= 0 \to\) torque \(= 0\). The non-zero 120 rpm of slip is precisely what keeps the flux changing and the torque flowing. No slip \(\to\) no torque.
+
+**Self-regulation**
+
+More load \(\to\) rotor slows \(\to\) slip \(\uparrow \to \Delta\Phi/\Delta t \uparrow \to\) induced \(I \uparrow \to\) force \(F = BIL \uparrow \to\) torque \(\uparrow\) (rises to meet the load).
 
 ### Listing 2 — Faraday induction in one rotor bar (illustrative)
-```text
-WHY SLIP PRODUCES AN EMF — the core formula made quantitative
 
-GIVEN (one rotor loop)
-  Effective loop area   A  = 0.0030 m^2
-  Stator field          B  = 0.40 T
-  Field sweep changes flux from full (B·A) to 0
-  in time               Δt = 5.0 × 10^-3 s
-  Turns                 N  = 1
+**Why slip produces an EMF — the core formula made quantitative**
 
-FLUX
-  Φ_initial = B A = 0.40 × 0.0030 = 1.2 × 10^-3 Wb
-  Φ_final   = 0 Wb
-  ΔΦ        = Φ_final − Φ_initial = −1.2 × 10^-3 Wb
-              (magnitude 1.2 × 10^-3 Wb)
+**Given (one rotor loop):**
 
-INDUCED EMF (Faraday's law)
-  ε = −N (ΔΦ / Δt)
-    = −(1) × (−1.2 × 10^-3) / (5.0 × 10^-3)
-    = 0.24 V
+- Effective loop area \(A = 0.0030\ \mathrm{m^{2}}\)
+- Stator field \(B = 0.40\ \mathrm{T}\)
+- Field sweep changes flux from full (\(B\cdot A\)) to \(0\) in time \(\Delta t = 5.0 \times 10^{-3}\ \mathrm{s}\)
+- Turns \(N = 1\)
 
-INTERPRETATION
-  ~0.24 V is induced in the bar each field sweep. The end rings
-  short-circuit the thick, low-resistance bars, so this small EMF
-  drives a LARGE current I; that current in field B gives the
-  force F = BIL that turns the rotor.
-  Slip less (rotor catches up) → Δt longer → ΔΦ/Δt smaller
-    → EMF and torque fall.  Faster slip → more torque.
-```
+**Flux**
+
+$$
+\Phi_{\text{initial}} = B A = 0.40 \times 0.0030 = 1.2 \times 10^{-3}\ \mathrm{Wb}
+$$
+
+$$
+\Phi_{\text{final}} = 0\ \mathrm{Wb}
+$$
+
+$$
+\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = -1.2 \times 10^{-3}\ \mathrm{Wb} \quad (\text{magnitude } 1.2 \times 10^{-3}\ \mathrm{Wb})
+$$
+
+**Induced EMF (Faraday's law)**
+
+$$
+\varepsilon = -N \left(\frac{\Delta\Phi}{\Delta t}\right) = -(1) \times \frac{-1.2 \times 10^{-3}}{5.0 \times 10^{-3}} = 0.24\ \mathrm{V}
+$$
+
+**Interpretation**
+
+\(\sim 0.24\ \mathrm{V}\) is induced in the bar each field sweep. The end rings short-circuit the thick, low-resistance bars, so this small EMF drives a LARGE current \(I\); that current in field \(B\) gives the force \(F = BIL\) that turns the rotor. Slip less (rotor catches up) \(\to \Delta t\) longer \(\to \Delta\Phi/\Delta t\) smaller \(\to\) EMF and torque fall. Faster slip \(\to\) more torque.
 
 ### Listing 3 — The torque chain (the examinable cause-and-effect order)
-```text
-AC INDUCTION MOTOR — how induction makes torque
-(write the links IN THIS ORDER for full marks)
 
-  1. Three-phase stator coils (120° apart, currents 120° out of
-     phase) → resultant field of CONSTANT magnitude whose
-     DIRECTION rotates at supply frequency = ROTATING FIELD.
+**AC induction motor — how induction makes torque** (write the links IN THIS ORDER for full marks):
 
-  2. Rotating field sweeps past stationary squirrel-cage bars
-     → RELATIVE MOTION between field and bars.
+1. Three-phase stator coils (\(120°\) apart, currents \(120°\) out of phase) \(\to\) resultant field of CONSTANT magnitude whose DIRECTION rotates at supply frequency = ROTATING FIELD.
+2. Rotating field sweeps past stationary squirrel-cage bars \(\to\) RELATIVE MOTION between field and bars.
+3. Relative motion \(\to\) magnetic flux through the rotor loops CHANGES with time.
+4. FARADAY'S LAW: \(\varepsilon = -N\,(\Delta\Phi/\Delta t)\) \(\to\) changing flux induces an EMF; end rings close the loop \(\to\) large INDUCED (eddy) CURRENT in the bars.
+5. MOTOR EFFECT: \(F = BIL\) \(\to\) each current-carrying bar in the stator field feels a FORCE.
+6. LENZ'S LAW (= conservation of energy): induced current opposes the change (the relative motion) \(\to\) force drags the rotor IN THE DIRECTION OF FIELD ROTATION \(\to\) TORQUE.
+7. SLIP: rotor must run slower than the field. At equal speed, no relative motion \(\to\) no torque. Slip is essential.
 
-  3. Relative motion → magnetic flux through the rotor loops
-     CHANGES with time.
-
-  4. FARADAY'S LAW:  ε = −N (ΔΦ/Δt)  → changing flux induces an
-     EMF; end rings close the loop → large INDUCED (eddy) CURRENT
-     in the bars.
-
-  5. MOTOR EFFECT:  F = BIL  → each current-carrying bar in the
-     stator field feels a FORCE.
-
-  6. LENZ'S LAW (= conservation of energy): induced current
-     opposes the change (the relative motion) → force drags the
-     rotor IN THE DIRECTION OF FIELD ROTATION → TORQUE.
-
-  7. SLIP: rotor must run slower than the field. At equal speed,
-     no relative motion → no torque. Slip is essential.
-
-MEMORY HOOK: "Rotating Round, Faraday's Force, Lenz Follows"
-  + the rotor must SLIP.
-  Barer: "Faraday makes it, Lenz aims it."
-```
+MEMORY HOOK: "Rotating Round, Faraday's Force, Lenz Follows" + the rotor must SLIP. Barer: "Faraday makes it, Lenz aims it."
 
 ### Listing 4 — Equations used in this episode (symbols and SI units)
-```text
-MAGNETIC FLUX
-  Φ = B A cos θ
-    Φ = magnetic flux                       (weber, Wb)
-    B = magnetic flux density / field       (tesla, T = Wb m^-2)
-    A = area                                (m^2)
-    θ = angle between B and the loop NORMAL (area vector)
 
-FARADAY'S LAW OF INDUCTION
-  ε = −N (ΔΦ / Δt)
-    ε  = induced EMF                        (volt, V)
-    N  = number of turns
-    ΔΦ = change in flux = Φ_final − Φ_initial (Wb)
-    Δt = time interval                      (s)
-    The minus sign IS Lenz's law (EMF opposes the change).
+**Magnetic flux**
 
-MOTOR EFFECT (force on each current-carrying bar)
-  F = BIL sin θ        (F = BIL when θ = 90°)
-    F = force                               (newton, N)
-    I = induced current in the bar          (ampere, A)
-    L = length of bar in the field          (metre, m)
+$$
+\Phi = B A \cos\theta
+$$
 
-ELECTRICAL POWER CONSUMED BY THE MOTOR
-  P = VI
-    P = power  (watt, W)   V = terminal voltage (V)   I = stator current (A)
+- \(\Phi\) = magnetic flux (weber, \(\mathrm{Wb}\))
+- \(B\) = magnetic flux density / field (tesla, \(\mathrm{T} = \mathrm{Wb\,m^{-2}}\))
+- \(A\) = area (\(\mathrm{m^{2}}\))
+- \(\theta\) = angle between \(B\) and the loop NORMAL (area vector)
 
-RESISTIVE (JOULE) HEATING — where lost KE goes in braking
-  P = I^2 R              (W, A, ohm Ω)
-```
+**Faraday's law of induction**
+
+$$
+\varepsilon = -N \left(\frac{\Delta\Phi}{\Delta t}\right)
+$$
+
+- \(\varepsilon\) = induced EMF (volt, \(\mathrm{V}\))
+- \(N\) = number of turns
+- \(\Delta\Phi\) = change in flux \(= \Phi_{\text{final}} - \Phi_{\text{initial}}\) (\(\mathrm{Wb}\))
+- \(\Delta t\) = time interval (\(\mathrm{s}\))
+- The minus sign IS Lenz's law (EMF opposes the change).
+
+**Motor effect** (force on each current-carrying bar)
+
+$$
+F = BIL \sin\theta \qquad (F = BIL \text{ when } \theta = 90°)
+$$
+
+- \(F\) = force (newton, \(\mathrm{N}\))
+- \(I\) = induced current in the bar (ampere, \(\mathrm{A}\))
+- \(L\) = length of bar in the field (metre, \(\mathrm{m}\))
+
+**Electrical power consumed by the motor**
+
+$$
+P = VI
+$$
+
+\(P\) = power (watt, \(\mathrm{W}\)); \(V\) = terminal voltage (\(\mathrm{V}\)); \(I\) = stator current (\(\mathrm{A}\)).
+
+**Resistive (Joule) heating** — where lost KE goes in braking
+
+$$
+P = I^{2} R \qquad (\mathrm{W},\ \mathrm{A},\ \text{ohm } \Omega)
+$$
 
 ### Listing 5 — Electromagnetic braking (the cause-and-effect chain)
-```text
-HOW A FORCE OPPOSING MOTION IS GENERATED
 
-  1. A conductor (disc / plate / rail) moves through a magnetic
-     field → RELATIVE MOTION between conductor and field.
+**How a force opposing motion is generated**
 
-  2. Relative motion → magnetic flux through the conductor CHANGES.
+1. A conductor (disc / plate / rail) moves through a magnetic field \(\to\) RELATIVE MOTION between conductor and field.
+2. Relative motion \(\to\) magnetic flux through the conductor CHANGES.
+3. FARADAY'S LAW \(\to\) changing flux induces an EMF \(\to\) drives circulating EDDY CURRENTS in the bulk metal.
+4. LENZ'S LAW (conservation of energy) \(\to\) eddy currents flow so as to OPPOSE the change \(\to\) they OPPOSE the motion \(\to\) RETARDING (braking) FORCE.
+5. Kinetic energy \(\to\) HEAT (\(P = I^{2} R\)) in the conductor \(\to\) object slows.
 
-  3. FARADAY'S LAW → changing flux induces an EMF → drives
-     circulating EDDY CURRENTS in the bulk metal.
+**Key mark-earning feature**
 
-  4. LENZ'S LAW (conservation of energy) → eddy currents flow so
-     as to OPPOSE the change → they OPPOSE the motion → RETARDING
-     (braking) FORCE.
+Braking force \(\propto\) speed:
 
-  5. Kinetic energy → HEAT (P = I^2 R) in the conductor → object slows.
+- fast \(\to\) flux changes fast \(\to\) big eddy currents \(\to\) big force
+- slow \(\to\) small force
 
-KEY MARK-EARNING FEATURE
-  Braking force ∝ speed:
-    fast → flux changes fast → big eddy currents → big force
-    slow → small force
-  So the brake is strong at speed, fades as the object slows, and
-  approaches rest ASYMPTOTICALLY. It cannot give a sudden complete
-  stop on its own — a friction brake finishes the job.
+So the brake is strong at speed, fades as the object slows, and approaches rest ASYMPTOTICALLY. It cannot give a sudden complete stop on its own — a friction brake finishes the job.
 
-CONTACTLESS, WEAR-FREE, SMOOTH.
-  Uses: trains / trams, roller coasters, fairground rides, gym
-  and exercise equipment.
-```
+CONTACTLESS, WEAR-FREE, SMOOTH. Uses: trains / trams, roller coasters, fairground rides, gym and exercise equipment.
 
 ### Listing 6 — Motor vs generator, and AC induction vs DC motor
-```text
-ENERGY TRANSFORMATION (learn the exact wording)
-  MOTOR:     electrical energy → rotational kinetic (mechanical)
-  GENERATOR: mechanical kinetic energy → electrical energy
-  Same device, opposite directions; both use the motor effect /
-  electromagnetic induction. The exam tests the DIRECTION.
 
-AC INDUCTION MOTOR vs DC MOTOR (use "whereas")
-  DC motor: current FED to the rotor via brushes + split-ring
-    commutator (commutator reverses current each half-turn).
-  AC induction motor: rotor current is INDUCED by the rotating
-    field — NO brushes, NO commutator, NO slip rings on the rotor.
-  → Nothing rubs the rotor → no wear, no sparking, low maintenance
-    → induction motor is more reliable; the most common motor made.
+**Energy transformation** (learn the exact wording):
 
-BRUSHLESS DC MOTOR (cross-link)
-  Same induction-torque chain: torque from currents in the rotor
-  produced WITHOUT brushes carrying rotor current (electronic
-  commutation instead of mains three-phase).
-```
+- MOTOR: electrical energy \(\to\) rotational kinetic (mechanical)
+- GENERATOR: mechanical kinetic energy \(\to\) electrical energy
+
+Same device, opposite directions; both use the motor effect / electromagnetic induction. The exam tests the DIRECTION.
+
+**AC induction motor vs DC motor** (use "whereas"):
+
+- DC motor: current FED to the rotor via brushes + split-ring commutator (commutator reverses current each half-turn).
+- AC induction motor: rotor current is INDUCED by the rotating field — NO brushes, NO commutator, NO slip rings on the rotor.
+- \(\to\) Nothing rubs the rotor \(\to\) no wear, no sparking, low maintenance \(\to\) induction motor is more reliable; the most common motor made.
+
+**Brushless DC motor** (cross-link): same induction-torque chain — torque from currents in the rotor produced WITHOUT brushes carrying rotor current (electronic commutation instead of mains three-phase).
 
 ### Listing 7 — Reference data
 | Quantity | Symbol | Value / unit |

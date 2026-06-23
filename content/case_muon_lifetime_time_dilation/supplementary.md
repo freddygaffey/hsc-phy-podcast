@@ -8,64 +8,69 @@ script: script.md
 
 ### Listing 1 — The classical (wrong) prediction: how far a muon should travel
 
-```text
-proper lifetime of muon, t0 = 2.2 us = 2.2 x 10^-6 s
-maximum speed = c = 3 x 10^8 m/s   (absolute best case)
+Proper lifetime of the muon \(t_0 = 2.2\ \mu\mathrm{s} = 2.2\times10^{-6}\ \mathrm{s}\), and the absolute best case is travel at the speed of light \(c = 3\times10^{8}\ \mathrm{m/s}\).
 
-classical max distance:
-d = v x t0
-d = (3 x 10^8 m/s) x (2.2 x 10^-6 s)
-d = 660 m
+Classical maximum distance:
 
-a realistic muon at v = 0.98c:
-d = (0.98 x 3 x 10^8) x (2.2 x 10^-6)
-d = approx 647 m
+$$
+d = v\,t_0 = (3\times10^{8}\ \mathrm{m/s})(2.2\times10^{-6}\ \mathrm{s}) = 660\ \mathrm{m}
+$$
 
-journey actually required = 15,000 m
-verdict: classical physics is short by a factor of ~22
-```
+A realistic muon at \(v = 0.98c\):
+
+$$
+d = (0.98\times3\times10^{8})(2.2\times10^{-6}) \approx 647\ \mathrm{m}
+$$
+
+The journey actually required is \(15{,}000\ \mathrm{m}\). Verdict: classical physics is short by a factor of \(\approx 22\).
 
 ### Listing 2 — Time dilation: the muon survives in OUR frame
 
-```text
 Lorentz factor:
-gamma = 1 / sqrt(1 - v^2/c^2)
 
-standard HSC narrative value: gamma = 15   (corresponds to v = 0.9978c)
+$$
+\gamma = \frac{1}{\sqrt{1 - v^{2}/c^{2}}}
+$$
 
-time dilation formula:
-t = gamma x t0
-t = 15 x (2.2 x 10^-6 s)
-t = 33 x 10^-6 s = 33 us
+The standard HSC narrative value is \(\gamma = 15\) (corresponds to \(v = 0.9978c\)).
 
-distance now possible in Earth's frame:
-d = v x t
-d = (0.9978 x 3 x 10^8 m/s) x (33 x 10^-6 s)
-d ~ 9,880 m ~ 10 km
+Time dilation formula:
 
-enough to cross the atmosphere -> muons reach the ground
-```
+$$
+t = \gamma\,t_0 = 15\times(2.2\times10^{-6}\ \mathrm{s}) = 33\times10^{-6}\ \mathrm{s} = 33\ \mu\mathrm{s}
+$$
+
+Distance now possible in Earth's frame:
+
+$$
+d = v\,t = (0.9978\times3\times10^{8}\ \mathrm{m/s})(33\times10^{-6}\ \mathrm{s}) \approx 9{,}880\ \mathrm{m} \approx 10\ \mathrm{km}
+$$
+
+This is enough to cross the atmosphere \(\to\) muons reach the ground.
 
 ### Listing 3 — Length contraction: the muon survives in ITS OWN frame
 
-```text
-In the muon's frame, its clock is NORMAL: it lives only t0 = 2.2 us.
-Instead, the atmosphere is contracted along the direction of motion.
+In the muon's frame, its clock is NORMAL: it lives only \(t_0 = 2.2\ \mu\mathrm{s}\). Instead, the atmosphere is contracted along the direction of motion.
 
-length contraction formula:
-L = L0 / gamma      (equivalently L = L0 x sqrt(1 - v^2/c^2))
+Length contraction formula:
 
-L0 = 15,000 m  (proper length of atmosphere, Earth's frame)
-gamma = 15
+$$
+L = \frac{L_0}{\gamma} \qquad\left(\text{equivalently } L = L_0\sqrt{1 - v^{2}/c^{2}}\right)
+$$
 
-L = 15,000 / 15 = 1,000 m
+With \(L_0 = 15{,}000\ \mathrm{m}\) (proper length of atmosphere, Earth's frame) and \(\gamma = 15\):
 
-time to cross, in muon's frame:
-t = L / v = 1000 / (0.9978 x 3 x 10^8) ~ 3.3 x 10^-6 s = 3.3 us
+$$
+L = \frac{15{,}000}{15} = 1{,}000\ \mathrm{m}
+$$
 
-This is only ~1.5 proper lifetimes, so a sizeable fraction of muons survive.
-Both frames agree on the outcome: the muon reaches the ground.
-```
+Time to cross, in the muon's frame:
+
+$$
+t = \frac{L}{v} = \frac{1000}{0.9978\times3\times10^{8}} \approx 3.3\times10^{-6}\ \mathrm{s} = 3.3\ \mu\mathrm{s}
+$$
+
+This is only \(\approx 1.5\) proper lifetimes, so a sizeable fraction of muons survive. Both frames agree on the outcome: the muon reaches the ground.
 
 ### Listing 4 — The Frisch-Smith experiment (Mount Washington, 1962-63)
 
@@ -82,16 +87,23 @@ Both frames agree on the outcome: the muon reaches the ground.
 | Time dilation factor measured | 8.8 +/- 0.8 |
 | Time dilation factor predicted | ~8.4 |
 
-```text
-survival count follows exponential decay:
-N = N0 x e^(-t / (gamma x t0))
+The survival count follows exponential decay:
 
-WITH time dilation (gamma x t0 = 8.8 x 2.2 us = 19.4 us):
-N = 565 x e^(-6.34/19.4) = 565 x e^(-0.327) ~ 407 per hour  (matches 409 measured)
+$$
+N = N_0\,e^{-t / (\gamma\,t_0)}
+$$
 
-WITHOUT time dilation (gamma = 1, gamma x t0 = 2.2 us):
-N = 565 x e^(-6.34/2.2) = 565 x e^(-2.88) ~ 32 per hour  (matches ~27 predicted)
-```
+WITH time dilation (\(\gamma\,t_0 = 8.8\times2.2\ \mu\mathrm{s} = 19.4\ \mu\mathrm{s}\)):
+
+$$
+N = 565\,e^{-6.34/19.4} = 565\,e^{-0.327} \approx 407\ \text{per hour} \quad(\text{matches } 409\ \text{measured})
+$$
+
+WITHOUT time dilation (\(\gamma = 1\), \(\gamma\,t_0 = 2.2\ \mu\mathrm{s}\)):
+
+$$
+N = 565\,e^{-6.34/2.2} = 565\,e^{-2.88} \approx 32\ \text{per hour} \quad(\text{matches } \approx 27\ \text{predicted})
+$$
 
 ### Listing 5 — The Hafele-Keating experiment (1971): two effects, both real
 
@@ -102,38 +114,28 @@ N = 565 x e^(-6.34/2.2) = 565 x e^(-2.88) ~ 32 per hour  (matches ~27 predicted)
 | Total predicted | -40 +/- 23 | +275 +/- 21 |
 | Total measured | -59 +/- 10 | +273 +/- 7 |
 
-```text
 Sign convention: positive = flying clock GAINS time vs ground clock.
 
-Eastward: plane speed ADDS to Earth's rotation -> faster vs Earth's centre
-          -> SR slowing dominates -> clock loses time (net -59 ns).
-Westward: plane speed OPPOSES Earth's rotation -> slower vs Earth's centre
-          -> less SR slowing, GR speed-up wins -> clock gains time (net +273 ns).
+- Eastward: plane speed ADDS to Earth's rotation \(\to\) faster vs Earth's centre \(\to\) SR slowing dominates \(\to\) clock loses time (net \(-59\ \mathrm{ns}\)).
+- Westward: plane speed OPPOSES Earth's rotation \(\to\) slower vs Earth's centre \(\to\) less SR slowing, GR speed-up wins \(\to\) clock gains time (net \(+273\ \mathrm{ns}\)).
 
-Westward result agreed with prediction to within ~0.1 standard deviations.
-```
+The westward result agreed with prediction to within \(\approx 0.1\) standard deviations.
 
 ### Listing 6 — GPS: relativity built into daily technology
 
-```text
-satellite orbital altitude ~ 20,200 km
-satellite speed ~ 3.87 km/s
+Satellite orbital altitude \(\approx 20{,}200\ \mathrm{km}\); satellite speed \(\approx 3.87\ \mathrm{km/s}\).
 
-special relativity (motion):   clocks run SLOW by  -7.2 us/day
-general relativity (gravity):  clocks run FAST by +45.8 us/day
------------------------------------------------------------------
-net effect:                    clocks run FAST by ~+38.4 us/day
+- Special relativity (motion): clocks run SLOW by \(-7.2\ \mu\mathrm{s/day}\)
+- General relativity (gravity): clocks run FAST by \(+45.8\ \mu\mathrm{s/day}\)
+- Net effect: clocks run FAST by \(\approx +38.4\ \mu\mathrm{s/day}\)
 
-position error if uncorrected:
-38.4 us = 38,400 ns
-light travels ~0.30 m per ns
-error ~ 38,400 x 0.30 m ~ 11,500 m ~ 10 km per day (and growing)
+Position error if uncorrected — light travels \(\approx 0.30\ \mathrm{m}\) per nanosecond:
 
-engineering fix (pre-compensation before launch):
-target clock frequency        = 10.23 MHz
-pre-set ground frequency      = 10.22999999543 MHz
-(set slightly slow so it ticks correctly once sped up in orbit)
-```
+$$
+38.4\ \mu\mathrm{s} = 38{,}400\ \mathrm{ns}, \qquad \text{error} \approx 38{,}400\times0.30\ \mathrm{m} \approx 11{,}500\ \mathrm{m} \approx 10\ \mathrm{km}\ \text{per day (and growing)}
+$$
+
+Engineering fix (pre-compensation before launch): the target clock frequency is \(10.23\ \mathrm{MHz}\), but the ground frequency is pre-set to \(10.22999999543\ \mathrm{MHz}\) (set slightly slow so it ticks correctly once sped up in orbit).
 
 ### Listing 7 — Key constants and quick-reference values
 
@@ -145,24 +147,35 @@ pre-set ground frequency      = 10.22999999543 MHz
 | Muon rest mass | — | 105.7 MeV/c^2 (~207 x electron mass) |
 | Muon production altitude | — | ~15 km (range 10-20 km) |
 | Muon flux at sea level | — | ~10,000 per square metre per minute |
-| Time dilation formula | t = t0 / sqrt(1 - v^2/c^2) | t = gamma x t0 |
-| Length contraction formula | L = L0 x sqrt(1 - v^2/c^2) | L = L0 / gamma |
-| Lorentz factor | gamma | 1 / sqrt(1 - v^2/c^2) |
+| Time dilation formula | \(t = t_0 / \sqrt{1 - v^{2}/c^{2}}\) | \(t = \gamma\,t_0\) |
+| Length contraction formula | \(L = L_0\sqrt{1 - v^{2}/c^{2}}\) | \(L = L_0/\gamma\) |
+| Lorentz factor | \(\gamma\) | \(1/\sqrt{1 - v^{2}/c^{2}}\) |
 
-```text
-NOTE on lifetime vs half-life (exam-relevant):
-- Mean (average) lifetime of the muon  = 2.197 us (~2.2 us). This script uses this value.
-- Half-life of the muon                = mean lifetime x ln(2)
-                                       = 2.197 us x 0.693 = 1.52 us (~1.56 us)
-The Jacaranda textbook quotes the half-life of 1.56 us in the Rossi-Hall worked example.
-Both are correct; they describe the same exponential decay measured two ways.
+NOTE on lifetime vs half-life (exam-relevant): the mean (average) lifetime of the muon is \(2.197\ \mu\mathrm{s}\) (\(\approx 2.2\ \mu\mathrm{s}\)) — this script uses that value. The half-life is the mean lifetime times \(\ln 2\):
+
+$$
+t_{1/2} = t_0\,\ln 2 = 2.197\ \mu\mathrm{s}\times0.693 = 1.52\ \mu\mathrm{s}\ (\approx 1.56\ \mu\mathrm{s})
+$$
+
+The Jacaranda textbook quotes the half-life of \(1.56\ \mu\mathrm{s}\) in the Rossi-Hall worked example. Both are correct; they describe the same exponential decay measured two ways.
 
 Syllabus formulas (NESA, Nature of light):
-time dilation:        t = t0 / sqrt(1 - v^2/c^2)
-length contraction:   l = l0 x sqrt(1 - v^2/c^2)
-relativistic momentum: p = m0 v / sqrt(1 - v^2/c^2)
-mass-energy:           E = mc^2
-```
+
+$$
+\text{time dilation:} \quad t = \frac{t_0}{\sqrt{1 - v^{2}/c^{2}}}
+$$
+
+$$
+\text{length contraction:} \quad l = l_0\sqrt{1 - v^{2}/c^{2}}
+$$
+
+$$
+\text{relativistic momentum:} \quad p = \frac{m_0 v}{\sqrt{1 - v^{2}/c^{2}}}
+$$
+
+$$
+\text{mass-energy:} \quad E = mc^{2}
+$$
 
 ### Listing 8 — The Rossi-Hall experiment (Colorado, 1940-41): textbook worked figures
 
@@ -171,21 +184,13 @@ mass-energy:           E = mc^2
 | Muon proper half-life (rest frame) | 1.56 us |
 | Transit time between detectors (Earth frame) | ~6.5 us |
 | Decay time experienced by muons (muon frame) | ~0.7 us |
-| Lorentz factor from gamma = t / t0 | 6.5 / 0.7 ~ 9.3 |
-| Muon speed from gamma | v = c x sqrt(1 - 1/gamma^2) ~ 0.994c |
-| Half-life measured in Earth frame | t = gamma x t0 = 1.56 us x 9.3 ~ 14.5 us |
+| Lorentz factor from \(\gamma = t/t_0\) | \(6.5/0.7 \approx 9.3\) |
+| Muon speed from gamma | \(v = c\sqrt{1 - 1/\gamma^{2}} \approx 0.994c\) |
+| Half-life measured in Earth frame | \(t = \gamma\,t_0 = 1.56\ \mu\mathrm{s}\times9.3 \approx 14.5\ \mu\mathrm{s}\) |
 
-```text
 Two-frame interpretation (same outcome, both frames agree muons survive):
 
-EARTH frame:  the muons' clocks run slow, so their half-life dilates
-              from 1.56 us out to ~14.5 us -> many survive the ~6.5 us trip.
+- EARTH frame: the muons' clocks run slow, so their half-life dilates from \(1.56\ \mu\mathrm{s}\) out to \(\approx 14.5\ \mu\mathrm{s}\) \(\to\) many survive the \(\approx 6.5\ \mu\mathrm{s}\) trip.
+- MUON frame: the muons' clocks are normal (only \(\approx 0.7\ \mu\mathrm{s}\) elapses), but the mountain/atmosphere is LENGTH-CONTRACTED to a small hill, so the contracted distance is crossed within a normal lifetime.
 
-MUON frame:   the muons' clocks are normal (only ~0.7 us elapses), but the
-              mountain/atmosphere is LENGTH-CONTRACTED to a small hill,
-              so the contracted distance is crossed within a normal lifetime.
-
-This is the syllabus' quantitative muon-lifetime example, and it shows time
-dilation (Earth frame) and length contraction (muon frame) are two descriptions
-of one physical result.
-```
+This is the syllabus' quantitative muon-lifetime example, and it shows time dilation (Earth frame) and length contraction (muon frame) are two descriptions of one physical result.

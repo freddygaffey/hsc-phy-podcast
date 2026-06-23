@@ -10,73 +10,85 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference.
 
 ### Listing 1 — Worked Example A: peak EMF of a rotating generator coil
-```text
-GIVEN
-  N (turns)      = 200
-  A (area)       = 0.075 m^2
-  B (field)      = 0.66 T
-  f (rotation)   = 50 rev/s = 50 Hz
 
-(a) Angular frequency
-  ω = 2πf
-  ω = 2 × π × 50
-  ω = 314.2 rad s^-1        (= 100π rad s^-1)
+**Given:**
 
-(b) Peak EMF (peak of the sinusoid; derived from Faraday's law applied to Φ = BA cos ωt)
-  ε_max = N B A ω
-  ε_max = 200 × 0.66 × 0.075 × 314.2
-        = (200 × 0.66 × 0.075) × 314.2
-        = 9.9 × 314.2
-  ε_max ≈ 3110 V   (≈ 3.1 × 10^3 V)
+- \(N\) (turns) \(= 200\)
+- \(A\) (area) \(= 0.075\ \mathrm{m^{2}}\)
+- \(B\) (field) \(= 0.66\ \mathrm{T}\)
+- \(f\) (rotation) \(= 50\ \mathrm{rev/s} = 50\ \mathrm{Hz}\)
 
-  Instantaneous EMF:  ε = 3110 sin(314.2 t)  volts
+**(a) Angular frequency**
 
-(c) Output
-  Slip rings (AC generator):  full sine wave, +3110 V to −3110 V,
-      one complete cycle per revolution → 50 Hz (mains frequency).
-  Split-ring commutator (DC generator): negative halves flipped positive,
-      0 → +3110 V → 0 → +3110 V → 0; two positive humps per revolution.
-      Unidirectional, NOT flat, never negative.
+$$
+\omega = 2\pi f = 2 \times \pi \times 50 = 314.2\ \mathrm{rad\,s^{-1}} \quad (= 100\pi\ \mathrm{rad\,s^{-1}})
+$$
 
-NOTE: ε_max = NBAω is NOT on the HSC formula sheet (only ε = −N ΔΦ/Δt is).
-      Use it as "the peak value the sinusoid reaches", derived from Faraday's law.
-```
+**(b) Peak EMF** (peak of the sinusoid; derived from Faraday's law applied to \(\Phi = BA\cos\omega t\)):
+
+$$
+\varepsilon_{\max} = N B A \omega = 200 \times 0.66 \times 0.075 \times 314.2 = 9.9 \times 314.2 \approx 3110\ \mathrm{V} \quad (\approx 3.1 \times 10^{3}\ \mathrm{V})
+$$
+
+Instantaneous EMF:
+
+$$
+\varepsilon = 3110 \sin(314.2\, t)\ \mathrm{V}
+$$
+
+**(c) Output**
+
+- Slip rings (AC generator): full sine wave, \(+3110\ \mathrm{V}\) to \(-3110\ \mathrm{V}\), one complete cycle per revolution \(\to 50\ \mathrm{Hz}\) (mains frequency).
+- Split-ring commutator (DC generator): negative halves flipped positive, \(0 \to +3110\ \mathrm{V} \to 0 \to +3110\ \mathrm{V} \to 0\); two positive humps per revolution. Unidirectional, NOT flat, never negative.
+
+NOTE: \(\varepsilon_{\max} = NBA\omega\) is NOT on the HSC formula sheet (only \(\varepsilon = -N\,\Delta\Phi/\Delta t\) is). Use it as "the peak value the sinusoid reaches", derived from Faraday's law.
 
 ### Listing 2 — Worked Example B: bare Faraday's-law calculation (formula-sheet only)
-```text
-GIVEN
-  Loop dimensions = 0.25 m × 0.30 m   (single turn, N = 1)
-  B               = 0.66 T  (perpendicular to loop)
-  Flux change     = 0 → full flux over Δt = 2.0 s
 
-STEP 1  Area
-  A = 0.25 × 0.30 = 0.075 m^2
+**Given:**
 
-STEP 2  Flux values
-  Φ_initial = 0
-  Φ_final   = B A = 0.66 × 0.075 = 0.0495 Wb
-  ΔΦ        = 0.0495 − 0 = 0.0495 Wb
+- Loop dimensions \(= 0.25\ \mathrm{m} \times 0.30\ \mathrm{m}\) (single turn, \(N = 1\))
+- \(B = 0.66\ \mathrm{T}\) (perpendicular to loop)
+- Flux change \(= 0 \to\) full flux over \(\Delta t = 2.0\ \mathrm{s}\)
 
-STEP 3  Faraday's law (magnitude)
-  ε = N × ΔΦ / Δt
-  ε = 1 × 0.0495 / 2.0
-  ε = 0.0248 V ≈ 0.025 V   (24.75 mV)
+**Step 1 — Area**
 
-  This is the AVERAGE EMF over the sweep. Scale by N for a multi-turn coil.
-  (Contrast with Listing 1, where NBAω gives the PEAK of a sinusoid.)
-```
+$$
+A = 0.25 \times 0.30 = 0.075\ \mathrm{m^{2}}
+$$
+
+**Step 2 — Flux values**
+
+$$
+\Phi_{\text{initial}} = 0
+$$
+
+$$
+\Phi_{\text{final}} = B A = 0.66 \times 0.075 = 0.0495\ \mathrm{Wb}
+$$
+
+$$
+\Delta\Phi = 0.0495 - 0 = 0.0495\ \mathrm{Wb}
+$$
+
+**Step 3 — Faraday's law (magnitude)**
+
+$$
+\varepsilon = N \times \frac{\Delta\Phi}{\Delta t} = 1 \times \frac{0.0495}{2.0} = 0.0248\ \mathrm{V} \approx 0.025\ \mathrm{V} \quad (24.75\ \mathrm{mV})
+$$
+
+This is the AVERAGE EMF over the sweep. Scale by \(N\) for a multi-turn coil. (Contrast with Listing 1, where \(NBA\omega\) gives the PEAK of a sinusoid.)
 
 ### Listing 3 — Model 6-mark extended-response answer
-```text
-QUESTION: "Explain the variations in current produced by an AC generator compared
-with a DC generator, with reference to their structure and function." (6 marks)
 
-MODEL ANSWER
+QUESTION: "Explain the variations in current produced by an AC generator compared with a DC generator, with reference to their structure and function." (6 marks)
+
+**Model answer**
 
 Both an AC and a DC generator consist of a coil (the rotor) forced to rotate in the
 magnetic field of stationary stator magnets. As the coil rotates, the angle between
 the field and the coil changes, so the magnetic flux threading the coil continuously
-changes (Φ = BA cos θ). By Faraday's law (ε = −N ΔΦ/Δt), this changing flux induces an
+changes \((\Phi = BA\cos\theta)\). By Faraday's law \((\varepsilon = -N\,\Delta\Phi/\Delta t)\), this changing flux induces an
 EMF, and hence a current, in the coil. Because the EMF is proportional to the RATE OF
 CHANGE of flux, it varies sinusoidally: the EMF is maximum when the coil plane is
 parallel to the field (flux instantaneously zero but changing fastest) and zero when
@@ -100,34 +112,55 @@ revolution, but never reverses. It is unidirectional but NOT a steady, flat DC.
 In summary: identical mechanism (Faraday's law on a rotating coil) and identical
 sinusoidal internal EMF; slip rings give a full alternating sinusoidal output, while
 the split-ring commutator rectifies it into a pulsating unidirectional output.
-```
 
 ### Listing 4 — Equations used in this episode (in symbols)
-```text
-Magnetic flux:
-  Φ = B A cos θ
-  θ = angle between B and the coil's AREA VECTOR (normal), NOT the plane.
-  Φ max  when coil plane ⟂ B (θ = 0,  cos 0 = 1)
-  Φ = 0  when coil plane ∥ B (θ = 90°, cos 90° = 0)
 
-Faraday's law of induction (formula sheet):
-  ε = −N (ΔΦ / Δt)
-  minus sign = Lenz's law (direction); drop it for magnitude.
+**Magnetic flux:**
 
-Sinusoidal generator output:
-  ε = ε_max sin(ωt)
-  ω = 2πf       (angular frequency, rad s^-1)
+$$
+\Phi = B A \cos\theta
+$$
 
-Peak EMF of a rotating coil (derived, NOT on formula sheet):
-  ε_max = N B A ω
-  ε_max ∝ N, ∝ B, ∝ A, ∝ ω
-  Doubling rotation speed doubles BOTH the peak EMF and the frequency.
+- \(\theta\) = angle between \(B\) and the coil's AREA VECTOR (normal), NOT the plane.
+- \(\Phi\) max when coil plane \(\perp B\) (\(\theta = 0\), \(\cos 0 = 1\))
+- \(\Phi = 0\) when coil plane \(\parallel B\) (\(\theta = 90°\), \(\cos 90° = 0\))
 
-SI UNITS
-  Φ : weber (Wb)        B : tesla (T) = Wb m^-2     A : m^2
-  ε : volt (V)          ω : rad s^-1                f : hertz (Hz)
-  t : second (s)        N : dimensionless
-```
+**Faraday's law of induction** (formula sheet):
+
+$$
+\varepsilon = -N \left(\frac{\Delta\Phi}{\Delta t}\right)
+$$
+
+The minus sign \(=\) Lenz's law (direction); drop it for magnitude.
+
+**Sinusoidal generator output:**
+
+$$
+\varepsilon = \varepsilon_{\max} \sin(\omega t)
+$$
+
+$$
+\omega = 2\pi f \quad \text{(angular frequency, } \mathrm{rad\,s^{-1}}\text{)}
+$$
+
+**Peak EMF of a rotating coil** (derived, NOT on formula sheet):
+
+$$
+\varepsilon_{\max} = N B A \omega
+$$
+
+\(\varepsilon_{\max} \propto N,\ \propto B,\ \propto A,\ \propto \omega\). Doubling rotation speed doubles BOTH the peak EMF and the frequency.
+
+**SI units**
+
+- \(\Phi\) : weber (\(\mathrm{Wb}\))
+- \(B\) : tesla (\(\mathrm{T} = \mathrm{Wb\,m^{-2}}\))
+- \(A\) : \(\mathrm{m^{2}}\)
+- \(\varepsilon\) : volt (\(\mathrm{V}\))
+- \(\omega\) : \(\mathrm{rad\,s^{-1}}\)
+- \(f\) : hertz (\(\mathrm{Hz}\))
+- \(t\) : second (\(\mathrm{s}\))
+- \(N\) : dimensionless
 
 ### Listing 5 — AC generator vs DC generator: the comparison
 | Feature | AC generator | DC generator |
@@ -150,16 +183,17 @@ SI UNITS
 | Connector | Couple rotating coil to fixed terminals | Split-ring **C**ommutator | Slip rings |
 
 ### Listing 7 — Memory hook and trap-busters
-```text
-MEMORY HOOK (shared with the DC motor lesson, M6-07):
-  Rotor coil, Field magnets, Brushes, Commutator  →  "R F B C"
-  For an AC machine, swap the split-ring COMMUTATOR for SLIP RINGS.
-  Commutator = DC.   Slip rings = AC.
 
-TRAP-BUSTERS
-  • Slip rings are CONTINUOUS rings → AC.  Split ring is SPLIT → DC.
-  • The commutator reverses the CONNECTION, not the EMF in the coil.
-  • DC generator output is PULSATING, not flat. Two humps per revolution.
-  • Max flux ↔ zero EMF.  Zero flux ↔ max EMF. (EMF ∝ rate of change of flux.)
-  • Same mechanism in both — only the connector differs.
-```
+**Memory hook** (shared with the DC motor lesson, M6-07):
+
+- Rotor coil, Field magnets, Brushes, Commutator \(\to\) "R F B C"
+- For an AC machine, swap the split-ring COMMUTATOR for SLIP RINGS.
+- Commutator \(=\) DC.   Slip rings \(=\) AC.
+
+**Trap-busters**
+
+- Slip rings are CONTINUOUS rings \(\to\) AC.  Split ring is SPLIT \(\to\) DC.
+- The commutator reverses the CONNECTION, not the EMF in the coil.
+- DC generator output is PULSATING, not flat. Two humps per revolution.
+- Max flux \(\leftrightarrow\) zero EMF.  Zero flux \(\leftrightarrow\) max EMF. (EMF \(\propto\) rate of change of flux.)
+- Same mechanism in both — only the connector differs.

@@ -10,145 +10,180 @@ script: script.md
 Key equations, derivations, and worked numerical solutions for this episode. Nothing here is spoken in the audio — it is the read-along reference. Reference figures and constants follow the NSW HSC Physics data sheet.
 
 ### Listing 1 — Magnetic force on a moving charge
-```text
-F = qv⊥B = qvB sin θ
 
-F  = magnitude of the magnetic force        (newtons, N)
-q  = magnitude of the charge                (coulombs, C)
-v  = speed of the charge                    (metres per second, m s^-1)
-B  = magnetic field strength (flux density) (teslas, T)
-θ  = angle between the velocity v and the field B
-v⊥ = component of velocity perpendicular to B = v sin θ
+$$
+F = q v_{\perp} B = q v B \sin\theta
+$$
 
-θ = 90°  (v perpendicular to B): sin θ = 1 → F = qvB   (MAXIMUM)
-θ = 0° or 180° (v parallel to B): sin θ = 0 → F = 0     (no force)
-v = 0  (charge at rest):                       F = 0    (no force)
+where:
 
-Direction: perpendicular to BOTH v and B.
-Right-hand push (palm) rule — for a POSITIVE charge:
-  fingers → external field B (N to S)
-  thumb   → velocity of positive charge (= conventional current)
-  force   → straight out of the palm
-For a NEGATIVE charge (e.g. an electron): reverse the result
-  (or point the thumb opposite to the electron's velocity, or use the left hand).
-```
+- \(F\) = magnitude of the magnetic force (newtons, N)
+- \(q\) = magnitude of the charge (coulombs, C)
+- \(v\) = speed of the charge (metres per second, \(\mathrm{m\,s^{-1}}\))
+- \(B\) = magnetic field strength (flux density) (teslas, T)
+- \(\theta\) = angle between the velocity \(v\) and the field \(B\)
+- \(v_{\perp}\) = component of velocity perpendicular to \(B = v \sin\theta\)
+
+Cases:
+
+- \(\theta = 90^{\circ}\) (\(v\) perpendicular to \(B\)): \(\sin\theta = 1 \to F = qvB\) (MAXIMUM)
+- \(\theta = 0^{\circ}\) or \(180^{\circ}\) (\(v\) parallel to \(B\)): \(\sin\theta = 0 \to F = 0\) (no force)
+- \(v = 0\) (charge at rest): \(F = 0\) (no force)
+
+Direction: perpendicular to BOTH \(v\) and \(B\). Right-hand push (palm) rule — for a POSITIVE charge: fingers \(\to\) external field \(B\) (N to S); thumb \(\to\) velocity of positive charge (= conventional current); force \(\to\) straight out of the palm. For a NEGATIVE charge (e.g. an electron): reverse the result (or point the thumb opposite to the electron's velocity, or use the left hand).
 
 ### Listing 2 — Deriving r = mv/qB (equate magnetic force and centripetal force)
-```text
+
 Newton's second law, magnetic force the only force:
-    F_net = ma          and        F_magnetic = qvB
-=>  qvB = ma
 
-The acceleration is centripetal:   a = v^2 / r
-=>  qvB = m v^2 / r        ← THE KEY STEP: magnetic force PROVIDES the centripetal force
+$$
+F_{\text{net}} = ma \quad\text{and}\quad F_{\text{magnetic}} = qvB \;\Rightarrow\; qvB = ma
+$$
 
-Cancel one factor of v from both sides:
-    qB = m v / r
+The acceleration is centripetal, \(a = v^{2}/r\):
+
+$$
+qvB = \frac{m v^{2}}{r}
+$$
+
+(THE KEY STEP: the magnetic force PROVIDES the centripetal force). Cancel one factor of \(v\) from both sides:
+
+$$
+qB = \frac{m v}{r}
+$$
 
 Rearrange for the radius:
-    r = mv / (qB)
+
+$$
+r = \frac{mv}{qB}
+$$
 
 Behaviour:
-    r ∝ m   (heavier  → larger circle)
-    r ∝ v   (faster   → larger circle)
-    r ∝ 1/q (more charge → tighter circle)
-    r ∝ 1/B (stronger field → tighter circle)
-```
+
+- \(r \propto m\) (heavier \(\to\) larger circle)
+- \(r \propto v\) (faster \(\to\) larger circle)
+- \(r \propto 1/q\) (more charge \(\to\) tighter circle)
+- \(r \propto 1/B\) (stronger field \(\to\) tighter circle)
 
 ### Listing 3 — Worked Example A: radius of an electron's path
-```text
-An electron at v = 5.9 × 10^6 m s^-1 enters B = 6.0 mT perpendicular to its motion.
-Find the radius r.
 
-Data:  m = 9.1 × 10^-31 kg,  q = 1.6 × 10^-19 C
-Convert: 6.0 mT = 6.0 × 10^-3 T   ← millitesla-to-tesla conversion
+An electron at \(v = 5.9\times10^{6}\ \mathrm{m\,s^{-1}}\) enters \(B = 6.0\ \mathrm{mT}\) perpendicular to its motion. Find the radius \(r\).
 
-r = mv / (qB)
-r = (9.1 × 10^-31 × 5.9 × 10^6) / (1.6 × 10^-19 × 6.0 × 10^-3)
+Data: \(m = 9.1\times10^{-31}\ \mathrm{kg}\), \(q = 1.6\times10^{-19}\ \mathrm{C}\). Convert: \(6.0\ \mathrm{mT} = 6.0\times10^{-3}\ \mathrm{T}\) (millitesla-to-tesla conversion).
 
-  numerator   = 5.369 × 10^-24
-  denominator = 9.6   × 10^-22
+$$
+r = \frac{mv}{qB} = \frac{9.1\times10^{-31}\times5.9\times10^{6}}{1.6\times10^{-19}\times6.0\times10^{-3}}
+$$
 
-r = 5.6 × 10^-3 m = 5.6 mm
-```
+$$
+\text{numerator} = 5.369\times10^{-24}, \qquad \text{denominator} = 9.6\times10^{-22}
+$$
+
+$$
+r = 5.6\times10^{-3}\ \mathrm{m} = 5.6\ \mathrm{mm}
+$$
 
 ### Listing 4 — Worked Example B: force, then radius
-```text
-Electrons at v = 1.2 × 10^6 m s^-1 enter B = 2.6 × 10^-3 T at right angles (θ = 90°).
-(a) force on each electron   (b) radius of the path
 
-(a)  θ = 90° → sin θ = 1, so F = qvB
-     F = (1.6 × 10^-19)(1.2 × 10^6)(2.6 × 10^-3)
-     F = 5.0 × 10^-16 N
+Electrons at \(v = 1.2\times10^{6}\ \mathrm{m\,s^{-1}}\) enter \(B = 2.6\times10^{-3}\ \mathrm{T}\) at right angles (\(\theta = 90^{\circ}\)). Find (a) the force on each electron, (b) the radius of the path.
 
-(b)  r = mv / (qB)
-     r = (9.1 × 10^-31 × 1.2 × 10^6) / (1.6 × 10^-19 × 2.6 × 10^-3)
-       numerator   = 1.092 × 10^-24
-       denominator = 4.16  × 10^-22
-     r = 2.6 × 10^-3 m = 2.6 mm
-```
+(a) \(\theta = 90^{\circ} \to \sin\theta = 1\), so \(F = qvB\):
+
+$$
+F = (1.6\times10^{-19})(1.2\times10^{6})(2.6\times10^{-3}) = 5.0\times10^{-16}\ \mathrm{N}
+$$
+
+(b)
+
+$$
+r = \frac{mv}{qB} = \frac{9.1\times10^{-31}\times1.2\times10^{6}}{1.6\times10^{-19}\times2.6\times10^{-3}}
+$$
+
+$$
+\text{numerator} = 1.092\times10^{-24}, \qquad \text{denominator} = 4.16\times10^{-22}
+$$
+
+$$
+r = 2.6\times10^{-3}\ \mathrm{m} = 2.6\ \mathrm{mm}
+$$
 
 ### Listing 5 — Worked Example C: reverse problem, find the speed from the radius
-```text
-Find the speed of an electron moving in an arc of radius r = 5.00 mm in a field B = 5.00 mT.
 
-Convert: r = 5.00 × 10^-3 m,  B = 5.00 × 10^-3 T
+Find the speed of an electron moving in an arc of radius \(r = 5.00\ \mathrm{mm}\) in a field \(B = 5.00\ \mathrm{mT}\).
 
-Rearrange r = mv/(qB)  →  v = rqB / m
-v = (5.00 × 10^-3 × 1.6 × 10^-19 × 5.00 × 10^-3) / (9.1 × 10^-31)
+Convert: \(r = 5.00\times10^{-3}\ \mathrm{m}\), \(B = 5.00\times10^{-3}\ \mathrm{T}\).
 
-  numerator   = 4.0 × 10^-24
-  denominator = 9.1 × 10^-31
+Rearrange \(r = mv/(qB)\) to \(v = rqB/m\):
 
-v ≈ 4.4 × 10^6 m s^-1
-```
+$$
+v = \frac{5.00\times10^{-3}\times1.6\times10^{-19}\times5.00\times10^{-3}}{9.1\times10^{-31}}
+$$
+
+$$
+\text{numerator} = 4.0\times10^{-24}, \qquad \text{denominator} = 9.1\times10^{-31}
+$$
+
+$$
+v \approx 4.4\times10^{6}\ \mathrm{m\,s^{-1}}
+$$
 
 ### Listing 6 — Cyclotron period: why the speed cancels (extension / Module 8 link)
-```text
+
 Period = circumference / speed:
-    T = 2πr / v
 
-Substitute r = mv / (qB):
-    T = 2π (mv / (qB)) / v
-    T = 2π m v / (qB v)
-        ↑ the v cancels
-    T = 2π m / (qB)
+$$
+T = \frac{2\pi r}{v}
+$$
 
-The period T does NOT depend on v or r — only on m, q and B.
-(This is the cyclotron principle. NOTE: not an explicit M6 dot-point —
- the cyclotron is a Module 8 application; treat as insight, not a quoted M6 formula.)
+Substitute \(r = mv/(qB)\):
+
+$$
+T = \frac{2\pi\,(mv/(qB))}{v} = \frac{2\pi m v}{qB v} = \frac{2\pi m}{qB}
+$$
+
+(the \(v\) cancels). The period \(T\) does NOT depend on \(v\) or \(r\) — only on \(m\), \(q\) and \(B\). (This is the cyclotron principle. NOTE: not an explicit M6 dot-point — the cyclotron is a Module 8 application; treat as insight, not a quoted M6 formula.)
 
 Related forms:
-    cyclotron frequency  f = 1/T = qB / (2π m)
-    angular frequency    ω = qB / m
-```
+
+$$
+\text{cyclotron frequency}\quad f = \frac{1}{T} = \frac{qB}{2\pi m}
+$$
+
+$$
+\text{angular frequency}\quad \omega = \frac{qB}{m}
+$$
 
 ### Listing 7 — Worked Example D: proton period is independent of speed
-```text
-Proton: m = 1.67 × 10^-27 kg,  q = 1.6 × 10^-19 C,  in B = 1.5 T.
-Find the period of its circular motion.
 
-T = 2π m / (qB)
-T = (2π × 1.67 × 10^-27) / (1.6 × 10^-19 × 1.5)
+Proton: \(m = 1.67\times10^{-27}\ \mathrm{kg}\), \(q = 1.6\times10^{-19}\ \mathrm{C}\), in \(B = 1.5\ \mathrm{T}\). Find the period of its circular motion.
 
-  numerator   = 1.049 × 10^-26
-  denominator = 2.4   × 10^-19
+$$
+T = \frac{2\pi m}{qB} = \frac{2\pi\times1.67\times10^{-27}}{1.6\times10^{-19}\times1.5}
+$$
 
-T ≈ 4.4 × 10^-8 s   (≈ 44 nanoseconds, independent of the proton's speed)
-```
+$$
+\text{numerator} = 1.049\times10^{-26}, \qquad \text{denominator} = 2.4\times10^{-19}
+$$
+
+$$
+T \approx 4.4\times10^{-8}\ \mathrm{s}\quad (\approx 44\ \text{nanoseconds, independent of the proton's speed})
+$$
 
 ### Listing 8 — Exam Question 4 worked solution: electron radius
-```text
-Electron at v = 3.0 × 10^7 m s^-1 enters B = 0.20 T at right angles. Find r.
 
-r = mv / (qB)
-r = (9.1 × 10^-31 × 3.0 × 10^7) / (1.6 × 10^-19 × 0.20)
+Electron at \(v = 3.0\times10^{7}\ \mathrm{m\,s^{-1}}\) enters \(B = 0.20\ \mathrm{T}\) at right angles. Find \(r\).
 
-  numerator   = 2.73 × 10^-23
-  denominator = 3.2  × 10^-20
+$$
+r = \frac{mv}{qB} = \frac{9.1\times10^{-31}\times3.0\times10^{7}}{1.6\times10^{-19}\times0.20}
+$$
 
-r ≈ 8.5 × 10^-4 m ≈ 0.85 mm
-```
+$$
+\text{numerator} = 2.73\times10^{-23}, \qquad \text{denominator} = 3.2\times10^{-20}
+$$
+
+$$
+r \approx 8.5\times10^{-4}\ \mathrm{m} \approx 0.85\ \mathrm{mm}
+$$
 
 ### Listing 9 — Reference data: particle masses, charges, and relative radius
 | Particle           | Mass (kg)        | Charge magnitude (C) | r relative to electron (same v, B) |

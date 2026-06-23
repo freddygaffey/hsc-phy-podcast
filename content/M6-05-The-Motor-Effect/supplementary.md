@@ -10,92 +10,90 @@ script: script.md
 Key equations, the mark-earning mechanism, worked numerical solutions, and reference data for this episode. Nothing here is spoken in the audio — it is the read-along reference.
 
 ### Listing 1 — The "explain why" mechanism: weak vs strong answer
-```text
-QUESTION (3–4 marks): "Use magnetic field interactions to explain WHY a
-current-carrying conductor experiences a force in a magnetic field."
 
-WEAK ANSWER (band 4 — scores almost nothing):
-    "A force acts because F = BIL."
-    → quotes a formula; describes no interaction; not an explanation.
+QUESTION (3–4 marks): "Use magnetic field interactions to explain WHY a current-carrying conductor experiences a force in a magnetic field."
 
-STRONG ANSWER (full marks):
-    1. The current-carrying conductor produces its OWN magnetic field —
-       concentric circles around the wire (right-hand grip rule).
-    2. This field is superimposed on the EXTERNAL uniform magnetic field.
-    3. On one side the two fields REINFORCE   → stronger combined field.
-       On the other side they partially CANCEL → weaker combined field.
-    4. The conductor experiences a NET FORCE directed FROM the region of
-       stronger field TOWARD the region of weaker field.
+**Weak answer (band 4 — scores almost nothing):** "A force acts because \(F = BIL\)." \(\to\) quotes a formula; describes no interaction; not an explanation.
 
-KEY DISTINCTION:
-    F = BIL sin θ        → gives the MAGNITUDE (a calculation tool).
-    Right-hand push rule → gives the DIRECTION (a memory aid only).
-    Two-field interaction → is the EXPLANATION of WHY (the marks).
-    NEVER answer "explain why" with the formula or the hand rule.
-```
+**Strong answer (full marks):**
+
+1. The current-carrying conductor produces its OWN magnetic field — concentric circles around the wire (right-hand grip rule).
+2. This field is superimposed on the EXTERNAL uniform magnetic field.
+3. On one side the two fields REINFORCE \(\to\) stronger combined field. On the other side they partially CANCEL \(\to\) weaker combined field.
+4. The conductor experiences a NET FORCE directed FROM the region of stronger field TOWARD the region of weaker field.
+
+**Key distinction:**
+
+- \(F = BIL \sin\theta\) \(\to\) gives the MAGNITUDE (a calculation tool).
+- Right-hand push rule \(\to\) gives the DIRECTION (a memory aid only).
+- Two-field interaction \(\to\) is the EXPLANATION of WHY (the marks).
+- NEVER answer "explain why" with the formula or the hand rule.
 
 ### Listing 2 — F = BIL sin θ: the three worked examples
-```text
-EQUATION:  F = B I L sin θ
-  F = force on conductor            (newton, N)
-  B = external field strength       (tesla, T = N A^-1 m^-1)
-  I = current                       (ampere, A)
-  L = length of conductor IN field  (metre, m)   [textbook uses lowercase l]
-  θ = angle between WIRE and FIELD  (NOT wire-to-force)
-  θ = 90°  → sin θ = 1 → MAXIMUM force (wire ⊥ field)
-  θ = 0°   → sin θ = 0 → ZERO force    (wire ∥ field)
+
+$$
+F = B I L \sin\theta
+$$
+
+- \(F\) = force on conductor (newton, \(\mathrm{N}\))
+- \(B\) = external field strength (tesla, \(\mathrm{T} = \mathrm{N\,A^{-1}\,m^{-1}}\))
+- \(I\) = current (ampere, \(\mathrm{A}\))
+- \(L\) = length of conductor IN field (metre, \(\mathrm{m}\)) [textbook uses lowercase \(l\)]
+- \(\theta\) = angle between WIRE and FIELD (NOT wire-to-force)
+- \(\theta = 90°\) \(\to\) \(\sin\theta = 1\) \(\to\) MAXIMUM force (wire \(\perp\) field)
+- \(\theta = 0°\) \(\to\) \(\sin\theta = 0\) \(\to\) ZERO force (wire \(\parallel\) field)
 
 ALWAYS CONVERT TO SI FIRST: cm→m, mA→A, mT→T.
 
---- WORKED EXAMPLE A (all three angle cases) ---
-Given: L = 8.0 cm = 8.0 × 10^-2 m
-       I = 30 mA  = 3.0 × 10^-2 A
-       B = 0.25 T
+**Worked example A (all three angle cases).** Given: \(L = 8.0\ \mathrm{cm} = 8.0 \times 10^{-2}\ \mathrm{m}\), \(I = 30\ \mathrm{mA} = 3.0 \times 10^{-2}\ \mathrm{A}\), \(B = 0.25\ \mathrm{T}\).
 
-(a) θ = 90°:
-    F = 0.25 × (3.0 × 10^-2) × (8.0 × 10^-2) × sin 90°
-    F = 0.25 × (3.0 × 10^-2) × (8.0 × 10^-2) × 1
-    F = 6.0 × 10^-4 N        (maximum force)
+(a) \(\theta = 90°\):
 
-(b) θ = 30°:
-    F = 6.0 × 10^-4 × sin 30°
-    F = 6.0 × 10^-4 × 0.5
-    F = 3.0 × 10^-4 N        (halved — sin dropped from 1 to 0.5)
+$$
+F = 0.25 \times (3.0 \times 10^{-2}) \times (8.0 \times 10^{-2}) \times \sin 90° = 6.0 \times 10^{-4}\ \mathrm{N} \quad (\text{maximum force})
+$$
 
-(c) θ = 0° (parallel):
-    F = 6.0 × 10^-4 × sin 0°
-    F = 6.0 × 10^-4 × 0
-    F = 0 N                  (no force)
+(b) \(\theta = 30°\):
 
---- WORKED EXAMPLE B ("maximum force" ⇒ θ = 90°, sin θ = 1) ---
-Given: L = 5 cm = 5 × 10^-2 m, B = 2 × 10^-4 T, I = 200 mA = 0.200 A
-    F = B I L = (2 × 10^-4)(0.200)(5 × 10^-2)
-    F = 2 × 10^-6 N    (perpendicular to both I and B)
-    Since F ∝ I and F ∝ B: doubling I OR B doubles the force.
+$$
+F = 6.0 \times 10^{-4} \times \sin 30° = 6.0 \times 10^{-4} \times 0.5 = 3.0 \times 10^{-4}\ \mathrm{N} \quad (\text{halved})
+$$
 
---- WORKED EXAMPLE C (rearrange for B) ---
-Given: L = 10 cm = 0.10 m, I = 15 A, F = 3.5 N (max ⇒ θ = 90°)
-    F = B I L   →   B = F / (I L)
-    B = 3.5 / (15 × 0.10)
-    B = 3.5 / 1.5
-    B = 2.3 T   (2.33 T)
-```
+(c) \(\theta = 0°\) (parallel):
+
+$$
+F = 6.0 \times 10^{-4} \times \sin 0° = 6.0 \times 10^{-4} \times 0 = 0\ \mathrm{N} \quad (\text{no force})
+$$
+
+**Worked example B** ("maximum force" \(\Rightarrow \theta = 90°\), \(\sin\theta = 1\)). Given: \(L = 5\ \mathrm{cm} = 5 \times 10^{-2}\ \mathrm{m}\), \(B = 2 \times 10^{-4}\ \mathrm{T}\), \(I = 200\ \mathrm{mA} = 0.200\ \mathrm{A}\).
+
+$$
+F = B I L = (2 \times 10^{-4})(0.200)(5 \times 10^{-2}) = 2 \times 10^{-6}\ \mathrm{N} \quad (\text{perpendicular to both } I \text{ and } B)
+$$
+
+Since \(F \propto I\) and \(F \propto B\): doubling \(I\) OR \(B\) doubles the force.
+
+**Worked example C (rearrange for B).** Given: \(L = 10\ \mathrm{cm} = 0.10\ \mathrm{m}\), \(I = 15\ \mathrm{A}\), \(F = 3.5\ \mathrm{N}\) (max \(\Rightarrow \theta = 90°\)).
+
+$$
+F = B I L \quad\to\quad B = \frac{F}{I L} = \frac{3.5}{15 \times 0.10} = \frac{3.5}{1.5} = 2.3\ \mathrm{T} \quad (2.33\ \mathrm{T})
+$$
 
 ### Listing 3 — Exam Question 3, full worked solution
-```text
-Q: L = 12 cm, I = 0.5 A, θ = 40° to a field B = 0.8 T. Find F.
 
-Convert:  L = 12 cm = 0.12 m   (I and B already SI)
+Q: \(L = 12\ \mathrm{cm}\), \(I = 0.5\ \mathrm{A}\), \(\theta = 40°\) to a field \(B = 0.8\ \mathrm{T}\). Find \(F\).
 
-F = B I L sin θ
-F = 0.8 × 0.5 × 0.12 × sin 40°
-sin 40° ≈ 0.643
-F = (0.8 × 0.5 × 0.12) × 0.643
-F = 0.048 × 0.643
-F ≈ 0.031 N   ≈ 3.1 × 10^-2 N
+Convert: \(L = 12\ \mathrm{cm} = 0.12\ \mathrm{m}\) (\(I\) and \(B\) already SI). \(\sin 40° \approx 0.643\).
 
-Marks: (1) correct equation  (2) substitution with SI units  (3) answer in N.
-```
+$$
+\begin{aligned}
+F &= B I L \sin\theta = 0.8 \times 0.5 \times 0.12 \times \sin 40° \\
+&= (0.8 \times 0.5 \times 0.12) \times 0.643 = 0.048 \times 0.643 \\
+&\approx 0.031\ \mathrm{N} \approx 3.1 \times 10^{-2}\ \mathrm{N}
+\end{aligned}
+$$
+
+Marks: (1) correct equation (2) substitution with SI units (3) answer in N.
 
 ### Listing 4 — The four factors that change the force (F ∝ B I L sin θ)
 | Change | Effect on F | Relationship | Reason (in terms of moving charges) |
