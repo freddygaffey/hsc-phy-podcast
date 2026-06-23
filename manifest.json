@@ -893,6 +893,15 @@
           "supplementaryPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M1-04-Vectors-And-Motion-In-A-Plane",
+          "title": "Vectors And Motion In A Plane",
+          "unit": 4,
+          "scriptPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/script.md",
+          "supplementaryPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
