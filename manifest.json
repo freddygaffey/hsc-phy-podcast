@@ -875,6 +875,15 @@
           "supplementaryPath": "content/M1-01-Motion-In-A-Straight-Line/supplementary.md",
           "quizPath": "content/M1-01-Motion-In-A-Straight-Line/quiz.json",
           "voices": []
+        },
+        {
+          "id": "M1-02-Velocity-Time-And-Displacement-Graphs",
+          "title": "Velocity Time And Displacement Graphs",
+          "unit": 2,
+          "scriptPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/script.md",
+          "supplementaryPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
