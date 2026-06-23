@@ -863,6 +863,22 @@
       ]
     },
     {
+      "id": "M1",
+      "prefix": "M1",
+      "moduleNum": 1,
+      "episodes": [
+        {
+          "id": "M1-01-Motion-In-A-Straight-Line",
+          "title": "Motion In A Straight Line",
+          "unit": 1,
+          "scriptPath": "content/M1-01-Motion-In-A-Straight-Line/script.md",
+          "supplementaryPath": "content/M1-01-Motion-In-A-Straight-Line/supplementary.md",
+          "quizPath": "content/M1-01-Motion-In-A-Straight-Line/quiz.json",
+          "voices": []
+        }
+      ]
+    },
+    {
       "id": "M6",
       "prefix": "M6",
       "moduleNum": 6,
