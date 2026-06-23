@@ -902,6 +902,15 @@
           "supplementaryPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M1-99-Module-Review-Kinematics",
+          "title": "Module Review Kinematics",
+          "unit": 99,
+          "scriptPath": "content/M1-99-Module-Review-Kinematics/script.md",
+          "supplementaryPath": "content/M1-99-Module-Review-Kinematics/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
