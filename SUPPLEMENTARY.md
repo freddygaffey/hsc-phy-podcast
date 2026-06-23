@@ -83,18 +83,28 @@ images, no binary assets.** (Diagrams were considered and dropped: they fought t
 clean text format and add little for this listener. If a process ever genuinely needs a
 picture, describe it in words in the narration instead.)
 
-**1. Equations, derivations, and worked numerical solutions.** Put them in a plain
-` ```text ` fence so the viewer shows them in clean monospace and the highlighter
-doesn't mangle the symbols. Write one step per line so the working is easy to follow:
+**1. Equations, derivations, and worked numerical solutions.** Write them in **LaTeX**,
+which the viewer renders with KaTeX — NOT in a ` ```text ` fence (fences render as raw
+monospace and do not become real maths). Rules:
 
-```text
-K_max = hf − φ
+- Display equations: wrap in `$$ … $$` on their own lines (one equation per block; for a
+  multi-step derivation use one `$$ … $$` per step, or an `aligned` environment).
+- Inline symbols in prose: use `\( … \)` — e.g. "the recoil speed \(v_{\text{target}}\)".
+- **Never use a single `$`** as a delimiter (dollar amounts in prose would break).
+- Don't put equations in code fences. Fences (` ```python ` etc.) are only for literal
+  code/pseudocode, which physics rarely needs.
 
-f = 1.2 × 10^15 Hz,  φ = 2.3 eV = 3.68 × 10^-19 J
+```markdown
+$$
+K_{\max} = hf - \phi
+$$
 
-hf = (6.63 × 10^-34)(1.2 × 10^15) = 7.96 × 10^-19 J
+With \(f = 1.2\times10^{15}\ \mathrm{Hz}\) and \(\phi = 2.3\ \mathrm{eV} = 3.68\times10^{-19}\ \mathrm{J}\):
 
-K_max = 7.96 × 10^-19 − 3.68 × 10^-19 = 4.28 × 10^-19 J  (≈ 2.67 eV)
+$$
+K_{\max} = (6.63\times10^{-34})(1.2\times10^{15}) - 3.68\times10^{-19}
+         = 4.28\times10^{-19}\ \mathrm{J}\ (\approx 2.67\ \mathrm{eV})
+$$
 ```
 
 This is what the listener reads alongside the audio — the full working they don't have
