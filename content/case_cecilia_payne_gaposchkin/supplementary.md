@@ -13,25 +13,26 @@ ratio of atoms in two consecutive ionisation states as a function of
 temperature and electron density. The key idea: ionisation state depends on T
 and electron density n_e, NOT on the total abundance of the element.
 
-```text
-n_(i+1) * n_e / n_i  =  (2 / lambda_th^3) * (g_(i+1) / g_i) * exp[ -(E_(i+1) - E_i) / (k_B * T) ]
+$$
+\frac{n_{i+1}\,n_e}{n_i} = \frac{2}{\lambda_{th}^{3}}\,\frac{g_{i+1}}{g_i}\,\exp\!\left[-\frac{E_{i+1}-E_i}{k_B T}\right]
+$$
+
+with the thermal de Broglie wavelength of the electron
+
+$$
+\lambda_{th} = \frac{h}{\sqrt{2\pi m_e k_B T}}
+$$
 
 where:
-  n_i        = number density of atoms in ionisation state i
-  n_(i+1)    = number density of atoms in the next higher ionisation state
-  n_e        = number density of free electrons
-  g_i        = statistical weight (degeneracy) of state i
-  E_(i+1)-E_i = ionisation energy to go from state i to state i+1
-  k_B        = Boltzmann constant = 1.38 x 10^-23 J/K
-  T          = temperature (K)
-  lambda_th  = thermal de Broglie wavelength of the electron
 
-Thermal de Broglie wavelength:
-  lambda_th = h / sqrt(2 * pi * m_e * k_B * T)
-
-  h   = Planck constant = 6.63 x 10^-34 J s
-  m_e = electron mass   = 9.11 x 10^-31 kg
-```
+- \(n_i\) — number density of atoms in ionisation state \(i\)
+- \(n_{i+1}\) — number density in the next higher ionisation state
+- \(n_e\) — number density of free electrons
+- \(g_i,\ g_{i+1}\) — statistical weights (degeneracies) of each state
+- \(E_{i+1}-E_i\) — ionisation energy from state \(i\) to \(i+1\)
+- \(k_B = 1.38\times10^{-23}\ \mathrm{J/K}\) — Boltzmann constant
+- \(T\) — temperature (K)
+- \(h = 6.63\times10^{-34}\ \mathrm{J\,s}\), \(\ m_e = 9.11\times10^{-31}\ \mathrm{kg}\)
 
 ### Listing 2 — Why a spectral line is not a direct measure of abundance
 
@@ -39,20 +40,20 @@ The strength of an absorption line depends on the number of atoms in the ONE
 state that can absorb at that wavelength — a temperature-dependent fraction of
 the total — not on the total number of atoms of that element.
 
-```text
-Observed line strength  is proportional to  N_absorbing
+$$
+\text{line strength} \ \propto\ N_{\text{abs}}, \qquad
+N_{\text{abs}} = N_{\text{total}}\, f_{\text{ion}}(T, n_e)\, f_{\text{exc}}(T)
+$$
 
-N_absorbing = N_total * f_ionisation(T, n_e) * f_excitation(T)
+where \(f_{\text{ion}}\) is the fraction in the correct ionisation state (from Saha)
+and \(f_{\text{exc}}\) the fraction in the correct energy level (from Boltzmann). To
+recover the true abundance you invert it:
 
-  N_total          = true number of atoms of the element (what we want)
-  f_ionisation     = fraction in the correct ionisation state   (from Saha)
-  f_excitation     = fraction in the correct energy level        (from Boltzmann)
-
-To recover the true abundance, invert:
-  N_total = N_absorbing / [ f_ionisation(T, n_e) * f_excitation(T) ]
+$$
+N_{\text{total}} = \frac{N_{\text{abs}}}{f_{\text{ion}}(T, n_e)\, f_{\text{exc}}(T)}
+$$
 
 This inversion — done star by star, element by element — is Payne's method.
-```
 
 ### Listing 3 — Hydrogen visibility versus temperature
 
