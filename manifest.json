@@ -927,6 +927,15 @@
           "supplementaryPath": "content/M2-01-Forces-And-Newtons-Laws/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M2-02-Friction-Inclined-Planes-And-Net-Force",
+          "title": "Friction Inclined Planes And Net Force",
+          "unit": 2,
+          "scriptPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/script.md",
+          "supplementaryPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
