@@ -986,7 +986,7 @@
           "unit": 2,
           "scriptPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/script.md",
           "supplementaryPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/quiz.json",
           "voices": []
         },
         {
