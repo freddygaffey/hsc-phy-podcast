@@ -900,7 +900,7 @@
           "unit": 4,
           "scriptPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/script.md",
           "supplementaryPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/quiz.json",
           "voices": []
         },
         {
