@@ -995,7 +995,7 @@
           "unit": 3,
           "scriptPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/script.md",
           "supplementaryPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/quiz.json",
           "voices": []
         },
         {
