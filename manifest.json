@@ -1056,7 +1056,7 @@
           "unit": 2,
           "scriptPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/script.md",
           "supplementaryPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/quiz.json",
           "voices": []
         },
         {
