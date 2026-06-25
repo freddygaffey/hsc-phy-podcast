@@ -1049,6 +1049,15 @@
           "supplementaryPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power",
+          "title": "Electric Circuits Current Voltage Resistance And Power",
+          "unit": 2,
+          "scriptPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/script.md",
+          "supplementaryPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
