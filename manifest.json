@@ -977,7 +977,7 @@
           "unit": 1,
           "scriptPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/script.md",
           "supplementaryPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/quiz.json",
           "voices": []
         },
         {
