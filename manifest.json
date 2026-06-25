@@ -1047,7 +1047,7 @@
           "unit": 1,
           "scriptPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/script.md",
           "supplementaryPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/quiz.json",
           "voices": []
         },
         {
