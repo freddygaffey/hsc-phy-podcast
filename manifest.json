@@ -1015,6 +1015,15 @@
           "supplementaryPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M3-06-Heat-Transfer-And-Latent-Heat",
+          "title": "Heat Transfer And Latent Heat",
+          "unit": 6,
+          "scriptPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/script.md",
+          "supplementaryPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
