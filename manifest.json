@@ -934,7 +934,7 @@
           "unit": 2,
           "scriptPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/script.md",
           "supplementaryPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/quiz.json",
           "voices": []
         },
         {
