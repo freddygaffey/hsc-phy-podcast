@@ -1031,7 +1031,7 @@
           "unit": 99,
           "scriptPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/script.md",
           "supplementaryPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/quiz.json",
           "voices": []
         }
       ]
