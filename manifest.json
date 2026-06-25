@@ -961,7 +961,7 @@
           "unit": 99,
           "scriptPath": "content/M2-99-Module-Review-Dynamics/script.md",
           "supplementaryPath": "content/M2-99-Module-Review-Dynamics/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M2-99-Module-Review-Dynamics/quiz.json",
           "voices": []
         }
       ]
