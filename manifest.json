@@ -1024,6 +1024,15 @@
           "supplementaryPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M3-99-Module-Review-Waves-And-Thermodynamics",
+          "title": "Module Review Waves And Thermodynamics",
+          "unit": 99,
+          "scriptPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/script.md",
+          "supplementaryPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
