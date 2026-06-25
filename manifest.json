@@ -891,7 +891,7 @@
           "unit": 3,
           "scriptPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/script.md",
           "supplementaryPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/quiz.json",
           "voices": []
         },
         {
