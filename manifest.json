@@ -979,6 +979,15 @@
           "supplementaryPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition",
+          "title": "Wave Behaviour Reflection Refraction Diffraction Superposition",
+          "unit": 2,
+          "scriptPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/script.md",
+          "supplementaryPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
