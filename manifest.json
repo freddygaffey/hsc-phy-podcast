@@ -1013,7 +1013,7 @@
           "unit": 5,
           "scriptPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/script.md",
           "supplementaryPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/quiz.json",
           "voices": []
         },
         {
