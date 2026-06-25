@@ -1004,7 +1004,7 @@
           "unit": 4,
           "scriptPath": "content/M3-04-The-Ray-Model-Of-Light/script.md",
           "supplementaryPath": "content/M3-04-The-Ray-Model-Of-Light/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-04-The-Ray-Model-Of-Light/quiz.json",
           "voices": []
         },
         {
