@@ -1074,7 +1074,7 @@
           "unit": 4,
           "scriptPath": "content/M4-04-Magnetism-And-Magnetic-Fields/script.md",
           "supplementaryPath": "content/M4-04-Magnetism-And-Magnetic-Fields/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M4-04-Magnetism-And-Magnetic-Fields/quiz.json",
           "voices": []
         },
         {
