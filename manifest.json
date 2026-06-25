@@ -1076,6 +1076,15 @@
           "supplementaryPath": "content/M4-04-Magnetism-And-Magnetic-Fields/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M4-99-Module-Review-Electricity-And-Magnetism",
+          "title": "Module Review Electricity And Magnetism",
+          "unit": 99,
+          "scriptPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/script.md",
+          "supplementaryPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
