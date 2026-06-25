@@ -1006,6 +1006,15 @@
           "supplementaryPath": "content/M3-04-The-Ray-Model-Of-Light/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat",
+          "title": "Thermodynamics Temperature Thermal Equilibrium And Specific Heat",
+          "unit": 5,
+          "scriptPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/script.md",
+          "supplementaryPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
