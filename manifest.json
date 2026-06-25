@@ -952,7 +952,7 @@
           "unit": 4,
           "scriptPath": "content/M2-04-Momentum-Impulse-And-Collisions/script.md",
           "supplementaryPath": "content/M2-04-Momentum-Impulse-And-Collisions/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M2-04-Momentum-Impulse-And-Collisions/quiz.json",
           "voices": []
         },
         {
