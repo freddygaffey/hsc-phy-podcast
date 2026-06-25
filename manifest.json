@@ -1037,6 +1037,22 @@
       ]
     },
     {
+      "id": "M4",
+      "prefix": "M4",
+      "moduleNum": 4,
+      "episodes": [
+        {
+          "id": "M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields",
+          "title": "Electrostatics Charge Coulombs Law And Electric Fields",
+          "unit": 1,
+          "scriptPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/script.md",
+          "supplementaryPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    },
+    {
       "id": "M6",
       "prefix": "M6",
       "moduleNum": 6,
