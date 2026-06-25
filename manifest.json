@@ -909,7 +909,7 @@
           "unit": 99,
           "scriptPath": "content/M1-99-Module-Review-Kinematics/script.md",
           "supplementaryPath": "content/M1-99-Module-Review-Kinematics/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M1-99-Module-Review-Kinematics/quiz.json",
           "voices": []
         }
       ]
