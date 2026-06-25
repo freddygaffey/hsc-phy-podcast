@@ -967,6 +967,22 @@
       ]
     },
     {
+      "id": "M3",
+      "prefix": "M3",
+      "moduleNum": 3,
+      "episodes": [
+        {
+          "id": "M3-01-Wave-Properties-And-The-Wave-Equation",
+          "title": "Wave Properties And The Wave Equation",
+          "unit": 1,
+          "scriptPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/script.md",
+          "supplementaryPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/supplementary.md",
+          "quizPath": null,
+          "voices": []
+        }
+      ]
+    },
+    {
       "id": "M6",
       "prefix": "M6",
       "moduleNum": 6,
