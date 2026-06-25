@@ -1065,7 +1065,7 @@
           "unit": 3,
           "scriptPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/script.md",
           "supplementaryPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/quiz.json",
           "voices": []
         },
         {
