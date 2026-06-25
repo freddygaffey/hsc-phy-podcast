@@ -1022,7 +1022,7 @@
           "unit": 6,
           "scriptPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/script.md",
           "supplementaryPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/quiz.json",
           "voices": []
         },
         {
