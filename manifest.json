@@ -882,7 +882,7 @@
           "unit": 2,
           "scriptPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/script.md",
           "supplementaryPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/quiz.json",
           "voices": []
         },
         {
