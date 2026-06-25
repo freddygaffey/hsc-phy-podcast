@@ -943,7 +943,7 @@
           "unit": 3,
           "scriptPath": "content/M2-03-Work-Energy-And-Power/script.md",
           "supplementaryPath": "content/M2-03-Work-Energy-And-Power/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M2-03-Work-Energy-And-Power/quiz.json",
           "voices": []
         },
         {
