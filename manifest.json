@@ -925,7 +925,7 @@
           "unit": 1,
           "scriptPath": "content/M2-01-Forces-And-Newtons-Laws/script.md",
           "supplementaryPath": "content/M2-01-Forces-And-Newtons-Laws/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M2-01-Forces-And-Newtons-Laws/quiz.json",
           "voices": []
         },
         {
