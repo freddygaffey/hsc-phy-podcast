@@ -997,6 +997,15 @@
           "supplementaryPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/supplementary.md",
           "quizPath": null,
           "voices": []
+        },
+        {
+          "id": "M3-04-The-Ray-Model-Of-Light",
+          "title": "The Ray Model Of Light",
+          "unit": 4,
+          "scriptPath": "content/M3-04-The-Ray-Model-Of-Light/script.md",
+          "supplementaryPath": "content/M3-04-The-Ray-Model-Of-Light/supplementary.md",
+          "quizPath": null,
+          "voices": []
         }
       ]
     },
