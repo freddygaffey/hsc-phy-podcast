@@ -1083,7 +1083,7 @@
           "unit": 99,
           "scriptPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/script.md",
           "supplementaryPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/supplementary.md",
-          "quizPath": null,
+          "quizPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/quiz.json",
           "voices": []
         }
       ]
