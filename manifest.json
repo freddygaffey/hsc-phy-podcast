@@ -874,7 +874,43 @@
           "scriptPath": "content/M1-01-Motion-In-A-Straight-Line/script.md",
           "supplementaryPath": "content/M1-01-Motion-In-A-Straight-Line/supplementary.md",
           "quizPath": "content/M1-01-Motion-In-A-Straight-Line/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/af_heart.m4a",
+              "duration": 1209.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/am_onyx.m4a",
+              "duration": 1113.4
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/am_santa.m4a",
+              "duration": 900.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/bf_isabella.m4a",
+              "duration": 1054.7
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/bm_daniel.m4a",
+              "duration": 1416.5
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/bm_george.m4a",
+              "duration": 1677.4
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M1-01-Motion-In-A-Straight-Line/zz_eloquence.m4a",
+              "duration": 1535.0
+            }
+          ]
         },
         {
           "id": "M1-02-Velocity-Time-And-Displacement-Graphs",
@@ -883,7 +919,43 @@
           "scriptPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/script.md",
           "supplementaryPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/supplementary.md",
           "quizPath": "content/M1-02-Velocity-Time-And-Displacement-Graphs/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/af_heart.m4a",
+              "duration": 1654.9
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/am_onyx.m4a",
+              "duration": 1443.7
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/am_santa.m4a",
+              "duration": 1572.3
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/bf_isabella.m4a",
+              "duration": 1587.3
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/bm_daniel.m4a",
+              "duration": 1420.1
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/bm_george.m4a",
+              "duration": 1673.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M1-02-Velocity-Time-And-Displacement-Graphs/zz_eloquence.m4a",
+              "duration": 1538.6
+            }
+          ]
         },
         {
           "id": "M1-03-Equations-Of-Uniformly-Accelerated-Motion",
@@ -892,7 +964,43 @@
           "scriptPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/script.md",
           "supplementaryPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/supplementary.md",
           "quizPath": "content/M1-03-Equations-Of-Uniformly-Accelerated-Motion/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/af_heart.m4a",
+              "duration": 1574.7
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/am_onyx.m4a",
+              "duration": 1385.3
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/am_santa.m4a",
+              "duration": 1510.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/bf_isabella.m4a",
+              "duration": 1510.2
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/bm_daniel.m4a",
+              "duration": 1356.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/bm_george.m4a",
+              "duration": 1597.0
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M1-03-Equations-Of-Uniformly-Accelerated-Motion/zz_eloquence.m4a",
+              "duration": 1501.2
+            }
+          ]
         },
         {
           "id": "M1-04-Vectors-And-Motion-In-A-Plane",
@@ -901,7 +1009,43 @@
           "scriptPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/script.md",
           "supplementaryPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/supplementary.md",
           "quizPath": "content/M1-04-Vectors-And-Motion-In-A-Plane/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/af_heart.m4a",
+              "duration": 1657.8
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/am_onyx.m4a",
+              "duration": 1459.0
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/am_santa.m4a",
+              "duration": 1586.4
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/bf_isabella.m4a",
+              "duration": 1573.5
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/bm_daniel.m4a",
+              "duration": 1427.7
+            },
+            {
+              "name": "bm_george",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/bm_george.m4a",
+              "duration": 1678.2
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M1-04-Vectors-And-Motion-In-A-Plane/zz_eloquence.m4a",
+              "duration": 1537.4
+            }
+          ]
         },
         {
           "id": "M1-99-Module-Review-Kinematics",
@@ -910,7 +1054,38 @@
           "scriptPath": "content/M1-99-Module-Review-Kinematics/script.md",
           "supplementaryPath": "content/M1-99-Module-Review-Kinematics/supplementary.md",
           "quizPath": "content/M1-99-Module-Review-Kinematics/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "af_heart",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/af_heart.m4a",
+              "duration": 1545.0
+            },
+            {
+              "name": "am_onyx",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/am_onyx.m4a",
+              "duration": 1368.8
+            },
+            {
+              "name": "am_santa",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/am_santa.m4a",
+              "duration": 1478.0
+            },
+            {
+              "name": "bf_isabella",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/bf_isabella.m4a",
+              "duration": 1493.3
+            },
+            {
+              "name": "bm_daniel",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/bm_daniel.m4a",
+              "duration": 1345.7
+            },
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M1-99-Module-Review-Kinematics/zz_eloquence.m4a",
+              "duration": 1478.1
+            }
+          ]
         }
       ]
     },
@@ -926,7 +1101,13 @@
           "scriptPath": "content/M2-01-Forces-And-Newtons-Laws/script.md",
           "supplementaryPath": "content/M2-01-Forces-And-Newtons-Laws/supplementary.md",
           "quizPath": "content/M2-01-Forces-And-Newtons-Laws/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M2-01-Forces-And-Newtons-Laws/zz_eloquence.m4a",
+              "duration": 1504.2
+            }
+          ]
         },
         {
           "id": "M2-02-Friction-Inclined-Planes-And-Net-Force",
@@ -935,7 +1116,13 @@
           "scriptPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/script.md",
           "supplementaryPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/supplementary.md",
           "quizPath": "content/M2-02-Friction-Inclined-Planes-And-Net-Force/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M2-02-Friction-Inclined-Planes-And-Net-Force/zz_eloquence.m4a",
+              "duration": 1389.4
+            }
+          ]
         },
         {
           "id": "M2-03-Work-Energy-And-Power",
@@ -944,7 +1131,13 @@
           "scriptPath": "content/M2-03-Work-Energy-And-Power/script.md",
           "supplementaryPath": "content/M2-03-Work-Energy-And-Power/supplementary.md",
           "quizPath": "content/M2-03-Work-Energy-And-Power/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M2-03-Work-Energy-And-Power/zz_eloquence.m4a",
+              "duration": 1440.4
+            }
+          ]
         },
         {
           "id": "M2-04-Momentum-Impulse-And-Collisions",
@@ -953,7 +1146,13 @@
           "scriptPath": "content/M2-04-Momentum-Impulse-And-Collisions/script.md",
           "supplementaryPath": "content/M2-04-Momentum-Impulse-And-Collisions/supplementary.md",
           "quizPath": "content/M2-04-Momentum-Impulse-And-Collisions/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M2-04-Momentum-Impulse-And-Collisions/zz_eloquence.m4a",
+              "duration": 1483.7
+            }
+          ]
         },
         {
           "id": "M2-99-Module-Review-Dynamics",
@@ -962,7 +1161,13 @@
           "scriptPath": "content/M2-99-Module-Review-Dynamics/script.md",
           "supplementaryPath": "content/M2-99-Module-Review-Dynamics/supplementary.md",
           "quizPath": "content/M2-99-Module-Review-Dynamics/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M2-99-Module-Review-Dynamics/zz_eloquence.m4a",
+              "duration": 1425.5
+            }
+          ]
         }
       ]
     },
@@ -978,7 +1183,13 @@
           "scriptPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/script.md",
           "supplementaryPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/supplementary.md",
           "quizPath": "content/M3-01-Wave-Properties-And-The-Wave-Equation/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-01-Wave-Properties-And-The-Wave-Equation/zz_eloquence.m4a",
+              "duration": 1565.5
+            }
+          ]
         },
         {
           "id": "M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition",
@@ -987,7 +1198,13 @@
           "scriptPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/script.md",
           "supplementaryPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/supplementary.md",
           "quizPath": "content/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-02-Wave-Behaviour-Reflection-Refraction-Diffraction-Superposition/zz_eloquence.m4a",
+              "duration": 1576.9
+            }
+          ]
         },
         {
           "id": "M3-03-Sound-Waves-Resonance-And-Standing-Waves",
@@ -996,7 +1213,13 @@
           "scriptPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/script.md",
           "supplementaryPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/supplementary.md",
           "quizPath": "content/M3-03-Sound-Waves-Resonance-And-Standing-Waves/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-03-Sound-Waves-Resonance-And-Standing-Waves/zz_eloquence.m4a",
+              "duration": 1554.3
+            }
+          ]
         },
         {
           "id": "M3-04-The-Ray-Model-Of-Light",
@@ -1005,7 +1228,13 @@
           "scriptPath": "content/M3-04-The-Ray-Model-Of-Light/script.md",
           "supplementaryPath": "content/M3-04-The-Ray-Model-Of-Light/supplementary.md",
           "quizPath": "content/M3-04-The-Ray-Model-Of-Light/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-04-The-Ray-Model-Of-Light/zz_eloquence.m4a",
+              "duration": 1485.0
+            }
+          ]
         },
         {
           "id": "M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat",
@@ -1014,7 +1243,13 @@
           "scriptPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/script.md",
           "supplementaryPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/supplementary.md",
           "quizPath": "content/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-05-Thermodynamics-Temperature-Thermal-Equilibrium-And-Specific-Heat/zz_eloquence.m4a",
+              "duration": 1538.9
+            }
+          ]
         },
         {
           "id": "M3-06-Heat-Transfer-And-Latent-Heat",
@@ -1023,7 +1258,13 @@
           "scriptPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/script.md",
           "supplementaryPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/supplementary.md",
           "quizPath": "content/M3-06-Heat-Transfer-And-Latent-Heat/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-06-Heat-Transfer-And-Latent-Heat/zz_eloquence.m4a",
+              "duration": 1541.6
+            }
+          ]
         },
         {
           "id": "M3-99-Module-Review-Waves-And-Thermodynamics",
@@ -1032,7 +1273,13 @@
           "scriptPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/script.md",
           "supplementaryPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/supplementary.md",
           "quizPath": "content/M3-99-Module-Review-Waves-And-Thermodynamics/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M3-99-Module-Review-Waves-And-Thermodynamics/zz_eloquence.m4a",
+              "duration": 1578.4
+            }
+          ]
         }
       ]
     },
@@ -1048,7 +1295,13 @@
           "scriptPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/script.md",
           "supplementaryPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/supplementary.md",
           "quizPath": "content/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M4-01-Electrostatics-Charge-Coulombs-Law-And-Electric-Fields/zz_eloquence.m4a",
+              "duration": 1531.4
+            }
+          ]
         },
         {
           "id": "M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power",
@@ -1057,7 +1310,13 @@
           "scriptPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/script.md",
           "supplementaryPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/supplementary.md",
           "quizPath": "content/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M4-02-Electric-Circuits-Current-Voltage-Resistance-And-Power/zz_eloquence.m4a",
+              "duration": 1558.1
+            }
+          ]
         },
         {
           "id": "M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws",
@@ -1066,7 +1325,13 @@
           "scriptPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/script.md",
           "supplementaryPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/supplementary.md",
           "quizPath": "content/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M4-03-Series-And-Parallel-Circuits-Kirchhoffs-Laws/zz_eloquence.m4a",
+              "duration": 1562.3
+            }
+          ]
         },
         {
           "id": "M4-04-Magnetism-And-Magnetic-Fields",
@@ -1075,7 +1340,13 @@
           "scriptPath": "content/M4-04-Magnetism-And-Magnetic-Fields/script.md",
           "supplementaryPath": "content/M4-04-Magnetism-And-Magnetic-Fields/supplementary.md",
           "quizPath": "content/M4-04-Magnetism-And-Magnetic-Fields/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M4-04-Magnetism-And-Magnetic-Fields/zz_eloquence.m4a",
+              "duration": 1530.5
+            }
+          ]
         },
         {
           "id": "M4-99-Module-Review-Electricity-And-Magnetism",
@@ -1084,7 +1355,13 @@
           "scriptPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/script.md",
           "supplementaryPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/supplementary.md",
           "quizPath": "content/M4-99-Module-Review-Electricity-And-Magnetism/quiz.json",
-          "voices": []
+          "voices": [
+            {
+              "name": "zz_eloquence",
+              "file": "https://audio.phy.pebnum.com/M4-99-Module-Review-Electricity-And-Magnetism/zz_eloquence.m4a",
+              "duration": 1571.4
+            }
+          ]
         }
       ]
     },
